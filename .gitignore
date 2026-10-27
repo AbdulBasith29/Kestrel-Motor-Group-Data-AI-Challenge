@@ -1,0 +1,18 @@
+
+# Local environments and notebook verification scratch
+.venv/
+.venv-repro/
+.repro/
+__pycache__/
+.ipynb_checkpoints/
+# Raw feedback and reference files contain restricted source data
+feedback/
+reference/
+# Executed notebooks and backups require a privacy review before sharing
+reproducibility/investigation.executed.ipynb
+scripts/investigation.before-restructure-*.ipynb
+
+# Generated local investigation output and legacy raw inspection dump
+scripts/investigation_outputs/
+inspection_report.json
+*.zip

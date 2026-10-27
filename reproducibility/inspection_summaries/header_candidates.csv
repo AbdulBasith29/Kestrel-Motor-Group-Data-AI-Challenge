@@ -1,0 +1,81 @@
+filename,sheet,source_row,signature
+Ballarat - Customer Satisfaction.xlsx,Responses,2,date | dept | name | phone | how satisfied? | comments
+bendigo feedback.csv,csv,1,date | dept | stars | what did they say?
+boxhill_survey_export_2025Q4.csv,csv,1,response_id | submitted_at | department | csat | verbatim | vehicle | dms_customer_no
+boxhill_survey_export_2026Q1.csv,csv,1,response_id | submitted_at | department | csat | verbatim | vehicle | dms_customer_no
+boxhill_survey_export_2026Q2.csv,csv,1,response_id | submitted_at | department | csat | verbatim | vehicle | dms_customer_no
+boxhill_survey_export_2026Q3.csv,csv,1,response_id | submitted_at | department | csat | verbatim | vehicle | dms_customer_no
+chatswood_2025_q4.csv,csv,1,date | dept | score | comment | vehicle
+chatswood_2026_q1.csv,csv,1,date | dept | score | comment | vehicle
+chatswood_2026_q2.csv,csv,1,date | dept | score | comment | vehicle
+chatswood_2026_q3.csv,csv,1,date | dept | score | comment | vehicle
+Chermside Q1 2026 FINAL v2.xlsx,Feedback,1,date | department | model | rating | comments | ref | customer no
+Chermside Q1 2026 FINAL.xlsx,Feedback,1,date | department | model | rating | comments | ref | customer no
+Chermside Q2 2026.xlsx,Feedback,1,date | department | model | rating | comments | ref | customer no
+Chermside Q3 2026.xlsx,Feedback,1,date | department | model | rating | comments | ref | customer no
+Chermside Q4 2025.xlsx,Feedback,1,date | department | model | rating | comments | ref | customer no
+Dandenong Customer Feedback 2025-26.xlsx,Oct 25,4,date | dept | customer | vehicle | rego | rating (1-5) | comments | action taken
+Dandenong Customer Feedback 2025-26.xlsx,Nov 25,4,date | dept | customer | vehicle | rego | rating (1-5) | comments | action taken
+Dandenong Customer Feedback 2025-26.xlsx,Dec 25,4,date | dept | customer | vehicle | rego | rating (1-5) | comments | action taken
+Dandenong Customer Feedback 2025-26.xlsx,Jan 26,4,date | dept | customer | vehicle | rego | rating (1-5) | comments | action taken
+Dandenong Customer Feedback 2025-26.xlsx,Feb 26,4,date | dept | customer | vehicle | rego | rating (1-5) | comments | action taken
+Dandenong Customer Feedback 2025-26.xlsx,Mar 26,4,date | dept | customer | vehicle | rego | rating (1-5) | comments | action taken
+Dandenong Customer Feedback 2025-26.xlsx,Apr 26,4,date | dept | customer | vehicle | rego | rating (1-5) | comments | action taken
+Dandenong Customer Feedback 2025-26.xlsx,May 26,5,date | dept | customer | vehicle | rego | rating (1-5) | comments | action taken
+Dandenong Customer Feedback 2025-26.xlsx,Jun 26,4,date | dept | customer | vehicle | rego | rating (1-5) | comments | action taken
+Dandenong Customer Feedback 2025-26.xlsx,Jul 26,4,date | dept | customer | vehicle | rego | rating (1-5) | comments | action taken
+Dandenong Customer Feedback 2025-26.xlsx,Aug 26,4,date | dept | customer | vehicle | rego | rating (1-5) | comments | action taken
+Dandenong Customer Feedback 2025-26.xlsx,Sep 26,4,date | dept | customer | vehicle | rego | rating (1-5) | comments | action taken
+Frankston_CX_tracker.xlsx,Tracker,1,date | area | rating | comments
+Frankston_CX_tracker.xlsx,Tracker,160,date | area | csat | customer comments | source | customer | rego
+Geelong Feedback.xlsx,2025,4,date | department | rating | feedback | customer
+Geelong Feedback.xlsx,2026,4,date | department | rating | feedback | customer
+Hunter Motors feedback 25-26.xlsx,Feedback,3,dealer | date | department | rating | comments | vehicle
+IPS_feedback_log.xlsx,Log,1,site | date | dept | rating | notes | logged by
+liverpool_q1_2026.csv,csv,1,date | department | customer | phone | rego | rating | feedback
+liverpool_q2_2026.csv,csv,1,date | department | customer | phone | rego | rating | feedback
+liverpool_q3_2026.csv,csv,1,date | department | customer | phone | rego | rating | feedback
+liverpool_q4_2025.csv,csv,1,date | department | customer | phone | rego | rating | feedback
+Noosa feedback cards.xlsx,Cards,1,date | department | rating | comments | card given by
+North QLD feedback (Rocky + TSV).xlsx,Q4 2025,1,site | date | department | rating | comments
+North QLD feedback (Rocky + TSV).xlsx,Q1 2026,1,site | date | department | rating | comments
+North QLD feedback (Rocky + TSV).xlsx,Q2 2026,1,site | date | department | rating | comments
+North QLD feedback (Rocky + TSV).xlsx,Q3 2026,1,site | date | department | rating | comments
+Parramatta_Feedback_2025-10.xlsx,Oct 25,1,date | cust no | mobile | department | rating | comments | staff
+Parramatta_Feedback_2025-11.xlsx,Nov 25,1,date | cust no | mobile | department | rating | comments | staff
+Parramatta_Feedback_2025-12.xlsx,Dec 25,1,date | cust no | mobile | department | rating | comments | staff
+Parramatta_Feedback_2026-01.xlsx,Jan 26,1,date | cust no | mobile | department | rating | comments | staff
+Parramatta_Feedback_2026-02.xlsx,Feb 26,1,date | cust no | mobile | department | rating | comments | staff
+Parramatta_Feedback_2026-03.xlsx,Mar 26,1,date | cust no | mobile | department | rating | comments | staff
+Parramatta_Feedback_2026-04.xlsx,Apr 26,1,date | cust no | mobile | department | rating | comments | staff
+Parramatta_Feedback_2026-05.xlsx,May 26,1,date | cust no | mobile | department | booking ref | rating | comments | staff
+Parramatta_Feedback_2026-06.xlsx,Jun 26,1,date | cust no | mobile | department | booking ref | rating | comments | staff
+Parramatta_Feedback_2026-07.xlsx,Jul 26,1,date | cust no | mobile | department | booking ref | rating | comments | staff
+Parramatta_Feedback_2026-08.xlsx,Aug 26,1,date | cust no | mobile | department | booking ref | rating | comments | staff
+Parramatta_Feedback_2026-09.xlsx,Sep 26,1,date | cust no | mobile | department | booking ref | rating | comments | staff
+Penrith Feedback.xlsx,Oct 25,1,date | department | score | comments | customer
+Penrith Feedback.xlsx,Nov 25,1,date | department | score | comments | customer
+Penrith Feedback.xlsx,Dec 25,1,date | department | score | comments | customer
+Penrith Feedback.xlsx,Jan 26,1,date | department | score | comments | customer
+Penrith Feedback.xlsx,Feb 26,1,date | department | score | comments | customer
+Penrith Feedback.xlsx,Mar 26,1,date | department | score | comments | customer
+Penrith Feedback.xlsx,Apr 26,1,date | department | score | comments | customer
+Penrith Feedback.xlsx,May 26,1,date | department | score | comments | customer
+Penrith Feedback.xlsx,Jun 26,1,date | department | score | comments | customer
+Penrith Feedback.xlsx,Jul 26,1,date | department | score | comments | customer
+Penrith Feedback.xlsx,Aug 26,1,date | department | score | comments | customer
+Penrith Feedback.xlsx,Sep 26,1,date | department | score | comments | customer
+Ringwood feedback Q1 2026.xlsx,Feedback,1,date received | department | score (1-5) | customer comments | followed up?
+Ringwood feedback Q1 2026.xlsx,Feedback,37,date | department | model | score (out of 10) | customer comments | follow up (y/n) | staff
+Ringwood feedback Q2 2026.xlsx,Feedback,1,date | department | model | score (out of 10) | customer comments | follow up (y/n) | staff
+Ringwood feedback Q3 2026.xlsx,Feedback,1,date | department | model | score (out of 10) | customer comments | follow up (y/n) | staff
+Ringwood feedback Q4 2025.xlsx,Feedback,1,date received | department | score (1-5) | customer comments | followed up?
+Shepparton feedback FINAL - site closed.xlsx,Log,1,date | dept | rating | comment
+Southport Feedback Tracker.xlsx,Feedback,1,date | department | rating | comments | vehicle | rego | customer name | email
+Southport Feedback Tracker.xlsx,Google reviews (copied),2,reviewer | stars | review | when
+Springwood feedback.xlsx,All,1,date | department | name | mobile | email | rating | comments
+Tamworth.xlsx,Sheet1,1,date | dept | how was it | comments
+Toowoomba feedback 2026.xlsx,2026,1,date | department | rating | comments
+Toowoomba Q4 2025 summary.xlsx,Summary,3,month | department | 1 | 2 | 3 | 4 | 5 | grand total
+Wollongong_Apr26-Sep26.csv,csv,1,date | dept | rating | customer feedback | name | mobile
+Wollongong_Oct25-Mar26.csv,csv,1,date | dept | rating | customer feedback | name | mobile

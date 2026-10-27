@@ -1,0 +1,2548 @@
+[
+  {
+    "filename": "Ballarat - Customer Satisfaction.xlsx",
+    "sheet": "Responses",
+    "physical_rows": 294,
+    "physical_columns": 6,
+    "header_candidates": [
+      {
+        "source_row": 2,
+        "exact_headers": [
+          "Date",
+          "Dept",
+          "Name",
+          "Phone",
+          "How satisfied?",
+          "Comments"
+        ],
+        "normalized_headers": [
+          "date",
+          "dept",
+          "name",
+          "phone",
+          "how satisfied?",
+          "comments"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      2
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "bendigo feedback.csv",
+    "sheet": "csv",
+    "physical_rows": 145,
+    "physical_columns": 4,
+    "header_candidates": [
+      {
+        "source_row": 1,
+        "exact_headers": [
+          "Date",
+          "Dept",
+          "Stars",
+          "What did they say?"
+        ],
+        "normalized_headers": [
+          "date",
+          "dept",
+          "stars",
+          "what did they say?"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      1
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "boxhill_survey_export_2025Q4.csv",
+    "sheet": "csv",
+    "physical_rows": 65,
+    "physical_columns": 7,
+    "header_candidates": [
+      {
+        "source_row": 1,
+        "exact_headers": [
+          "response_id",
+          "submitted_at",
+          "department",
+          "csat",
+          "verbatim",
+          "vehicle",
+          "dms_customer_no"
+        ],
+        "normalized_headers": [
+          "response_id",
+          "submitted_at",
+          "department",
+          "csat",
+          "verbatim",
+          "vehicle",
+          "dms_customer_no"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      1
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "boxhill_survey_export_2026Q1.csv",
+    "sheet": "csv",
+    "physical_rows": 78,
+    "physical_columns": 7,
+    "header_candidates": [
+      {
+        "source_row": 1,
+        "exact_headers": [
+          "response_id",
+          "submitted_at",
+          "department",
+          "csat",
+          "verbatim",
+          "vehicle",
+          "dms_customer_no"
+        ],
+        "normalized_headers": [
+          "response_id",
+          "submitted_at",
+          "department",
+          "csat",
+          "verbatim",
+          "vehicle",
+          "dms_customer_no"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      1
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "boxhill_survey_export_2026Q2.csv",
+    "sheet": "csv",
+    "physical_rows": 84,
+    "physical_columns": 7,
+    "header_candidates": [
+      {
+        "source_row": 1,
+        "exact_headers": [
+          "response_id",
+          "submitted_at",
+          "department",
+          "csat",
+          "verbatim",
+          "vehicle",
+          "dms_customer_no"
+        ],
+        "normalized_headers": [
+          "response_id",
+          "submitted_at",
+          "department",
+          "csat",
+          "verbatim",
+          "vehicle",
+          "dms_customer_no"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      1
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "boxhill_survey_export_2026Q3.csv",
+    "sheet": "csv",
+    "physical_rows": 86,
+    "physical_columns": 7,
+    "header_candidates": [
+      {
+        "source_row": 1,
+        "exact_headers": [
+          "response_id",
+          "submitted_at",
+          "department",
+          "csat",
+          "verbatim",
+          "vehicle",
+          "dms_customer_no"
+        ],
+        "normalized_headers": [
+          "response_id",
+          "submitted_at",
+          "department",
+          "csat",
+          "verbatim",
+          "vehicle",
+          "dms_customer_no"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      1
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "chatswood_2025_q4.csv",
+    "sheet": "csv",
+    "physical_rows": 69,
+    "physical_columns": 5,
+    "header_candidates": [
+      {
+        "source_row": 1,
+        "exact_headers": [
+          "Date",
+          "Dept",
+          "Score",
+          "Comment",
+          "Vehicle"
+        ],
+        "normalized_headers": [
+          "date",
+          "dept",
+          "score",
+          "comment",
+          "vehicle"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      1
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "chatswood_2026_q1.csv",
+    "sheet": "csv",
+    "physical_rows": 57,
+    "physical_columns": 5,
+    "header_candidates": [
+      {
+        "source_row": 1,
+        "exact_headers": [
+          "Date",
+          "Dept",
+          "Score",
+          "Comment",
+          "Vehicle"
+        ],
+        "normalized_headers": [
+          "date",
+          "dept",
+          "score",
+          "comment",
+          "vehicle"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      1
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "chatswood_2026_q2.csv",
+    "sheet": "csv",
+    "physical_rows": 77,
+    "physical_columns": 5,
+    "header_candidates": [
+      {
+        "source_row": 1,
+        "exact_headers": [
+          "Date",
+          "Dept",
+          "Score",
+          "Comment",
+          "Vehicle"
+        ],
+        "normalized_headers": [
+          "date",
+          "dept",
+          "score",
+          "comment",
+          "vehicle"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      1
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "chatswood_2026_q3.csv",
+    "sheet": "csv",
+    "physical_rows": 79,
+    "physical_columns": 5,
+    "header_candidates": [
+      {
+        "source_row": 1,
+        "exact_headers": [
+          "Date",
+          "Dept",
+          "Score",
+          "Comment",
+          "Vehicle"
+        ],
+        "normalized_headers": [
+          "date",
+          "dept",
+          "score",
+          "comment",
+          "vehicle"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      1
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "Chermside Q1 2026 FINAL v2.xlsx",
+    "sheet": "Feedback",
+    "physical_rows": 119,
+    "physical_columns": 7,
+    "header_candidates": [
+      {
+        "source_row": 1,
+        "exact_headers": [
+          "Date",
+          "Department",
+          "Model",
+          "Rating",
+          "Comments",
+          "Ref",
+          "Customer No"
+        ],
+        "normalized_headers": [
+          "date",
+          "department",
+          "model",
+          "rating",
+          "comments",
+          "ref",
+          "customer no"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      1
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "Chermside Q1 2026 FINAL.xlsx",
+    "sheet": "Feedback",
+    "physical_rows": 113,
+    "physical_columns": 7,
+    "header_candidates": [
+      {
+        "source_row": 1,
+        "exact_headers": [
+          "Date",
+          "Department",
+          "Model",
+          "Rating",
+          "Comments",
+          "Ref",
+          "Customer No"
+        ],
+        "normalized_headers": [
+          "date",
+          "department",
+          "model",
+          "rating",
+          "comments",
+          "ref",
+          "customer no"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      1
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "Chermside Q2 2026.xlsx",
+    "sheet": "Feedback",
+    "physical_rows": 117,
+    "physical_columns": 7,
+    "header_candidates": [
+      {
+        "source_row": 1,
+        "exact_headers": [
+          "Date",
+          "Department",
+          "Model",
+          "Rating",
+          "Comments",
+          "Ref",
+          "Customer No"
+        ],
+        "normalized_headers": [
+          "date",
+          "department",
+          "model",
+          "rating",
+          "comments",
+          "ref",
+          "customer no"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      1
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "Chermside Q3 2026.xlsx",
+    "sheet": "Feedback",
+    "physical_rows": 125,
+    "physical_columns": 7,
+    "header_candidates": [
+      {
+        "source_row": 1,
+        "exact_headers": [
+          "Date",
+          "Department",
+          "Model",
+          "Rating",
+          "Comments",
+          "Ref",
+          "Customer No"
+        ],
+        "normalized_headers": [
+          "date",
+          "department",
+          "model",
+          "rating",
+          "comments",
+          "ref",
+          "customer no"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      1
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "Chermside Q4 2025.xlsx",
+    "sheet": "Feedback",
+    "physical_rows": 103,
+    "physical_columns": 7,
+    "header_candidates": [
+      {
+        "source_row": 1,
+        "exact_headers": [
+          "Date",
+          "Department",
+          "Model",
+          "Rating",
+          "Comments",
+          "Ref",
+          "Customer No"
+        ],
+        "normalized_headers": [
+          "date",
+          "department",
+          "model",
+          "rating",
+          "comments",
+          "ref",
+          "customer no"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      1
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "Dandenong Customer Feedback 2025-26.xlsx",
+    "sheet": "Oct 25",
+    "physical_rows": 45,
+    "physical_columns": 8,
+    "header_candidates": [
+      {
+        "source_row": 4,
+        "exact_headers": [
+          "Date",
+          "Dept",
+          "Customer",
+          "Vehicle",
+          "Rego",
+          "Rating (1-5)",
+          "Comments",
+          "Action taken"
+        ],
+        "normalized_headers": [
+          "date",
+          "dept",
+          "customer",
+          "vehicle",
+          "rego",
+          "rating (1-5)",
+          "comments",
+          "action taken"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      4
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "Dandenong Customer Feedback 2025-26.xlsx",
+    "sheet": "Nov 25",
+    "physical_rows": 48,
+    "physical_columns": 8,
+    "header_candidates": [
+      {
+        "source_row": 4,
+        "exact_headers": [
+          "Date",
+          "Dept",
+          "Customer",
+          "Vehicle",
+          "Rego",
+          "Rating (1-5)",
+          "Comments",
+          "Action taken"
+        ],
+        "normalized_headers": [
+          "date",
+          "dept",
+          "customer",
+          "vehicle",
+          "rego",
+          "rating (1-5)",
+          "comments",
+          "action taken"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      4
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "Dandenong Customer Feedback 2025-26.xlsx",
+    "sheet": "Dec 25",
+    "physical_rows": 41,
+    "physical_columns": 8,
+    "header_candidates": [
+      {
+        "source_row": 4,
+        "exact_headers": [
+          "Date",
+          "Dept",
+          "Customer",
+          "Vehicle",
+          "Rego",
+          "Rating (1-5)",
+          "Comments",
+          "Action taken"
+        ],
+        "normalized_headers": [
+          "date",
+          "dept",
+          "customer",
+          "vehicle",
+          "rego",
+          "rating (1-5)",
+          "comments",
+          "action taken"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      4
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "Dandenong Customer Feedback 2025-26.xlsx",
+    "sheet": "Jan 26",
+    "physical_rows": 40,
+    "physical_columns": 8,
+    "header_candidates": [
+      {
+        "source_row": 4,
+        "exact_headers": [
+          "Date",
+          "Dept",
+          "Customer",
+          "Vehicle",
+          "Rego",
+          "Rating (1-5)",
+          "Comments",
+          "Action taken"
+        ],
+        "normalized_headers": [
+          "date",
+          "dept",
+          "customer",
+          "vehicle",
+          "rego",
+          "rating (1-5)",
+          "comments",
+          "action taken"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      4
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "Dandenong Customer Feedback 2025-26.xlsx",
+    "sheet": "Feb 26",
+    "physical_rows": 36,
+    "physical_columns": 8,
+    "header_candidates": [
+      {
+        "source_row": 4,
+        "exact_headers": [
+          "Date",
+          "Dept",
+          "Customer",
+          "Vehicle",
+          "Rego",
+          "Rating (1-5)",
+          "Comments",
+          "Action taken"
+        ],
+        "normalized_headers": [
+          "date",
+          "dept",
+          "customer",
+          "vehicle",
+          "rego",
+          "rating (1-5)",
+          "comments",
+          "action taken"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      4
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "Dandenong Customer Feedback 2025-26.xlsx",
+    "sheet": "Mar 26",
+    "physical_rows": 35,
+    "physical_columns": 8,
+    "header_candidates": [
+      {
+        "source_row": 4,
+        "exact_headers": [
+          "Date",
+          "Dept",
+          "Customer",
+          "Vehicle",
+          "Rego",
+          "Rating (1-5)",
+          "Comments",
+          "Action taken"
+        ],
+        "normalized_headers": [
+          "date",
+          "dept",
+          "customer",
+          "vehicle",
+          "rego",
+          "rating (1-5)",
+          "comments",
+          "action taken"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      4
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "Dandenong Customer Feedback 2025-26.xlsx",
+    "sheet": "Apr 26",
+    "physical_rows": 44,
+    "physical_columns": 8,
+    "header_candidates": [
+      {
+        "source_row": 4,
+        "exact_headers": [
+          "Date",
+          "Dept",
+          "Customer",
+          "Vehicle",
+          "Rego",
+          "Rating (1-5)",
+          "Comments",
+          "Action taken"
+        ],
+        "normalized_headers": [
+          "date",
+          "dept",
+          "customer",
+          "vehicle",
+          "rego",
+          "rating (1-5)",
+          "comments",
+          "action taken"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      4
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "Dandenong Customer Feedback 2025-26.xlsx",
+    "sheet": "May 26",
+    "physical_rows": 46,
+    "physical_columns": 8,
+    "header_candidates": [
+      {
+        "source_row": 5,
+        "exact_headers": [
+          "Date",
+          "Dept",
+          "Customer",
+          "Vehicle",
+          "Rego",
+          "Rating (1-5)",
+          "Comments",
+          "Action taken"
+        ],
+        "normalized_headers": [
+          "date",
+          "dept",
+          "customer",
+          "vehicle",
+          "rego",
+          "rating (1-5)",
+          "comments",
+          "action taken"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      5
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "Dandenong Customer Feedback 2025-26.xlsx",
+    "sheet": "Jun 26",
+    "physical_rows": 57,
+    "physical_columns": 8,
+    "header_candidates": [
+      {
+        "source_row": 4,
+        "exact_headers": [
+          "Date",
+          "Dept",
+          "Customer",
+          "Vehicle",
+          "Rego",
+          "Rating (1-5)",
+          "Comments",
+          "Action taken"
+        ],
+        "normalized_headers": [
+          "date",
+          "dept",
+          "customer",
+          "vehicle",
+          "rego",
+          "rating (1-5)",
+          "comments",
+          "action taken"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      4
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "Dandenong Customer Feedback 2025-26.xlsx",
+    "sheet": "Jul 26",
+    "physical_rows": 52,
+    "physical_columns": 8,
+    "header_candidates": [
+      {
+        "source_row": 4,
+        "exact_headers": [
+          "Date",
+          "Dept",
+          "Customer",
+          "Vehicle",
+          "Rego",
+          "Rating (1-5)",
+          "Comments",
+          "Action taken"
+        ],
+        "normalized_headers": [
+          "date",
+          "dept",
+          "customer",
+          "vehicle",
+          "rego",
+          "rating (1-5)",
+          "comments",
+          "action taken"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      4
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "Dandenong Customer Feedback 2025-26.xlsx",
+    "sheet": "Aug 26",
+    "physical_rows": 48,
+    "physical_columns": 8,
+    "header_candidates": [
+      {
+        "source_row": 4,
+        "exact_headers": [
+          "Date",
+          "Dept",
+          "Customer",
+          "Vehicle",
+          "Rego",
+          "Rating (1-5)",
+          "Comments",
+          "Action taken"
+        ],
+        "normalized_headers": [
+          "date",
+          "dept",
+          "customer",
+          "vehicle",
+          "rego",
+          "rating (1-5)",
+          "comments",
+          "action taken"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      4
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "Dandenong Customer Feedback 2025-26.xlsx",
+    "sheet": "Sep 26",
+    "physical_rows": 41,
+    "physical_columns": 8,
+    "header_candidates": [
+      {
+        "source_row": 4,
+        "exact_headers": [
+          "Date",
+          "Dept",
+          "Customer",
+          "Vehicle",
+          "Rego",
+          "Rating (1-5)",
+          "Comments",
+          "Action taken"
+        ],
+        "normalized_headers": [
+          "date",
+          "dept",
+          "customer",
+          "vehicle",
+          "rego",
+          "rating (1-5)",
+          "comments",
+          "action taken"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      4
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "Dandenong Customer Feedback 2025-26.xlsx",
+    "sheet": "Sheet3",
+    "physical_rows": 0,
+    "physical_columns": 0,
+    "header_candidates": [],
+    "candidate_rows": [],
+    "header_status": "review: no header candidate"
+  },
+  {
+    "filename": "ESSENDON - feedback register.xlsx",
+    "sheet": "Sales",
+    "physical_rows": 92,
+    "physical_columns": 5,
+    "header_candidates": [],
+    "candidate_rows": [],
+    "header_status": "review: no header candidate"
+  },
+  {
+    "filename": "ESSENDON - feedback register.xlsx",
+    "sheet": "Service",
+    "physical_rows": 226,
+    "physical_columns": 5,
+    "header_candidates": [],
+    "candidate_rows": [],
+    "header_status": "review: no header candidate"
+  },
+  {
+    "filename": "ESSENDON - feedback register.xlsx",
+    "sheet": "Parts",
+    "physical_rows": 31,
+    "physical_columns": 5,
+    "header_candidates": [],
+    "candidate_rows": [],
+    "header_status": "review: no header candidate"
+  },
+  {
+    "filename": "Frankston_CX_tracker.xlsx",
+    "sheet": "Tracker",
+    "physical_rows": 334,
+    "physical_columns": 7,
+    "header_candidates": [
+      {
+        "source_row": 1,
+        "exact_headers": [
+          "Date",
+          "Area",
+          "Rating",
+          "Comments"
+        ],
+        "normalized_headers": [
+          "date",
+          "area",
+          "rating",
+          "comments"
+        ]
+      },
+      {
+        "source_row": 160,
+        "exact_headers": [
+          "Date",
+          "Area",
+          "CSAT",
+          "Customer comments",
+          "Source",
+          "Customer",
+          "Rego"
+        ],
+        "normalized_headers": [
+          "date",
+          "area",
+          "csat",
+          "customer comments",
+          "source",
+          "customer",
+          "rego"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      1,
+      160
+    ],
+    "header_status": "review: multiple headers"
+  },
+  {
+    "filename": "Geelong Feedback.xlsx",
+    "sheet": "2025",
+    "physical_rows": 72,
+    "physical_columns": 5,
+    "header_candidates": [
+      {
+        "source_row": 4,
+        "exact_headers": [
+          "Date",
+          "Department",
+          "Rating",
+          "Feedback",
+          "Customer"
+        ],
+        "normalized_headers": [
+          "date",
+          "department",
+          "rating",
+          "feedback",
+          "customer"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      4
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "Geelong Feedback.xlsx",
+    "sheet": "2026",
+    "physical_rows": 240,
+    "physical_columns": 5,
+    "header_candidates": [
+      {
+        "source_row": 4,
+        "exact_headers": [
+          "Date",
+          "Department",
+          "Rating",
+          "Feedback",
+          "Customer"
+        ],
+        "normalized_headers": [
+          "date",
+          "department",
+          "rating",
+          "feedback",
+          "customer"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      4
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "Hunter Motors feedback 25-26.xlsx",
+    "sheet": "Feedback",
+    "physical_rows": 306,
+    "physical_columns": 6,
+    "header_candidates": [
+      {
+        "source_row": 3,
+        "exact_headers": [
+          "Dealer",
+          "Date",
+          "Department",
+          "Rating",
+          "Comments",
+          "Vehicle"
+        ],
+        "normalized_headers": [
+          "dealer",
+          "date",
+          "department",
+          "rating",
+          "comments",
+          "vehicle"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      3
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "IPS_feedback_log.xlsx",
+    "sheet": "Log",
+    "physical_rows": 278,
+    "physical_columns": 6,
+    "header_candidates": [
+      {
+        "source_row": 1,
+        "exact_headers": [
+          "Site",
+          "Date",
+          "Dept",
+          "Rating",
+          "Notes",
+          "Logged by"
+        ],
+        "normalized_headers": [
+          "site",
+          "date",
+          "dept",
+          "rating",
+          "notes",
+          "logged by"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      1
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "liverpool_q1_2026.csv",
+    "sheet": "csv",
+    "physical_rows": 74,
+    "physical_columns": 7,
+    "header_candidates": [
+      {
+        "source_row": 1,
+        "exact_headers": [
+          "Date",
+          "Department",
+          "Customer",
+          "Phone",
+          "Rego",
+          "Rating",
+          "Feedback"
+        ],
+        "normalized_headers": [
+          "date",
+          "department",
+          "customer",
+          "phone",
+          "rego",
+          "rating",
+          "feedback"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      1
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "liverpool_q2_2026.csv",
+    "sheet": "csv",
+    "physical_rows": 72,
+    "physical_columns": 7,
+    "header_candidates": [
+      {
+        "source_row": 1,
+        "exact_headers": [
+          "Date",
+          "Department",
+          "Customer",
+          "Phone",
+          "Rego",
+          "Rating",
+          "Feedback"
+        ],
+        "normalized_headers": [
+          "date",
+          "department",
+          "customer",
+          "phone",
+          "rego",
+          "rating",
+          "feedback"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      1
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "liverpool_q3_2026.csv",
+    "sheet": "csv",
+    "physical_rows": 86,
+    "physical_columns": 7,
+    "header_candidates": [
+      {
+        "source_row": 1,
+        "exact_headers": [
+          "Date",
+          "Department",
+          "Customer",
+          "Phone",
+          "Rego",
+          "Rating",
+          "Feedback"
+        ],
+        "normalized_headers": [
+          "date",
+          "department",
+          "customer",
+          "phone",
+          "rego",
+          "rating",
+          "feedback"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      1
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "liverpool_q4_2025.csv",
+    "sheet": "csv",
+    "physical_rows": 83,
+    "physical_columns": 7,
+    "header_candidates": [
+      {
+        "source_row": 1,
+        "exact_headers": [
+          "Date",
+          "Department",
+          "Customer",
+          "Phone",
+          "Rego",
+          "Rating",
+          "Feedback"
+        ],
+        "normalized_headers": [
+          "date",
+          "department",
+          "customer",
+          "phone",
+          "rego",
+          "rating",
+          "feedback"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      1
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "Noosa feedback cards.xlsx",
+    "sheet": "Cards",
+    "physical_rows": 50,
+    "physical_columns": 5,
+    "header_candidates": [
+      {
+        "source_row": 1,
+        "exact_headers": [
+          "Date",
+          "Department",
+          "Rating",
+          "Comments",
+          "Card given by"
+        ],
+        "normalized_headers": [
+          "date",
+          "department",
+          "rating",
+          "comments",
+          "card given by"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      1
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "North QLD feedback (Rocky + TSV).xlsx",
+    "sheet": "Q4 2025",
+    "physical_rows": 147,
+    "physical_columns": 5,
+    "header_candidates": [
+      {
+        "source_row": 1,
+        "exact_headers": [
+          "Site",
+          "Date",
+          "Department",
+          "Rating",
+          "Comments"
+        ],
+        "normalized_headers": [
+          "site",
+          "date",
+          "department",
+          "rating",
+          "comments"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      1
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "North QLD feedback (Rocky + TSV).xlsx",
+    "sheet": "Q1 2026",
+    "physical_rows": 134,
+    "physical_columns": 5,
+    "header_candidates": [
+      {
+        "source_row": 1,
+        "exact_headers": [
+          "Site",
+          "Date",
+          "Department",
+          "Rating",
+          "Comments"
+        ],
+        "normalized_headers": [
+          "site",
+          "date",
+          "department",
+          "rating",
+          "comments"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      1
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "North QLD feedback (Rocky + TSV).xlsx",
+    "sheet": "Q2 2026",
+    "physical_rows": 139,
+    "physical_columns": 5,
+    "header_candidates": [
+      {
+        "source_row": 1,
+        "exact_headers": [
+          "Site",
+          "Date",
+          "Department",
+          "Rating",
+          "Comments"
+        ],
+        "normalized_headers": [
+          "site",
+          "date",
+          "department",
+          "rating",
+          "comments"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      1
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "North QLD feedback (Rocky + TSV).xlsx",
+    "sheet": "Q3 2026",
+    "physical_rows": 140,
+    "physical_columns": 5,
+    "header_candidates": [
+      {
+        "source_row": 1,
+        "exact_headers": [
+          "Site",
+          "Date",
+          "Department",
+          "Rating",
+          "Comments"
+        ],
+        "normalized_headers": [
+          "site",
+          "date",
+          "department",
+          "rating",
+          "comments"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      1
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "Parramatta_Feedback_2025-10.xlsx",
+    "sheet": "Oct 25",
+    "physical_rows": 48,
+    "physical_columns": 7,
+    "header_candidates": [
+      {
+        "source_row": 1,
+        "exact_headers": [
+          "Date",
+          "Cust No",
+          "Mobile",
+          "Department",
+          "Rating",
+          "Comments",
+          "Staff"
+        ],
+        "normalized_headers": [
+          "date",
+          "cust no",
+          "mobile",
+          "department",
+          "rating",
+          "comments",
+          "staff"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      1
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "Parramatta_Feedback_2025-11.xlsx",
+    "sheet": "Nov 25",
+    "physical_rows": 37,
+    "physical_columns": 7,
+    "header_candidates": [
+      {
+        "source_row": 1,
+        "exact_headers": [
+          "Date",
+          "Cust No",
+          "Mobile",
+          "Department",
+          "Rating",
+          "Comments",
+          "Staff"
+        ],
+        "normalized_headers": [
+          "date",
+          "cust no",
+          "mobile",
+          "department",
+          "rating",
+          "comments",
+          "staff"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      1
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "Parramatta_Feedback_2025-12.xlsx",
+    "sheet": "Dec 25",
+    "physical_rows": 38,
+    "physical_columns": 7,
+    "header_candidates": [
+      {
+        "source_row": 1,
+        "exact_headers": [
+          "Date",
+          "Cust No",
+          "Mobile",
+          "Department",
+          "Rating",
+          "Comments",
+          "Staff"
+        ],
+        "normalized_headers": [
+          "date",
+          "cust no",
+          "mobile",
+          "department",
+          "rating",
+          "comments",
+          "staff"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      1
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "Parramatta_Feedback_2026-01.xlsx",
+    "sheet": "Jan 26",
+    "physical_rows": 43,
+    "physical_columns": 7,
+    "header_candidates": [
+      {
+        "source_row": 1,
+        "exact_headers": [
+          "Date",
+          "Cust No",
+          "Mobile",
+          "Department",
+          "Rating",
+          "Comments",
+          "Staff"
+        ],
+        "normalized_headers": [
+          "date",
+          "cust no",
+          "mobile",
+          "department",
+          "rating",
+          "comments",
+          "staff"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      1
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "Parramatta_Feedback_2026-02.xlsx",
+    "sheet": "Feb 26",
+    "physical_rows": 34,
+    "physical_columns": 7,
+    "header_candidates": [
+      {
+        "source_row": 1,
+        "exact_headers": [
+          "Date",
+          "Cust No",
+          "Mobile",
+          "Department",
+          "Rating",
+          "Comments",
+          "Staff"
+        ],
+        "normalized_headers": [
+          "date",
+          "cust no",
+          "mobile",
+          "department",
+          "rating",
+          "comments",
+          "staff"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      1
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "Parramatta_Feedback_2026-03.xlsx",
+    "sheet": "Mar 26",
+    "physical_rows": 41,
+    "physical_columns": 7,
+    "header_candidates": [
+      {
+        "source_row": 1,
+        "exact_headers": [
+          "Date",
+          "Cust No",
+          "Mobile",
+          "Department",
+          "Rating",
+          "Comments",
+          "Staff"
+        ],
+        "normalized_headers": [
+          "date",
+          "cust no",
+          "mobile",
+          "department",
+          "rating",
+          "comments",
+          "staff"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      1
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "Parramatta_Feedback_2026-04.xlsx",
+    "sheet": "Apr 26",
+    "physical_rows": 35,
+    "physical_columns": 7,
+    "header_candidates": [
+      {
+        "source_row": 1,
+        "exact_headers": [
+          "Date",
+          "Cust No",
+          "Mobile",
+          "Department",
+          "Rating",
+          "Comments",
+          "Staff"
+        ],
+        "normalized_headers": [
+          "date",
+          "cust no",
+          "mobile",
+          "department",
+          "rating",
+          "comments",
+          "staff"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      1
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "Parramatta_Feedback_2026-05.xlsx",
+    "sheet": "May 26",
+    "physical_rows": 46,
+    "physical_columns": 8,
+    "header_candidates": [
+      {
+        "source_row": 1,
+        "exact_headers": [
+          "Date",
+          "Cust No",
+          "Mobile",
+          "Department",
+          "Booking ref",
+          "Rating",
+          "Comments",
+          "Staff"
+        ],
+        "normalized_headers": [
+          "date",
+          "cust no",
+          "mobile",
+          "department",
+          "booking ref",
+          "rating",
+          "comments",
+          "staff"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      1
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "Parramatta_Feedback_2026-06.xlsx",
+    "sheet": "Jun 26",
+    "physical_rows": 50,
+    "physical_columns": 8,
+    "header_candidates": [
+      {
+        "source_row": 1,
+        "exact_headers": [
+          "Date",
+          "Cust No",
+          "Mobile",
+          "Department",
+          "Booking ref",
+          "Rating",
+          "Comments",
+          "Staff"
+        ],
+        "normalized_headers": [
+          "date",
+          "cust no",
+          "mobile",
+          "department",
+          "booking ref",
+          "rating",
+          "comments",
+          "staff"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      1
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "Parramatta_Feedback_2026-07.xlsx",
+    "sheet": "Jul 26",
+    "physical_rows": 38,
+    "physical_columns": 8,
+    "header_candidates": [
+      {
+        "source_row": 1,
+        "exact_headers": [
+          "Date",
+          "Cust No",
+          "Mobile",
+          "Department",
+          "Booking ref",
+          "Rating",
+          "Comments",
+          "Staff"
+        ],
+        "normalized_headers": [
+          "date",
+          "cust no",
+          "mobile",
+          "department",
+          "booking ref",
+          "rating",
+          "comments",
+          "staff"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      1
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "Parramatta_Feedback_2026-08.xlsx",
+    "sheet": "Aug 26",
+    "physical_rows": 40,
+    "physical_columns": 8,
+    "header_candidates": [
+      {
+        "source_row": 1,
+        "exact_headers": [
+          "Date",
+          "Cust No",
+          "Mobile",
+          "Department",
+          "Booking ref",
+          "Rating",
+          "Comments",
+          "Staff"
+        ],
+        "normalized_headers": [
+          "date",
+          "cust no",
+          "mobile",
+          "department",
+          "booking ref",
+          "rating",
+          "comments",
+          "staff"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      1
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "Parramatta_Feedback_2026-09.xlsx",
+    "sheet": "Sep 26",
+    "physical_rows": 41,
+    "physical_columns": 8,
+    "header_candidates": [
+      {
+        "source_row": 1,
+        "exact_headers": [
+          "Date",
+          "Cust No",
+          "Mobile",
+          "Department",
+          "Booking ref",
+          "Rating",
+          "Comments",
+          "Staff"
+        ],
+        "normalized_headers": [
+          "date",
+          "cust no",
+          "mobile",
+          "department",
+          "booking ref",
+          "rating",
+          "comments",
+          "staff"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      1
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "Penrith Feedback.xlsx",
+    "sheet": "Oct 25",
+    "physical_rows": 33,
+    "physical_columns": 5,
+    "header_candidates": [
+      {
+        "source_row": 1,
+        "exact_headers": [
+          "Date",
+          "Department",
+          "Score",
+          "Comments",
+          "Customer"
+        ],
+        "normalized_headers": [
+          "date",
+          "department",
+          "score",
+          "comments",
+          "customer"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      1
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "Penrith Feedback.xlsx",
+    "sheet": "Nov 25",
+    "physical_rows": 43,
+    "physical_columns": 5,
+    "header_candidates": [
+      {
+        "source_row": 1,
+        "exact_headers": [
+          "Date",
+          "Department",
+          "Score",
+          "Comments",
+          "Customer"
+        ],
+        "normalized_headers": [
+          "date",
+          "department",
+          "score",
+          "comments",
+          "customer"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      1
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "Penrith Feedback.xlsx",
+    "sheet": "Dec 25",
+    "physical_rows": 37,
+    "physical_columns": 5,
+    "header_candidates": [
+      {
+        "source_row": 1,
+        "exact_headers": [
+          "Date",
+          "Department",
+          "Score",
+          "Comments",
+          "Customer"
+        ],
+        "normalized_headers": [
+          "date",
+          "department",
+          "score",
+          "comments",
+          "customer"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      1
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "Penrith Feedback.xlsx",
+    "sheet": "Jan 26",
+    "physical_rows": 31,
+    "physical_columns": 5,
+    "header_candidates": [
+      {
+        "source_row": 1,
+        "exact_headers": [
+          "Date",
+          "Department",
+          "Score",
+          "Comments",
+          "Customer"
+        ],
+        "normalized_headers": [
+          "date",
+          "department",
+          "score",
+          "comments",
+          "customer"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      1
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "Penrith Feedback.xlsx",
+    "sheet": "Feb 26",
+    "physical_rows": 46,
+    "physical_columns": 5,
+    "header_candidates": [
+      {
+        "source_row": 1,
+        "exact_headers": [
+          "Date",
+          "Department",
+          "Score",
+          "Comments",
+          "Customer"
+        ],
+        "normalized_headers": [
+          "date",
+          "department",
+          "score",
+          "comments",
+          "customer"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      1
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "Penrith Feedback.xlsx",
+    "sheet": "Mar 26",
+    "physical_rows": 46,
+    "physical_columns": 5,
+    "header_candidates": [
+      {
+        "source_row": 1,
+        "exact_headers": [
+          "Date",
+          "Department",
+          "Score",
+          "Comments",
+          "Customer"
+        ],
+        "normalized_headers": [
+          "date",
+          "department",
+          "score",
+          "comments",
+          "customer"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      1
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "Penrith Feedback.xlsx",
+    "sheet": "Apr 26",
+    "physical_rows": 38,
+    "physical_columns": 5,
+    "header_candidates": [
+      {
+        "source_row": 1,
+        "exact_headers": [
+          "Date",
+          "Department",
+          "Score",
+          "Comments",
+          "Customer"
+        ],
+        "normalized_headers": [
+          "date",
+          "department",
+          "score",
+          "comments",
+          "customer"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      1
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "Penrith Feedback.xlsx",
+    "sheet": "May 26",
+    "physical_rows": 44,
+    "physical_columns": 5,
+    "header_candidates": [
+      {
+        "source_row": 1,
+        "exact_headers": [
+          "Date",
+          "Department",
+          "Score",
+          "Comments",
+          "Customer"
+        ],
+        "normalized_headers": [
+          "date",
+          "department",
+          "score",
+          "comments",
+          "customer"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      1
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "Penrith Feedback.xlsx",
+    "sheet": "Jun 26",
+    "physical_rows": 44,
+    "physical_columns": 5,
+    "header_candidates": [
+      {
+        "source_row": 1,
+        "exact_headers": [
+          "Date",
+          "Department",
+          "Score",
+          "Comments",
+          "Customer"
+        ],
+        "normalized_headers": [
+          "date",
+          "department",
+          "score",
+          "comments",
+          "customer"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      1
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "Penrith Feedback.xlsx",
+    "sheet": "Jul 26",
+    "physical_rows": 44,
+    "physical_columns": 5,
+    "header_candidates": [
+      {
+        "source_row": 1,
+        "exact_headers": [
+          "Date",
+          "Department",
+          "Score",
+          "Comments",
+          "Customer"
+        ],
+        "normalized_headers": [
+          "date",
+          "department",
+          "score",
+          "comments",
+          "customer"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      1
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "Penrith Feedback.xlsx",
+    "sheet": "Aug 26",
+    "physical_rows": 57,
+    "physical_columns": 5,
+    "header_candidates": [
+      {
+        "source_row": 1,
+        "exact_headers": [
+          "Date",
+          "Department",
+          "Score",
+          "Comments",
+          "Customer"
+        ],
+        "normalized_headers": [
+          "date",
+          "department",
+          "score",
+          "comments",
+          "customer"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      1
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "Penrith Feedback.xlsx",
+    "sheet": "Sep 26",
+    "physical_rows": 46,
+    "physical_columns": 5,
+    "header_candidates": [
+      {
+        "source_row": 1,
+        "exact_headers": [
+          "Date",
+          "Department",
+          "Score",
+          "Comments",
+          "Customer"
+        ],
+        "normalized_headers": [
+          "date",
+          "department",
+          "score",
+          "comments",
+          "customer"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      1
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "Ringwood feedback Q1 2026.xlsx",
+    "sheet": "Feedback",
+    "physical_rows": 116,
+    "physical_columns": 7,
+    "header_candidates": [
+      {
+        "source_row": 1,
+        "exact_headers": [
+          "Date Received",
+          "Department",
+          "Score (1-5)",
+          "Customer comments",
+          "Followed up?"
+        ],
+        "normalized_headers": [
+          "date received",
+          "department",
+          "score (1-5)",
+          "customer comments",
+          "followed up?"
+        ]
+      },
+      {
+        "source_row": 37,
+        "exact_headers": [
+          "Date",
+          "Department",
+          "Model",
+          "Score (out of 10)",
+          "Customer comments",
+          "Follow up (Y/N)",
+          "Staff"
+        ],
+        "normalized_headers": [
+          "date",
+          "department",
+          "model",
+          "score (out of 10)",
+          "customer comments",
+          "follow up (y/n)",
+          "staff"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      1,
+      37
+    ],
+    "header_status": "review: multiple headers"
+  },
+  {
+    "filename": "Ringwood feedback Q2 2026.xlsx",
+    "sheet": "Feedback",
+    "physical_rows": 116,
+    "physical_columns": 7,
+    "header_candidates": [
+      {
+        "source_row": 1,
+        "exact_headers": [
+          "Date",
+          "Department",
+          "Model",
+          "Score (out of 10)",
+          "Customer comments",
+          "Follow up (Y/N)",
+          "Staff"
+        ],
+        "normalized_headers": [
+          "date",
+          "department",
+          "model",
+          "score (out of 10)",
+          "customer comments",
+          "follow up (y/n)",
+          "staff"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      1
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "Ringwood feedback Q3 2026.xlsx",
+    "sheet": "Feedback",
+    "physical_rows": 128,
+    "physical_columns": 7,
+    "header_candidates": [
+      {
+        "source_row": 1,
+        "exact_headers": [
+          "Date",
+          "Department",
+          "Model",
+          "Score (out of 10)",
+          "Customer comments",
+          "Follow up (Y/N)",
+          "Staff"
+        ],
+        "normalized_headers": [
+          "date",
+          "department",
+          "model",
+          "score (out of 10)",
+          "customer comments",
+          "follow up (y/n)",
+          "staff"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      1
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "Ringwood feedback Q4 2025.xlsx",
+    "sheet": "Feedback",
+    "physical_rows": 101,
+    "physical_columns": 5,
+    "header_candidates": [
+      {
+        "source_row": 1,
+        "exact_headers": [
+          "Date Received",
+          "Department",
+          "Score (1-5)",
+          "Customer comments",
+          "Followed up?"
+        ],
+        "normalized_headers": [
+          "date received",
+          "department",
+          "score (1-5)",
+          "customer comments",
+          "followed up?"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      1
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "Shepparton feedback FINAL - site closed.xlsx",
+    "sheet": "Log",
+    "physical_rows": 55,
+    "physical_columns": 4,
+    "header_candidates": [
+      {
+        "source_row": 1,
+        "exact_headers": [
+          "Date",
+          "Dept",
+          "Rating",
+          "Comment"
+        ],
+        "normalized_headers": [
+          "date",
+          "dept",
+          "rating",
+          "comment"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      1
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "Southport Feedback Tracker.xlsx",
+    "sheet": "Feedback",
+    "physical_rows": 255,
+    "physical_columns": 8,
+    "header_candidates": [
+      {
+        "source_row": 1,
+        "exact_headers": [
+          "Date",
+          "Department",
+          "Rating",
+          "Comments",
+          "Vehicle",
+          "Rego",
+          "Customer name",
+          "Email"
+        ],
+        "normalized_headers": [
+          "date",
+          "department",
+          "rating",
+          "comments",
+          "vehicle",
+          "rego",
+          "customer name",
+          "email"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      1
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "Southport Feedback Tracker.xlsx",
+    "sheet": "Google reviews (copied)",
+    "physical_rows": 10,
+    "physical_columns": 4,
+    "header_candidates": [
+      {
+        "source_row": 2,
+        "exact_headers": [
+          "Reviewer",
+          "Stars",
+          "Review",
+          "When"
+        ],
+        "normalized_headers": [
+          "reviewer",
+          "stars",
+          "review",
+          "when"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      2
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "Springwood feedback.xlsx",
+    "sheet": "All",
+    "physical_rows": 311,
+    "physical_columns": 7,
+    "header_candidates": [
+      {
+        "source_row": 1,
+        "exact_headers": [
+          "Date",
+          "Department",
+          "Name",
+          "Mobile",
+          "Email",
+          "Rating",
+          "Comments"
+        ],
+        "normalized_headers": [
+          "date",
+          "department",
+          "name",
+          "mobile",
+          "email",
+          "rating",
+          "comments"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      1
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "Tamworth.xlsx",
+    "sheet": "Sheet1",
+    "physical_rows": 144,
+    "physical_columns": 4,
+    "header_candidates": [
+      {
+        "source_row": 1,
+        "exact_headers": [
+          "DATE",
+          "DEPT",
+          "HOW WAS IT",
+          "COMMENTS"
+        ],
+        "normalized_headers": [
+          "date",
+          "dept",
+          "how was it",
+          "comments"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      1
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "Toowoomba feedback 2026.xlsx",
+    "sheet": "2026",
+    "physical_rows": 251,
+    "physical_columns": 4,
+    "header_candidates": [
+      {
+        "source_row": 1,
+        "exact_headers": [
+          "Date",
+          "Department",
+          "Rating",
+          "Comments"
+        ],
+        "normalized_headers": [
+          "date",
+          "department",
+          "rating",
+          "comments"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      1
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "Toowoomba Q4 2025 summary.xlsx",
+    "sheet": "Summary",
+    "physical_rows": 10,
+    "physical_columns": 8,
+    "header_candidates": [
+      {
+        "source_row": 3,
+        "exact_headers": [
+          "Month",
+          "Department",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "Grand Total"
+        ],
+        "normalized_headers": [
+          "month",
+          "department",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "grand total"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      3
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "Wollongong_Apr26-Sep26.csv",
+    "sheet": "csv",
+    "physical_rows": 148,
+    "physical_columns": 6,
+    "header_candidates": [
+      {
+        "source_row": 1,
+        "exact_headers": [
+          "Date",
+          "Dept",
+          "Rating",
+          "Customer feedback",
+          "Name",
+          "Mobile"
+        ],
+        "normalized_headers": [
+          "date",
+          "dept",
+          "rating",
+          "customer feedback",
+          "name",
+          "mobile"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      1
+    ],
+    "header_status": "candidate found"
+  },
+  {
+    "filename": "Wollongong_Oct25-Mar26.csv",
+    "sheet": "csv",
+    "physical_rows": 139,
+    "physical_columns": 6,
+    "header_candidates": [
+      {
+        "source_row": 1,
+        "exact_headers": [
+          "Date",
+          "Dept",
+          "Rating",
+          "Customer feedback",
+          "Name",
+          "Mobile"
+        ],
+        "normalized_headers": [
+          "date",
+          "dept",
+          "rating",
+          "customer feedback",
+          "name",
+          "mobile"
+        ]
+      }
+    ],
+    "candidate_rows": [
+      1
+    ],
+    "header_status": "candidate found"
+  }
+]
