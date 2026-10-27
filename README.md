@@ -10,7 +10,7 @@
 
 ![Four sites drove the rise in negative feedback](outputs/charts/monthly_trend.png)
 
-**Interactive Tableau dashboard:** [Kestrel Motor Group - Customer Feedback on Tableau Public](https://public.tableau.com/app/profile/abdul.basith.mohammed7821/viz/KestrelMotorGroup-CustomerFeedback/KestrelMotorGroupwhatsdrivingnegativefeedback). The packaged workbook is [`tableau/kestrel_cx.twbx`](tableau/kestrel_cx.twbx), and screenshots are in the [Dashboard](#dashboard) section.
+**Interactive Tableau dashboard:** [Kestrel Motor Group - Customer Feedback on Tableau Public](https://public.tableau.com/app/profile/abdul.basith.mohammed7821/viz/KestrelMotorGroup-CustomerFeedback/KestrelMotorGroupwhatsdrivingnegativefeedback). The three dashboards are also in [`tableau/kestrel_cx.twbx`](tableau/kestrel_cx.twbx), and screenshots are in the [Dashboard](#dashboard) section.
 
 ## Approach
 
@@ -91,7 +91,7 @@ This is potential exposure, not proven loss. It assumes the feedback sample is r
 
 ## Dashboard
 
-[Open the published Tableau story](https://public.tableau.com/app/profile/abdul.basith.mohammed7821/viz/KestrelMotorGroup-CustomerFeedback/KestrelMotorGroupwhatsdrivingnegativefeedback). The overview and priority pages were opened successfully in browser review; the third page and all interactive marks have not yet been independently checked.
+[Open the published Tableau story](https://public.tableau.com/app/profile/abdul.basith.mohammed7821/viz/KestrelMotorGroup-CustomerFeedback/KestrelMotorGroupwhatsdrivingnegativefeedback).
 
 The published Tableau story has three sections: **What's driving it**, **Where to focus** and **Can we trust it**, built on the **Gold reporting export**, which holds reporting fields only, with no names and no comment text. `scripts/prepare_tableau.py` turns the export into four small CSVs in `tableau/extracts/`, and the workbook is [`tableau/kestrel_cx.twbx`](tableau/kestrel_cx.twbx).
 
