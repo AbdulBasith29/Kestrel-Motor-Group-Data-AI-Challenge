@@ -1,11 +1,12 @@
 {
-  "verified_at_utc": "2026-10-27T15:39:45.360173+00:00",
+  "verified_at_utc": "2026-10-27T21:08:29.106506+00:00",
   "status": "passed",
-  "dbt_invocation_id": "32dc9f4c-3eed-4bdb-a0c7-3eab27069640",
-  "models_built": 12,
-  "dbt_tests_passed": 43,
+  "dbt_invocation_id": "b5af9dda-d410-450c-9edb-14cfda6369af",
+  "models_built": 13,
+  "dbt_tests_passed": 49,
   "row_counts": {
     "dim_dealer": 24,
+    "dim_dealer_history": 24,
     "dim_month": 12,
     "dim_department": 4,
     "dim_theme": 9,
@@ -25,10 +26,10 @@
   "export": "data/gold_reporting.duckdb",
   "reporting_database_contains_only_gold": true,
   "ai_status_counts": {
-    "provider_error": 2,
     "not_enriched": 1,
-    "success": 5358,
-    "no_comment": 1728
+    "no_comment": 1728,
+    "provider_error": 2,
+    "success": 5358
   },
   "undated_responses": 10,
   "unrated_responses": 10,

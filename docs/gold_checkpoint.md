@@ -68,3 +68,7 @@ Applicant contributions: the implementation guide and overall architecture, the 
 
 
 Optional-AI baseline: if no Gemini result table exists, the Gold runner creates its empty typed contract without looking up a key or calling any model. Rating/revenue reporting remains available; nonblank comments are shown as not enriched, and no themes/sentiments are invented. A publication test verifies this path and rejects any attempted provider call. This does not recreate excluded AI caches or claim an AI step has run.
+
+## Dealer-history extension
+
+Gold now includes dim_dealer_history and a check-strategy dbt snapshot in the private dealer_history schema. The current dim_dealer view preserves existing join grain. History starts with observed reference state; it is not retroactively effective-dated. See README for tracked attributes, deletion/reappearance behavior and reproduction tests. Earlier 12-model/43-test figures above describe the pre-history checkpoint; the current build result is recorded in outputs/gold_verification.json.

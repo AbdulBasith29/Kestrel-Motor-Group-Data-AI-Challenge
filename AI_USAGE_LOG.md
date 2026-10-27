@@ -39,7 +39,7 @@ I supplied 49 labels from a 50-comment review set before comparing model predict
 - **Remaining-name flag:** 48/49 agree; one provider error was unassessed. This measures the flag, not correctness of name replacement.
 - **Themes:** at least one theme matches on 42/46 scored rows (91.3%). My original theme descriptions were preserved; an AI-assisted crosswalk translated them into the model taxonomy. Three ambiguous mappings were excluded from theme scoring and the crosswalk remains subject to my confirmation.
 
-The model sometimes interprets mention of the parts team as parts availability without a stock issue. I treat those themes with caution. This is a diagnostic sample, not a population accuracy estimate. Gold passes 43 dbt data tests and excludes customer identifiers, staff identifiers and comment text.
+The model sometimes interprets mention of the parts team as parts availability without a stock issue. I treat those themes with caution. This is a diagnostic sample, not a population accuracy estimate. Gold now passes 49 dbt data tests and excludes customer identifiers, staff identifiers and comment text.
 
 ## Local orchestration
 
@@ -47,6 +47,10 @@ I requested Prefect orchestration against my implementation guide. Codex replace
 
 ## What I chose not to build
 
-My guide also covers a file watcher, run-state/retry lifecycle, SCD2 dealer history and Tableau. These are not implemented in the current checkpoint; I prioritised the data pipeline and business answers. Dashboard refresh and the automated end-to-end demonstration remain outstanding.
+My guide also covers a file watcher, incremental run-state/retry lifecycle and Tableau. These are not implemented in the current checkpoint; I prioritised the data pipeline and business answers. Dashboard refresh and the automated end-to-end demonstration remain outstanding.
 
 Raw source data, review labels, databases and the API key are excluded from Git. Detailed implementation evidence remains in the checkpoint documents and verification outputs.
+
+## Dealer history
+
+My guide proposed SCD2 dealer history and I requested its implementation. Codex implemented the dbt snapshot, reporting history dimension and isolated lifecycle/integrity tests. The isolated lifecycle test, five publication tests, all eight business queries and 49 dbt data tests passed. Initial validity records observation time; no earlier dealer history or historical event-time attribution is invented.

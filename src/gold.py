@@ -17,7 +17,7 @@ import uuid
 import duckdb
 from common import ROOT
 
-MODELS=['dim_dealer','dim_month','dim_department','dim_theme','fct_feedback',
+MODELS=['dim_dealer','dim_dealer_history','dim_month','dim_department','dim_theme','fct_feedback',
         'bridge_feedback_theme','fct_monthly_revenue','mart_dealer_dept_month',
         'mart_theme_drivers','mart_dealer_dept_summary','mart_feedback_quality','mart_opportunity_scenarios']
 FORBIDDEN={'comment','comments','proposed_comment','verbatim','notes','customer','customer_name',

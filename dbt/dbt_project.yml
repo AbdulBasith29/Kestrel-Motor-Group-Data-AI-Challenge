@@ -2,6 +2,7 @@ name: kestrel
 version: '1.0'
 profile: kestrel
 model-paths: [models]
+snapshot-paths: [snapshots]
 test-paths: [tests]
 flags:
   send_anonymous_usage_stats: false

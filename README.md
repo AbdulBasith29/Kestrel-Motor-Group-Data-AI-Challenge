@@ -25,7 +25,7 @@ The current deliverable is the tested Gold reporting layer and CSV exports; no T
 
 - **DuckDB** gives me one local file with SQL and no server for an assessor to set up.
 - **YAML source config** (`config/sources.yml`) holds every per-dealer rule in one readable place: sheets, header rows, date formats, rating scales and aliases.
-- **dbt** builds Gold with tests (43 passing), and publishes only if they pass. Revenue joins at its own monthly grain, never through the multi-theme bridge.
+- **dbt** builds Gold with tests (49 passing, including dealer-history checks), and publishes only if they pass. Revenue joins at its own monthly grain, never through the multi-theme bridge.
 - **Prefect** runs the existing CLI steps in order with local run history and logging: `python flows/pipeline.py`. Only the opt-in Gemini step retries; other failures stop the flow.
 - **Gemini** handled sentiment and themes. I tried a local Ollama model first, but the pilot was too slow for the full run. Comments were preprocessed before transmission, but some residual names reached Gemini. Accounted API cost was approximately US$1.94.
 
@@ -132,7 +132,7 @@ I built this as a batch run on a laptop. To run it in production I would add:
 - **File arrival:** a landing-folder watcher with file hashing, skip-if-loaded, and archive/quarantine with a reason.
 - **Run control:** a run registry with states, retries and a run_id on every row, so loads are incremental instead of full rebuilds.
 - **Orchestration:** the local Prefect batch flow is implemented; production scheduling and failure alerts remain to add. Only the AI step retries.
-- **History:** dbt snapshots (SCD2) for the dealership reference data, and stable response IDs for running workbooks.
+- **History:** dealer-reference SCD2 snapshots are implemented; stable edit identity for running feedback workbooks remains to add.
 - **Privacy:** named-entity detection on top of the current masking, and a keyed HMAC customer key if repeat-customer analysis is needed. Secrets go in a vault.
 - **AI operations:** pinned model and prompt versions, a fresh labelled sample each quarter, and a drift check on sentiment-vs-rating agreement.
 - **Reporting:** a live Tableau connection, or a scheduled Hyper extract refresh, instead of manual CSV exports.
@@ -179,3 +179,11 @@ python flows/pipeline.py
 ```
 
 The temporary server used by a plain CLI run stops when that process exits; the local history remains. Do not launch concurrent flows against the same DuckDB files. Tests: `python -m unittest discover -s tests -p test_prefect_pipeline.py`.
+
+### Dealer reference history (SCD2)
+
+Each Gold build snapshots `reference/dealerships.csv` before building dependent models. Changes to dealership name, suburb, state, region, brands, status or closure date close the previous version and create a new version. Unchanged rows retain their version IDs. A removed dealer has its current version closed; reappearance creates a new version.
+
+`gold.dim_dealer_history` exports the version ID, dealer attributes, `valid_from`, `valid_to` and `is_current`. Intervals are `[valid_from, valid_to)`; null `valid_to` means current. `gold.dim_dealer` stays one current row per dealer so existing report joins do not multiply feedback or revenue.
+
+Dates record **when the pipeline observed a reference change**, not when it took effect in the business. The source has no attribute-change timestamp or earlier reference versions: the first run initialises history and does not reconstruct 2025/26 dealer attributes. Closure date remains a source attribute, distinct from snapshot validity. Historical feedback/revenue reports still use the current dealer view; an event-time SCD join would need trustworthy effective-dated reference history. Tests cover unchanged reloads, changes, deletions, reappearance, non-overlapping intervals and current/reference reconciliation. Run `python -m unittest discover -s tests -p test_dealer_history.py` for the isolated fixture test.
