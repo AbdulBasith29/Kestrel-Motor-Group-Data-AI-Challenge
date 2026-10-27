@@ -1,0 +1,4 @@
+# Includes the tested notebook/source-reader dependencies.
+-r requirements-notebook.txt
+duckdb==2.0.0
+PyYAML==6.0.3

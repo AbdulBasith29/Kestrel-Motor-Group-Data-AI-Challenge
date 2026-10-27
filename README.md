@@ -1,8 +1,9 @@
 # Kestrel Motor Group — source investigation
 
-This checkpoint covers the reproducible source investigation and a CSV consolidation/validation baseline. DuckDB ingestion is being prepared as a separate review milestone; AI enrichment and business recommendations remain outstanding.
+This checkpoint covers the reproducible source investigation and a CSV consolidation/validation baseline. DuckDB Bronze ingestion is implemented and verified; Silver validation, AI enrichment and business recommendations remain separate milestones.
 
 - Start with [notebook setup](NOTEBOOK_SETUP.md).
+- Review the [DuckDB Bronze checkpoint](docs/bronze_checkpoint.md) and its reproducible ingestion checks.
 - Run and review the [CSV baseline checkpoint](docs/baseline_checkpoint.md), including applicant-approved decisions and aggregate validation results.
 - Explore [the investigation notebook](scripts/investigation.ipynb).
 - Review [mapping assumptions](ASSUMPTIONS.md), including provisional department aliases awaiting business confirmation.

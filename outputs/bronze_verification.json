@@ -1,0 +1,58 @@
+{
+  "verified_at_utc": "2026-10-27T11:14:53.188687+00:00",
+  "status": "passed",
+  "source_files": 52,
+  "file_sheet_sources": 82,
+  "landed_rows": 7116,
+  "physical_rows": 7432,
+  "row_dispositions": {
+    "header": 79,
+    "skipped_sheet": 177,
+    "blank": 14,
+    "preamble": 46,
+    "landed": 7116
+  },
+  "repeat_load_identical_excluding_loaded_at": true,
+  "source_hashes_unchanged": true,
+  "structured_identity_columns_absent": true,
+  "masking_audit": [
+    {
+      "rule": "masked_customer_count",
+      "comments_affected": 0,
+      "replacement_count": 0
+    },
+    {
+      "rule": "masked_staff_count",
+      "comments_affected": 190,
+      "replacement_count": 190
+    },
+    {
+      "rule": "masked_person_count",
+      "comments_affected": 0,
+      "replacement_count": 0
+    },
+    {
+      "rule": "masked_email_count",
+      "comments_affected": 58,
+      "replacement_count": 58
+    },
+    {
+      "rule": "masked_phone_count",
+      "comments_affected": 156,
+      "replacement_count": 156
+    },
+    {
+      "rule": "masked_rego_count",
+      "comments_affected": 486,
+      "replacement_count": 487
+    },
+    {
+      "rule": "ollama_residual_name_audit",
+      "comments_affected": null,
+      "replacement_count": null
+    }
+  ],
+  "ollama_name_audit": "not_run",
+  "residual_privacy_risk": "unmeasured",
+  "database": "data/bronze_review.duckdb"
+}

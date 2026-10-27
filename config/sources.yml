@@ -1,0 +1,93 @@
+# Source mapping for the Kestrel feedback pack.
+# Everything that differs between dealership files lives here, so the loaders stay generic.
+# Decisions agreed 27 Oct 2026 are marked "decision". Anything not listed gets flagged, never guessed.
+
+# File name prefix -> dealer code (reference/dealerships.csv)
+dealers:
+  Ballarat: VIC07
+  bendigo: VIC08
+  boxhill: VIC05
+  chatswood: NSW03
+  Chermside: QLD01
+  Dandenong: VIC01
+  ESSENDON: VIC03
+  Frankston: VIC04
+  Geelong: VIC06
+  Hunter Motors: NSW05   # decision: assumption. Newcastle is the only dealer with no other file; Hunter = Newcastle region
+  IPS: QLD03             # file and Site column say KMG-IPS = Ipswich
+  liverpool: NSW04
+  Noosa: QLD05
+  Parramatta: NSW01
+  Penrith: NSW02
+  Ringwood: VIC02
+  Shepparton: VIC09
+  Southport: QLD04
+  Springwood: QLD02
+  Tamworth: NSW07
+  Toowoomba: QLD06
+  Wollongong: NSW06
+
+# The North QLD workbook mixes two dealerships in a Site column
+site_column_dealers:
+  rok: QLD07
+  rocky: QLD07
+  rockhampton: QLD07
+  tsv: QLD08
+  townsville: QLD08
+
+# Read but kept out of the response table (file, sheet, reason)
+skip:
+  - {file: "Chermside Q1 2026 FINAL.xlsx", sheet: Feedback, reason: "decision: superseded by FINAL v2, which has all 112 rows plus 6 new"}
+  - {file: "Penrith Feedback.xlsx", sheet: "Jun 26", reason: "decision: copy of the Jul 26 tab with July dates; Penrith June is missing"}
+  - {file: "Toowoomba Q4 2025 summary.xlsx", sheet: Summary, reason: "decision: aggregate counts only, no individual responses"}
+  - {file: "Southport Feedback Tracker.xlsx", sheet: "Google reviews (copied)", reason: "decision: public reviews with relative dates only"}
+
+# Header aliases -> standard column. Structured identifier columns (names, phones, emails, rego,
+# customer numbers, staff names, vehicle, action taken) are dropped during ingestion.
+# Identity fields are read only in memory to build source-role name masks. Bronze stores
+# deterministically masked comments; unlisted names/unsupported formats may remain.
+# Keep Bronze/Silver restricted pending the optional local Ollama audit and human review.
+columns:
+  date: [date, date received, submitted_at]
+  department: [dept, department, area]
+  rating: [rating, rating (1-5), score, score (1-5), score (out of 10), csat, stars, "how satisfied?", how was it]
+  comment: [comments, comment, feedback, verbatim, "what did they say?", customer comments, customer feedback, customer said, notes]
+  site: [site, dealer]
+  source_ref: [ref, response_id]
+
+# Sheets whose department is the sheet name (Essendon has one tab per department)
+department_from_sheet: [ESSENDON]
+
+# decision (A001): reviewed department aliases
+departments:
+  Service: [service, service dept, svc, workshop, sv]
+  Sales: [sales, new cars, used cars, sales - new, sales - used, s]
+  Parts: [parts, parts counter, p&a, parts & accessories, p]
+
+# Text ratings -> 1-5 (5 = best)
+text_ratings:
+  very dissatisfied: 1
+  dissatisfied: 2
+  neutral: 3
+  satisfied: 4
+  very satisfied: 5
+  bad: 1      # Tamworth three-point scale
+  ok: 3
+  good: 5
+
+# Scale exceptions
+reversed_scale: [{file: Geelong, sheet: "2025"}]   # sheet note: "1 = Excellent, 5 = Poor"
+ten_point_header: "score (out of 10)"               # decision: rescale linearly to 1-5, keep the raw score
+
+# Text date formats by file prefix. Default is day-first dd/mm/yyyy; real Excel dates need no format.
+date_formats:
+  Wollongong: "%d-%b-%y"
+  bendigo: "%d %b %y"
+  Geelong: "%d/%m/%y"
+  liverpool_q3_2026: "%m/%d/%Y"   # this export switched to US month-first (07/01/2026 = 1 July)
+  boxhill: "%Y-%m-%d %H:%M:%S"
+excel_serial_dates: [North QLD]    # dates stored as Excel day numbers
+default_date_format: "%d/%m/%Y"
+
+reporting_window: {start: "2025-10-01", end: "2026-09-30"}
+negative_max_score: 2   # decision: negative = 1-2 on the 1-5 scale
