@@ -1,0 +1,57 @@
+status: AI-assisted crosswalk; not applicant-confirmed canonical gold
+method: Defined from supplied human terms before model predictions were queried for
+  comparison.
+mappings:
+  communication follow up: communication_follow_up
+  communication updates: communication_follow_up
+  workmanship repair quality: workmanship_repair_quality
+  purchase experience: sales_process
+  pricing value: pricing_value
+  maintenance cost: pricing_value
+  pricing transparency: pricing_value
+  unexpected charges: pricing_value
+  staff praise: staff_service
+  staff behavior: staff_service
+  customer service: staff_service
+  vehicle hand over explanation: communication_follow_up
+  punctuality timeliness: waiting_time_scheduling
+  wait time: waiting_time_scheduling
+  wait time reception: waiting_time_scheduling
+  wait time appointment: waiting_time_scheduling
+  booking process: waiting_time_scheduling
+  booking process error: waiting_time_scheduling
+  booking system error: waiting_time_scheduling
+  online portal: waiting_time_scheduling
+  finance pressure: sales_process
+  sales experience: sales_process
+  transaction ease: sales_process
+  vehicle cleanliness: vehicle_product
+  facility navigation: other
+  facility cleanliness: other
+  amenities: other
+  customer loyalty: null
+  parts department: null
+  fleet management: null
+  wasted trip: null
+  first service expectation: null
+  safety concern: null
+  process efficiency: UNRESOLVED
+  process failure: UNRESOLVED
+context_only_reasons:
+  customer loyalty: Relationship context, not a separate topic in the fixed model
+    taxonomy.
+  parts department: Department context does not establish parts availability.
+  fleet management: Operational context/benefit; retain the explicit feedback topic.
+  wasted trip: Consequence of the stated communication problem in this supplied example.
+  first service expectation: Expectation/context of the stated repair problem in this
+    supplied example.
+  safety concern: Consequence of the stated workmanship concern in this supplied example;
+    retained in raw labels.
+assumptions:
+- Vehicle handover/service explanations roll into communication_follow_up (explanations).
+- Vehicle cleanliness rolls into vehicle_product (condition); facility topics roll
+  into other.
+- Generic process labels remain unresolved and their rows are omitted only from theme
+  metrics.
+- No original human sentiment/name flags are changed; raw themes remain in the review
+  CSV.

@@ -46,6 +46,41 @@ class EvaluationTests(unittest.TestCase):
         result=self.run_fixture(labels,predicted)
         self.assertEqual(result['all_reviewed_fields_exact_count'],1)
         self.assertEqual(result['all_reviewed_fields_exact_match_rate'],1)
+    def test_partial_theme_credit_reports_extra_and_missed_themes(self):
+        text='Delayed and no callback'
+        labels=[{'response_id':'x','masked_comment':text,'human_sentiment':'negative',
+                 'human_themes':'communication_follow_up|waiting_time_scheduling','human_has_unmasked_name':'false'}]
+        predicted=[{'response_id':'x','content_sha256':hashlib.sha256(text.encode()).hexdigest(),
+                    'sentiment':'negative','themes_json':json.dumps([{'theme':'communication_follow_up','polarity':'negative'},
+                    {'theme':'staff_service','polarity':'negative'}]),'has_unmasked_name':False,'status':'success'}]
+        result=self.run_fixture(labels,predicted)
+        self.assertEqual(result['theme_any_match_rate_on_themed_comments'],1)
+        self.assertEqual(result['theme_exact_match'],0)
+        self.assertEqual(result['theme_micro_f1'],0.5)
+        self.assertEqual(result['per_theme']['communication_follow_up']['hits'],1)
+        self.assertEqual(result['per_theme']['waiting_time_scheduling']['misses'],1)
+        self.assertEqual(result['per_theme']['staff_service']['extra_predictions'],1)
+    def test_no_theme_rows_do_not_inflate_any_match_metric(self):
+        text='...'
+        labels=[{'response_id':'x','masked_comment':text,'human_sentiment':'unclear',
+                 'human_themes':'none','human_has_unmasked_name':'false'}]
+        predicted=[{'response_id':'x','content_sha256':hashlib.sha256(text.encode()).hexdigest(),
+                    'sentiment':'unclear','themes_json':'[]','has_unmasked_name':False,'status':'success'}]
+        result=self.run_fixture(labels,predicted)
+        self.assertIsNone(result['theme_any_match_rate_on_themed_comments'])
+        self.assertEqual(result['theme_exact_match'],1)
+    def test_unmapped_themes_do_not_discard_sentiment_or_name_labels(self):
+        text='Process was smooth'
+        labels=[{'response_id':'x','masked_comment':text,'human_sentiment':'positive',
+                 'human_themes':'','human_has_unmasked_name':'false'}]
+        predicted=[{'response_id':'x','content_sha256':hashlib.sha256(text.encode()).hexdigest(),
+                    'sentiment':'positive','themes_json':'[]','has_unmasked_name':False,'status':'success'}]
+        result=self.run_fixture(labels,predicted)
+        self.assertEqual(result['sentiment_correct_count'],1)
+        self.assertEqual(result['human_sentiment_labelled_rows'],1)
+        self.assertEqual(result['human_theme_labelled_rows'],0)
+        self.assertEqual(result['name_flag_correct_count'],1)
+        self.assertIsNone(result['all_reviewed_fields_exact_match_rate'])
     def test_changed_text_rejected(self):
         labels=[{'response_id':'x','masked_comment':'Fine','human_sentiment':'positive',
                  'human_themes':'none','human_has_unmasked_name':'false'}]

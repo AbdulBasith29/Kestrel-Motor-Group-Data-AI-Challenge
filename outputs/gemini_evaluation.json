@@ -1,21 +1,151 @@
 {
   "provider": "gemini",
-  "status": "awaiting_human_labels",
+  "status": "partially_evaluated",
   "sample_rows": 50,
-  "completed_human_labels": 0,
-  "human_label_completion": 0.0,
-  "all_reviewed_fields_exact_count": null,
-  "all_reviewed_fields_exact_match_rate": null,
+  "rows_with_any_human_label": 49,
+  "completed_human_labels": 46,
+  "human_sentiment_labelled_rows": 49,
+  "human_theme_labelled_rows": 46,
+  "human_name_labelled_rows": 49,
+  "human_label_completion": 0.92,
+  "all_reviewed_fields_exact_count": 31,
+  "all_reviewed_fields_exact_match_rate": 0.6739130434782609,
   "reviewed_fields": [
     "overall_sentiment",
     "theme_membership",
     "remaining_name_flag"
   ],
-  "sentiment_accuracy": null,
-  "theme_micro_precision": null,
-  "theme_micro_recall": null,
-  "theme_micro_f1": null,
-  "theme_exact_match": null,
-  "residual_name_false_negatives": null,
-  "note": "Pilot is deliberately stratified; these metrics do not estimate population accuracy."
+  "sentiment_accuracy": 0.9387755102040817,
+  "theme_micro_precision": 0.8115942028985508,
+  "theme_micro_recall": 0.9032258064516129,
+  "theme_micro_f1": 0.8549618320610687,
+  "theme_any_match_count": 42,
+  "theme_gold_themed_comments": 46,
+  "theme_any_match_rate_on_themed_comments": 0.9130434782608695,
+  "per_theme": {
+    "communication_follow_up": {
+      "hits": 15,
+      "extra_predictions": 1,
+      "misses": 2,
+      "support": 17,
+      "precision": 0.9375,
+      "recall": 0.8823529411764706,
+      "f1": 0.9090909090909091
+    },
+    "other": {
+      "hits": 1,
+      "extra_predictions": 0,
+      "misses": 1,
+      "support": 2,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666
+    },
+    "parts_availability": {
+      "hits": 0,
+      "extra_predictions": 3,
+      "misses": 0,
+      "support": 0,
+      "precision": 0.0,
+      "recall": null,
+      "f1": 0.0
+    },
+    "pricing_value": {
+      "hits": 9,
+      "extra_predictions": 0,
+      "misses": 0,
+      "support": 9,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "sales_process": {
+      "hits": 4,
+      "extra_predictions": 0,
+      "misses": 0,
+      "support": 4,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "staff_service": {
+      "hits": 10,
+      "extra_predictions": 3,
+      "misses": 1,
+      "support": 11,
+      "precision": 0.7692307692307693,
+      "recall": 0.9090909090909091,
+      "f1": 0.8333333333333334
+    },
+    "vehicle_product": {
+      "hits": 1,
+      "extra_predictions": 3,
+      "misses": 1,
+      "support": 2,
+      "precision": 0.25,
+      "recall": 0.5,
+      "f1": 0.3333333333333333
+    },
+    "waiting_time_scheduling": {
+      "hits": 8,
+      "extra_predictions": 2,
+      "misses": 1,
+      "support": 9,
+      "precision": 0.8,
+      "recall": 0.8888888888888888,
+      "f1": 0.8421052631578947
+    },
+    "workmanship_repair_quality": {
+      "hits": 8,
+      "extra_predictions": 1,
+      "misses": 0,
+      "support": 8,
+      "precision": 0.8888888888888888,
+      "recall": 1.0,
+      "f1": 0.9411764705882353
+    }
+  },
+  "theme_exact_match": 0.6956521739130435,
+  "residual_name_false_negatives": 0,
+  "note": "Diagnostic sample with deliberate strata/known failures; unweighted metrics do not estimate population accuracy.",
+  "successful_model_results": 48,
+  "classification_coverage": 0.9795918367346939,
+  "sentiment_correct_count": 46,
+  "theme_mapping_status": "provisional_AI_assisted_crosswalk",
+  "name_flag_correct_count": 48,
+  "name_flag_accuracy": 0.9795918367346939,
+  "residual_name_false_positives": 0,
+  "residual_name_unassessed": 1,
+  "sentiment_confusion": [
+    {
+      "human_sentiment": "mixed",
+      "sentiment": "error",
+      "count": 1
+    },
+    {
+      "human_sentiment": "mixed",
+      "sentiment": "mixed",
+      "count": 7
+    },
+    {
+      "human_sentiment": "negative",
+      "sentiment": "negative",
+      "count": 16
+    },
+    {
+      "human_sentiment": "positive",
+      "sentiment": "mixed",
+      "count": 1
+    },
+    {
+      "human_sentiment": "positive",
+      "sentiment": "positive",
+      "count": 23
+    },
+    {
+      "human_sentiment": "positive",
+      "sentiment": "unclear",
+      "count": 1
+    }
+  ]
 }

@@ -258,3 +258,22 @@ Applicant agreed to hand-label a varied sample and compare it with AI output. Co
 ## Enrichment commit/push authorised — 28 October 2026
 
 The applicant explicitly authorised committing and pushing the enrichment checkpoint. A final read of the 50-comment review CSV found zero completed gold-label rows; the commit therefore records numerical accuracy as unmeasured. It includes the applicant's qualitative acceptance, the redaction failure they found, the exact-name correction and remaining cases. Gold/reporting/orchestration drafts and unrelated earlier notes stay outside this milestone. API keys, databases and comment-bearing review files are excluded.
+
+
+## Applicant-requested partial-credit evaluation — 28 October 2026
+
+The applicant supplied evaluation guidance favouring theme overlap and per-theme hits/misses. Codex confirmed that Gemini already supports mixed, added any-theme overlap among human-themed comments and per-theme precision/recall/F1 counts, retained strict exact-set agreement as a diagnostic, and added restricted disagreement export only after labelling completes. Six evaluator tests passed. The existing review file showed one filled row out of 50; Codex did not alter its content, fill labels or expose predictions while labelling was underway. Numerical accuracy remains pending. These refinements are not yet committed or pushed.
+
+
+## Applicant-supplied 49-row evaluation — 28 October 2026
+
+The applicant pasted 49 completed labels instead of filling the remaining file manually. Codex imported their sentiment/name flags unchanged, preserved the original theme wording and all source comments, backed up the previous CSV and left the unsupplied fiftieth row blank. Human labels were supplied by the applicant; Codex did not invent the missing row.
+
+Because the supplied theme vocabulary differs from the model taxonomy, Codex proposed config/human_theme_crosswalk.yml before inspecting predictions for this comparison. It maps clear aliases, documents context-only descriptors and leaves generic process labels unresolved. Canonical theme labels are therefore AI-assisted translations pending applicant confirmation, not independently human-authored gold. Three rows remain unscored for themes while their sentiment/name fields are included. Codex updated component-specific denominators and seven evaluator tests passed.
+
+Results: sentiment 46/49 (93.9%, including one technical failure as incorrect); name flag 48/49 with one unassessed model failure; provisional any-theme overlap 42/46 (91.3%), micro precision 81.2%, recall 90.3%, F1 85.5%; strict all-reviewed-fields agreement 31/46 (67.4%). The sample is deliberately stratified and includes known failures, so these unweighted results are not population accuracy estimates. Per-theme polarity and full privacy completeness are not measured. Codex added four non-identifying disagreement descriptions to the README and saved the detailed disagreement CSV locally. No new API calls, commit or push were performed.
+
+
+## Evaluation checkpoint authorised before Gold — 28 October 2026
+
+The applicant accepted the diagnostic result and explicitly requested committing the completed evaluation/AI-log work before moving to Gold reporting models. This checkpoint records 49 supplied labels, unchanged original comments, direct sentiment/name scores and provisional AI-assisted theme mapping, with the missing fiftieth label left blank. Reporting models will be a separate review milestone.

@@ -1,6 +1,6 @@
 # Kestrel Motor Group — feedback consolidation and AI enrichment
 
-This checkpoint covers source investigation, the CSV baseline, DuckDB Bronze/Silver and optional AI enrichment. Gemini produced 5,358 structured results, with two quarantined errors and one pre-transmission holdout. The applicant found an incorrect name-redaction method; exact-name proposals replace it. Numerical sentiment/theme accuracy remains unmeasured pending independent human labels. Reporting and business recommendations are the next milestones.
+This checkpoint covers source investigation, the CSV baseline, DuckDB Bronze/Silver and optional AI enrichment. Gemini produced 5,358 structured results, with two quarantined errors and one pre-transmission holdout. The applicant found an incorrect name-redaction method; exact-name proposals replace it. Applicant-supplied labels now give 46/49 sentiment agreement (93.9%) on a diagnostic sample; theme metrics use a provisional, documented crosswalk. Reporting and business recommendations are the next milestones.
 
 - Start with [notebook setup](NOTEBOOK_SETUP.md).
 - Review the [Silver checkpoint](docs/silver_checkpoint.md), [Gemini run and masking correction](docs/gemini_checkpoint.md), and [independent 50-comment evaluation guide](docs/human_review_50.md).
@@ -13,6 +13,21 @@ This checkpoint covers source investigation, the CSV baseline, DuckDB Bronze/Sil
 - Read the [AI usage and verification log](AI_USAGE_LOG.md), including a verified failure of the generated preview-masking helper.
 - See [verification evidence](reproducibility/VERIFIED.md): 13 code cells passed in an isolated, relocated environment; input files were unchanged.
 - Notebook outputs are cleared in Git. Obtain the original assignment data separately and retain the `feedback` and `reference` folders locally; these are deliberately excluded from version control.
+
+## AI evaluation against applicant labels
+
+The applicant supplied 49 labelled rows from the 50-comment diagnostic sample; the missing row is left blank. Comments were preserved unchanged. Sentiment agrees on **46/49 (93.9%)**, counting one failed model response as incorrect. The two other sentiment disagreements were a positive explanation interpreted as mixed and a short positive comment classified unclear. Name flags agree on **48/49**, with one unassessed failed response; all three applicant-marked visible-name cases were detected among assessed outputs. This does not establish complete anonymisation.
+
+The applicant used finer-grained theme wording than the model's fixed taxonomy. [The crosswalk](config/human_theme_crosswalk.yml) preserves raw labels, records context-only tags and leaves three generic process cases unresolved. It was defined before comparing model predictions. Its mappings are AI-assisted and await applicant confirmation. On **46 provisionally mapped rows**, at least one theme matches in **42/46 (91.3%)**; micro precision is **81.2%**, recall **90.3%**, and F1 **85.5%**. Strict agreement across all three reviewed fields is **31/46 (67.4%)**. These are diagnostic-sample results, not population accuracy estimates or per-theme-polarity scores.
+
+Observed disagreements worth reviewing:
+
+- **Helpful explanation misread:** “The explanation was very slow and clear for me” was positive to the applicant but mixed to Gemini; slowness was helpful in this context.
+- **Unsupported topic:** praise for courteous parts staff acquired a parts_availability label, despite no statement about stock or supply. A department mention alone is insufficient evidence.
+- **Short-text ambiguity:** “Wasn't lost for once.” was positive to the applicant but unclear to the model; limited context makes this a disagreement to inspect, rather than proof of universally correct interpretation.
+- **Technical failure:** one labelled booking/appointment case has no usable model classification. It remains counted as incorrect in end-to-end agreement rather than being dropped from the denominator.
+
+See [aggregate evaluation](outputs/gemini_evaluation.json) and [labelling/scoring instructions](docs/human_review_50.md). Raw comments, supplied labels and the detailed disagreement CSV stay local under data/. The applicant found the earlier offset-redaction failure; its correction and remaining limits are documented in the [AI usage log](AI_USAGE_LOG.md).
 
 ## Supplied assignment brief
 
