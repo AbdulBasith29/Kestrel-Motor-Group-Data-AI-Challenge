@@ -22,7 +22,7 @@ python -m unittest discover -s tests -p test_gold_publication.py -v
 python src/gold.py
 ```
 
-The tested isolated environment is .venv-gold with dbt-core 1.12.6, dbt-duckdb 1.11.1 and DuckDB 2.0.0. Exact packages are recorded in reproducibility/gold-environment-lock.txt. A different input/output can be selected with --database and --output; the export must be a separate file inside data/. Close its viewer connection before replacing an existing export on Windows.
+The tested isolated environment is .venv-gold with dbt-core 1.12.6, dbt-duckdb 1.11.1 and DuckDB 2.0.0. Direct dependency versions are consolidated in requirements.txt; the earlier full environment lock remains in Git history. A different input/output can be selected with --database and --output; the export must be a separate file inside data/. Close its viewer connection before replacing an existing export on Windows.
 
 The runner executes dbt build in gold_staging, checks current run_results.json for every reviewed model and passing tests, blocks restricted columns, publishes known models transactionally to the working database's gold schema, then atomically replaces the separate reporting file. Old Gold/export survives dbt or validation failure. Exports are local under data/reporting_exports/ (one CSV per model); safe aggregate evidence is in outputs/gold_verification.json, gold_monthly_summary.csv, gold_theme_summary.csv and gold_dealer_summary.csv. No comments are exported.
 

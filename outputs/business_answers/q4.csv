@@ -1,0 +1,19 @@
+rating_band,ai_status,ai_sentiment,responses
+rated high (>=4),success,positive,2890
+rated high (>=4),success,mixed,206
+rated high (>=4),success,unclear,20
+rated high (>=4),success,neutral,19
+rated high (>=4),success,negative,10
+rated high (>=4),provider_error,,1
+rated low (<=2),success,negative,1362
+rated low (<=2),success,mixed,123
+rated low (<=2),success,unclear,3
+rated low (<=2),success,neutral,2
+rated low (<=2),not_enriched,,1
+rated middle (2<score<4),success,mixed,456
+rated middle (2<score<4),success,negative,238
+rated middle (2<score<4),success,positive,19
+rated middle (2<score<4),success,neutral,2
+rated middle (2<score<4),provider_error,,1
+unrated,success,positive,5
+unrated,success,negative,3

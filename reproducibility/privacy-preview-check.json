@@ -1,9 +1,0 @@
-{
-  "status": "passed",
-  "header_segments_checked": 80,
-  "nonblank_identity_cells_withheld": 9048,
-  "nonblank_text_cells_withheld": 5418,
-  "noosa_person_column_withheld": true,
-  "scope": "All identified header segments in the current structural inventory; raw values not included in this report.",
-  "limitation": "Tests verify default display suppression, not universal free-text anonymisation, completeness of header detection or readiness for external AI/export."
-}

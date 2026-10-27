@@ -1,0 +1,16 @@
+department,theme_id,strictly_negative_mentions,negative_or_mixed_mentions,review_flagged_mentions,all_negative_rated,ai_enriched_negative_rated,pct_of_all_dept_negatives,pct_of_enriched_dept_negatives
+Parts,parts_availability,57,57,1,111,104,51.4,54.8
+Parts,communication_follow_up,40,40,4,111,104,36.0,38.5
+Parts,waiting_time_scheduling,33,33,2,111,104,29.7,31.7
+Parts,pricing_value,16,16,2,111,104,14.4,15.4
+Parts,staff_service,16,16,2,111,104,14.4,15.4
+Sales,sales_process,83,87,12,162,152,53.7,57.2
+Sales,communication_follow_up,45,45,5,162,152,27.8,29.6
+Sales,staff_service,31,31,11,162,152,19.1,20.4
+Sales,pricing_value,27,27,3,162,152,16.7,17.8
+Sales,vehicle_product,23,23,3,162,152,14.2,15.1
+Service,communication_follow_up,474,474,51,1306,1234,36.3,38.4
+Service,waiting_time_scheduling,436,437,32,1306,1234,33.5,35.4
+Service,workmanship_repair_quality,218,218,11,1306,1234,16.7,17.7
+Service,pricing_value,210,210,17,1306,1234,16.1,17.0
+Service,parts_availability,122,122,8,1306,1234,9.3,9.9

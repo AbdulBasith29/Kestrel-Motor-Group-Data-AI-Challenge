@@ -1,0 +1,10 @@
+theme_id,h1_mentions,h2_mentions,h1_enriched_negative_rated,h2_enriched_negative_rated,h1_driver_pct,h2_driver_pct
+parts_availability,4,38,96,237,4.2,16.0
+waiting_time_scheduling,31,100,96,237,32.3,42.2
+sales_process,4,20,96,237,4.2,8.4
+vehicle_product,2,4,96,237,2.1,1.7
+workmanship_repair_quality,16,37,96,237,16.7,15.6
+pricing_value,15,33,96,237,15.6,13.9
+other,6,8,96,237,6.3,3.4
+communication_follow_up,36,76,96,237,37.5,32.1
+staff_service,11,14,96,237,11.5,5.9
