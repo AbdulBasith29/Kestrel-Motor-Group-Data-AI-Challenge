@@ -28,3 +28,8 @@ kestrel.duckdb.wal
 dbt/target/
 dbt/logs/
 .prefect/
+
+# API credentials stay local
+.env
+.env.*
+!.env.example

@@ -1,8 +1,11 @@
-# Kestrel Motor Group — source investigation
+# Kestrel Motor Group — feedback consolidation and AI enrichment
 
-This checkpoint covers the reproducible source investigation and a CSV consolidation/validation baseline. DuckDB Bronze ingestion is implemented and verified; Silver validation, AI enrichment and business recommendations remain separate milestones.
+This checkpoint covers source investigation, the CSV baseline, DuckDB Bronze/Silver and optional AI enrichment. Gemini produced 5,358 structured results, with two quarantined errors and one pre-transmission holdout. The applicant found an incorrect name-redaction method; exact-name proposals replace it. Numerical sentiment/theme accuracy remains unmeasured pending independent human labels. Reporting and business recommendations are the next milestones.
 
 - Start with [notebook setup](NOTEBOOK_SETUP.md).
+- Review the [Silver checkpoint](docs/silver_checkpoint.md), [Gemini run and masking correction](docs/gemini_checkpoint.md), and [independent 50-comment evaluation guide](docs/human_review_50.md).
+- Use [Gemini enrichment](src/gemini_enrichment.py) for cloud inference or [Ollama enrichment](src/enrichment.py) for local inference; both are optional and separate from ingestion.
+- API keys belong in a local `.env` copied from `.env.example`; databases, comments and human-review CSVs remain outside Git.
 - Review the [DuckDB Bronze checkpoint](docs/bronze_checkpoint.md) and its reproducible ingestion checks.
 - Run and review the [CSV baseline checkpoint](docs/baseline_checkpoint.md), including applicant-approved decisions and aggregate validation results.
 - Explore [the investigation notebook](scripts/investigation.ipynb).
@@ -77,4 +80,4 @@ Good luck and have fun!
 
 Local investigation notebook
 ----------------------------
-See [NOTEBOOK_SETUP.md](NOTEBOOK_SETUP.md) for dependency installation, interactive execution, and the clean-environment verification command. The investigation notebook is exploratory; ingestion, validation, AI enrichment and business analysis remain separate assignment work.
+See [NOTEBOOK_SETUP.md](NOTEBOOK_SETUP.md) for dependency installation, interactive execution, and the clean-environment verification command. The investigation notebook is exploratory; executable ingestion, validation and enrichment are separate modules. Business reporting and recommendations remain outstanding.

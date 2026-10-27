@@ -1,0 +1,11 @@
+# Provider selected by the applicant after the local timing benchmark.
+model: gemini-3.5-flash-lite
+prompt_version: feedback-enrichment-v2
+thinking_level: MINIMAL
+max_output_tokens: 600
+workers: 4
+max_attempts: 2
+# Standard USD prices checked against Google pricing on 27 October 2026.
+input_usd_per_million: 0.30
+output_usd_per_million: 2.50
+budget_usd: 5.00

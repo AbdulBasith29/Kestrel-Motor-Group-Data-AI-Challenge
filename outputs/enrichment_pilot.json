@@ -1,0 +1,19 @@
+{
+  "status": "pilot_complete",
+  "model": "qwen3:4b",
+  "model_digest": "359d7dd4bcdab3d86b87d73ac27966f4dbb9f5efdfcc75d34a8764a09474fae7",
+  "ollama_version": "0.40.11",
+  "prompt_version": "feedback-enrichment-v1",
+  "eligible_comments": 5361,
+  "selected_comments": 20,
+  "cache_hits": 0,
+  "successful": 20,
+  "errors": 0,
+  "residual_name_flags": 1,
+  "needs_review": 1,
+  "elapsed_seconds": 145.41,
+  "median_uncached_seconds": 6.94,
+  "human_evaluation": "pending",
+  "ratings_modified": false,
+  "sampling": "deterministic rating-band/dealer spread; not population representative"
+}

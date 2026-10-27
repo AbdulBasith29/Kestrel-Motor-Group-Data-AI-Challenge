@@ -1,0 +1,13 @@
+{
+  "status": "awaiting_human_labels",
+  "sample_rows": 20,
+  "completed_human_labels": 0,
+  "human_label_completion": 0.0,
+  "sentiment_accuracy": null,
+  "theme_micro_precision": null,
+  "theme_micro_recall": null,
+  "theme_micro_f1": null,
+  "theme_exact_match": null,
+  "residual_name_false_negatives": null,
+  "note": "Pilot is deliberately stratified; these metrics do not estimate population accuracy."
+}

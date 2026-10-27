@@ -1,0 +1,20 @@
+# Proposed taxonomy for the assignment's negative-feedback driver analysis.
+# Human review can revise it before a full enrichment run.
+model: qwen3:4b
+prompt_version: feedback-enrichment-v2
+sample_seed: kestrel-pilot-v1
+sample_size: 20
+context_tokens: 4096
+max_output_tokens: 600
+max_comment_characters: 6000
+max_attempts: 2
+themes:
+  - communication_follow_up
+  - waiting_time_scheduling
+  - workmanship_repair_quality
+  - staff_service
+  - pricing_value
+  - sales_process
+  - parts_availability
+  - vehicle_product
+  - other

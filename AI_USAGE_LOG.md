@@ -198,3 +198,63 @@ The applicant clarified that they wrote the initial Silver implementation; Claud
 Applicant work: initial Silver implementation, manual source investigation, mapping/business-rule decisions and review of milestone outputs.
 
 Codex work after that implementation: code review and refactoring; exact six-row Shepparton correction configuration; sales subtype and stable source-row IDs; transactional Silver writes and per-row decisions; seven synthetic transformation tests; baseline and repeat-load verification; viewer snapshot and review queries. The tests caught a vague-date plus missing-rating comment being classified as a note, which Codex corrected. The retained 7,089 analysis responses agree with the CSV baseline; one additional excluded Southport test entry is retained for audit. The applicant authorised committing and pushing this Silver checkpoint after correcting the ownership attribution.
+
+
+## Local Qwen3 enrichment — pilot, not a completed human evaluation
+
+Applicant selected local Ollama over Gemini API costs, requested separate AI fields and role-aware masking, and authorised starting enrichment. Codex proposed the theme taxonomy and generated src/enrichment.py, config/enrichment.yml, the blind-label evaluator, review queries and tests. The applicant's initial Silver authorship is unchanged.
+
+A synthetic complaint returned negative sentiment locally. The real pilot then processed 20 deterministically masked Silver comments on loopback using qwen3:4b (digest 359d7dd4bcdab3d86b87d73ac27966f4dbb9f5efdfcc75d34a8764a09474fae7), Ollama 0.40.11, prompt feedback-enrichment-v1 and thinking disabled. All 20 responses passed the structured contract, one remaining-name flag requires human review, and classification accuracy is still unknown. The initial pilot took 145.41 seconds; a cached rerun used no inference calls and left the source feedback unchanged. Twenty-one synthetic contract/evaluation tests passed. Tests caught CSV boolean inference breaking human-label parsing; Codex corrected it to explicit strings. A model name flag is not proof of a privacy miss, and model-clear is not certification.
+
+Codex left the human label fields blank for independent applicant review; no AI-authored labels are represented as human evaluation. The proposed taxonomy, per-theme polarities, residual-name proposal, wider evaluation and full dataset run are pending. The local model saw only deterministically masked comments, which may still contain missed identifiers; no external API was called. Review text and databases remain local and ignored by Git. No enrichment commit or push is authorised yet.
+
+
+## Gemini provider switch — applicant-authorised external masked inference
+
+The applicant selected Gemini after discussing cost/time and authorised its pilot and full run. Codex created a Git-ignored .env setup, a Gemini REST runner with structured output validation, isolated cache/result tables, model/version/prompt metadata, bounded concurrency and a cumulative US$5 application ledger cap. The API key was supplied locally by the applicant; it was not printed in the session. A synthetic connection test succeeded, then 19 masked comments completed in 7.89 seconds at a reported US$0.006232. One locally flagged name case was excluded from external processing.
+
+The full run was started for 5,360 accepted masked comments, holding back that known name flag. Only 19 had additional local-name-clear results; the rest rely on deterministic source-name/contact masking and pattern checks before transmission. Gemini is asked to flag further names, but if it finds one the external service has already received it. This limitation is explicit; neither AI nor human review has established complete anonymisation. The applicant reported believing their project is billing-enabled; a working API key does not independently verify its billing/data-use status.
+
+Codex added and ran eleven Gemini tests, including a synthetic full-run scheduler/cache test and a budget-before-request check. The initial budget test fixture pointed at a temporary directory without configuration; Codex corrected the test fixture. Successful outputs are checkpointed individually and cached; original Silver feedback and customer ratings are not intentionally modified. The applicant's initial Silver authorship is unchanged. Full-run reconciliation, independent human labels, per-theme polarity checks and final accuracy evaluation remain pending. No enrichment commit or push is authorised yet.
+
+
+## Completed full-run outcome
+
+The full inference run finished in 2,393.89 seconds (about 40 minutes). After retrying only the three initial failures, 5,358 comments have valid structured outputs, two remain explicitly quarantined with null analytical labels, and one known-name case was held back before external transmission. The runner's cumulative accounted cost is US$1.828531, excluding the small synthetic connection test.
+
+Coverage reconciles: 5,361 accepted nonblank comments = 5,358 valid outputs + 2 quarantined AI errors + 1 pre-transmission holdout. Verification passed with explicit quarantined-error status; it did not declare every AI response valid. Source hashes, Silver comments, scores and baseline analysis membership remained unchanged. A compatible snapshot is available at data/gemini_viewer.duckdb.
+
+Gemini flagged 663 processed comments for possible remaining names; these are model flags, not confirmed privacy incidents or proof that all other text is clear. Those comments had already been transmitted in deterministically masked form. This is evidence that the earlier masks did not establish safe universal release. There are 690 results requiring review, including the quarantined cases. Independent sentiment/theme/name evaluation remains pending, so classification accuracy is unknown. These findings and corrective review work must remain in the honest AI usage record. No enrichment changes have been committed or pushed.
+
+
+## Applicant-discovered redaction failure — incorrect model offsets
+
+The applicant manually compared ten Ballarat source comments with proposed_comment and identified eight proposals that changed unrelated text or cut through words while leaving the actual name visible. Two examples were correctly placed. This was a real validation defect: Codex's generated bounds/overlap/tag checks accepted syntactically valid character positions without establishing that the selected text was the intended person name. Passing those tests and the structured-output contract did not establish semantic redaction correctness. The applicant, not the AI agent, found this failure.
+
+Codex invalidated all 663 offset-based Gemini proposals and the one local Ollama proposal in the primary database while preserving source comments, ratings, sentiment and theme labels. Old proposals remain only as restricted audit evidence in the primary database. Some existing viewer snapshots were open and locked and still contain stale proposals; they must not be treated as current review output.
+
+The replacement contract asks the model to copy exact name strings and roles. Python finds case-sensitive whole-word occurrences, protects existing tags, rejects invented/partial/overlapping mentions, and performs replacement without accepting model offsets or rewritten comments. Returned name strings are transient and are not persisted in public logs. The prompt/cache version was changed to v2 so unsafe offset-v1 proposals cannot be reused as new output.
+
+Thirty-six synthetic tests passed across literal-name masking, enrichment contracts, Gemini transport/scheduling and repair. Codex reran the first ten supplied source cases with the new contract and compared them locally against the exact staff-name replacements identified from the applicant's examples: all ten replaced only the expected names and preserved every other character. This is a targeted regression check, not a claim that every remaining name or role is correct. Rebuilding the remaining flagged name proposals does not rerun sentiment/themes and leaves original comments unchanged. All rebuilt proposals still require human review; literal matching prevents offset corruption but cannot prove a word is a person name or its role is correct.
+
+This failure also confirms that some person names had reached Gemini despite deterministic masking. The record must not claim otherwise or call the full dataset anonymised. No corrective changes are committed or pushed without applicant approval.
+
+
+Literal repair completed: 663 flagged records were revisited; 661 have exact-source-match proposals and two have no name identified on the second pass and remain unresolved for human review. Mechanical verification found zero name tags inserted inside words. All ten applicant-supplied examples matched the expected name-only replacements. Source hashes, Silver comments/ratings and baseline analysis membership remained unchanged. Cumulative accounted API cost is US$1.939276. The fresh review snapshot is data/gemini_review_fixed.duckdb, with queries in scripts/review_name_repairs.sql. The old open viewer snapshots remain stale and must be detached.
+
+A final-report aggregation bug in Codex's repair runner surfaced after all request checkpoints had been saved: run() did not return its summary. Codex fixed the return and verified all 663 cached repairs with inference replaced by a failing test stub; zero additional paid requests were needed. Three evaluator regression tests also passed. These checks establish execution and mechanical replacement behavior, not complete/accurate person identification. All proposals are still pending applicant review. No corrective changes are committed or pushed.
+
+
+## Applicant review acceptance — 28 October 2026
+
+The applicant stated that they completed the requested spot-check and were satisfied with the corrected proposals and sample review. Record this as applicant-reported qualitative acceptance, not exhaustive verification of every comment or a numerical accuracy result. At the time of checking, data/gemini_review_sample.csv still had zero completed human-label rows out of 19. The evaluator therefore retains awaiting_human_labels and null accuracy metrics. No human labels were generated or filled by the agent. Two no-name-found repair cases and two failed enrichment records remain explicitly identified; this acceptance does not silently resolve or reclassify them. No new commit or push is authorised by this review acknowledgement alone.
+
+
+## Independent 50-comment evaluation prepared — 28 October 2026
+
+Applicant agreed to hand-label a varied sample and compare it with AI output. Codex prepared data/gemini_review_50.csv with 50 fresh comments spanning 24 dealerships and three departments, excluding earlier pilot/examples, and left every gold-label field blank. The sample deliberately includes two known model failures and four missing-rating cases; it is a diagnostic sample, not a population accuracy estimate. Codex added exact agreement across the three reviewed fields (overall sentiment, theme membership, remaining-name flag), with four evaluator tests passing. Per-theme polarity and literal proposal correctness are not included in that joint score. Applicant labelling is pending; no accuracy has been invented and no new API calls were needed.
+
+
+## Enrichment commit/push authorised — 28 October 2026
+
+The applicant explicitly authorised committing and pushing the enrichment checkpoint. A final read of the 50-comment review CSV found zero completed gold-label rows; the commit therefore records numerical accuracy as unmeasured. It includes the applicant's qualitative acceptance, the redaction failure they found, the exact-name correction and remaining cases. Gold/reporting/orchestration drafts and unrelated earlier notes stay outside this milestone. API keys, databases and comment-bearing review files are excluded.

@@ -1,0 +1,16 @@
+{
+  "verified_at_utc": "2026-10-27T14:19:59.535792+00:00",
+  "status": "passed_with_quarantined_ai_errors",
+  "accepted_nonblank_comments": 5361,
+  "successful_enrichments": 5358,
+  "quarantined_ai_errors": 2,
+  "held_out_comments": 1,
+  "remaining_name_flags": 663,
+  "needs_review": 690,
+  "accounted_usd": 1.939276,
+  "source_hashes_unchanged": true,
+  "silver_scores_and_analysis_membership_match_baseline": true,
+  "silver_comments_equal_bronze_masked_comments": true,
+  "coverage_reconciled": true,
+  "human_evaluation": "pending"
+}

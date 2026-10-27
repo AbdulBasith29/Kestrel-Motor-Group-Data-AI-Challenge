@@ -1,0 +1,21 @@
+{
+  "provider": "gemini",
+  "status": "awaiting_human_labels",
+  "sample_rows": 50,
+  "completed_human_labels": 0,
+  "human_label_completion": 0.0,
+  "all_reviewed_fields_exact_count": null,
+  "all_reviewed_fields_exact_match_rate": null,
+  "reviewed_fields": [
+    "overall_sentiment",
+    "theme_membership",
+    "remaining_name_flag"
+  ],
+  "sentiment_accuracy": null,
+  "theme_micro_precision": null,
+  "theme_micro_recall": null,
+  "theme_micro_f1": null,
+  "theme_exact_match": null,
+  "residual_name_false_negatives": null,
+  "note": "Pilot is deliberately stratified; these metrics do not estimate population accuracy."
+}

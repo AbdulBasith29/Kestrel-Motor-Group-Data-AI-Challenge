@@ -1,0 +1,16 @@
+{
+  "status": "proposals_rebuilt_pending_review",
+  "reviewed_by_human": false,
+  "selected_rows": 663,
+  "cache_hits": 663,
+  "proposal_status_counts": {
+    "no_name_found_pending_review": 2,
+    "literal_match_pending_review": 661
+  },
+  "cumulative_accounted_usd": 1.939276,
+  "sentiment_themes_rerun": false,
+  "original_comments_modified": false,
+  "model_offsets_used": false,
+  "cache_verification_new_inference_calls": 0,
+  "cache_verification_elapsed_seconds": 1.21
+}

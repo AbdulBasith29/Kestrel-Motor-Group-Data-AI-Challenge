@@ -1,0 +1,22 @@
+{
+  "status": "ready_for_independent_human_labels",
+  "sample_rows": 50,
+  "seed": "kestrel-human-holdout-v1",
+  "dealerships": 24,
+  "departments": [
+    "Parts",
+    "Sales",
+    "Service"
+  ],
+  "rating_bands": {
+    "high": 22,
+    "low": 14,
+    "mid": 10,
+    "missing": 4
+  },
+  "previously_seen_sample_rows": 0,
+  "known_failed_model_cases_included": 2,
+  "predictions_hidden": true,
+  "gold_labels_authored_by_ai": false,
+  "sampling": "Deterministic diagnostic spread across dealers, departments and rating bands; includes known failures. Not a population accuracy estimate."
+}
