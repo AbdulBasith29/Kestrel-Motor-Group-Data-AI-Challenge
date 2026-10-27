@@ -1,8 +1,9 @@
 # Kestrel Motor Group — feedback consolidation and AI enrichment
 
-This checkpoint covers source investigation, the CSV baseline, DuckDB Bronze/Silver and optional AI enrichment. Gemini produced 5,358 structured results, with two quarantined errors and one pre-transmission holdout. The applicant found an incorrect name-redaction method; exact-name proposals replace it. Applicant-supplied labels now give 46/49 sentiment agreement (93.9%) on a diagnostic sample; theme metrics use a provisional, documented crosswalk. Reporting and business recommendations are the next milestones.
+This checkpoint covers source investigation, the CSV baseline, DuckDB Bronze/Silver and optional AI enrichment. Gemini produced 5,358 structured results, with two quarantined errors and one pre-transmission holdout. The applicant found an incorrect name-redaction method; exact-name proposals replace it. Applicant-supplied labels now give 46/49 sentiment agreement (93.9%) on a diagnostic sample; theme metrics use a provisional, documented crosswalk. Gold reporting models are implemented locally for review; the final dashboard and business recommendations remain outstanding.
 
 - Start with [notebook setup](NOTEBOOK_SETUP.md).
+- Review the [Gold reporting checkpoint](docs/gold_checkpoint.md) and run [review_gold.sql](scripts/review_gold.sql) against the separate reporting-only database.
 - Review the [Silver checkpoint](docs/silver_checkpoint.md), [Gemini run and masking correction](docs/gemini_checkpoint.md), and [independent 50-comment evaluation guide](docs/human_review_50.md).
 - Use [Gemini enrichment](src/gemini_enrichment.py) for cloud inference or [Ollama enrichment](src/enrichment.py) for local inference; both are optional and separate from ingestion.
 - API keys belong in a local `.env` copied from `.env.example`; databases, comments and human-review CSVs remain outside Git.
@@ -13,6 +14,10 @@ This checkpoint covers source investigation, the CSV baseline, DuckDB Bronze/Sil
 - Read the [AI usage and verification log](AI_USAGE_LOG.md), including a verified failure of the generated preview-masking helper.
 - See [verification evidence](reproducibility/VERIFIED.md): 13 code cells passed in an isolated, relocated environment; input files were unchanged.
 - Notebook outputs are cleared in Git. Obtain the original assignment data separately and retain the `feedback` and `reference` folders locally; these are deliberately excluded from version control.
+
+## Design and ownership
+
+The applicant supplied the implementation guide and architecture, proposed the marts design, authored the original business-answer SQL and initial Silver implementation, inspected the sources, set business rules and supplied the evaluation labels. Codex assisted with implementation, schema adaptations, testing and verification. The applicant also discovered the incorrect AI name-redaction proposals; the correction and remaining limits are recorded in the AI log. Marts and the original business queries are the applicant's work, not AI-originated ideas.
 
 ## AI evaluation against applicant labels
 

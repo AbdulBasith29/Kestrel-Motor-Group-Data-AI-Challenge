@@ -1,0 +1,8 @@
+kestrel:
+  target: local
+  outputs:
+    local:
+      type: duckdb
+      path: "{{ env_var('KESTREL_DB_PATH', '../data/bronze_review.duckdb') }}"
+      schema: main
+      threads: 1

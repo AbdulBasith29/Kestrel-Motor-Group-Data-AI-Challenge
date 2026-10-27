@@ -33,3 +33,6 @@ dbt/logs/
 .env
 .env.*
 !.env.example
+
+# Isolated reporting build environment
+.venv-gold/

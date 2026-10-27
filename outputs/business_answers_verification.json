@@ -1,0 +1,103 @@
+{
+  "status": "passed",
+  "query_results": {
+    "Q1a": {
+      "rows": 3,
+      "columns": [
+        "department",
+        "rated",
+        "negative",
+        "negative_pct"
+      ]
+    },
+    "Q1b": {
+      "rows": 72,
+      "columns": [
+        "dealership_name",
+        "department",
+        "rated_responses",
+        "negative_responses",
+        "negative_pct",
+        "comparison_sample_sufficient",
+        "assumed_dealer_responses"
+      ]
+    },
+    "Q2a": {
+      "rows": 24,
+      "columns": [
+        "dealership_name",
+        "h1_pct",
+        "h2_pct",
+        "change_pts",
+        "n_h1",
+        "n_h2",
+        "comparison_sample_sufficient"
+      ]
+    },
+    "Q2b": {
+      "rows": 12,
+      "columns": [
+        "month",
+        "worsening_four_pct",
+        "rest_of_group_pct",
+        "worsening_four_rated",
+        "rest_of_group_rated"
+      ]
+    },
+    "Q3": {
+      "rows": 8,
+      "columns": [
+        "dealership_name",
+        "h1_pct",
+        "h2_pct",
+        "n_h1",
+        "n_h2",
+        "h2_jobs",
+        "excess_bad_job_proxy_h2",
+        "h2_cohort_12m_revenue_proxy_low_aud",
+        "h2_cohort_12m_revenue_proxy_mid_aud",
+        "h2_cohort_12m_revenue_proxy_high_aud"
+      ]
+    },
+    "Q4": {
+      "rows": 18,
+      "columns": [
+        "rating_band",
+        "ai_status",
+        "ai_sentiment",
+        "responses"
+      ]
+    },
+    "Q1c": {
+      "rows": 15,
+      "columns": [
+        "department",
+        "theme_id",
+        "strictly_negative_mentions",
+        "negative_or_mixed_mentions",
+        "review_flagged_mentions",
+        "all_negative_rated",
+        "ai_enriched_negative_rated",
+        "pct_of_all_dept_negatives",
+        "pct_of_enriched_dept_negatives"
+      ]
+    },
+    "Q2c": {
+      "rows": 9,
+      "columns": [
+        "theme_id",
+        "h1_mentions",
+        "h2_mentions",
+        "h1_enriched_negative_rated",
+        "h2_enriched_negative_rated",
+        "h1_driver_pct",
+        "h2_driver_pct"
+      ]
+    }
+  },
+  "undated_not_assigned_to_half": true,
+  "input_tables_modified": false,
+  "output_directory": "data/business_answers",
+  "financial_outputs": "hypothetical_H2_cohort_sensitivity_not_measured_loss",
+  "AI_theme_outputs": "provisional_multi_label_counts"
+}

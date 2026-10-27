@@ -1,0 +1,129 @@
+version: 2
+models:
+- name: dim_dealer
+  columns:
+  - name: dealer_code
+    data_tests:
+    - unique
+    - not_null
+- name: dim_month
+  columns:
+  - name: month
+    data_tests:
+    - unique
+    - not_null
+- name: dim_department
+  columns:
+  - name: department
+    data_tests:
+    - unique
+    - not_null
+- name: dim_theme
+  columns:
+  - name: theme_id
+    data_tests:
+    - unique
+    - not_null
+- name: fct_feedback
+  columns:
+  - name: response_id
+    data_tests:
+    - unique
+    - not_null
+  - name: dealer_code
+    data_tests:
+    - not_null
+    - relationships:
+        arguments:
+          to: ref('dim_dealer')
+          field: dealer_code
+  - name: department
+    data_tests:
+    - not_null
+    - relationships:
+        arguments:
+          to: ref('dim_department')
+          field: department
+  - name: ai_status
+    data_tests:
+    - accepted_values:
+        arguments:
+          values:
+          - no_comment
+          - not_enriched
+          - stale_result
+          - success
+          - provider_error
+  - name: ai_sentiment
+    data_tests:
+    - accepted_values:
+        arguments:
+          values:
+          - positive
+          - negative
+          - mixed
+          - neutral
+          - unclear
+  - name: ai_human_review_status
+    data_tests:
+    - accepted_values:
+        arguments:
+          values:
+          - pending
+          - approved
+          - rejected
+- name: bridge_feedback_theme
+  columns:
+  - name: response_id
+    data_tests:
+    - not_null
+    - relationships:
+        arguments:
+          to: ref('fct_feedback')
+          field: response_id
+  - name: theme_id
+    data_tests:
+    - not_null
+    - relationships:
+        arguments:
+          to: ref('dim_theme')
+          field: theme_id
+  - name: theme_polarity
+    data_tests:
+    - not_null
+    - accepted_values:
+        arguments:
+          values:
+          - positive
+          - negative
+          - mixed
+          - neutral
+- name: fct_monthly_revenue
+  columns:
+  - name: dealer_code
+    data_tests:
+    - not_null
+    - relationships:
+        arguments:
+          to: ref('dim_dealer')
+          field: dealer_code
+  - name: month
+    data_tests:
+    - not_null
+    - relationships:
+        arguments:
+          to: ref('dim_month')
+          field: month
+  - name: department
+    data_tests:
+    - not_null
+    - relationships:
+        arguments:
+          to: ref('dim_department')
+          field: department
+  - name: volume
+    data_tests:
+    - not_null
+  - name: revenue_aud
+    data_tests:
+    - not_null

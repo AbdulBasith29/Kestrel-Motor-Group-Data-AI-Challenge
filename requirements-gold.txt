@@ -1,0 +1,3 @@
+-r requirements-bronze.txt
+dbt-core==1.12.6
+dbt-duckdb==1.11.1

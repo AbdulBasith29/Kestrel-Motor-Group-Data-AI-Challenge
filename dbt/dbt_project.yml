@@ -1,0 +1,16 @@
+name: kestrel
+version: '1.0'
+profile: kestrel
+model-paths: [models]
+test-paths: [tests]
+flags:
+  send_anonymous_usage_stats: false
+vars:
+  reference_dir: "{{ env_var('KESTREL_REFERENCE_DIR', '../reference') }}"
+  minimum_rated_responses: 30
+  scenario_recovery_fractions: [0.01, 0.025, 0.05]
+models:
+  kestrel:
+    gold:
+      +schema: gold_staging
+      +materialized: table

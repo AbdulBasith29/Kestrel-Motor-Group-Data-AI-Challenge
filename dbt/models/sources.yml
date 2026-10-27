@@ -1,0 +1,11 @@
+version: 2
+sources:
+  - name: silver
+    schema: silver
+    tables:
+      - name: feedback
+      - name: ai_enrichment_gemini
+  - name: ops
+    schema: ops
+    tables:
+      - name: dq_results
