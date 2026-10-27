@@ -26,7 +26,7 @@ The current deliverable is the tested Gold reporting layer and CSV exports; no T
 - **DuckDB** gives me one local file with SQL and no server for an assessor to set up.
 - **YAML source config** (`config/sources.yml`) holds every per-dealer rule in one readable place: sheets, header rows, date formats, rating scales and aliases.
 - **dbt** builds Gold with tests (43 passing), and publishes only if they pass. Revenue joins at its own monthly grain, never through the multi-theme bridge.
-- **Batch CLI:** the working steps run separately: Bronze → Silver → optional enrichment → tested Gold build/export. Prefect integration is still a draft.
+- **Prefect** runs the existing CLI steps in order with local run history and logging: `python flows/pipeline.py`. Only the opt-in Gemini step retries; other failures stop the flow.
 - **Gemini** handled sentiment and themes. I tried a local Ollama model first, but the pilot was too slow for the full run. Comments were preprocessed before transmission, but some residual names reached Gemini. Accounted API cost was approximately US$1.94.
 
 ## Data quality: what I found and what I did
@@ -131,7 +131,7 @@ I built this as a batch run on a laptop. To run it in production I would add:
 
 - **File arrival:** a landing-folder watcher with file hashing, skip-if-loaded, and archive/quarantine with a reason.
 - **Run control:** a run registry with states, retries and a run_id on every row, so loads are incremental instead of full rebuilds.
-- **Orchestration:** Prefect on a schedule with failure alerts. The AI step retries on its own without re-ingesting data.
+- **Orchestration:** the local Prefect batch flow is implemented; production scheduling and failure alerts remain to add. Only the AI step retries.
 - **History:** dbt snapshots (SCD2) for the dealership reference data, and stable response IDs for running workbooks.
 - **Privacy:** named-entity detection on top of the current masking, and a keyed HMAC customer key if repeat-customer analysis is needed. Secrets go in a vault.
 - **AI operations:** pinned model and prompt versions, a fresh labelled sample each quarter, and a drift check on sentiment-vs-rating agreement.
@@ -144,6 +144,10 @@ Tested with Python 3.14 on Windows. Obtain the assignment source data separately
 ```bash
 pip install -r requirements.txt
 # put the supplied feedback/ and reference/ folders in the project root (gitignored)
+# One-command batch run (Gemini off):
+python flows/pipeline.py
+# Paid enrichment opt-in: python flows/pipeline.py --enrich --budget-usd 5
+# Or run individual steps:
 python src/bronze.py --database data/bronze_review.duckdb
 python src/silver.py --database data/bronze_review.duckdb
 # Optional cloud inference: needs GEMINI_API_KEY in local .env and incurs API costs.
@@ -155,3 +159,23 @@ python -m unittest discover -s tests -p test_gold_publication.py
 ```
 
 Assumptions and their impact: [ASSUMPTIONS.md](ASSUMPTIONS.md). How I used AI: [AI_USAGE_LOG.md](AI_USAGE_LOG.md). Source investigation: [`scripts/investigation.ipynb`](scripts/investigation.ipynb).
+
+### Local orchestration limits
+
+Run history is kept locally under ignored `data/prefect/` unless an existing Prefect server configuration overrides it. No cloud setup is required. Each step invokes the same CLI listed above. The Gold CLI owns the dbt test/publication gate. A Silver failure prevents Gold and answers; an exhausted AI retry also stops publication. Gemini has at most three attempts and its dollar ceiling is **per attempt**, so a USD 5 setting can allow up to USD 15 across retries; cached successes are reused. The flow does not log comment text or subprocess output. This is batch orchestration, not the guide's incremental file watcher, hash-skip/archive lifecycle or row-level run registry.
+
+To view local run history in the Prefect UI, start the server from the project root in one terminal:
+
+```powershell
+$env:PREFECT_HOME = Join-Path (Get-Location) 'data/prefect'
+prefect server start --host 127.0.0.1
+```
+
+Open `http://127.0.0.1:4200`. In a second terminal using the same Python environment, run:
+
+```powershell
+$env:PREFECT_API_URL = 'http://127.0.0.1:4200/api'
+python flows/pipeline.py
+```
+
+The temporary server used by a plain CLI run stops when that process exits; the local history remains. Do not launch concurrent flows against the same DuckDB files. Tests: `python -m unittest discover -s tests -p test_prefect_pipeline.py`.

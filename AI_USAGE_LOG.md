@@ -41,6 +41,10 @@ I supplied 49 labels from a 50-comment review set before comparing model predict
 
 The model sometimes interprets mention of the parts team as parts availability without a stock issue. I treat those themes with caution. This is a diagnostic sample, not a population accuracy estimate. Gold passes 43 dbt data tests and excludes customer identifiers, staff identifiers and comment text.
 
+## Local orchestration
+
+I requested Prefect orchestration against my implementation guide. Codex replaced the earlier draft with a thin flow over the existing CLI commands, kept Gemini opt-in, and added stop-on-failure and AI-only retry tests. Six orchestration tests passed, including real Prefect failure/retry tests with stubbed commands. A full real-data run with Gemini disabled passed all 43 dbt tests and eight business queries; source files and the original working database stayed unchanged. The first run exposed a missing Excel-reader dependency in the isolated environment, which was installed before the successful rerun. This does not implement incremental arrival/archive handling or row-level run recovery.
+
 ## What I chose not to build
 
 My guide also covers a file watcher, run-state/retry lifecycle, SCD2 dealer history and Tableau. These are not implemented in the current checkpoint; I prioritised the data pipeline and business answers. Dashboard refresh and the automated end-to-end demonstration remain outstanding.

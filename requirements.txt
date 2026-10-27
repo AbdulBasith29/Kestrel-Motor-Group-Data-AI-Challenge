@@ -3,9 +3,10 @@ pandas==2.3.3
 openpyxl==3.1.5
 duckdb==2.0.0
 PyYAML==6.0.3
-# Tested Gold build dependencies; unfinished Prefect integration is not required.
+# Tested Gold build and local batch orchestration dependencies.
 dbt-core==1.12.6
 dbt-duckdb==1.11.1
+prefect==3.9.0
 # Only needed to open the investigation notebook
 nbformat==5.10.4
 nbclient==0.10.2
