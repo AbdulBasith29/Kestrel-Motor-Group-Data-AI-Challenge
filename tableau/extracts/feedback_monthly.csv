@@ -1,0 +1,865 @@
+dealer_code,dealership_name,state,region,department,month_start,half_year,site_group,responses,rated_responses,negative_responses,commented_responses,enriched_responses,assumed_dealer_responses,volume,revenue_aud
+QLD04,Southport,QLD,SEQ,Parts,2026-01-01,H1 (Oct-Mar),Other 20 dealerships,2,2,0,2,2,0,179,32880.0
+VIC05,Box Hill,VIC,VIC Metro,Service,2026-04-01,H2 (Apr-Sep),Other 20 dealerships,13,13,3,10,10,0,666,275800.0
+VIC07,Ballarat,VIC,VIC Regional,Sales,2026-07-01,H2 (Apr-Sep),Other 20 dealerships,10,10,0,6,6,0,47,2196500.0
+NSW03,Chatswood,NSW,NSW Metro,Sales,2026-03-01,H1 (Oct-Mar),Other 20 dealerships,4,4,0,3,3,0,54,2483900.0
+QLD07,Rockhampton,QLD,QLD Regional,Service,2026-04-01,H2 (Apr-Sep),Other 20 dealerships,17,17,7,13,13,0,562,230660.0
+NSW02,Penrith,NSW,NSW Metro,Service,2025-11-01,H1 (Oct-Mar),Other 20 dealerships,23,23,5,21,21,0,1052,433330.0
+NSW05,Newcastle,NSW,NSW Regional,Service,2026-04-01,H2 (Apr-Sep),Other 20 dealerships,17,17,9,17,17,17,628,260490.0
+QLD06,Toowoomba,QLD,QLD Regional,Sales,2026-06-01,H2 (Apr-Sep),Other 20 dealerships,3,3,0,3,3,0,47,2231100.0
+NSW03,Chatswood,NSW,NSW Metro,Service,2026-08-01,H2 (Apr-Sep),Other 20 dealerships,23,23,6,21,21,0,714,289980.0
+QLD01,Chermside,QLD,SEQ,Service,2025-12-01,H1 (Oct-Mar),Other 20 dealerships,24,24,7,16,16,0,907,385710.0
+QLD02,Springwood,QLD,SEQ,Service,2026-01-01,H1 (Oct-Mar),Other 20 dealerships,16,16,6,15,15,0,582,242290.0
+QLD03,Ipswich,QLD,SEQ,Service,2026-05-01,H2 (Apr-Sep),Other 20 dealerships,21,21,8,16,16,0,653,273470.0
+NSW04,Liverpool,NSW,NSW Metro,Service,2025-10-01,H1 (Oct-Mar),Worsening four,15,15,4,10,10,0,592,245960.0
+QLD08,Townsville,QLD,QLD Regional,Service,2026-07-01,H2 (Apr-Sep),Other 20 dealerships,23,23,5,18,18,0,1046,441720.0
+VIC09,Shepparton,VIC,VIC Regional,Service,2025-11-01,H1 (Oct-Mar),Other 20 dealerships,4,4,2,4,4,0,336,141190.0
+NSW01,Parramatta,NSW,NSW Metro,Sales,2026-03-01,H1 (Oct-Mar),Worsening four,11,11,1,7,7,0,101,4676900.0
+NSW05,Newcastle,NSW,NSW Regional,Sales,2026-05-01,H2 (Apr-Sep),Other 20 dealerships,4,4,0,2,2,4,55,2425800.0
+QLD03,Ipswich,QLD,SEQ,Parts,2025-12-01,H1 (Oct-Mar),Other 20 dealerships,3,3,0,2,2,0,190,34890.0
+QLD02,Springwood,QLD,SEQ,Sales,2026-03-01,H1 (Oct-Mar),Other 20 dealerships,4,4,0,3,3,0,54,2587100.0
+QLD01,Chermside,QLD,SEQ,Service,2026-02-01,H1 (Oct-Mar),Other 20 dealerships,22,22,8,19,19,0,1111,457820.0
+NSW05,Newcastle,NSW,NSW Regional,Service,2025-11-01,H1 (Oct-Mar),Other 20 dealerships,15,15,1,7,7,15,665,271400.0
+QLD03,Ipswich,QLD,SEQ,Sales,2026-01-01,H1 (Oct-Mar),Other 20 dealerships,2,2,1,2,2,0,42,2009000.0
+QLD01,Chermside,QLD,SEQ,Sales,2026-07-01,H2 (Apr-Sep),Other 20 dealerships,7,7,1,6,6,0,86,3924600.0
+NSW01,Parramatta,NSW,NSW Metro,Service,2026-05-01,H2 (Apr-Sep),Worsening four,27,27,11,19,19,0,1092,451280.0
+NSW03,Chatswood,NSW,NSW Metro,Sales,2025-11-01,H1 (Oct-Mar),Other 20 dealerships,5,5,1,5,5,0,52,2464100.0
+QLD01,Chermside,QLD,SEQ,Sales,2026-01-01,H1 (Oct-Mar),Other 20 dealerships,7,7,0,5,5,0,75,3413700.0
+VIC07,Ballarat,VIC,VIC Regional,Sales,2026-03-01,H1 (Oct-Mar),Other 20 dealerships,6,6,0,3,3,0,63,3010400.0
+QLD07,Rockhampton,QLD,QLD Regional,Parts,2026-06-01,H2 (Apr-Sep),Other 20 dealerships,4,4,1,4,4,0,193,35670.0
+VIC04,Frankston,VIC,VIC Metro,Parts,2026-02-01,H1 (Oct-Mar),Other 20 dealerships,2,2,1,1,1,0,226,42290.0
+VIC01,Dandenong,VIC,VIC Metro,Sales,2025-10-01,H1 (Oct-Mar),Worsening four,13,13,1,9,9,0,94,4324300.0
+NSW01,Parramatta,NSW,NSW Metro,Parts,2025-12-01,H1 (Oct-Mar),Worsening four,1,1,0,1,1,0,254,47100.0
+NSW01,Parramatta,NSW,NSW Metro,Sales,2026-06-01,H2 (Apr-Sep),Worsening four,14,14,2,9,9,0,143,6667500.0
+VIC01,Dandenong,VIC,VIC Metro,Parts,2026-06-01,H2 (Apr-Sep),Worsening four,4,4,1,3,3,0,345,64980.0
+VIC05,Box Hill,VIC,VIC Metro,Parts,2026-02-01,H1 (Oct-Mar),Other 20 dealerships,3,3,0,3,3,0,201,37010.0
+NSW05,Newcastle,NSW,NSW Regional,Service,2026-07-01,H2 (Apr-Sep),Other 20 dealerships,15,15,4,7,7,15,655,275860.0
+VIC09,Shepparton,VIC,VIC Regional,Parts,2026-01-01,H1 (Oct-Mar),Other 20 dealerships,1,1,0,1,1,0,104,18440.0
+QLD05,Noosa,QLD,SEQ,Parts,2026-03-01,H1 (Oct-Mar),Other 20 dealerships,1,1,0,1,1,0,110,20270.0
+NSW07,Tamworth,NSW,NSW Regional,Parts,2025-12-01,H1 (Oct-Mar),Other 20 dealerships,1,1,1,1,1,0,92,17040.0
+VIC07,Ballarat,VIC,VIC Regional,Sales,2026-05-01,H2 (Apr-Sep),Other 20 dealerships,2,2,0,1,1,0,59,2764900.0
+NSW03,Chatswood,NSW,NSW Metro,Parts,2026-06-01,H2 (Apr-Sep),Other 20 dealerships,3,3,0,3,3,0,213,41020.0
+NSW07,Tamworth,NSW,NSW Regional,Parts,2026-03-01,H1 (Oct-Mar),Other 20 dealerships,1,1,0,1,1,0,115,20980.0
+QLD03,Ipswich,QLD,SEQ,Parts,2025-11-01,H1 (Oct-Mar),Other 20 dealerships,2,2,0,0,0,0,195,33950.0
+VIC09,Shepparton,VIC,VIC Regional,Parts,2026-02-01,H1 (Oct-Mar),Other 20 dealerships,1,1,0,0,0,0,122,22610.0
+VIC08,Bendigo,VIC,VIC Regional,Sales,2026-09-01,H2 (Apr-Sep),Worsening four,2,2,0,0,0,0,32,1505200.0
+NSW05,Newcastle,NSW,NSW Regional,Service,2026-08-01,H2 (Apr-Sep),Other 20 dealerships,13,13,2,12,12,13,666,273350.0
+NSW01,Parramatta,NSW,NSW Metro,Service,2026-01-01,H1 (Oct-Mar),Worsening four,30,30,10,26,26,0,890,366600.0
+QLD04,Southport,QLD,SEQ,Service,2026-09-01,H2 (Apr-Sep),Other 20 dealerships,24,24,7,19,19,0,652,271970.0
+QLD06,Toowoomba,QLD,QLD Regional,Parts,2026-01-01,H1 (Oct-Mar),Other 20 dealerships,1,1,0,1,1,0,275,50180.0
+VIC05,Box Hill,VIC,VIC Metro,Service,2026-05-01,H2 (Apr-Sep),Other 20 dealerships,12,12,3,9,9,0,643,256910.0
+QLD01,Chermside,QLD,SEQ,Service,2026-05-01,H2 (Apr-Sep),Other 20 dealerships,27,27,5,21,20,0,1119,468180.0
+QLD04,Southport,QLD,SEQ,Service,2026-04-01,H2 (Apr-Sep),Other 20 dealerships,11,11,3,7,7,0,639,275830.0
+VIC08,Bendigo,VIC,VIC Regional,Service,2025-12-01,H1 (Oct-Mar),Worsening four,8,8,0,3,3,0,307,123490.0
+VIC06,Geelong,VIC,VIC Regional,Service,2026-02-01,H1 (Oct-Mar),Other 20 dealerships,24,24,8,18,18,0,676,280710.0
+VIC02,Ringwood,VIC,VIC Metro,Parts,2026-06-01,H2 (Apr-Sep),Other 20 dealerships,3,3,0,2,2,0,332,58790.0
+QLD03,Ipswich,QLD,SEQ,Service,2025-10-01,H1 (Oct-Mar),Other 20 dealerships,14,14,2,8,8,0,612,254820.0
+VIC02,Ringwood,VIC,VIC Metro,Service,2026-07-01,H2 (Apr-Sep),Other 20 dealerships,26,26,5,21,21,0,1068,447470.0
+VIC01,Dandenong,VIC,VIC Metro,Service,2026-01-01,H1 (Oct-Mar),Worsening four,27,27,3,17,17,0,916,381110.0
+QLD02,Springwood,QLD,SEQ,Service,2026-07-01,H2 (Apr-Sep),Other 20 dealerships,15,15,5,13,13,0,676,286790.0
+QLD07,Rockhampton,QLD,QLD Regional,Parts,2026-09-01,H2 (Apr-Sep),Other 20 dealerships,3,3,1,3,3,0,188,34400.0
+VIC01,Dandenong,VIC,VIC Metro,Parts,2026-02-01,H1 (Oct-Mar),Worsening four,5,5,0,4,4,0,342,64990.0
+QLD08,Townsville,QLD,QLD Regional,Sales,2026-01-01,H1 (Oct-Mar),Other 20 dealerships,1,1,0,1,1,0,27,1310700.0
+VIC01,Dandenong,VIC,VIC Metro,Service,2025-11-01,H1 (Oct-Mar),Worsening four,29,29,8,23,23,0,1012,432770.0
+QLD04,Southport,QLD,SEQ,Service,2026-07-01,H2 (Apr-Sep),Other 20 dealerships,12,12,4,5,5,0,657,272710.0
+QLD01,Chermside,QLD,SEQ,Parts,2026-03-01,H1 (Oct-Mar),Other 20 dealerships,3,3,0,2,2,0,301,56440.0
+QLD05,Noosa,QLD,SEQ,Sales,2025-10-01,H1 (Oct-Mar),Other 20 dealerships,3,3,0,3,3,0,28,1250400.0
+QLD01,Chermside,QLD,SEQ,Sales,2025-11-01,H1 (Oct-Mar),Other 20 dealerships,9,9,1,6,6,0,94,4235500.0
+NSW03,Chatswood,NSW,NSW Metro,Service,2026-09-01,H2 (Apr-Sep),Other 20 dealerships,14,14,5,13,13,0,639,264970.0
+VIC03,Essendon,VIC,VIC Metro,Service,2025-11-01,H1 (Oct-Mar),Other 20 dealerships,16,16,7,14,14,0,580,240560.0
+QLD03,Ipswich,QLD,SEQ,Service,2026-09-01,H2 (Apr-Sep),Other 20 dealerships,11,11,6,10,10,0,708,294840.0
+NSW06,Wollongong,NSW,NSW Regional,Service,2025-11-01,H1 (Oct-Mar),Other 20 dealerships,14,14,1,7,7,0,664,285310.0
+QLD05,Noosa,QLD,SEQ,Service,2026-01-01,H1 (Oct-Mar),Other 20 dealerships,4,4,1,4,4,0,291,121960.0
+NSW02,Penrith,NSW,NSW Metro,Sales,2025-12-01,H1 (Oct-Mar),Other 20 dealerships,15,15,1,12,12,0,97,4491800.0
+QLD08,Townsville,QLD,QLD Regional,Service,2026-06-01,H2 (Apr-Sep),Other 20 dealerships,22,22,5,18,18,0,1096,461430.0
+VIC04,Frankston,VIC,VIC Metro,Parts,2025-10-01,H1 (Oct-Mar),Other 20 dealerships,1,1,0,1,1,0,194,35050.0
+NSW04,Liverpool,NSW,NSW Metro,Sales,2026-08-01,H2 (Apr-Sep),Worsening four,6,6,2,5,5,0,52,2492800.0
+VIC05,Box Hill,VIC,VIC Metro,Sales,2026-09-01,H2 (Apr-Sep),Other 20 dealerships,7,7,3,7,7,0,59,2689500.0
+VIC03,Essendon,VIC,VIC Metro,Parts,2026-04-01,H2 (Apr-Sep),Other 20 dealerships,4,4,1,4,4,0,196,36770.0
+QLD06,Toowoomba,QLD,QLD Regional,Service,2026-03-01,H1 (Oct-Mar),Other 20 dealerships,28,28,8,19,19,0,1090,454910.0
+QLD04,Southport,QLD,SEQ,Service,2026-05-01,H2 (Apr-Sep),Other 20 dealerships,13,13,4,9,9,0,648,265450.0
+NSW06,Wollongong,NSW,NSW Regional,Sales,2026-03-01,H1 (Oct-Mar),Other 20 dealerships,7,7,1,6,6,0,63,2812100.0
+VIC03,Essendon,VIC,VIC Metro,Sales,2026-07-01,H2 (Apr-Sep),Other 20 dealerships,11,11,2,8,8,0,54,2550700.0
+NSW04,Liverpool,NSW,NSW Metro,Service,2025-12-01,H1 (Oct-Mar),Worsening four,18,18,4,14,14,0,532,221390.0
+NSW03,Chatswood,NSW,NSW Metro,Sales,2026-05-01,H2 (Apr-Sep),Other 20 dealerships,8,8,0,6,6,0,54,2498900.0
+NSW06,Wollongong,NSW,NSW Regional,Parts,2026-08-01,H2 (Apr-Sep),Other 20 dealerships,4,4,2,4,4,0,209,39400.0
+VIC07,Ballarat,VIC,VIC Regional,Service,2025-10-01,H1 (Oct-Mar),Other 20 dealerships,17,17,6,13,13,0,612,248380.0
+NSW07,Tamworth,NSW,NSW Regional,Service,2026-08-01,H2 (Apr-Sep),Other 20 dealerships,8,7,0,6,6,0,347,146350.0
+VIC07,Ballarat,VIC,VIC Regional,Service,2025-11-01,H1 (Oct-Mar),Other 20 dealerships,16,16,5,11,11,0,634,262410.0
+VIC03,Essendon,VIC,VIC Metro,Sales,2026-02-01,H1 (Oct-Mar),Other 20 dealerships,3,3,0,2,2,0,53,2447400.0
+QLD03,Ipswich,QLD,SEQ,Sales,2026-04-01,H2 (Apr-Sep),Other 20 dealerships,4,4,0,3,3,0,57,2693500.0
+NSW05,Newcastle,NSW,NSW Regional,Sales,2025-12-01,H1 (Oct-Mar),Other 20 dealerships,4,4,1,4,4,4,56,2608600.0
+NSW06,Wollongong,NSW,NSW Regional,Sales,2025-10-01,H1 (Oct-Mar),Other 20 dealerships,6,6,0,2,2,0,50,2369600.0
+QLD04,Southport,QLD,SEQ,Parts,2026-02-01,H1 (Oct-Mar),Other 20 dealerships,1,1,0,1,1,0,185,33930.0
+NSW04,Liverpool,NSW,NSW Metro,Parts,2026-09-01,H2 (Apr-Sep),Worsening four,3,3,0,1,1,0,212,38990.0
+VIC01,Dandenong,VIC,VIC Metro,Parts,2026-03-01,H1 (Oct-Mar),Worsening four,5,5,1,2,2,0,382,67370.0
+VIC04,Frankston,VIC,VIC Metro,Parts,2026-08-01,H2 (Apr-Sep),Other 20 dealerships,4,4,0,2,2,0,206,39380.0
+VIC07,Ballarat,VIC,VIC Regional,Sales,2026-02-01,H1 (Oct-Mar),Other 20 dealerships,3,3,1,2,2,0,51,2326100.0
+VIC08,Bendigo,VIC,VIC Regional,Parts,2026-05-01,H2 (Apr-Sep),Worsening four,1,1,1,1,1,0,112,20220.0
+QLD05,Noosa,QLD,SEQ,Parts,2025-11-01,H1 (Oct-Mar),Other 20 dealerships,1,1,0,1,1,0,124,21510.0
+QLD05,Noosa,QLD,SEQ,Service,2026-08-01,H2 (Apr-Sep),Other 20 dealerships,1,1,0,1,1,0,374,155400.0
+VIC08,Bendigo,VIC,VIC Regional,Parts,2026-04-01,H2 (Apr-Sep),Worsening four,1,1,0,1,1,0,112,20680.0
+QLD03,Ipswich,QLD,SEQ,Parts,2026-07-01,H2 (Apr-Sep),Other 20 dealerships,2,2,0,0,0,0,212,40660.0
+NSW02,Penrith,NSW,NSW Metro,Parts,2025-12-01,H1 (Oct-Mar),Other 20 dealerships,4,4,2,4,4,0,311,56970.0
+VIC03,Essendon,VIC,VIC Metro,Service,2025-10-01,H1 (Oct-Mar),Other 20 dealerships,16,16,6,12,12,0,632,257890.0
+VIC04,Frankston,VIC,VIC Metro,Sales,2025-10-01,H1 (Oct-Mar),Other 20 dealerships,10,10,0,8,8,0,57,2521700.0
+VIC07,Ballarat,VIC,VIC Regional,Parts,2026-02-01,H1 (Oct-Mar),Other 20 dealerships,5,5,1,3,3,0,193,34510.0
+NSW06,Wollongong,NSW,NSW Regional,Service,2026-02-01,H1 (Oct-Mar),Other 20 dealerships,19,19,5,17,17,0,647,269720.0
+VIC03,Essendon,VIC,VIC Metro,Service,2026-01-01,H1 (Oct-Mar),Other 20 dealerships,22,22,6,19,19,0,588,246100.0
+QLD07,Rockhampton,QLD,QLD Regional,Service,2026-01-01,H1 (Oct-Mar),Other 20 dealerships,14,14,5,10,10,0,539,229990.0
+NSW03,Chatswood,NSW,NSW Metro,Service,2026-01-01,H1 (Oct-Mar),Other 20 dealerships,12,12,5,10,10,0,581,237960.0
+QLD04,Southport,QLD,SEQ,Service,2026-03-01,H1 (Oct-Mar),Other 20 dealerships,10,10,1,7,7,0,601,258680.0
+QLD01,Chermside,QLD,SEQ,Service,2026-09-01,H2 (Apr-Sep),Other 20 dealerships,32,32,8,23,23,0,1222,508860.0
+VIC01,Dandenong,VIC,VIC Metro,Sales,2026-03-01,H1 (Oct-Mar),Worsening four,7,7,0,5,5,0,106,4943300.0
+VIC01,Dandenong,VIC,VIC Metro,Service,2026-05-01,H2 (Apr-Sep),Worsening four,25,25,11,21,21,0,1124,452660.0
+VIC05,Box Hill,VIC,VIC Metro,Parts,2026-09-01,H2 (Apr-Sep),Other 20 dealerships,2,2,0,2,2,0,220,43050.0
+QLD07,Rockhampton,QLD,QLD Regional,Service,2026-08-01,H2 (Apr-Sep),Other 20 dealerships,15,15,5,13,13,0,581,237070.0
+QLD04,Southport,QLD,SEQ,Service,2025-12-01,H1 (Oct-Mar),Other 20 dealerships,11,11,4,9,9,0,539,229950.0
+VIC08,Bendigo,VIC,VIC Regional,Service,2026-06-01,H2 (Apr-Sep),Worsening four,14,14,4,11,11,0,366,148520.0
+QLD05,Noosa,QLD,SEQ,Sales,2025-11-01,H1 (Oct-Mar),Other 20 dealerships,1,1,0,1,1,0,25,1193100.0
+NSW07,Tamworth,NSW,NSW Regional,Sales,2026-06-01,H2 (Apr-Sep),Other 20 dealerships,6,5,1,3,3,0,41,1857700.0
+VIC03,Essendon,VIC,VIC Metro,Parts,2026-07-01,H2 (Apr-Sep),Other 20 dealerships,4,4,2,3,3,0,212,39770.0
+VIC02,Ringwood,VIC,VIC Metro,Sales,2026-06-01,H2 (Apr-Sep),Other 20 dealerships,12,12,1,7,7,0,147,6811100.0
+NSW05,Newcastle,NSW,NSW Regional,Service,2026-06-01,H2 (Apr-Sep),Other 20 dealerships,18,18,8,14,14,18,679,280810.0
+QLD04,Southport,QLD,SEQ,Sales,2026-02-01,H1 (Oct-Mar),Other 20 dealerships,8,8,1,6,6,0,48,2358500.0
+QLD02,Springwood,QLD,SEQ,Service,2025-11-01,H1 (Oct-Mar),Other 20 dealerships,16,16,2,11,11,0,606,256080.0
+QLD01,Chermside,QLD,SEQ,Sales,2026-03-01,H1 (Oct-Mar),Other 20 dealerships,12,12,0,9,9,0,104,4664000.0
+QLD08,Townsville,QLD,QLD Regional,Parts,2026-01-01,H1 (Oct-Mar),Other 20 dealerships,5,5,1,2,2,0,290,54490.0
+QLD06,Toowoomba,QLD,QLD Regional,Service,2026-09-01,H2 (Apr-Sep),Other 20 dealerships,27,27,5,22,22,0,1018,415230.0
+NSW06,Wollongong,NSW,NSW Regional,Parts,2026-03-01,H1 (Oct-Mar),Other 20 dealerships,1,1,1,1,1,0,208,39670.0
+NSW07,Tamworth,NSW,NSW Regional,Sales,2026-07-01,H2 (Apr-Sep),Other 20 dealerships,5,5,1,3,3,0,24,1101900.0
+NSW05,Newcastle,NSW,NSW Regional,Service,2026-09-01,H2 (Apr-Sep),Other 20 dealerships,20,20,2,15,15,20,678,287920.0
+QLD03,Ipswich,QLD,SEQ,Service,2026-02-01,H1 (Oct-Mar),Other 20 dealerships,21,21,4,14,14,0,660,277050.0
+NSW06,Wollongong,NSW,NSW Regional,Sales,2026-08-01,H2 (Apr-Sep),Other 20 dealerships,4,4,0,2,2,0,50,2311300.0
+VIC04,Frankston,VIC,VIC Metro,Sales,2026-08-01,H2 (Apr-Sep),Other 20 dealerships,7,7,0,2,2,0,63,2893800.0
+VIC03,Essendon,VIC,VIC Metro,Parts,2026-02-01,H1 (Oct-Mar),Other 20 dealerships,4,4,1,3,3,0,196,36170.0
+NSW04,Liverpool,NSW,NSW Metro,Sales,2026-09-01,H2 (Apr-Sep),Worsening four,5,5,2,5,5,0,58,2828800.0
+VIC03,Essendon,VIC,VIC Metro,Sales,2026-04-01,H2 (Apr-Sep),Other 20 dealerships,3,3,2,2,2,0,54,2492600.0
+NSW03,Chatswood,NSW,NSW Metro,Parts,2026-05-01,H2 (Apr-Sep),Other 20 dealerships,1,1,0,1,1,0,195,34910.0
+VIC01,Dandenong,VIC,VIC Metro,Sales,2026-02-01,H1 (Oct-Mar),Worsening four,7,7,0,4,4,0,82,3752900.0
+VIC08,Bendigo,VIC,VIC Regional,Sales,2026-04-01,H2 (Apr-Sep),Worsening four,1,1,1,1,1,0,26,1179000.0
+QLD05,Noosa,QLD,SEQ,Parts,2025-10-01,H1 (Oct-Mar),Other 20 dealerships,1,1,0,1,1,0,109,20330.0
+QLD03,Ipswich,QLD,SEQ,Sales,2026-07-01,H2 (Apr-Sep),Other 20 dealerships,4,4,0,2,2,0,50,2240800.0
+QLD03,Ipswich,QLD,SEQ,Parts,2026-04-01,H2 (Apr-Sep),Other 20 dealerships,1,1,1,1,1,0,211,39320.0
+VIC08,Bendigo,VIC,VIC Regional,Sales,2026-05-01,H2 (Apr-Sep),Worsening four,2,2,0,1,1,0,28,1289000.0
+NSW07,Tamworth,NSW,NSW Regional,Sales,2026-02-01,H1 (Oct-Mar),Other 20 dealerships,2,2,1,1,1,0,28,1259200.0
+QLD01,Chermside,QLD,SEQ,Parts,2025-11-01,H1 (Oct-Mar),Other 20 dealerships,3,3,2,3,3,0,303,55270.0
+QLD07,Rockhampton,QLD,QLD Regional,Sales,2026-09-01,H2 (Apr-Sep),Other 20 dealerships,1,1,0,0,0,0,18,841100.0
+QLD06,Toowoomba,QLD,QLD Regional,Sales,2026-01-01,H1 (Oct-Mar),Other 20 dealerships,1,1,0,0,0,0,27,1220200.0
+NSW06,Wollongong,NSW,NSW Regional,Parts,2025-10-01,H1 (Oct-Mar),Other 20 dealerships,1,1,0,0,0,0,209,39180.0
+NSW07,Tamworth,NSW,NSW Regional,Service,2026-05-01,H2 (Apr-Sep),Other 20 dealerships,10,9,2,6,6,0,329,140080.0
+VIC08,Bendigo,VIC,VIC Regional,Service,2026-08-01,H2 (Apr-Sep),Worsening four,6,6,4,5,5,0,338,138900.0
+VIC02,Ringwood,VIC,VIC Metro,Sales,2026-08-01,H2 (Apr-Sep),Other 20 dealerships,7,7,0,4,4,0,99,4666500.0
+NSW06,Wollongong,NSW,NSW Regional,Service,2025-12-01,H1 (Oct-Mar),Other 20 dealerships,18,18,1,12,12,0,551,235390.0
+VIC02,Ringwood,VIC,VIC Metro,Service,2026-04-01,H2 (Apr-Sep),Other 20 dealerships,28,28,9,22,22,0,990,394880.0
+NSW05,Newcastle,NSW,NSW Regional,Parts,2026-02-01,H1 (Oct-Mar),Other 20 dealerships,3,3,0,3,3,3,213,39150.0
+QLD08,Townsville,QLD,QLD Regional,Service,2026-03-01,H1 (Oct-Mar),Other 20 dealerships,30,30,8,22,22,0,1042,429410.0
+QLD07,Rockhampton,QLD,QLD Regional,Service,2025-11-01,H1 (Oct-Mar),Other 20 dealerships,14,14,6,11,11,0,532,214610.0
+QLD02,Springwood,QLD,SEQ,Sales,2026-05-01,H2 (Apr-Sep),Other 20 dealerships,8,8,0,6,6,0,59,2819500.0
+QLD03,Ipswich,QLD,SEQ,Service,2026-08-01,H2 (Apr-Sep),Other 20 dealerships,10,10,4,10,10,0,664,264170.0
+VIC06,Geelong,VIC,VIC Regional,Parts,2026-01-01,H1 (Oct-Mar),Other 20 dealerships,4,4,1,1,1,0,177,32000.0
+QLD02,Springwood,QLD,SEQ,Service,2026-08-01,H2 (Apr-Sep),Other 20 dealerships,18,18,3,14,14,0,648,274460.0
+NSW01,Parramatta,NSW,NSW Metro,Sales,2026-04-01,H2 (Apr-Sep),Worsening four,11,11,0,7,7,0,100,4644000.0
+VIC04,Frankston,VIC,VIC Metro,Service,2025-12-01,H1 (Oct-Mar),Other 20 dealerships,20,20,8,19,19,0,523,219390.0
+NSW06,Wollongong,NSW,NSW Regional,Service,2026-04-01,H2 (Apr-Sep),Other 20 dealerships,15,15,4,12,12,0,581,245740.0
+NSW01,Parramatta,NSW,NSW Metro,Service,2026-07-01,H2 (Apr-Sep),Worsening four,25,25,16,22,22,0,1015,426940.0
+QLD02,Springwood,QLD,SEQ,Service,2026-09-01,H2 (Apr-Sep),Other 20 dealerships,16,16,2,12,12,0,644,280460.0
+VIC06,Geelong,VIC,VIC Regional,Service,2026-05-01,H2 (Apr-Sep),Other 20 dealerships,15,15,3,12,12,0,669,277770.0
+NSW04,Liverpool,NSW,NSW Metro,Sales,2026-03-01,H1 (Oct-Mar),Worsening four,5,5,1,4,4,0,63,2951600.0
+VIC04,Frankston,VIC,VIC Metro,Service,2026-09-01,H2 (Apr-Sep),Other 20 dealerships,11,11,2,9,9,0,664,272200.0
+NSW04,Liverpool,NSW,NSW Metro,Service,2026-07-01,H2 (Apr-Sep),Worsening four,22,22,6,19,19,0,671,278010.0
+QLD07,Rockhampton,QLD,QLD Regional,Service,2026-02-01,H1 (Oct-Mar),Other 20 dealerships,13,13,2,9,9,0,551,238940.0
+NSW05,Newcastle,NSW,NSW Regional,Sales,2026-01-01,H1 (Oct-Mar),Other 20 dealerships,2,2,1,2,2,2,47,2160700.0
+NSW02,Penrith,NSW,NSW Metro,Sales,2026-04-01,H2 (Apr-Sep),Other 20 dealerships,7,7,1,4,4,0,88,4021200.0
+VIC06,Geelong,VIC,VIC Regional,Service,2026-08-01,H2 (Apr-Sep),Other 20 dealerships,15,15,5,10,10,0,704,286900.0
+VIC05,Box Hill,VIC,VIC Metro,Service,2026-06-01,H2 (Apr-Sep),Other 20 dealerships,19,19,4,12,12,0,581,247020.0
+NSW02,Penrith,NSW,NSW Metro,Sales,2026-09-01,H2 (Apr-Sep),Other 20 dealerships,7,7,0,3,3,0,89,4238900.0
+VIC04,Frankston,VIC,VIC Metro,Service,2026-04-01,H2 (Apr-Sep),Other 20 dealerships,17,17,1,11,11,0,659,275160.0
+VIC05,Box Hill,VIC,VIC Metro,Service,2026-03-01,H1 (Oct-Mar),Other 20 dealerships,26,26,8,21,21,0,652,269250.0
+VIC05,Box Hill,VIC,VIC Metro,Parts,2025-10-01,H1 (Oct-Mar),Other 20 dealerships,3,3,2,2,2,0,214,38500.0
+VIC01,Dandenong,VIC,VIC Metro,Sales,2025-12-01,H1 (Oct-Mar),Worsening four,8,8,0,6,6,0,106,5018100.0
+VIC02,Ringwood,VIC,VIC Metro,Parts,2026-03-01,H1 (Oct-Mar),Other 20 dealerships,3,3,0,3,3,0,306,56840.0
+NSW06,Wollongong,NSW,NSW Regional,Service,2026-07-01,H2 (Apr-Sep),Other 20 dealerships,11,11,2,9,9,0,619,259500.0
+VIC05,Box Hill,VIC,VIC Metro,Service,2026-01-01,H1 (Oct-Mar),Other 20 dealerships,11,11,2,9,9,0,560,231170.0
+VIC01,Dandenong,VIC,VIC Metro,Sales,2026-09-01,H2 (Apr-Sep),Worsening four,7,7,1,6,6,0,102,4728800.0
+VIC07,Ballarat,VIC,VIC Regional,Parts,2026-08-01,H2 (Apr-Sep),Other 20 dealerships,4,4,0,3,3,0,204,38450.0
+NSW04,Liverpool,NSW,NSW Metro,Sales,2025-11-01,H1 (Oct-Mar),Worsening four,8,8,0,5,5,0,58,2710600.0
+QLD08,Townsville,QLD,QLD Regional,Sales,2026-02-01,H1 (Oct-Mar),Other 20 dealerships,1,1,0,1,1,0,31,1405200.0
+QLD08,Townsville,QLD,QLD Regional,Parts,2026-09-01,H2 (Apr-Sep),Other 20 dealerships,6,6,0,4,4,0,344,63330.0
+NSW05,Newcastle,NSW,NSW Regional,Parts,2025-10-01,H1 (Oct-Mar),Other 20 dealerships,3,3,1,3,3,3,192,37180.0
+NSW07,Tamworth,NSW,NSW Regional,Sales,2025-10-01,H1 (Oct-Mar),Other 20 dealerships,4,4,0,2,2,0,32,1487100.0
+NSW04,Liverpool,NSW,NSW Metro,Parts,2026-01-01,H1 (Oct-Mar),Worsening four,3,3,0,2,2,0,174,31910.0
+NSW01,Parramatta,NSW,NSW Metro,Parts,2026-02-01,H1 (Oct-Mar),Worsening four,3,3,1,2,2,0,325,60030.0
+QLD04,Southport,QLD,SEQ,Parts,2026-08-01,H2 (Apr-Sep),Other 20 dealerships,1,1,0,1,1,0,218,39290.0
+VIC07,Ballarat,VIC,VIC Regional,Parts,2026-09-01,H2 (Apr-Sep),Other 20 dealerships,2,2,1,2,2,0,223,40870.0
+QLD01,Chermside,QLD,SEQ,Sales,2025-10-01,H1 (Oct-Mar),Other 20 dealerships,3,3,0,2,2,0,93,4359800.0
+QLD08,Townsville,QLD,QLD Regional,Parts,2025-12-01,H1 (Oct-Mar),Other 20 dealerships,3,3,1,1,1,0,252,47980.0
+QLD05,Noosa,QLD,SEQ,Service,2026-02-01,H1 (Oct-Mar),Other 20 dealerships,1,1,0,0,0,0,347,146450.0
+NSW07,Tamworth,NSW,NSW Regional,Parts,2025-11-01,H1 (Oct-Mar),Other 20 dealerships,1,1,0,0,0,0,112,20270.0
+VIC05,Box Hill,VIC,VIC Metro,Sales,2026-08-01,H2 (Apr-Sep),Other 20 dealerships,7,7,0,7,7,0,56,2613400.0
+VIC02,Ringwood,VIC,VIC Metro,Sales,2026-09-01,H2 (Apr-Sep),Other 20 dealerships,13,13,0,10,10,0,114,5340000.0
+VIC03,Essendon,VIC,VIC Metro,Service,2025-12-01,H1 (Oct-Mar),Other 20 dealerships,12,12,3,11,11,0,579,236790.0
+VIC01,Dandenong,VIC,VIC Metro,Service,2026-04-01,H2 (Apr-Sep),Worsening four,28,28,9,21,21,0,1040,415700.0
+VIC07,Ballarat,VIC,VIC Regional,Service,2026-06-01,H2 (Apr-Sep),Other 20 dealerships,18,18,5,17,17,0,641,263360.0
+QLD02,Springwood,QLD,SEQ,Service,2026-04-01,H2 (Apr-Sep),Other 20 dealerships,20,20,5,16,16,0,667,268530.0
+NSW01,Parramatta,NSW,NSW Metro,Service,2025-11-01,H1 (Oct-Mar),Worsening four,20,20,3,18,18,0,1097,460230.0
+VIC04,Frankston,VIC,VIC Metro,Service,2026-06-01,H2 (Apr-Sep),Other 20 dealerships,22,22,6,16,16,0,684,274210.0
+QLD02,Springwood,QLD,SEQ,Service,2026-02-01,H1 (Oct-Mar),Other 20 dealerships,17,17,5,14,14,0,680,274880.0
+VIC06,Geelong,VIC,VIC Regional,Service,2025-10-01,H1 (Oct-Mar),Other 20 dealerships,19,19,9,16,16,0,608,249750.0
+QLD01,Chermside,QLD,SEQ,Parts,2026-04-01,H2 (Apr-Sep),Other 20 dealerships,2,2,0,2,2,0,314,62070.0
+NSW02,Penrith,NSW,NSW Metro,Parts,2026-07-01,H2 (Apr-Sep),Other 20 dealerships,8,8,3,5,5,0,316,58360.0
+NSW02,Penrith,NSW,NSW Metro,Sales,2026-01-01,H1 (Oct-Mar),Other 20 dealerships,7,7,2,5,5,0,78,3550300.0
+VIC05,Box Hill,VIC,VIC Metro,Parts,2026-07-01,H2 (Apr-Sep),Other 20 dealerships,2,2,0,2,2,0,213,40030.0
+QLD01,Chermside,QLD,SEQ,Sales,2026-06-01,H2 (Apr-Sep),Other 20 dealerships,11,11,4,6,6,0,147,6802900.0
+VIC02,Ringwood,VIC,VIC Metro,Parts,2026-05-01,H2 (Apr-Sep),Other 20 dealerships,3,3,0,2,2,0,312,55370.0
+QLD08,Townsville,QLD,QLD Regional,Service,2025-11-01,H1 (Oct-Mar),Other 20 dealerships,29,29,7,20,20,0,1016,427970.0
+NSW04,Liverpool,NSW,NSW Metro,Sales,2026-06-01,H2 (Apr-Sep),Worsening four,12,12,5,10,10,0,77,3541700.0
+NSW03,Chatswood,NSW,NSW Metro,Sales,2025-12-01,H1 (Oct-Mar),Other 20 dealerships,8,8,0,5,5,0,59,2668900.0
+NSW04,Liverpool,NSW,NSW Metro,Service,2026-02-01,H1 (Oct-Mar),Worsening four,20,20,4,16,16,0,621,254770.0
+QLD03,Ipswich,QLD,SEQ,Sales,2026-03-01,H1 (Oct-Mar),Other 20 dealerships,5,5,1,4,4,0,52,2421800.0
+VIC06,Geelong,VIC,VIC Regional,Service,2026-03-01,H1 (Oct-Mar),Other 20 dealerships,16,16,6,12,12,0,677,278060.0
+QLD05,Noosa,QLD,SEQ,Service,2026-04-01,H2 (Apr-Sep),Other 20 dealerships,2,2,0,2,2,0,337,143290.0
+VIC08,Bendigo,VIC,VIC Regional,Service,2026-03-01,H1 (Oct-Mar),Worsening four,7,7,3,6,6,0,345,142880.0
+NSW03,Chatswood,NSW,NSW Metro,Service,2026-04-01,H2 (Apr-Sep),Other 20 dealerships,17,17,6,14,14,0,641,274490.0
+VIC04,Frankston,VIC,VIC Metro,Service,2025-11-01,H1 (Oct-Mar),Other 20 dealerships,13,13,4,8,8,0,640,277970.0
+VIC06,Geelong,VIC,VIC Regional,Parts,2026-04-01,H2 (Apr-Sep),Other 20 dealerships,4,4,0,2,2,0,211,37960.0
+VIC07,Ballarat,VIC,VIC Regional,Parts,2026-01-01,H1 (Oct-Mar),Other 20 dealerships,3,3,2,2,2,0,181,32890.0
+QLD05,Noosa,QLD,SEQ,Service,2025-12-01,H1 (Oct-Mar),Other 20 dealerships,3,3,0,2,2,0,305,131010.0
+VIC02,Ringwood,VIC,VIC Metro,Sales,2025-11-01,H1 (Oct-Mar),Other 20 dealerships,5,5,0,4,4,0,83,3801600.0
+VIC04,Frankston,VIC,VIC Metro,Service,2026-03-01,H1 (Oct-Mar),Other 20 dealerships,12,12,4,10,10,0,702,295320.0
+NSW04,Liverpool,NSW,NSW Metro,Service,2026-05-01,H2 (Apr-Sep),Worsening four,12,12,4,8,8,0,650,263540.0
+QLD04,Southport,QLD,SEQ,Parts,2025-11-01,H1 (Oct-Mar),Other 20 dealerships,3,3,0,2,2,0,194,35590.0
+QLD05,Noosa,QLD,SEQ,Service,2026-05-01,H2 (Apr-Sep),Other 20 dealerships,1,1,0,1,1,0,350,149720.0
+NSW02,Penrith,NSW,NSW Metro,Sales,2026-08-01,H2 (Apr-Sep),Other 20 dealerships,11,11,3,8,8,0,95,4451100.0
+QLD06,Toowoomba,QLD,QLD Regional,Parts,2026-07-01,H2 (Apr-Sep),Other 20 dealerships,4,4,0,2,2,0,349,62960.0
+VIC03,Essendon,VIC,VIC Metro,Parts,2026-03-01,H1 (Oct-Mar),Other 20 dealerships,1,1,0,1,1,0,206,38890.0
+NSW06,Wollongong,NSW,NSW Regional,Parts,2026-06-01,H2 (Apr-Sep),Other 20 dealerships,2,2,0,2,2,0,219,38460.0
+VIC09,Shepparton,VIC,VIC Regional,Parts,2025-10-01,H1 (Oct-Mar),Other 20 dealerships,2,2,0,1,1,0,100,19080.0
+NSW06,Wollongong,NSW,NSW Regional,Sales,2026-09-01,H2 (Apr-Sep),Other 20 dealerships,2,2,0,2,2,0,54,2470900.0
+NSW02,Penrith,NSW,NSW Metro,Sales,2026-02-01,H1 (Oct-Mar),Other 20 dealerships,11,11,1,7,7,0,96,4286700.0
+NSW04,Liverpool,NSW,NSW Metro,Parts,2026-04-01,H2 (Apr-Sep),Worsening four,1,1,0,1,1,0,197,36860.0
+QLD02,Springwood,QLD,SEQ,Parts,2025-10-01,H1 (Oct-Mar),Other 20 dealerships,2,2,0,2,2,0,196,36870.0
+VIC02,Ringwood,VIC,VIC Metro,Parts,2025-10-01,H1 (Oct-Mar),Other 20 dealerships,2,2,0,2,2,0,309,59250.0
+VIC04,Frankston,VIC,VIC Metro,Parts,2026-01-01,H1 (Oct-Mar),Other 20 dealerships,3,3,0,2,2,0,168,30450.0
+NSW03,Chatswood,NSW,NSW Metro,Parts,2026-07-01,H2 (Apr-Sep),Other 20 dealerships,2,2,0,1,1,0,196,35370.0
+NSW02,Penrith,NSW,NSW Metro,Parts,2025-10-01,H1 (Oct-Mar),Other 20 dealerships,2,2,0,0,0,0,325,61380.0
+VIC08,Bendigo,VIC,VIC Regional,Parts,2025-10-01,H1 (Oct-Mar),Worsening four,2,2,1,0,0,0,115,20620.0
+VIC09,Shepparton,VIC,VIC Regional,Sales,2026-03-01,H1 (Oct-Mar),Other 20 dealerships,1,1,0,0,0,0,22,1028800.0
+NSW07,Tamworth,NSW,NSW Regional,Service,2026-01-01,H1 (Oct-Mar),Other 20 dealerships,11,10,0,9,9,0,302,126150.0
+VIC07,Ballarat,VIC,VIC Regional,Service,2026-04-01,H2 (Apr-Sep),Other 20 dealerships,16,16,2,15,15,0,632,269610.0
+VIC05,Box Hill,VIC,VIC Metro,Sales,2026-02-01,H1 (Oct-Mar),Other 20 dealerships,6,6,2,5,5,0,50,2230900.0
+VIC08,Bendigo,VIC,VIC Regional,Service,2026-01-01,H1 (Oct-Mar),Worsening four,9,9,0,6,6,0,293,119720.0
+VIC01,Dandenong,VIC,VIC Metro,Service,2026-08-01,H2 (Apr-Sep),Worsening four,30,30,17,28,28,0,994,409830.0
+NSW03,Chatswood,NSW,NSW Metro,Sales,2026-06-01,H2 (Apr-Sep),Other 20 dealerships,10,10,2,9,9,0,80,3651000.0
+VIC07,Ballarat,VIC,VIC Regional,Parts,2026-03-01,H1 (Oct-Mar),Other 20 dealerships,2,2,0,2,2,0,211,40640.0
+QLD04,Southport,QLD,SEQ,Service,2026-06-01,H2 (Apr-Sep),Other 20 dealerships,15,15,3,11,11,0,643,258410.0
+VIC01,Dandenong,VIC,VIC Metro,Sales,2026-06-01,H2 (Apr-Sep),Worsening four,16,16,0,12,12,0,122,5530800.0
+QLD02,Springwood,QLD,SEQ,Service,2026-06-01,H2 (Apr-Sep),Other 20 dealerships,17,17,6,9,9,0,665,278120.0
+VIC03,Essendon,VIC,VIC Metro,Service,2026-08-01,H2 (Apr-Sep),Other 20 dealerships,16,16,4,12,12,0,648,273960.0
+QLD06,Toowoomba,QLD,QLD Regional,Service,2026-05-01,H2 (Apr-Sep),Other 20 dealerships,28,28,11,22,22,0,1003,421430.0
+QLD03,Ipswich,QLD,SEQ,Sales,2025-12-01,H1 (Oct-Mar),Other 20 dealerships,8,8,1,7,7,0,56,2598400.0
+VIC01,Dandenong,VIC,VIC Metro,Parts,2025-10-01,H1 (Oct-Mar),Worsening four,1,1,1,1,1,0,315,59410.0
+QLD04,Southport,QLD,SEQ,Sales,2026-01-01,H1 (Oct-Mar),Other 20 dealerships,7,7,1,5,5,0,42,1880600.0
+NSW02,Penrith,NSW,NSW Metro,Service,2026-05-01,H2 (Apr-Sep),Other 20 dealerships,25,25,9,19,19,0,1128,467100.0
+QLD08,Townsville,QLD,QLD Regional,Service,2025-10-01,H1 (Oct-Mar),Other 20 dealerships,20,20,2,14,14,0,1035,438930.0
+QLD02,Springwood,QLD,SEQ,Service,2025-12-01,H1 (Oct-Mar),Other 20 dealerships,8,8,2,5,5,0,551,234160.0
+QLD04,Southport,QLD,SEQ,Service,2025-10-01,H1 (Oct-Mar),Other 20 dealerships,14,14,2,10,10,0,639,274710.0
+QLD06,Toowoomba,QLD,QLD Regional,Parts,2026-06-01,H2 (Apr-Sep),Other 20 dealerships,5,5,1,3,3,0,360,69660.0
+VIC03,Essendon,VIC,VIC Metro,Service,2026-05-01,H2 (Apr-Sep),Other 20 dealerships,17,17,7,13,13,0,697,279680.0
+VIC05,Box Hill,VIC,VIC Metro,Service,2025-11-01,H1 (Oct-Mar),Other 20 dealerships,14,14,4,11,11,0,658,278800.0
+QLD03,Ipswich,QLD,SEQ,Sales,2025-11-01,H1 (Oct-Mar),Other 20 dealerships,3,3,0,2,2,0,46,2098000.0
+NSW07,Tamworth,NSW,NSW Regional,Parts,2026-09-01,H2 (Apr-Sep),Other 20 dealerships,1,1,0,1,1,0,114,22270.0
+NSW05,Newcastle,NSW,NSW Regional,Parts,2026-05-01,H2 (Apr-Sep),Other 20 dealerships,7,7,3,5,5,7,199,37970.0
+VIC01,Dandenong,VIC,VIC Metro,Service,2026-07-01,H2 (Apr-Sep),Worsening four,33,33,13,28,28,0,1005,424260.0
+NSW07,Tamworth,NSW,NSW Regional,Sales,2026-03-01,H1 (Oct-Mar),Other 20 dealerships,2,2,0,2,2,0,30,1389300.0
+NSW01,Parramatta,NSW,NSW Metro,Sales,2025-12-01,H1 (Oct-Mar),Worsening four,12,12,0,10,10,0,101,4702100.0
+VIC09,Shepparton,VIC,VIC Regional,Sales,2026-02-01,H1 (Oct-Mar),Other 20 dealerships,1,1,0,1,1,0,30,1417900.0
+VIC04,Frankston,VIC,VIC Metro,Sales,2026-02-01,H1 (Oct-Mar),Other 20 dealerships,5,5,0,3,3,0,52,2330100.0
+NSW01,Parramatta,NSW,NSW Metro,Parts,2026-03-01,H1 (Oct-Mar),Worsening four,4,4,1,3,3,0,332,62000.0
+VIC07,Ballarat,VIC,VIC Regional,Parts,2026-07-01,H2 (Apr-Sep),Other 20 dealerships,5,5,0,3,3,0,196,35940.0
+VIC09,Shepparton,VIC,VIC Regional,Sales,2026-01-01,H1 (Oct-Mar),Other 20 dealerships,3,3,0,2,2,0,25,1223900.0
+NSW07,Tamworth,NSW,NSW Regional,Sales,2025-12-01,H1 (Oct-Mar),Other 20 dealerships,2,1,0,1,1,0,27,1249400.0
+VIC07,Ballarat,VIC,VIC Regional,Parts,2026-05-01,H2 (Apr-Sep),Other 20 dealerships,2,2,1,2,2,0,255,49550.0
+QLD01,Chermside,QLD,SEQ,Parts,2026-01-01,H1 (Oct-Mar),Other 20 dealerships,3,3,1,2,2,0,286,52360.0
+NSW03,Chatswood,NSW,NSW Metro,Parts,2026-03-01,H1 (Oct-Mar),Other 20 dealerships,2,2,0,1,1,0,195,35880.0
+QLD01,Chermside,QLD,SEQ,Parts,2026-07-01,H2 (Apr-Sep),Other 20 dealerships,4,4,0,3,3,0,331,60590.0
+QLD07,Rockhampton,QLD,QLD Regional,Parts,2026-07-01,H2 (Apr-Sep),Other 20 dealerships,1,1,0,1,1,0,175,33200.0
+NSW01,Parramatta,NSW,NSW Metro,Parts,2026-06-01,H2 (Apr-Sep),Worsening four,2,2,0,1,1,0,322,57560.0
+QLD06,Toowoomba,QLD,QLD Regional,Parts,2026-04-01,H2 (Apr-Sep),Other 20 dealerships,3,3,0,0,0,0,326,61150.0
+VIC08,Bendigo,VIC,VIC Regional,Sales,2025-11-01,H1 (Oct-Mar),Worsening four,2,2,0,0,0,0,26,1196700.0
+NSW03,Chatswood,NSW,NSW Metro,Parts,2025-11-01,H1 (Oct-Mar),Other 20 dealerships,1,1,0,0,0,0,183,36090.0
+VIC04,Frankston,VIC,VIC Metro,Service,2026-02-01,H1 (Oct-Mar),Other 20 dealerships,19,19,4,12,12,0,637,268010.0
+VIC01,Dandenong,VIC,VIC Metro,Service,2026-06-01,H2 (Apr-Sep),Worsening four,33,33,20,28,28,0,1024,436590.0
+NSW07,Tamworth,NSW,NSW Regional,Service,2025-12-01,H1 (Oct-Mar),Other 20 dealerships,6,6,1,5,5,0,302,123950.0
+QLD04,Southport,QLD,SEQ,Sales,2026-06-01,H2 (Apr-Sep),Other 20 dealerships,6,6,3,5,5,0,78,3775900.0
+NSW01,Parramatta,NSW,NSW Metro,Service,2025-12-01,H1 (Oct-Mar),Worsening four,24,24,5,17,17,0,937,369740.0
+VIC09,Shepparton,VIC,VIC Regional,Service,2026-02-01,H1 (Oct-Mar),Other 20 dealerships,6,6,2,6,6,0,353,145610.0
+QLD02,Springwood,QLD,SEQ,Sales,2025-12-01,H1 (Oct-Mar),Other 20 dealerships,8,8,1,7,7,0,56,2502900.0
+NSW03,Chatswood,NSW,NSW Metro,Service,2026-06-01,H2 (Apr-Sep),Other 20 dealerships,14,14,6,10,10,0,667,272550.0
+VIC07,Ballarat,VIC,VIC Regional,Sales,2026-04-01,H2 (Apr-Sep),Other 20 dealerships,8,8,3,5,5,0,49,2320300.0
+NSW02,Penrith,NSW,NSW Metro,Sales,2026-05-01,H2 (Apr-Sep),Other 20 dealerships,12,12,1,11,11,0,109,5194800.0
+VIC05,Box Hill,VIC,VIC Metro,Parts,2026-04-01,H2 (Apr-Sep),Other 20 dealerships,3,3,1,3,3,0,198,36840.0
+VIC05,Box Hill,VIC,VIC Metro,Service,2026-02-01,H1 (Oct-Mar),Other 20 dealerships,20,20,9,15,15,0,610,253240.0
+QLD03,Ipswich,QLD,SEQ,Service,2025-12-01,H1 (Oct-Mar),Other 20 dealerships,19,19,2,16,16,0,565,233520.0
+VIC03,Essendon,VIC,VIC Metro,Sales,2026-05-01,H2 (Apr-Sep),Other 20 dealerships,5,5,0,5,5,0,56,2666800.0
+QLD08,Townsville,QLD,QLD Regional,Parts,2026-07-01,H2 (Apr-Sep),Other 20 dealerships,6,6,0,3,3,0,347,63770.0
+QLD03,Ipswich,QLD,SEQ,Service,2025-11-01,H1 (Oct-Mar),Other 20 dealerships,12,12,2,10,10,0,607,243080.0
+QLD04,Southport,QLD,SEQ,Service,2026-01-01,H1 (Oct-Mar),Other 20 dealerships,10,10,3,9,9,0,569,237990.0
+VIC01,Dandenong,VIC,VIC Metro,Sales,2026-08-01,H2 (Apr-Sep),Worsening four,11,11,0,8,8,0,84,3914300.0
+QLD05,Noosa,QLD,SEQ,Service,2026-09-01,H2 (Apr-Sep),Other 20 dealerships,3,3,0,3,3,0,348,145970.0
+NSW05,Newcastle,NSW,NSW Regional,Parts,2026-07-01,H2 (Apr-Sep),Other 20 dealerships,5,5,1,4,4,5,204,37030.0
+QLD05,Noosa,QLD,SEQ,Service,2026-03-01,H1 (Oct-Mar),Other 20 dealerships,2,2,0,1,1,0,347,144230.0
+QLD02,Springwood,QLD,SEQ,Sales,2026-06-01,H2 (Apr-Sep),Other 20 dealerships,7,7,0,5,5,0,73,3500000.0
+VIC03,Essendon,VIC,VIC Metro,Sales,2026-08-01,H2 (Apr-Sep),Other 20 dealerships,3,3,1,3,3,0,54,2496300.0
+VIC09,Shepparton,VIC,VIC Regional,Service,2026-01-01,H1 (Oct-Mar),Other 20 dealerships,8,8,0,6,6,0,315,127590.0
+QLD04,Southport,QLD,SEQ,Sales,2025-10-01,H1 (Oct-Mar),Other 20 dealerships,10,10,2,6,6,0,52,2311000.0
+QLD03,Ipswich,QLD,SEQ,Parts,2026-05-01,H2 (Apr-Sep),Other 20 dealerships,3,3,0,2,2,0,219,39530.0
+VIC05,Box Hill,VIC,VIC Metro,Sales,2025-11-01,H1 (Oct-Mar),Other 20 dealerships,3,3,1,3,3,0,56,2680800.0
+QLD01,Chermside,QLD,SEQ,Parts,2026-02-01,H1 (Oct-Mar),Other 20 dealerships,3,3,1,2,2,0,391,71950.0
+NSW07,Tamworth,NSW,NSW Regional,Service,2026-03-01,H1 (Oct-Mar),Other 20 dealerships,7,7,3,5,5,0,370,146920.0
+VIC01,Dandenong,VIC,VIC Metro,Sales,2026-07-01,H2 (Apr-Sep),Worsening four,10,10,1,8,8,0,79,3618500.0
+VIC08,Bendigo,VIC,VIC Regional,Sales,2026-01-01,H1 (Oct-Mar),Worsening four,5,5,0,3,3,0,24,1101300.0
+QLD07,Rockhampton,QLD,QLD Regional,Service,2026-06-01,H2 (Apr-Sep),Other 20 dealerships,7,7,1,4,4,0,570,231400.0
+VIC08,Bendigo,VIC,VIC Regional,Service,2025-11-01,H1 (Oct-Mar),Worsening four,7,7,1,7,7,0,358,148140.0
+NSW01,Parramatta,NSW,NSW Metro,Parts,2026-05-01,H2 (Apr-Sep),Worsening four,7,7,1,4,4,0,328,60010.0
+NSW03,Chatswood,NSW,NSW Metro,Parts,2026-08-01,H2 (Apr-Sep),Other 20 dealerships,1,1,0,1,1,0,212,38240.0
+QLD07,Rockhampton,QLD,QLD Regional,Parts,2026-04-01,H2 (Apr-Sep),Other 20 dealerships,5,5,2,4,4,0,150,28870.0
+NSW02,Penrith,NSW,NSW Metro,Parts,2025-11-01,H1 (Oct-Mar),Other 20 dealerships,6,6,1,4,4,0,297,54750.0
+QLD01,Chermside,QLD,SEQ,Parts,2025-12-01,H1 (Oct-Mar),Other 20 dealerships,2,2,0,1,1,0,276,50700.0
+QLD08,Townsville,QLD,QLD Regional,Sales,2025-10-01,H1 (Oct-Mar),Other 20 dealerships,1,1,1,1,1,0,30,1323900.0
+NSW05,Newcastle,NSW,NSW Regional,Parts,2025-11-01,H1 (Oct-Mar),Other 20 dealerships,2,2,1,1,1,2,170,29950.0
+NSW04,Liverpool,NSW,NSW Metro,Parts,2025-10-01,H1 (Oct-Mar),Worsening four,1,1,0,1,1,0,214,38170.0
+QLD06,Toowoomba,QLD,QLD Regional,Sales,2026-05-01,H2 (Apr-Sep),Other 20 dealerships,1,1,0,1,1,0,31,1524300.0
+NSW05,Newcastle,NSW,NSW Regional,Parts,2026-04-01,H2 (Apr-Sep),Other 20 dealerships,1,1,0,1,1,1,195,35430.0
+NSW07,Tamworth,NSW,NSW Regional,Sales,2026-01-01,H1 (Oct-Mar),Other 20 dealerships,1,1,0,0,0,0,22,1032200.0
+VIC08,Bendigo,VIC,VIC Regional,Service,2026-05-01,H2 (Apr-Sep),Worsening four,10,10,1,7,7,0,341,143110.0
+VIC03,Essendon,VIC,VIC Metro,Sales,2025-10-01,H1 (Oct-Mar),Other 20 dealerships,7,7,3,6,6,0,56,2630700.0
+VIC01,Dandenong,VIC,VIC Metro,Service,2026-03-01,H1 (Oct-Mar),Worsening four,19,19,5,12,12,0,1119,462400.0
+VIC02,Ringwood,VIC,VIC Metro,Service,2026-06-01,H2 (Apr-Sep),Other 20 dealerships,26,26,10,21,21,0,1141,475170.0
+VIC01,Dandenong,VIC,VIC Metro,Sales,2026-05-01,H2 (Apr-Sep),Worsening four,12,12,2,9,9,0,98,4523800.0
+VIC01,Dandenong,VIC,VIC Metro,Service,2026-02-01,H1 (Oct-Mar),Worsening four,20,20,3,12,12,0,1097,461870.0
+VIC07,Ballarat,VIC,VIC Regional,Parts,2025-11-01,H1 (Oct-Mar),Other 20 dealerships,7,7,1,4,4,0,222,39830.0
+QLD06,Toowoomba,QLD,QLD Regional,Service,2026-01-01,H1 (Oct-Mar),Other 20 dealerships,19,19,4,16,16,0,866,373100.0
+QLD07,Rockhampton,QLD,QLD Regional,Service,2026-09-01,H2 (Apr-Sep),Other 20 dealerships,17,17,5,10,10,0,563,223490.0
+NSW06,Wollongong,NSW,NSW Regional,Sales,2026-02-01,H1 (Oct-Mar),Other 20 dealerships,3,3,0,3,3,0,50,2373700.0
+NSW07,Tamworth,NSW,NSW Regional,Service,2026-07-01,H2 (Apr-Sep),Other 20 dealerships,9,8,2,8,8,0,360,150580.0
+QLD04,Southport,QLD,SEQ,Service,2026-02-01,H1 (Oct-Mar),Other 20 dealerships,14,14,4,11,11,0,625,265420.0
+VIC04,Frankston,VIC,VIC Metro,Service,2026-08-01,H2 (Apr-Sep),Other 20 dealerships,24,24,7,19,19,0,710,291620.0
+NSW06,Wollongong,NSW,NSW Regional,Service,2026-08-01,H2 (Apr-Sep),Other 20 dealerships,18,18,7,15,15,0,696,291950.0
+NSW01,Parramatta,NSW,NSW Metro,Parts,2026-01-01,H1 (Oct-Mar),Worsening four,3,3,1,3,3,0,301,53590.0
+QLD03,Ipswich,QLD,SEQ,Parts,2025-10-01,H1 (Oct-Mar),Other 20 dealerships,3,3,1,3,3,0,194,36210.0
+QLD01,Chermside,QLD,SEQ,Sales,2026-09-01,H2 (Apr-Sep),Other 20 dealerships,14,14,2,10,10,0,96,4368300.0
+QLD02,Springwood,QLD,SEQ,Sales,2025-11-01,H1 (Oct-Mar),Other 20 dealerships,9,9,1,9,9,0,56,2778400.0
+NSW07,Tamworth,NSW,NSW Regional,Service,2026-06-01,H2 (Apr-Sep),Other 20 dealerships,9,9,2,6,6,0,349,143280.0
+QLD03,Ipswich,QLD,SEQ,Service,2026-07-01,H2 (Apr-Sep),Other 20 dealerships,15,15,3,10,10,0,683,286870.0
+NSW04,Liverpool,NSW,NSW Metro,Service,2026-09-01,H2 (Apr-Sep),Worsening four,21,21,3,18,18,0,737,294460.0
+QLD01,Chermside,QLD,SEQ,Service,2026-03-01,H1 (Oct-Mar),Other 20 dealerships,35,35,7,26,26,0,1097,445950.0
+VIC03,Essendon,VIC,VIC Metro,Parts,2025-11-01,H1 (Oct-Mar),Other 20 dealerships,3,3,1,3,3,0,203,38250.0
+NSW05,Newcastle,NSW,NSW Regional,Sales,2026-06-01,H2 (Apr-Sep),Other 20 dealerships,7,7,0,6,6,7,72,3403800.0
+VIC07,Ballarat,VIC,VIC Regional,Parts,2025-10-01,H1 (Oct-Mar),Other 20 dealerships,1,1,0,1,1,0,204,35860.0
+VIC03,Essendon,VIC,VIC Metro,Service,2026-04-01,H2 (Apr-Sep),Other 20 dealerships,25,25,14,23,23,0,578,247550.0
+VIC05,Box Hill,VIC,VIC Metro,Parts,2026-05-01,H2 (Apr-Sep),Other 20 dealerships,3,3,0,1,1,0,199,37270.0
+QLD05,Noosa,QLD,SEQ,Service,2025-11-01,H1 (Oct-Mar),Other 20 dealerships,1,1,0,1,1,0,340,139880.0
+QLD04,Southport,QLD,SEQ,Sales,2026-03-01,H1 (Oct-Mar),Other 20 dealerships,8,8,2,5,5,0,61,3123700.0
+VIC08,Bendigo,VIC,VIC Regional,Parts,2025-12-01,H1 (Oct-Mar),Worsening four,1,1,0,1,1,0,83,15300.0
+VIC01,Dandenong,VIC,VIC Metro,Parts,2025-11-01,H1 (Oct-Mar),Worsening four,6,6,1,6,6,0,343,63950.0
+NSW07,Tamworth,NSW,NSW Regional,Service,2026-02-01,H1 (Oct-Mar),Other 20 dealerships,10,8,0,8,8,0,345,144640.0
+VIC04,Frankston,VIC,VIC Metro,Service,2025-10-01,H1 (Oct-Mar),Other 20 dealerships,23,23,7,17,17,0,632,266900.0
+NSW06,Wollongong,NSW,NSW Regional,Parts,2025-11-01,H1 (Oct-Mar),Other 20 dealerships,1,1,0,1,1,0,189,34860.0
+NSW05,Newcastle,NSW,NSW Regional,Sales,2026-09-01,H2 (Apr-Sep),Other 20 dealerships,4,4,2,4,4,4,55,2423600.0
+QLD02,Springwood,QLD,SEQ,Parts,2026-07-01,H2 (Apr-Sep),Other 20 dealerships,6,6,0,5,5,0,210,39320.0
+VIC08,Bendigo,VIC,VIC Regional,Service,2026-04-01,H2 (Apr-Sep),Worsening four,9,9,3,8,8,0,341,140170.0
+QLD04,Southport,QLD,SEQ,Parts,2026-04-01,H2 (Apr-Sep),Other 20 dealerships,2,2,1,2,2,0,193,36070.0
+QLD04,Southport,QLD,SEQ,Parts,2026-07-01,H2 (Apr-Sep),Other 20 dealerships,2,2,0,1,1,0,205,38270.0
+QLD01,Chermside,QLD,SEQ,Parts,2026-05-01,H2 (Apr-Sep),Other 20 dealerships,3,3,0,1,1,0,356,68450.0
+QLD04,Southport,QLD,SEQ,Sales,2025-12-01,H1 (Oct-Mar),Other 20 dealerships,3,3,1,2,2,0,60,2819800.0
+QLD03,Ipswich,QLD,SEQ,Sales,2026-02-01,H1 (Oct-Mar),Other 20 dealerships,4,4,0,2,2,0,47,2168600.0
+NSW05,Newcastle,NSW,NSW Regional,Parts,2026-08-01,H2 (Apr-Sep),Other 20 dealerships,2,2,0,1,1,2,201,37350.0
+VIC01,Dandenong,VIC,VIC Metro,Parts,2026-01-01,H1 (Oct-Mar),Worsening four,5,5,1,2,2,0,294,53440.0
+VIC03,Essendon,VIC,VIC Metro,Sales,2026-01-01,H1 (Oct-Mar),Other 20 dealerships,7,7,0,5,5,0,43,1910100.0
+NSW03,Chatswood,NSW,NSW Metro,Sales,2026-01-01,H1 (Oct-Mar),Other 20 dealerships,3,3,1,2,2,0,46,2176700.0
+NSW03,Chatswood,NSW,NSW Metro,Parts,2026-09-01,H2 (Apr-Sep),Other 20 dealerships,2,2,0,2,2,0,206,37390.0
+VIC02,Ringwood,VIC,VIC Metro,Parts,2026-07-01,H2 (Apr-Sep),Other 20 dealerships,4,4,0,3,3,0,319,57660.0
+QLD06,Toowoomba,QLD,QLD Regional,Sales,2026-09-01,H2 (Apr-Sep),Other 20 dealerships,1,1,0,1,1,0,32,1462200.0
+QLD06,Toowoomba,QLD,QLD Regional,Parts,2026-03-01,H1 (Oct-Mar),Other 20 dealerships,4,4,0,2,2,0,303,56820.0
+QLD08,Townsville,QLD,QLD Regional,Parts,2026-06-01,H2 (Apr-Sep),Other 20 dealerships,3,3,1,3,3,0,326,63010.0
+QLD05,Noosa,QLD,SEQ,Parts,2026-08-01,H2 (Apr-Sep),Other 20 dealerships,1,1,0,1,1,0,114,21610.0
+QLD03,Ipswich,QLD,SEQ,Parts,2026-09-01,H2 (Apr-Sep),Other 20 dealerships,3,3,0,1,1,0,216,40170.0
+VIC08,Bendigo,VIC,VIC Regional,Sales,2026-06-01,H2 (Apr-Sep),Worsening four,1,1,0,1,1,0,39,1805500.0
+NSW04,Liverpool,NSW,NSW Metro,Parts,2025-12-01,H1 (Oct-Mar),Worsening four,1,1,0,0,0,0,167,31960.0
+VIC06,Geelong,VIC,VIC Regional,Parts,2026-02-01,H1 (Oct-Mar),Other 20 dealerships,1,1,0,0,0,0,210,38680.0
+VIC06,Geelong,VIC,VIC Regional,Service,2026-09-01,H2 (Apr-Sep),Other 20 dealerships,14,14,4,13,13,0,682,296440.0
+VIC02,Ringwood,VIC,VIC Metro,Service,2025-12-01,H1 (Oct-Mar),Other 20 dealerships,21,21,3,19,19,0,976,408830.0
+QLD06,Toowoomba,QLD,QLD Regional,Service,2026-08-01,H2 (Apr-Sep),Other 20 dealerships,31,31,9,26,26,0,1053,425960.0
+VIC05,Box Hill,VIC,VIC Metro,Sales,2025-10-01,H1 (Oct-Mar),Other 20 dealerships,6,6,2,4,4,0,58,2646400.0
+NSW07,Tamworth,NSW,NSW Regional,Service,2026-04-01,H2 (Apr-Sep),Other 20 dealerships,10,10,2,8,8,0,323,131770.0
+NSW02,Penrith,NSW,NSW Metro,Parts,2026-04-01,H2 (Apr-Sep),Other 20 dealerships,5,5,1,5,5,0,335,61460.0
+QLD08,Townsville,QLD,QLD Regional,Service,2026-05-01,H2 (Apr-Sep),Other 20 dealerships,25,25,5,15,15,0,1122,442000.0
+NSW01,Parramatta,NSW,NSW Metro,Sales,2026-02-01,H1 (Oct-Mar),Worsening four,8,8,1,7,7,0,92,4391100.0
+NSW03,Chatswood,NSW,NSW Metro,Service,2026-02-01,H1 (Oct-Mar),Other 20 dealerships,13,13,4,11,11,0,644,266500.0
+NSW05,Newcastle,NSW,NSW Regional,Service,2026-03-01,H1 (Oct-Mar),Other 20 dealerships,19,19,5,16,16,19,717,312630.0
+NSW03,Chatswood,NSW,NSW Metro,Service,2025-10-01,H1 (Oct-Mar),Other 20 dealerships,24,24,6,18,18,0,640,266850.0
+VIC02,Ringwood,VIC,VIC Metro,Service,2026-02-01,H1 (Oct-Mar),Other 20 dealerships,27,27,2,21,21,0,1056,440720.0
+QLD01,Chermside,QLD,SEQ,Parts,2025-10-01,H1 (Oct-Mar),Other 20 dealerships,1,1,0,1,1,0,302,56610.0
+VIC06,Geelong,VIC,VIC Regional,Service,2025-12-01,H1 (Oct-Mar),Other 20 dealerships,18,18,3,12,12,0,532,228610.0
+VIC06,Geelong,VIC,VIC Regional,Sales,2026-01-01,H1 (Oct-Mar),Other 20 dealerships,7,7,0,4,4,0,43,1986400.0
+QLD06,Toowoomba,QLD,QLD Regional,Parts,2026-02-01,H1 (Oct-Mar),Other 20 dealerships,1,1,0,1,1,0,313,58370.0
+VIC02,Ringwood,VIC,VIC Metro,Sales,2026-03-01,H1 (Oct-Mar),Other 20 dealerships,6,6,0,3,3,0,99,4863900.0
+NSW01,Parramatta,NSW,NSW Metro,Service,2026-09-01,H2 (Apr-Sep),Worsening four,26,26,11,22,22,0,951,387900.0
+QLD08,Townsville,QLD,QLD Regional,Service,2026-04-01,H2 (Apr-Sep),Other 20 dealerships,22,22,7,19,19,0,1020,432340.0
+VIC06,Geelong,VIC,VIC Regional,Service,2026-07-01,H2 (Apr-Sep),Other 20 dealerships,24,24,4,17,17,0,740,296550.0
+NSW04,Liverpool,NSW,NSW Metro,Sales,2026-01-01,H1 (Oct-Mar),Worsening four,7,7,0,6,6,0,44,2143200.0
+QLD07,Rockhampton,QLD,QLD Regional,Service,2025-10-01,H1 (Oct-Mar),Other 20 dealerships,17,17,4,12,12,0,560,230120.0
+NSW05,Newcastle,NSW,NSW Regional,Sales,2025-10-01,H1 (Oct-Mar),Other 20 dealerships,9,9,1,6,6,9,55,2424300.0
+VIC07,Ballarat,VIC,VIC Regional,Service,2025-12-01,H1 (Oct-Mar),Other 20 dealerships,9,9,2,7,7,0,562,243240.0
+VIC06,Geelong,VIC,VIC Regional,Service,2026-06-01,H2 (Apr-Sep),Other 20 dealerships,17,17,7,17,17,0,670,271320.0
+VIC01,Dandenong,VIC,VIC Metro,Parts,2025-12-01,H1 (Oct-Mar),Worsening four,6,6,0,3,3,0,288,51920.0
+VIC07,Ballarat,VIC,VIC Regional,Sales,2026-09-01,H2 (Apr-Sep),Other 20 dealerships,3,3,0,3,3,0,60,2898800.0
+QLD01,Chermside,QLD,SEQ,Service,2026-08-01,H2 (Apr-Sep),Other 20 dealerships,28,28,12,23,23,0,1046,454040.0
+NSW04,Liverpool,NSW,NSW Metro,Parts,2026-03-01,H1 (Oct-Mar),Worsening four,3,3,2,2,2,0,207,36150.0
+VIC02,Ringwood,VIC,VIC Metro,Sales,2026-01-01,H1 (Oct-Mar),Other 20 dealerships,9,9,0,5,5,0,72,3294400.0
+VIC04,Frankston,VIC,VIC Metro,Service,2026-07-01,H2 (Apr-Sep),Other 20 dealerships,15,15,7,11,11,0,619,253210.0
+VIC08,Bendigo,VIC,VIC Regional,Service,2026-07-01,H2 (Apr-Sep),Worsening four,9,9,5,7,7,0,367,156490.0
+VIC06,Geelong,VIC,VIC Regional,Service,2025-11-01,H1 (Oct-Mar),Other 20 dealerships,10,10,3,8,8,0,661,276810.0
+QLD08,Townsville,QLD,QLD Regional,Parts,2026-02-01,H1 (Oct-Mar),Other 20 dealerships,2,2,1,1,1,0,329,64400.0
+VIC01,Dandenong,VIC,VIC Metro,Parts,2026-09-01,H2 (Apr-Sep),Worsening four,5,5,0,4,4,0,364,64320.0
+QLD07,Rockhampton,QLD,QLD Regional,Service,2025-12-01,H1 (Oct-Mar),Other 20 dealerships,10,10,3,8,8,0,463,191230.0
+QLD08,Townsville,QLD,QLD Regional,Sales,2026-09-01,H2 (Apr-Sep),Other 20 dealerships,2,2,0,2,2,0,36,1714000.0
+VIC02,Ringwood,VIC,VIC Metro,Parts,2026-08-01,H2 (Apr-Sep),Other 20 dealerships,5,5,1,2,2,0,326,60360.0
+QLD02,Springwood,QLD,SEQ,Parts,2026-05-01,H2 (Apr-Sep),Other 20 dealerships,4,4,0,4,4,0,219,39560.0
+VIC09,Shepparton,VIC,VIC Regional,Service,2025-12-01,H1 (Oct-Mar),Other 20 dealerships,6,6,1,5,5,0,318,132350.0
+VIC07,Ballarat,VIC,VIC Regional,Sales,2026-08-01,H2 (Apr-Sep),Other 20 dealerships,2,2,0,1,1,0,48,2287900.0
+QLD05,Noosa,QLD,SEQ,Service,2026-07-01,H2 (Apr-Sep),Other 20 dealerships,6,6,0,4,4,0,367,151070.0
+NSW04,Liverpool,NSW,NSW Metro,Parts,2025-11-01,H1 (Oct-Mar),Worsening four,2,2,0,1,1,0,215,40180.0
+NSW05,Newcastle,NSW,NSW Regional,Parts,2026-01-01,H1 (Oct-Mar),Other 20 dealerships,2,2,1,1,1,2,172,31840.0
+NSW05,Newcastle,NSW,NSW Regional,Sales,2026-02-01,H1 (Oct-Mar),Other 20 dealerships,8,8,0,3,3,8,53,2593600.0
+NSW02,Penrith,NSW,NSW Metro,Parts,2026-09-01,H2 (Apr-Sep),Other 20 dealerships,4,4,1,4,4,0,310,54500.0
+QLD04,Southport,QLD,SEQ,Sales,2026-08-01,H2 (Apr-Sep),Other 20 dealerships,1,1,1,1,1,0,52,2414300.0
+NSW01,Parramatta,NSW,NSW Metro,Parts,2026-04-01,H2 (Apr-Sep),Worsening four,2,2,1,1,1,0,329,62600.0
+NSW07,Tamworth,NSW,NSW Regional,Sales,2025-11-01,H1 (Oct-Mar),Other 20 dealerships,1,1,1,1,1,0,26,1210600.0
+QLD07,Rockhampton,QLD,QLD Regional,Sales,2026-05-01,H2 (Apr-Sep),Other 20 dealerships,1,1,0,1,1,0,16,723900.0
+NSW07,Tamworth,NSW,NSW Regional,Service,2025-11-01,H1 (Oct-Mar),Other 20 dealerships,10,9,1,8,8,0,387,166100.0
+VIC08,Bendigo,VIC,VIC Regional,Parts,2026-08-01,H2 (Apr-Sep),Worsening four,1,1,1,1,1,0,117,22450.0
+VIC02,Ringwood,VIC,VIC Metro,Parts,2026-04-01,H2 (Apr-Sep),Other 20 dealerships,4,4,2,1,1,0,325,58260.0
+NSW05,Newcastle,NSW,NSW Regional,Service,2026-02-01,H1 (Oct-Mar),Other 20 dealerships,18,18,3,13,13,18,668,283580.0
+VIC02,Ringwood,VIC,VIC Metro,Service,2026-01-01,H1 (Oct-Mar),Other 20 dealerships,24,24,7,15,15,0,910,377770.0
+QLD08,Townsville,QLD,QLD Regional,Service,2026-09-01,H2 (Apr-Sep),Other 20 dealerships,18,18,6,13,13,0,1003,419760.0
+VIC02,Ringwood,VIC,VIC Metro,Service,2026-03-01,H1 (Oct-Mar),Other 20 dealerships,30,30,6,27,27,0,1086,442970.0
+QLD07,Rockhampton,QLD,QLD Regional,Service,2026-05-01,H2 (Apr-Sep),Other 20 dealerships,21,21,4,20,20,0,574,234370.0
+QLD01,Chermside,QLD,SEQ,Sales,2026-08-01,H2 (Apr-Sep),Other 20 dealerships,9,9,1,7,7,0,79,3781700.0
+NSW05,Newcastle,NSW,NSW Regional,Service,2025-10-01,H1 (Oct-Mar),Other 20 dealerships,16,16,6,12,12,16,633,272170.0
+NSW01,Parramatta,NSW,NSW Metro,Sales,2026-09-01,H2 (Apr-Sep),Worsening four,10,10,4,7,7,0,97,4538500.0
+VIC06,Geelong,VIC,VIC Regional,Service,2026-01-01,H1 (Oct-Mar),Other 20 dealerships,10,10,3,9,9,0,551,229290.0
+NSW05,Newcastle,NSW,NSW Regional,Sales,2026-03-01,H1 (Oct-Mar),Other 20 dealerships,5,5,0,2,2,5,61,2779000.0
+VIC07,Ballarat,VIC,VIC Regional,Service,2026-08-01,H2 (Apr-Sep),Other 20 dealerships,14,14,3,12,12,0,685,279200.0
+VIC02,Ringwood,VIC,VIC Metro,Sales,2025-12-01,H1 (Oct-Mar),Other 20 dealerships,15,15,2,9,9,0,111,5015100.0
+VIC05,Box Hill,VIC,VIC Metro,Service,2025-10-01,H1 (Oct-Mar),Other 20 dealerships,16,16,4,11,11,0,661,272320.0
+VIC04,Frankston,VIC,VIC Metro,Sales,2026-07-01,H2 (Apr-Sep),Other 20 dealerships,6,6,3,5,5,0,50,2294900.0
+VIC06,Geelong,VIC,VIC Regional,Sales,2026-06-01,H2 (Apr-Sep),Other 20 dealerships,9,9,0,5,5,0,76,3433700.0
+NSW04,Liverpool,NSW,NSW Metro,Service,2026-01-01,H1 (Oct-Mar),Worsening four,11,11,2,9,9,0,562,234280.0
+QLD08,Townsville,QLD,QLD Regional,Service,2025-12-01,H1 (Oct-Mar),Other 20 dealerships,30,30,8,21,21,0,919,376890.0
+NSW06,Wollongong,NSW,NSW Regional,Parts,2026-04-01,H2 (Apr-Sep),Other 20 dealerships,1,1,0,1,1,0,196,35240.0
+VIC06,Geelong,VIC,VIC Regional,Sales,2025-11-01,H1 (Oct-Mar),Other 20 dealerships,5,5,2,5,5,0,53,2528100.0
+VIC07,Ballarat,VIC,VIC Regional,Service,2026-09-01,H2 (Apr-Sep),Other 20 dealerships,18,18,6,16,16,0,768,326130.0
+NSW03,Chatswood,NSW,NSW Metro,Sales,2025-10-01,H1 (Oct-Mar),Other 20 dealerships,1,1,0,1,1,0,57,2661200.0
+NSW04,Liverpool,NSW,NSW Metro,Parts,2026-07-01,H2 (Apr-Sep),Worsening four,4,4,1,3,3,0,198,37310.0
+VIC06,Geelong,VIC,VIC Regional,Parts,2026-08-01,H2 (Apr-Sep),Other 20 dealerships,3,3,0,2,2,0,217,40730.0
+VIC02,Ringwood,VIC,VIC Metro,Sales,2026-02-01,H1 (Oct-Mar),Other 20 dealerships,9,9,0,6,6,0,101,4553900.0
+QLD04,Southport,QLD,SEQ,Service,2026-08-01,H2 (Apr-Sep),Other 20 dealerships,19,19,7,18,18,0,689,287170.0
+NSW03,Chatswood,NSW,NSW Metro,Sales,2026-02-01,H1 (Oct-Mar),Other 20 dealerships,4,4,0,1,1,0,51,2571200.0
+VIC05,Box Hill,VIC,VIC Metro,Parts,2026-03-01,H1 (Oct-Mar),Other 20 dealerships,2,2,0,2,2,0,214,39030.0
+NSW01,Parramatta,NSW,NSW Metro,Service,2026-02-01,H1 (Oct-Mar),Worsening four,22,22,4,14,14,0,1167,493230.0
+VIC08,Bendigo,VIC,VIC Regional,Sales,2026-07-01,H2 (Apr-Sep),Worsening four,5,5,0,3,3,0,23,1097700.0
+VIC05,Box Hill,VIC,VIC Metro,Parts,2026-06-01,H2 (Apr-Sep),Other 20 dealerships,4,4,1,4,4,0,200,35780.0
+NSW07,Tamworth,NSW,NSW Regional,Sales,2026-04-01,H2 (Apr-Sep),Other 20 dealerships,5,5,0,5,5,0,26,1205200.0
+VIC04,Frankston,VIC,VIC Metro,Parts,2025-12-01,H1 (Oct-Mar),Other 20 dealerships,2,2,1,1,1,0,188,35140.0
+VIC04,Frankston,VIC,VIC Metro,Parts,2026-04-01,H2 (Apr-Sep),Other 20 dealerships,4,4,1,4,4,0,192,34370.0
+NSW06,Wollongong,NSW,NSW Regional,Parts,2026-07-01,H2 (Apr-Sep),Other 20 dealerships,3,3,0,3,3,0,195,35900.0
+QLD07,Rockhampton,QLD,QLD Regional,Sales,2025-10-01,H1 (Oct-Mar),Other 20 dealerships,1,1,0,1,1,0,17,769100.0
+NSW06,Wollongong,NSW,NSW Regional,Parts,2025-12-01,H1 (Oct-Mar),Other 20 dealerships,3,3,1,3,3,0,194,35790.0
+VIC06,Geelong,VIC,VIC Regional,Sales,2026-07-01,H2 (Apr-Sep),Other 20 dealerships,3,3,0,3,3,0,42,1937500.0
+VIC06,Geelong,VIC,VIC Regional,Parts,2026-05-01,H2 (Apr-Sep),Other 20 dealerships,4,4,1,4,4,0,198,35210.0
+QLD07,Rockhampton,QLD,QLD Regional,Parts,2025-11-01,H1 (Oct-Mar),Other 20 dealerships,4,4,0,3,3,0,182,35060.0
+VIC06,Geelong,VIC,VIC Regional,Sales,2025-12-01,H1 (Oct-Mar),Other 20 dealerships,4,4,0,3,3,0,66,3039400.0
+VIC06,Geelong,VIC,VIC Regional,Sales,2026-09-01,H2 (Apr-Sep),Other 20 dealerships,5,5,1,4,4,0,54,2392500.0
+VIC04,Frankston,VIC,VIC Metro,Parts,2026-09-01,H2 (Apr-Sep),Other 20 dealerships,2,2,0,2,2,0,223,42140.0
+VIC07,Ballarat,VIC,VIC Regional,Sales,2025-12-01,H1 (Oct-Mar),Other 20 dealerships,5,5,0,3,3,0,57,2633200.0
+VIC09,Shepparton,VIC,VIC Regional,Sales,2025-12-01,H1 (Oct-Mar),Other 20 dealerships,3,3,0,2,2,0,27,1245200.0
+QLD05,Noosa,QLD,SEQ,Sales,2026-07-01,H2 (Apr-Sep),Other 20 dealerships,2,2,0,2,2,0,22,1042600.0
+QLD07,Rockhampton,QLD,QLD Regional,Parts,2026-02-01,H1 (Oct-Mar),Other 20 dealerships,2,2,0,2,2,0,186,35410.0
+QLD02,Springwood,QLD,SEQ,Parts,2026-09-01,H2 (Apr-Sep),Other 20 dealerships,4,4,0,2,2,0,203,38040.0
+QLD02,Springwood,QLD,SEQ,Parts,2026-08-01,H2 (Apr-Sep),Other 20 dealerships,2,2,0,2,2,0,200,37580.0
+QLD03,Ipswich,QLD,SEQ,Parts,2026-08-01,H2 (Apr-Sep),Other 20 dealerships,1,1,0,1,1,0,211,39340.0
+QLD08,Townsville,QLD,QLD Regional,Sales,2026-04-01,H2 (Apr-Sep),Other 20 dealerships,1,1,0,1,1,0,33,1506700.0
+QLD07,Rockhampton,QLD,QLD Regional,Sales,2025-12-01,H1 (Oct-Mar),Other 20 dealerships,1,1,0,1,1,0,16,763200.0
+VIC05,Box Hill,VIC,VIC Metro,Parts,2026-01-01,H1 (Oct-Mar),Other 20 dealerships,1,1,0,1,1,0,189,36370.0
+NSW01,Parramatta,NSW,NSW Metro,Parts,2026-07-01,H2 (Apr-Sep),Worsening four,1,1,0,1,1,0,329,61800.0
+VIC01,Dandenong,VIC,VIC Metro,Service,2025-12-01,H1 (Oct-Mar),Worsening four,23,23,4,21,21,0,915,381770.0
+VIC05,Box Hill,VIC,VIC Metro,Sales,2026-06-01,H2 (Apr-Sep),Other 20 dealerships,15,15,3,13,13,0,85,3894700.0
+QLD06,Toowoomba,QLD,QLD Regional,Service,2026-02-01,H1 (Oct-Mar),Other 20 dealerships,29,29,4,19,19,0,1056,443130.0
+QLD08,Townsville,QLD,QLD Regional,Service,2026-02-01,H1 (Oct-Mar),Other 20 dealerships,27,27,4,20,20,0,1088,452860.0
+NSW05,Newcastle,NSW,NSW Regional,Service,2026-01-01,H1 (Oct-Mar),Other 20 dealerships,14,14,4,11,11,14,541,221990.0
+NSW02,Penrith,NSW,NSW Metro,Service,2026-04-01,H2 (Apr-Sep),Other 20 dealerships,25,25,6,21,21,0,1063,426980.0
+VIC06,Geelong,VIC,VIC Regional,Sales,2026-08-01,H2 (Apr-Sep),Other 20 dealerships,3,3,0,2,2,0,51,2500100.0
+NSW02,Penrith,NSW,NSW Metro,Service,2026-09-01,H2 (Apr-Sep),Other 20 dealerships,34,34,9,26,26,0,1072,439440.0
+QLD02,Springwood,QLD,SEQ,Service,2026-05-01,H2 (Apr-Sep),Other 20 dealerships,9,9,2,4,4,0,627,256370.0
+VIC01,Dandenong,VIC,VIC Metro,Service,2026-09-01,H2 (Apr-Sep),Worsening four,25,25,11,20,20,0,909,369380.0
+NSW04,Liverpool,NSW,NSW Metro,Service,2025-11-01,H1 (Oct-Mar),Worsening four,22,22,4,14,14,0,685,285900.0
+NSW07,Tamworth,NSW,NSW Regional,Service,2025-10-01,H1 (Oct-Mar),Other 20 dealerships,6,6,1,4,4,0,333,136010.0
+QLD08,Townsville,QLD,QLD Regional,Parts,2026-04-01,H2 (Apr-Sep),Other 20 dealerships,3,3,2,3,3,0,320,59990.0
+QLD01,Chermside,QLD,SEQ,Service,2025-10-01,H1 (Oct-Mar),Other 20 dealerships,27,27,6,20,20,0,1067,450230.0
+QLD01,Chermside,QLD,SEQ,Parts,2026-08-01,H2 (Apr-Sep),Other 20 dealerships,6,6,1,3,3,0,343,65520.0
+VIC04,Frankston,VIC,VIC Metro,Sales,2025-12-01,H1 (Oct-Mar),Other 20 dealerships,4,4,1,3,3,0,59,2629100.0
+QLD02,Springwood,QLD,SEQ,Sales,2026-09-01,H2 (Apr-Sep),Other 20 dealerships,9,9,0,4,4,0,60,2964100.0
+QLD08,Townsville,QLD,QLD Regional,Parts,2026-05-01,H2 (Apr-Sep),Other 20 dealerships,5,5,0,2,2,0,332,62960.0
+NSW04,Liverpool,NSW,NSW Metro,Service,2026-03-01,H1 (Oct-Mar),Worsening four,15,15,1,11,11,0,661,267720.0
+NSW03,Chatswood,NSW,NSW Metro,Parts,2025-10-01,H1 (Oct-Mar),Other 20 dealerships,5,5,0,5,5,0,188,34720.0
+NSW01,Parramatta,NSW,NSW Metro,Service,2026-04-01,H2 (Apr-Sep),Worsening four,21,21,6,18,18,0,1062,449920.0
+NSW01,Parramatta,NSW,NSW Metro,Sales,2026-07-01,H2 (Apr-Sep),Worsening four,11,11,0,8,8,0,94,4355600.0
+NSW06,Wollongong,NSW,NSW Regional,Sales,2026-07-01,H2 (Apr-Sep),Other 20 dealerships,7,7,0,5,5,0,52,2500100.0
+VIC06,Geelong,VIC,VIC Regional,Sales,2026-05-01,H2 (Apr-Sep),Other 20 dealerships,11,11,0,7,7,0,56,2633000.0
+NSW01,Parramatta,NSW,NSW Metro,Parts,2026-09-01,H2 (Apr-Sep),Worsening four,4,4,1,3,3,0,328,60240.0
+VIC04,Frankston,VIC,VIC Metro,Sales,2026-04-01,H2 (Apr-Sep),Other 20 dealerships,6,6,2,6,6,0,50,2249400.0
+QLD02,Springwood,QLD,SEQ,Sales,2026-08-01,H2 (Apr-Sep),Other 20 dealerships,4,4,0,3,3,0,57,2633000.0
+VIC02,Ringwood,VIC,VIC Metro,Service,2026-08-01,H2 (Apr-Sep),Other 20 dealerships,30,30,4,19,19,0,1129,472360.0
+QLD08,Townsville,QLD,QLD Regional,Sales,2026-03-01,H1 (Oct-Mar),Other 20 dealerships,1,1,0,1,1,0,34,1580900.0
+QLD07,Rockhampton,QLD,QLD Regional,Parts,2025-10-01,H1 (Oct-Mar),Other 20 dealerships,2,2,0,2,2,0,177,32240.0
+VIC06,Geelong,VIC,VIC Regional,Parts,2026-06-01,H2 (Apr-Sep),Other 20 dealerships,2,2,0,2,2,0,213,40460.0
+VIC04,Frankston,VIC,VIC Metro,Parts,2026-07-01,H2 (Apr-Sep),Other 20 dealerships,3,3,0,2,2,0,189,37680.0
+VIC02,Ringwood,VIC,VIC Metro,Parts,2026-02-01,H1 (Oct-Mar),Other 20 dealerships,4,4,1,4,4,0,305,55970.0
+VIC05,Box Hill,VIC,VIC Metro,Sales,2026-01-01,H1 (Oct-Mar),Other 20 dealerships,5,5,0,4,4,0,46,2102400.0
+NSW06,Wollongong,NSW,NSW Regional,Sales,2026-04-01,H2 (Apr-Sep),Other 20 dealerships,6,6,1,6,6,0,54,2535200.0
+NSW06,Wollongong,NSW,NSW Regional,Sales,2025-12-01,H1 (Oct-Mar),Other 20 dealerships,9,9,0,7,7,0,58,2825500.0
+QLD03,Ipswich,QLD,SEQ,Sales,2026-08-01,H2 (Apr-Sep),Other 20 dealerships,4,4,1,2,2,0,50,2256900.0
+NSW07,Tamworth,NSW,NSW Regional,Sales,2026-05-01,H2 (Apr-Sep),Other 20 dealerships,5,5,0,3,3,0,31,1440100.0
+QLD06,Toowoomba,QLD,QLD Regional,Parts,2026-08-01,H2 (Apr-Sep),Other 20 dealerships,1,1,1,1,1,0,331,61040.0
+VIC08,Bendigo,VIC,VIC Regional,Parts,2026-07-01,H2 (Apr-Sep),Worsening four,1,1,0,1,1,0,113,20890.0
+QLD07,Rockhampton,QLD,QLD Regional,Sales,2026-02-01,H1 (Oct-Mar),Other 20 dealerships,1,1,0,1,1,0,16,754600.0
+NSW04,Liverpool,NSW,NSW Metro,Sales,2026-07-01,H2 (Apr-Sep),Worsening four,7,7,2,4,4,0,53,2394200.0
+VIC06,Geelong,VIC,VIC Regional,Parts,2025-12-01,H1 (Oct-Mar),Other 20 dealerships,2,2,0,1,1,0,168,31970.0
+QLD07,Rockhampton,QLD,QLD Regional,Parts,2025-12-01,H1 (Oct-Mar),Other 20 dealerships,2,2,1,2,2,0,157,28420.0
+VIC08,Bendigo,VIC,VIC Regional,Sales,2026-08-01,H2 (Apr-Sep),Worsening four,3,3,0,2,2,0,27,1216800.0
+VIC04,Frankston,VIC,VIC Metro,Sales,2026-09-01,H2 (Apr-Sep),Other 20 dealerships,3,3,0,3,3,0,51,2357200.0
+VIC02,Ringwood,VIC,VIC Metro,Sales,2026-04-01,H2 (Apr-Sep),Other 20 dealerships,9,9,0,5,5,0,86,3839400.0
+QLD05,Noosa,QLD,SEQ,Sales,2026-02-01,H1 (Oct-Mar),Other 20 dealerships,3,3,0,2,2,0,26,1183000.0
+VIC06,Geelong,VIC,VIC Regional,Parts,2025-11-01,H1 (Oct-Mar),Other 20 dealerships,2,2,0,1,1,0,216,38420.0
+VIC06,Geelong,VIC,VIC Regional,Parts,2026-07-01,H2 (Apr-Sep),Other 20 dealerships,2,2,0,2,2,0,220,41140.0
+VIC02,Ringwood,VIC,VIC Metro,Parts,2025-12-01,H1 (Oct-Mar),Other 20 dealerships,2,2,0,2,2,0,279,53140.0
+VIC05,Box Hill,VIC,VIC Metro,Sales,2026-03-01,H1 (Oct-Mar),Other 20 dealerships,3,3,0,3,3,0,65,2858300.0
+VIC06,Geelong,VIC,VIC Regional,Parts,2026-09-01,H2 (Apr-Sep),Other 20 dealerships,2,2,1,2,2,0,206,37200.0
+NSW05,Newcastle,NSW,NSW Regional,Parts,2026-03-01,H1 (Oct-Mar),Other 20 dealerships,2,2,0,1,1,2,209,36900.0
+NSW03,Chatswood,NSW,NSW Metro,Parts,2026-02-01,H1 (Oct-Mar),Other 20 dealerships,2,2,0,1,1,0,197,36550.0
+VIC07,Ballarat,VIC,VIC Regional,Parts,2025-12-01,H1 (Oct-Mar),Other 20 dealerships,1,1,0,1,1,0,174,31880.0
+NSW07,Tamworth,NSW,NSW Regional,Parts,2026-04-01,H2 (Apr-Sep),Other 20 dealerships,1,1,0,0,0,0,106,18820.0
+VIC09,Shepparton,VIC,VIC Regional,Parts,2025-12-01,H1 (Oct-Mar),Other 20 dealerships,1,1,0,0,0,0,102,19030.0
+QLD05,Noosa,QLD,SEQ,Service,2026-06-01,H2 (Apr-Sep),Other 20 dealerships,1,1,0,0,0,0,359,153290.0
+NSW01,Parramatta,NSW,NSW Metro,Service,2026-08-01,H2 (Apr-Sep),Worsening four,27,27,17,21,21,0,881,369110.0
+QLD02,Springwood,QLD,SEQ,Sales,2025-10-01,H1 (Oct-Mar),Other 20 dealerships,10,10,0,10,10,0,55,2531400.0
+VIC07,Ballarat,VIC,VIC Regional,Sales,2026-01-01,H1 (Oct-Mar),Other 20 dealerships,5,5,0,4,4,0,47,2161600.0
+VIC04,Frankston,VIC,VIC Metro,Service,2026-05-01,H2 (Apr-Sep),Other 20 dealerships,23,23,5,19,19,0,685,276780.0
+QLD03,Ipswich,QLD,SEQ,Service,2026-06-01,H2 (Apr-Sep),Other 20 dealerships,17,17,5,13,13,0,616,252530.0
+VIC03,Essendon,VIC,VIC Metro,Service,2026-06-01,H2 (Apr-Sep),Other 20 dealerships,17,17,4,14,14,0,638,263540.0
+VIC03,Essendon,VIC,VIC Metro,Service,2026-09-01,H2 (Apr-Sep),Other 20 dealerships,25,25,5,18,18,0,648,272130.0
+VIC05,Box Hill,VIC,VIC Metro,Service,2025-12-01,H1 (Oct-Mar),Other 20 dealerships,14,14,2,9,9,0,532,220730.0
+NSW06,Wollongong,NSW,NSW Regional,Service,2026-05-01,H2 (Apr-Sep),Other 20 dealerships,22,22,6,17,17,0,692,285320.0
+VIC02,Ringwood,VIC,VIC Metro,Parts,2026-09-01,H2 (Apr-Sep),Other 20 dealerships,2,2,0,2,2,0,290,53660.0
+NSW01,Parramatta,NSW,NSW Metro,Service,2025-10-01,H1 (Oct-Mar),Worsening four,31,31,8,23,23,0,1076,452670.0
+NSW02,Penrith,NSW,NSW Metro,Service,2026-03-01,H1 (Oct-Mar),Other 20 dealerships,33,33,11,25,25,0,1125,459260.0
+QLD07,Rockhampton,QLD,QLD Regional,Service,2026-03-01,H1 (Oct-Mar),Other 20 dealerships,14,14,4,12,12,0,576,237710.0
+NSW04,Liverpool,NSW,NSW Metro,Parts,2026-06-01,H2 (Apr-Sep),Worsening four,4,4,0,1,1,0,201,38520.0
+NSW03,Chatswood,NSW,NSW Metro,Sales,2026-07-01,H2 (Apr-Sep),Other 20 dealerships,7,7,1,4,4,0,43,1940200.0
+NSW02,Penrith,NSW,NSW Metro,Sales,2025-10-01,H1 (Oct-Mar),Other 20 dealerships,10,10,1,6,6,0,93,4426800.0
+VIC05,Box Hill,VIC,VIC Metro,Sales,2026-07-01,H2 (Apr-Sep),Other 20 dealerships,7,7,3,6,6,0,48,2189100.0
+VIC06,Geelong,VIC,VIC Regional,Sales,2026-04-01,H2 (Apr-Sep),Other 20 dealerships,7,7,1,6,6,0,53,2452200.0
+NSW06,Wollongong,NSW,NSW Regional,Service,2026-01-01,H1 (Oct-Mar),Other 20 dealerships,15,15,4,11,11,0,557,229330.0
+QLD03,Ipswich,QLD,SEQ,Parts,2026-03-01,H1 (Oct-Mar),Other 20 dealerships,3,3,0,3,3,0,210,38640.0
+VIC05,Box Hill,VIC,VIC Metro,Parts,2026-08-01,H2 (Apr-Sep),Other 20 dealerships,2,2,0,2,2,0,209,36330.0
+NSW02,Penrith,NSW,NSW Metro,Parts,2026-08-01,H2 (Apr-Sep),Other 20 dealerships,8,8,1,6,6,0,366,69000.0
+NSW03,Chatswood,NSW,NSW Metro,Parts,2025-12-01,H1 (Oct-Mar),Other 20 dealerships,6,6,1,4,4,0,172,29970.0
+NSW06,Wollongong,NSW,NSW Regional,Sales,2026-06-01,H2 (Apr-Sep),Other 20 dealerships,12,12,0,8,8,0,84,4023900.0
+VIC04,Frankston,VIC,VIC Metro,Sales,2026-01-01,H1 (Oct-Mar),Other 20 dealerships,2,2,1,2,2,0,46,2085900.0
+VIC02,Ringwood,VIC,VIC Metro,Sales,2026-05-01,H2 (Apr-Sep),Other 20 dealerships,3,3,0,2,2,0,114,5119900.0
+VIC08,Bendigo,VIC,VIC Regional,Service,2026-02-01,H1 (Oct-Mar),Worsening four,3,3,0,2,2,0,350,149870.0
+NSW02,Penrith,NSW,NSW Metro,Sales,2026-07-01,H2 (Apr-Sep),Other 20 dealerships,13,13,4,8,8,0,83,3860100.0
+QLD08,Townsville,QLD,QLD Regional,Parts,2026-08-01,H2 (Apr-Sep),Other 20 dealerships,5,5,1,4,4,0,343,61460.0
+VIC03,Essendon,VIC,VIC Metro,Sales,2026-03-01,H1 (Oct-Mar),Other 20 dealerships,7,7,1,5,5,0,58,2803200.0
+QLD01,Chermside,QLD,SEQ,Sales,2026-04-01,H2 (Apr-Sep),Other 20 dealerships,11,11,1,8,8,0,94,4417900.0
+QLD06,Toowoomba,QLD,QLD Regional,Sales,2026-07-01,H2 (Apr-Sep),Other 20 dealerships,3,3,0,2,2,0,27,1204500.0
+NSW02,Penrith,NSW,NSW Metro,Parts,2026-01-01,H1 (Oct-Mar),Other 20 dealerships,3,3,1,2,2,0,289,51030.0
+NSW02,Penrith,NSW,NSW Metro,Parts,2026-02-01,H1 (Oct-Mar),Other 20 dealerships,5,5,0,3,3,0,319,60150.0
+QLD01,Chermside,QLD,SEQ,Parts,2026-06-01,H2 (Apr-Sep),Other 20 dealerships,2,2,2,2,2,0,303,58460.0
+NSW04,Liverpool,NSW,NSW Metro,Sales,2026-04-01,H2 (Apr-Sep),Worsening four,4,4,2,3,3,0,53,2474800.0
+VIC02,Ringwood,VIC,VIC Metro,Parts,2025-11-01,H1 (Oct-Mar),Other 20 dealerships,3,3,0,3,3,0,329,60830.0
+VIC09,Shepparton,VIC,VIC Regional,Sales,2025-10-01,H1 (Oct-Mar),Other 20 dealerships,2,2,0,1,1,0,27,1257800.0
+QLD04,Southport,QLD,SEQ,Sales,2025-11-01,H1 (Oct-Mar),Other 20 dealerships,6,6,0,5,5,0,55,2538800.0
+VIC02,Ringwood,VIC,VIC Metro,Sales,2025-10-01,H1 (Oct-Mar),Other 20 dealerships,8,8,0,4,4,0,89,4260700.0
+VIC08,Bendigo,VIC,VIC Regional,Sales,2025-10-01,H1 (Oct-Mar),Worsening four,3,3,0,3,3,0,27,1270900.0
+VIC09,Shepparton,VIC,VIC Regional,Parts,2026-03-01,H1 (Oct-Mar),Other 20 dealerships,1,1,0,0,0,0,82,14970.0
+NSW06,Wollongong,NSW,NSW Regional,Parts,2026-09-01,H2 (Apr-Sep),Other 20 dealerships,1,1,0,0,0,0,208,39080.0
+QLD08,Townsville,QLD,QLD Regional,Service,2026-08-01,H2 (Apr-Sep),Other 20 dealerships,31,31,7,28,28,0,1076,446890.0
+VIC02,Ringwood,VIC,VIC Metro,Service,2026-09-01,H2 (Apr-Sep),Other 20 dealerships,26,26,6,19,19,0,1072,455270.0
+NSW06,Wollongong,NSW,NSW Regional,Service,2026-09-01,H2 (Apr-Sep),Other 20 dealerships,22,22,1,16,16,0,669,275780.0
+VIC05,Box Hill,VIC,VIC Metro,Service,2026-08-01,H2 (Apr-Sep),Other 20 dealerships,18,18,7,15,15,0,683,289510.0
+QLD03,Ipswich,QLD,SEQ,Service,2026-03-01,H1 (Oct-Mar),Other 20 dealerships,19,19,8,15,15,0,655,271480.0
+NSW02,Penrith,NSW,NSW Metro,Service,2026-02-01,H1 (Oct-Mar),Other 20 dealerships,29,29,6,24,24,0,1064,443020.0
+NSW02,Penrith,NSW,NSW Metro,Service,2026-08-01,H2 (Apr-Sep),Other 20 dealerships,37,37,7,26,26,0,1155,468910.0
+NSW04,Liverpool,NSW,NSW Metro,Sales,2026-05-01,H2 (Apr-Sep),Worsening four,4,4,0,3,3,0,50,2311800.0
+NSW03,Chatswood,NSW,NSW Metro,Service,2025-12-01,H1 (Oct-Mar),Other 20 dealerships,8,8,3,6,6,0,574,236970.0
+VIC02,Ringwood,VIC,VIC Metro,Service,2025-11-01,H1 (Oct-Mar),Other 20 dealerships,19,19,6,16,16,0,1040,452570.0
+VIC01,Dandenong,VIC,VIC Metro,Sales,2026-04-01,H2 (Apr-Sep),Worsening four,12,12,1,10,10,0,93,4294500.0
+NSW01,Parramatta,NSW,NSW Metro,Parts,2026-08-01,H2 (Apr-Sep),Worsening four,6,6,0,6,6,0,355,64220.0
+QLD01,Chermside,QLD,SEQ,Service,2026-06-01,H2 (Apr-Sep),Other 20 dealerships,18,18,5,15,15,0,1099,450990.0
+NSW04,Liverpool,NSW,NSW Metro,Service,2026-06-01,H2 (Apr-Sep),Worsening four,21,21,8,18,18,0,622,259730.0
+NSW02,Penrith,NSW,NSW Metro,Parts,2026-03-01,H1 (Oct-Mar),Other 20 dealerships,3,3,1,2,2,0,317,61810.0
+VIC08,Bendigo,VIC,VIC Regional,Sales,2026-03-01,H1 (Oct-Mar),Worsening four,4,4,0,3,3,0,31,1408600.0
+VIC04,Frankston,VIC,VIC Metro,Sales,2025-11-01,H1 (Oct-Mar),Other 20 dealerships,6,6,1,3,3,0,49,2280200.0
+NSW02,Penrith,NSW,NSW Metro,Service,2026-01-01,H1 (Oct-Mar),Other 20 dealerships,20,20,5,13,13,0,918,390840.0
+NSW01,Parramatta,NSW,NSW Metro,Parts,2025-10-01,H1 (Oct-Mar),Worsening four,7,7,0,2,2,0,354,67680.0
+NSW04,Liverpool,NSW,NSW Metro,Sales,2026-02-01,H1 (Oct-Mar),Worsening four,7,7,0,5,5,0,53,2538300.0
+NSW03,Chatswood,NSW,NSW Metro,Sales,2026-04-01,H2 (Apr-Sep),Other 20 dealerships,3,3,1,3,3,0,51,2529400.0
+QLD07,Rockhampton,QLD,QLD Regional,Parts,2026-03-01,H1 (Oct-Mar),Other 20 dealerships,2,2,0,1,1,0,173,31750.0
+VIC03,Essendon,VIC,VIC Metro,Sales,2025-12-01,H1 (Oct-Mar),Other 20 dealerships,9,9,0,2,2,0,62,2860600.0
+VIC04,Frankston,VIC,VIC Metro,Parts,2026-05-01,H2 (Apr-Sep),Other 20 dealerships,1,1,1,1,1,0,217,41450.0
+VIC04,Frankston,VIC,VIC Metro,Sales,2026-03-01,H1 (Oct-Mar),Other 20 dealerships,6,6,0,4,4,0,57,2655100.0
+VIC09,Shepparton,VIC,VIC Regional,Service,2026-03-01,H1 (Oct-Mar),Other 20 dealerships,4,4,1,2,2,0,266,114420.0
+VIC03,Essendon,VIC,VIC Metro,Parts,2026-06-01,H2 (Apr-Sep),Other 20 dealerships,2,2,0,2,2,0,187,34950.0
+NSW01,Parramatta,NSW,NSW Metro,Sales,2025-11-01,H1 (Oct-Mar),Worsening four,10,10,0,5,5,0,95,4237400.0
+VIC06,Geelong,VIC,VIC Regional,Sales,2025-10-01,H1 (Oct-Mar),Other 20 dealerships,5,5,0,3,3,0,60,2795100.0
+VIC06,Geelong,VIC,VIC Regional,Sales,2026-03-01,H1 (Oct-Mar),Other 20 dealerships,9,9,1,7,7,0,57,2617300.0
+QLD02,Springwood,QLD,SEQ,Sales,2026-04-01,H2 (Apr-Sep),Other 20 dealerships,3,3,0,2,2,0,59,2688000.0
+NSW06,Wollongong,NSW,NSW Regional,Parts,2026-05-01,H2 (Apr-Sep),Other 20 dealerships,4,4,0,1,1,0,204,36680.0
+QLD02,Springwood,QLD,SEQ,Sales,2026-02-01,H1 (Oct-Mar),Other 20 dealerships,5,5,0,3,3,0,55,2542600.0
+VIC03,Essendon,VIC,VIC Metro,Parts,2026-09-01,H2 (Apr-Sep),Other 20 dealerships,4,4,0,2,2,0,203,38720.0
+VIC04,Frankston,VIC,VIC Metro,Sales,2026-06-01,H2 (Apr-Sep),Other 20 dealerships,6,6,0,5,5,0,73,3442000.0
+QLD03,Ipswich,QLD,SEQ,Parts,2026-06-01,H2 (Apr-Sep),Other 20 dealerships,2,2,0,1,1,0,205,37830.0
+VIC05,Box Hill,VIC,VIC Metro,Parts,2025-12-01,H1 (Oct-Mar),Other 20 dealerships,1,1,0,1,1,0,160,28840.0
+VIC07,Ballarat,VIC,VIC Regional,Sales,2026-06-01,H2 (Apr-Sep),Other 20 dealerships,5,5,0,2,2,0,76,3714800.0
+QLD05,Noosa,QLD,SEQ,Sales,2026-04-01,H2 (Apr-Sep),Other 20 dealerships,3,3,0,3,3,0,29,1402300.0
+VIC08,Bendigo,VIC,VIC Regional,Parts,2026-02-01,H1 (Oct-Mar),Worsening four,3,3,0,1,1,0,107,19580.0
+NSW06,Wollongong,NSW,NSW Regional,Parts,2026-01-01,H1 (Oct-Mar),Other 20 dealerships,1,1,0,1,1,0,176,34440.0
+QLD05,Noosa,QLD,SEQ,Sales,2026-05-01,H2 (Apr-Sep),Other 20 dealerships,1,1,0,0,0,0,29,1338500.0
+VIC05,Box Hill,VIC,VIC Metro,Service,2026-09-01,H2 (Apr-Sep),Other 20 dealerships,23,23,5,16,16,0,721,292370.0
+NSW01,Parramatta,NSW,NSW Metro,Sales,2026-01-01,H1 (Oct-Mar),Worsening four,9,9,1,5,5,0,72,3216500.0
+NSW06,Wollongong,NSW,NSW Regional,Service,2026-03-01,H1 (Oct-Mar),Other 20 dealerships,9,9,2,7,7,0,655,267920.0
+QLD03,Ipswich,QLD,SEQ,Sales,2025-10-01,H1 (Oct-Mar),Other 20 dealerships,3,3,0,2,2,0,58,2584000.0
+VIC03,Essendon,VIC,VIC Metro,Service,2026-07-01,H2 (Apr-Sep),Other 20 dealerships,30,30,7,25,25,0,737,295760.0
+VIC01,Dandenong,VIC,VIC Metro,Parts,2026-05-01,H2 (Apr-Sep),Worsening four,4,4,2,4,4,0,323,58760.0
+QLD02,Springwood,QLD,SEQ,Sales,2026-07-01,H2 (Apr-Sep),Other 20 dealerships,3,3,0,2,2,0,51,2242500.0
+NSW04,Liverpool,NSW,NSW Metro,Service,2026-08-01,H2 (Apr-Sep),Worsening four,17,17,6,15,15,0,689,288890.0
+NSW05,Newcastle,NSW,NSW Regional,Service,2025-12-01,H1 (Oct-Mar),Other 20 dealerships,21,21,3,17,17,21,562,235160.0
+NSW04,Liverpool,NSW,NSW Metro,Sales,2025-12-01,H1 (Oct-Mar),Worsening four,7,7,0,4,4,0,59,2767100.0
+QLD04,Southport,QLD,SEQ,Sales,2026-04-01,H2 (Apr-Sep),Other 20 dealerships,5,5,1,4,4,0,54,2606700.0
+QLD01,Chermside,QLD,SEQ,Service,2025-11-01,H1 (Oct-Mar),Other 20 dealerships,27,27,8,22,22,0,1009,419520.0
+QLD03,Ipswich,QLD,SEQ,Service,2026-04-01,H2 (Apr-Sep),Other 20 dealerships,17,17,4,12,12,0,605,249570.0
+VIC03,Essendon,VIC,VIC Metro,Service,2026-02-01,H1 (Oct-Mar),Other 20 dealerships,14,14,2,10,10,0,634,268520.0
+QLD08,Townsville,QLD,QLD Regional,Service,2026-01-01,H1 (Oct-Mar),Other 20 dealerships,19,19,6,15,15,0,872,361200.0
+VIC07,Ballarat,VIC,VIC Regional,Service,2026-02-01,H1 (Oct-Mar),Other 20 dealerships,20,20,4,15,15,0,671,280440.0
+QLD04,Southport,QLD,SEQ,Sales,2026-05-01,H2 (Apr-Sep),Other 20 dealerships,6,6,0,5,5,0,56,2647700.0
+NSW05,Newcastle,NSW,NSW Regional,Sales,2026-08-01,H2 (Apr-Sep),Other 20 dealerships,10,10,1,5,5,10,56,2626100.0
+NSW06,Wollongong,NSW,NSW Regional,Service,2025-10-01,H1 (Oct-Mar),Other 20 dealerships,21,21,3,17,17,0,637,273160.0
+VIC07,Ballarat,VIC,VIC Regional,Sales,2025-11-01,H1 (Oct-Mar),Other 20 dealerships,7,7,0,6,6,0,54,2456300.0
+QLD03,Ipswich,QLD,SEQ,Parts,2026-02-01,H1 (Oct-Mar),Other 20 dealerships,2,2,0,2,2,0,196,37670.0
+QLD01,Chermside,QLD,SEQ,Sales,2026-05-01,H2 (Apr-Sep),Other 20 dealerships,13,13,2,10,10,0,91,4236300.0
+VIC05,Box Hill,VIC,VIC Metro,Sales,2026-05-01,H2 (Apr-Sep),Other 20 dealerships,6,6,2,6,6,0,55,2481100.0
+NSW03,Chatswood,NSW,NSW Metro,Service,2026-05-01,H2 (Apr-Sep),Other 20 dealerships,14,14,5,10,10,0,646,277680.0
+VIC03,Essendon,VIC,VIC Metro,Parts,2026-01-01,H1 (Oct-Mar),Other 20 dealerships,4,4,1,2,2,0,161,28350.0
+QLD06,Toowoomba,QLD,QLD Regional,Parts,2026-09-01,H2 (Apr-Sep),Other 20 dealerships,6,6,0,6,6,0,343,62050.0
+NSW06,Wollongong,NSW,NSW Regional,Parts,2026-02-01,H1 (Oct-Mar),Other 20 dealerships,1,1,1,1,1,0,211,39270.0
+NSW03,Chatswood,NSW,NSW Metro,Sales,2026-09-01,H2 (Apr-Sep),Other 20 dealerships,7,7,3,5,5,0,52,2344300.0
+QLD01,Chermside,QLD,SEQ,Parts,2026-09-01,H2 (Apr-Sep),Other 20 dealerships,5,5,1,4,4,0,310,57260.0
+VIC07,Ballarat,VIC,VIC Regional,Sales,2025-10-01,H1 (Oct-Mar),Other 20 dealerships,5,5,1,5,5,0,55,2619000.0
+NSW02,Penrith,NSW,NSW Metro,Service,2025-12-01,H1 (Oct-Mar),Other 20 dealerships,17,17,4,10,10,0,888,370030.0
+QLD03,Ipswich,QLD,SEQ,Sales,2026-09-01,H2 (Apr-Sep),Other 20 dealerships,3,3,0,3,3,0,53,2614500.0
+VIC03,Essendon,VIC,VIC Metro,Sales,2025-11-01,H1 (Oct-Mar),Other 20 dealerships,9,9,2,7,7,0,52,2390200.0
+QLD04,Southport,QLD,SEQ,Sales,2026-07-01,H2 (Apr-Sep),Other 20 dealerships,5,5,3,5,5,0,49,2203200.0
+NSW06,Wollongong,NSW,NSW Regional,Sales,2025-11-01,H1 (Oct-Mar),Other 20 dealerships,5,5,1,4,4,0,49,2212300.0
+VIC01,Dandenong,VIC,VIC Metro,Sales,2025-11-01,H1 (Oct-Mar),Worsening four,9,9,0,5,5,0,92,4242100.0
+QLD04,Southport,QLD,SEQ,Parts,2026-03-01,H1 (Oct-Mar),Other 20 dealerships,4,4,2,4,4,0,193,34540.0
+VIC02,Ringwood,VIC,VIC Metro,Sales,2026-07-01,H2 (Apr-Sep),Other 20 dealerships,14,14,0,9,9,0,80,3760100.0
+VIC08,Bendigo,VIC,VIC Regional,Parts,2026-06-01,H2 (Apr-Sep),Worsening four,1,1,0,1,1,0,115,22420.0
+QLD07,Rockhampton,QLD,QLD Regional,Parts,2026-08-01,H2 (Apr-Sep),Other 20 dealerships,3,3,0,2,2,0,188,35180.0
+QLD04,Southport,QLD,SEQ,Parts,2025-12-01,H1 (Oct-Mar),Other 20 dealerships,1,1,0,1,1,0,181,33700.0
+QLD05,Noosa,QLD,SEQ,Sales,2026-08-01,H2 (Apr-Sep),Other 20 dealerships,2,2,0,1,1,0,24,1066800.0
+NSW03,Chatswood,NSW,NSW Metro,Parts,2026-01-01,H1 (Oct-Mar),Other 20 dealerships,1,1,1,1,1,0,170,31070.0
+QLD05,Noosa,QLD,SEQ,Service,2025-10-01,H1 (Oct-Mar),Other 20 dealerships,2,2,0,1,1,0,343,141120.0
+QLD04,Southport,QLD,SEQ,Sales,2026-09-01,H2 (Apr-Sep),Other 20 dealerships,3,3,0,2,2,0,59,2636700.0
+VIC08,Bendigo,VIC,VIC Regional,Sales,2025-12-01,H1 (Oct-Mar),Worsening four,1,1,0,1,1,0,33,1509600.0
+QLD08,Townsville,QLD,QLD Regional,Sales,2026-06-01,H2 (Apr-Sep),Other 20 dealerships,1,1,0,1,1,0,46,2144900.0
+VIC01,Dandenong,VIC,VIC Metro,Sales,2026-01-01,H1 (Oct-Mar),Worsening four,4,4,0,2,2,0,73,3410600.0
+QLD02,Springwood,QLD,SEQ,Parts,2025-11-01,H1 (Oct-Mar),Other 20 dealerships,2,2,0,2,2,0,212,39540.0
+NSW05,Newcastle,NSW,NSW Regional,Parts,2026-09-01,H2 (Apr-Sep),Other 20 dealerships,3,3,0,1,1,3,235,42970.0
+VIC06,Geelong,VIC,VIC Regional,Sales,2026-02-01,H1 (Oct-Mar),Other 20 dealerships,1,1,0,0,0,0,49,2248200.0
+QLD05,Noosa,QLD,SEQ,Sales,2026-01-01,H1 (Oct-Mar),Other 20 dealerships,1,1,0,0,0,0,24,1183400.0
+VIC03,Essendon,VIC,VIC Metro,Parts,2025-10-01,H1 (Oct-Mar),Other 20 dealerships,1,1,0,0,0,0,209,39240.0
+NSW07,Tamworth,NSW,NSW Regional,Sales,2026-08-01,H2 (Apr-Sep),Other 20 dealerships,1,1,0,0,0,0,26,1185500.0
+QLD04,Southport,QLD,SEQ,Service,2025-11-01,H1 (Oct-Mar),Other 20 dealerships,11,11,3,9,9,0,624,263210.0
+NSW02,Penrith,NSW,NSW Metro,Service,2025-10-01,H1 (Oct-Mar),Other 20 dealerships,20,20,5,15,15,0,1086,448150.0
+VIC02,Ringwood,VIC,VIC Metro,Service,2026-05-01,H2 (Apr-Sep),Other 20 dealerships,27,27,7,23,23,0,1101,442890.0
+VIC03,Essendon,VIC,VIC Metro,Sales,2026-09-01,H2 (Apr-Sep),Other 20 dealerships,8,8,0,4,4,0,64,3055900.0
+VIC04,Frankston,VIC,VIC Metro,Parts,2025-11-01,H1 (Oct-Mar),Other 20 dealerships,3,3,0,3,3,0,204,38580.0
+QLD02,Springwood,QLD,SEQ,Service,2025-10-01,H1 (Oct-Mar),Other 20 dealerships,20,20,4,14,14,0,687,284790.0
+QLD01,Chermside,QLD,SEQ,Service,2026-04-01,H2 (Apr-Sep),Other 20 dealerships,29,29,8,22,22,0,1022,421480.0
+VIC03,Essendon,VIC,VIC Metro,Parts,2025-12-01,H1 (Oct-Mar),Other 20 dealerships,2,2,0,2,2,0,169,31100.0
+NSW03,Chatswood,NSW,NSW Metro,Service,2026-07-01,H2 (Apr-Sep),Other 20 dealerships,16,16,5,15,15,0,670,291680.0
+VIC06,Geelong,VIC,VIC Regional,Service,2026-04-01,H2 (Apr-Sep),Other 20 dealerships,22,22,4,17,17,0,659,271230.0
+NSW02,Penrith,NSW,NSW Metro,Service,2026-07-01,H2 (Apr-Sep),Other 20 dealerships,22,22,4,13,13,0,1101,460340.0
+VIC02,Ringwood,VIC,VIC Metro,Service,2025-10-01,H1 (Oct-Mar),Other 20 dealerships,25,25,5,16,16,0,1073,445250.0
+NSW02,Penrith,NSW,NSW Metro,Sales,2026-03-01,H1 (Oct-Mar),Other 20 dealerships,9,9,2,5,5,0,106,4972700.0
+VIC08,Bendigo,VIC,VIC Regional,Service,2025-10-01,H1 (Oct-Mar),Worsening four,6,6,2,4,4,0,345,145940.0
+NSW01,Parramatta,NSW,NSW Metro,Parts,2025-11-01,H1 (Oct-Mar),Worsening four,6,6,0,3,3,0,327,58310.0
+VIC06,Geelong,VIC,VIC Regional,Parts,2025-10-01,H1 (Oct-Mar),Other 20 dealerships,3,3,2,3,3,0,186,35070.0
+VIC03,Essendon,VIC,VIC Metro,Service,2026-03-01,H1 (Oct-Mar),Other 20 dealerships,15,15,3,11,11,0,697,293760.0
+VIC03,Essendon,VIC,VIC Metro,Sales,2026-06-01,H2 (Apr-Sep),Other 20 dealerships,19,19,0,15,15,0,85,4045700.0
+VIC08,Bendigo,VIC,VIC Regional,Parts,2026-03-01,H1 (Oct-Mar),Worsening four,2,2,0,2,2,0,101,19670.0
+VIC05,Box Hill,VIC,VIC Metro,Service,2026-07-01,H2 (Apr-Sep),Other 20 dealerships,17,17,3,12,12,0,669,281880.0
+NSW04,Liverpool,NSW,NSW Metro,Service,2026-04-01,H2 (Apr-Sep),Worsening four,12,12,4,9,9,0,632,256420.0
+NSW06,Wollongong,NSW,NSW Regional,Sales,2026-01-01,H1 (Oct-Mar),Other 20 dealerships,4,4,0,3,3,0,43,1919300.0
+VIC04,Frankston,VIC,VIC Metro,Parts,2026-06-01,H2 (Apr-Sep),Other 20 dealerships,3,3,2,2,2,0,220,39090.0
+NSW03,Chatswood,NSW,NSW Metro,Parts,2026-04-01,H2 (Apr-Sep),Other 20 dealerships,6,6,1,6,6,0,205,40350.0
+QLD03,Ipswich,QLD,SEQ,Sales,2026-06-01,H2 (Apr-Sep),Other 20 dealerships,11,11,0,8,8,0,83,3891500.0
+VIC04,Frankston,VIC,VIC Metro,Sales,2026-05-01,H2 (Apr-Sep),Other 20 dealerships,6,6,0,6,6,0,61,3031100.0
+VIC07,Ballarat,VIC,VIC Regional,Service,2026-01-01,H1 (Oct-Mar),Other 20 dealerships,12,12,4,11,11,0,562,230370.0
+VIC08,Bendigo,VIC,VIC Regional,Sales,2026-02-01,H1 (Oct-Mar),Worsening four,3,3,0,1,1,0,24,1154800.0
+QLD08,Townsville,QLD,QLD Regional,Parts,2025-11-01,H1 (Oct-Mar),Other 20 dealerships,9,9,2,7,7,0,325,57230.0
+NSW06,Wollongong,NSW,NSW Regional,Service,2026-06-01,H2 (Apr-Sep),Other 20 dealerships,7,7,3,6,6,0,667,273410.0
+NSW01,Parramatta,NSW,NSW Metro,Sales,2025-10-01,H1 (Oct-Mar),Worsening four,9,9,1,7,7,0,91,4433000.0
+VIC09,Shepparton,VIC,VIC Regional,Service,2025-10-01,H1 (Oct-Mar),Other 20 dealerships,7,7,2,5,5,0,340,139010.0
+QLD06,Toowoomba,QLD,QLD Regional,Service,2026-07-01,H2 (Apr-Sep),Other 20 dealerships,14,14,4,11,11,0,1108,455910.0
+NSW04,Liverpool,NSW,NSW Metro,Parts,2026-02-01,H1 (Oct-Mar),Worsening four,2,2,0,2,2,0,205,38430.0
+VIC04,Frankston,VIC,VIC Metro,Service,2026-01-01,H1 (Oct-Mar),Other 20 dealerships,12,12,2,9,9,0,552,224870.0
+VIC04,Frankston,VIC,VIC Metro,Parts,2026-03-01,H1 (Oct-Mar),Other 20 dealerships,2,2,1,2,2,0,200,38360.0
+NSW01,Parramatta,NSW,NSW Metro,Sales,2026-08-01,H2 (Apr-Sep),Worsening four,6,6,2,4,4,0,90,4136700.0
+QLD02,Springwood,QLD,SEQ,Parts,2026-04-01,H2 (Apr-Sep),Other 20 dealerships,3,3,1,3,3,0,181,34250.0
+NSW06,Wollongong,NSW,NSW Regional,Sales,2026-05-01,H2 (Apr-Sep),Other 20 dealerships,6,6,0,5,5,0,55,2687000.0
+VIC05,Box Hill,VIC,VIC Metro,Sales,2025-12-01,H1 (Oct-Mar),Other 20 dealerships,4,4,0,2,2,0,58,2387500.0
+VIC07,Ballarat,VIC,VIC Regional,Parts,2026-06-01,H2 (Apr-Sep),Other 20 dealerships,2,2,1,1,1,0,199,36500.0
+QLD05,Noosa,QLD,SEQ,Parts,2026-05-01,H2 (Apr-Sep),Other 20 dealerships,1,1,0,1,1,0,125,22920.0
+VIC06,Geelong,VIC,VIC Regional,Parts,2026-03-01,H1 (Oct-Mar),Other 20 dealerships,2,2,0,1,1,0,223,41280.0
+NSW04,Liverpool,NSW,NSW Metro,Parts,2026-05-01,H2 (Apr-Sep),Worsening four,1,1,0,1,1,0,205,36650.0
+QLD07,Rockhampton,QLD,QLD Regional,Sales,2026-03-01,H1 (Oct-Mar),Other 20 dealerships,1,1,0,0,0,0,17,794400.0
+QLD02,Springwood,QLD,SEQ,Parts,2026-02-01,H1 (Oct-Mar),Other 20 dealerships,2,2,0,0,0,0,180,33840.0
+QLD05,Noosa,QLD,SEQ,Parts,2026-04-01,H2 (Apr-Sep),Other 20 dealerships,1,1,0,0,0,0,109,21120.0
+NSW07,Tamworth,NSW,NSW Regional,Service,2026-09-01,H2 (Apr-Sep),Other 20 dealerships,8,7,2,5,5,0,370,156060.0
+VIC07,Ballarat,VIC,VIC Regional,Service,2026-03-01,H1 (Oct-Mar),Other 20 dealerships,23,23,6,18,18,0,760,312960.0
+NSW01,Parramatta,NSW,NSW Metro,Service,2026-03-01,H1 (Oct-Mar),Worsening four,25,25,5,20,19,0,1047,436400.0
+QLD01,Chermside,QLD,SEQ,Sales,2026-02-01,H1 (Oct-Mar),Other 20 dealerships,7,7,1,5,5,0,91,4249700.0
+QLD07,Rockhampton,QLD,QLD Regional,Service,2026-07-01,H2 (Apr-Sep),Other 20 dealerships,8,8,1,5,5,0,535,221120.0
+VIC07,Ballarat,VIC,VIC Regional,Service,2026-05-01,H2 (Apr-Sep),Other 20 dealerships,21,21,5,15,15,0,668,279940.0
+VIC01,Dandenong,VIC,VIC Metro,Parts,2026-07-01,H2 (Apr-Sep),Worsening four,5,5,0,4,4,0,361,64090.0
+QLD01,Chermside,QLD,SEQ,Sales,2025-12-01,H1 (Oct-Mar),Other 20 dealerships,6,6,1,5,5,0,105,4871600.0
+VIC07,Ballarat,VIC,VIC Regional,Service,2026-07-01,H2 (Apr-Sep),Other 20 dealerships,10,10,4,9,9,0,685,282070.0
+QLD02,Springwood,QLD,SEQ,Service,2026-03-01,H1 (Oct-Mar),Other 20 dealerships,24,24,4,20,20,0,698,286260.0
+VIC07,Ballarat,VIC,VIC Regional,Parts,2026-04-01,H2 (Apr-Sep),Other 20 dealerships,3,3,1,3,3,0,241,43720.0
+NSW01,Parramatta,NSW,NSW Metro,Service,2026-06-01,H2 (Apr-Sep),Worsening four,33,33,17,28,28,0,1050,438460.0
+VIC01,Dandenong,VIC,VIC Metro,Service,2025-10-01,H1 (Oct-Mar),Worsening four,27,27,6,22,22,0,1024,418720.0
+NSW04,Liverpool,NSW,NSW Metro,Sales,2025-10-01,H1 (Oct-Mar),Worsening four,8,8,0,7,7,0,58,2752500.0
+QLD04,Southport,QLD,SEQ,Parts,2025-10-01,H1 (Oct-Mar),Other 20 dealerships,1,1,0,1,1,0,201,36780.0
+QLD06,Toowoomba,QLD,QLD Regional,Service,2026-04-01,H2 (Apr-Sep),Other 20 dealerships,26,26,10,19,19,0,1014,429580.0
+QLD02,Springwood,QLD,SEQ,Parts,2025-12-01,H1 (Oct-Mar),Other 20 dealerships,2,2,0,2,2,0,166,29980.0
+VIC05,Box Hill,VIC,VIC Metro,Sales,2026-04-01,H2 (Apr-Sep),Other 20 dealerships,8,8,0,7,7,0,51,2343200.0
+QLD01,Chermside,QLD,SEQ,Service,2026-01-01,H1 (Oct-Mar),Other 20 dealerships,26,26,10,22,22,0,1000,425360.0
+NSW03,Chatswood,NSW,NSW Metro,Sales,2026-08-01,H2 (Apr-Sep),Other 20 dealerships,6,6,1,4,4,0,58,2674400.0
+NSW03,Chatswood,NSW,NSW Metro,Service,2026-03-01,H1 (Oct-Mar),Other 20 dealerships,15,15,4,11,11,0,665,269710.0
+VIC08,Bendigo,VIC,VIC Regional,Service,2026-09-01,H2 (Apr-Sep),Worsening four,9,9,2,7,7,0,360,150290.0
+QLD07,Rockhampton,QLD,QLD Regional,Sales,2026-04-01,H2 (Apr-Sep),Other 20 dealerships,1,1,0,1,1,0,17,798300.0
+QLD08,Townsville,QLD,QLD Regional,Parts,2025-10-01,H1 (Oct-Mar),Other 20 dealerships,3,3,0,2,2,0,309,55320.0
+QLD01,Chermside,QLD,SEQ,Service,2026-07-01,H2 (Apr-Sep),Other 20 dealerships,19,19,3,16,16,0,1127,450460.0
+NSW05,Newcastle,NSW,NSW Regional,Service,2026-05-01,H2 (Apr-Sep),Other 20 dealerships,18,18,6,16,15,18,699,285410.0
+NSW03,Chatswood,NSW,NSW Metro,Service,2025-11-01,H1 (Oct-Mar),Other 20 dealerships,10,10,1,8,8,0,612,252390.0
+QLD02,Springwood,QLD,SEQ,Sales,2026-01-01,H1 (Oct-Mar),Other 20 dealerships,6,6,1,2,2,0,46,2033300.0
+QLD04,Southport,QLD,SEQ,Parts,2026-06-01,H2 (Apr-Sep),Other 20 dealerships,1,1,0,1,1,0,216,39620.0
+NSW02,Penrith,NSW,NSW Metro,Sales,2025-11-01,H1 (Oct-Mar),Other 20 dealerships,13,13,0,12,12,0,93,4384200.0
+NSW05,Newcastle,NSW,NSW Regional,Sales,2025-11-01,H1 (Oct-Mar),Other 20 dealerships,4,4,0,4,4,4,55,2680800.0
+QLD06,Toowoomba,QLD,QLD Regional,Service,2026-06-01,H2 (Apr-Sep),Other 20 dealerships,13,13,1,11,11,0,996,411010.0
+QLD03,Ipswich,QLD,SEQ,Sales,2026-05-01,H2 (Apr-Sep),Other 20 dealerships,7,7,2,5,5,0,59,2762500.0
+NSW05,Newcastle,NSW,NSW Regional,Sales,2026-04-01,H2 (Apr-Sep),Other 20 dealerships,5,5,0,4,4,5,52,2423500.0
+VIC01,Dandenong,VIC,VIC Metro,Parts,2026-08-01,H2 (Apr-Sep),Worsening four,3,3,0,3,3,0,348,63580.0
+QLD06,Toowoomba,QLD,QLD Regional,Parts,2026-05-01,H2 (Apr-Sep),Other 20 dealerships,1,1,0,1,1,0,298,55790.0
+VIC08,Bendigo,VIC,VIC Regional,Parts,2026-01-01,H1 (Oct-Mar),Worsening four,2,2,0,2,2,0,96,17680.0
+NSW02,Penrith,NSW,NSW Metro,Parts,2026-05-01,H2 (Apr-Sep),Other 20 dealerships,6,6,0,6,6,0,341,63130.0
+QLD03,Ipswich,QLD,SEQ,Service,2026-01-01,H1 (Oct-Mar),Other 20 dealerships,8,8,2,5,5,0,585,245860.0
+NSW05,Newcastle,NSW,NSW Regional,Sales,2026-07-01,H2 (Apr-Sep),Other 20 dealerships,7,7,1,3,3,7,47,2218600.0
+NSW01,Parramatta,NSW,NSW Metro,Sales,2026-05-01,H2 (Apr-Sep),Worsening four,11,11,2,8,8,0,104,4730000.0
+QLD02,Springwood,QLD,SEQ,Parts,2026-06-01,H2 (Apr-Sep),Other 20 dealerships,2,2,1,1,1,0,190,34890.0
+VIC05,Box Hill,VIC,VIC Metro,Parts,2025-11-01,H1 (Oct-Mar),Other 20 dealerships,3,3,0,2,2,0,226,41210.0
+VIC03,Essendon,VIC,VIC Metro,Parts,2026-05-01,H2 (Apr-Sep),Other 20 dealerships,1,1,0,1,1,0,189,37000.0
+VIC09,Shepparton,VIC,VIC Regional,Sales,2025-11-01,H1 (Oct-Mar),Other 20 dealerships,1,1,0,0,0,0,27,1221400.0
+VIC09,Shepparton,VIC,VIC Regional,Sales,2026-09-01,H2 (Apr-Sep),Other 20 dealerships,0,0,0,0,0,0,0,0.0
+VIC08,Bendigo,VIC,VIC Regional,Parts,2025-11-01,H1 (Oct-Mar),Worsening four,0,0,0,0,0,0,112,21280.0
+QLD06,Toowoomba,QLD,QLD Regional,Sales,2026-02-01,H1 (Oct-Mar),Other 20 dealerships,0,0,0,0,0,0,30,1423000.0
+VIC09,Shepparton,VIC,VIC Regional,Service,2026-05-01,H2 (Apr-Sep),Other 20 dealerships,0,0,0,0,0,0,0,0.0
+NSW02,Penrith,NSW,NSW Metro,Service,2026-06-01,H2 (Apr-Sep),Other 20 dealerships,0,0,0,0,0,0,1137,484040.0
+QLD06,Toowoomba,QLD,QLD Regional,Service,2025-11-01,H1 (Oct-Mar),Other 20 dealerships,0,0,0,0,0,0,972,393900.0
+NSW05,Newcastle,NSW,NSW Regional,Parts,2025-12-01,H1 (Oct-Mar),Other 20 dealerships,0,0,0,0,0,0,166,30660.0
+NSW05,Newcastle,NSW,NSW Regional,Parts,2026-06-01,H2 (Apr-Sep),Other 20 dealerships,0,0,0,0,0,0,188,35040.0
+QLD06,Toowoomba,QLD,QLD Regional,Parts,2025-12-01,H1 (Oct-Mar),Other 20 dealerships,0,0,0,0,0,0,231,40910.0
+VIC09,Shepparton,VIC,VIC Regional,Sales,2026-05-01,H2 (Apr-Sep),Other 20 dealerships,0,0,0,0,0,0,0,0.0
+QLD06,Toowoomba,QLD,QLD Regional,Sales,2025-10-01,H1 (Oct-Mar),Other 20 dealerships,0,0,0,0,0,0,30,1454500.0
+QLD07,Rockhampton,QLD,QLD Regional,Sales,2026-01-01,H1 (Oct-Mar),Other 20 dealerships,0,0,0,0,0,0,13,604200.0
+VIC09,Shepparton,VIC,VIC Regional,Parts,2025-11-01,H1 (Oct-Mar),Other 20 dealerships,0,0,0,0,0,0,114,21530.0
+NSW04,Liverpool,NSW,NSW Metro,Parts,2026-08-01,H2 (Apr-Sep),Worsening four,0,0,0,0,0,0,214,40300.0
+QLD05,Noosa,QLD,SEQ,Parts,2026-07-01,H2 (Apr-Sep),Other 20 dealerships,0,0,0,0,0,0,114,19890.0
+QLD08,Townsville,QLD,QLD Regional,Parts,2026-03-01,H1 (Oct-Mar),Other 20 dealerships,0,0,0,0,0,0,362,68480.0
+QLD06,Toowoomba,QLD,QLD Regional,Sales,2026-03-01,H1 (Oct-Mar),Other 20 dealerships,0,0,0,0,0,0,34,1572000.0
+QLD08,Townsville,QLD,QLD Regional,Sales,2025-11-01,H1 (Oct-Mar),Other 20 dealerships,0,0,0,0,0,0,32,1496300.0
+VIC09,Shepparton,VIC,VIC Regional,Service,2026-09-01,H2 (Apr-Sep),Other 20 dealerships,0,0,0,0,0,0,0,0.0
+VIC03,Essendon,VIC,VIC Metro,Parts,2026-08-01,H2 (Apr-Sep),Other 20 dealerships,0,0,0,0,0,0,224,43360.0
+VIC09,Shepparton,VIC,VIC Regional,Sales,2026-06-01,H2 (Apr-Sep),Other 20 dealerships,0,0,0,0,0,0,0,0.0
+VIC09,Shepparton,VIC,VIC Regional,Service,2026-08-01,H2 (Apr-Sep),Other 20 dealerships,0,0,0,0,0,0,0,0.0
+QLD03,Ipswich,QLD,SEQ,Parts,2026-01-01,H1 (Oct-Mar),Other 20 dealerships,0,0,0,0,0,0,177,31580.0
+QLD06,Toowoomba,QLD,QLD Regional,Sales,2025-12-01,H1 (Oct-Mar),Other 20 dealerships,0,0,0,0,0,0,33,1464400.0
+QLD07,Rockhampton,QLD,QLD Regional,Sales,2026-08-01,H2 (Apr-Sep),Other 20 dealerships,0,0,0,0,0,0,19,868900.0
+VIC09,Shepparton,VIC,VIC Regional,Service,2026-04-01,H2 (Apr-Sep),Other 20 dealerships,0,0,0,0,0,0,0,0.0
+VIC01,Dandenong,VIC,VIC Metro,Parts,2026-04-01,H2 (Apr-Sep),Worsening four,0,0,0,0,0,0,319,59780.0
+QLD07,Rockhampton,QLD,QLD Regional,Parts,2026-01-01,H1 (Oct-Mar),Other 20 dealerships,0,0,0,0,0,0,151,27150.0
+VIC09,Shepparton,VIC,VIC Regional,Sales,2026-04-01,H2 (Apr-Sep),Other 20 dealerships,0,0,0,0,0,0,0,0.0
+QLD06,Toowoomba,QLD,QLD Regional,Sales,2026-08-01,H2 (Apr-Sep),Other 20 dealerships,0,0,0,0,0,0,29,1353600.0
+QLD07,Rockhampton,QLD,QLD Regional,Sales,2026-06-01,H2 (Apr-Sep),Other 20 dealerships,0,0,0,0,0,0,27,1293400.0
+QLD08,Townsville,QLD,QLD Regional,Sales,2026-07-01,H2 (Apr-Sep),Other 20 dealerships,0,0,0,0,0,0,32,1499100.0
+QLD06,Toowoomba,QLD,QLD Regional,Parts,2025-10-01,H1 (Oct-Mar),Other 20 dealerships,0,0,0,0,0,0,351,66400.0
+VIC09,Shepparton,VIC,VIC Regional,Sales,2026-08-01,H2 (Apr-Sep),Other 20 dealerships,0,0,0,0,0,0,0,0.0
+QLD06,Toowoomba,QLD,QLD Regional,Sales,2026-04-01,H2 (Apr-Sep),Other 20 dealerships,0,0,0,0,0,0,27,1286700.0
+VIC09,Shepparton,VIC,VIC Regional,Service,2026-06-01,H2 (Apr-Sep),Other 20 dealerships,0,0,0,0,0,0,0,0.0
+VIC09,Shepparton,VIC,VIC Regional,Parts,2026-07-01,H2 (Apr-Sep),Other 20 dealerships,0,0,0,0,0,0,0,0.0
+NSW02,Penrith,NSW,NSW Metro,Parts,2026-06-01,H2 (Apr-Sep),Other 20 dealerships,0,0,0,0,0,0,361,67430.0
+NSW07,Tamworth,NSW,NSW Regional,Parts,2026-07-01,H2 (Apr-Sep),Other 20 dealerships,0,0,0,0,0,0,112,21520.0
+QLD07,Rockhampton,QLD,QLD Regional,Parts,2026-05-01,H2 (Apr-Sep),Other 20 dealerships,0,0,0,0,0,0,185,33930.0
+QLD05,Noosa,QLD,SEQ,Parts,2025-12-01,H1 (Oct-Mar),Other 20 dealerships,0,0,0,0,0,0,100,18950.0
+QLD05,Noosa,QLD,SEQ,Parts,2026-06-01,H2 (Apr-Sep),Other 20 dealerships,0,0,0,0,0,0,107,20380.0
+QLD05,Noosa,QLD,SEQ,Sales,2026-09-01,H2 (Apr-Sep),Other 20 dealerships,0,0,0,0,0,0,31,1463100.0
+QLD07,Rockhampton,QLD,QLD Regional,Sales,2025-11-01,H1 (Oct-Mar),Other 20 dealerships,0,0,0,0,0,0,17,791800.0
+QLD06,Toowoomba,QLD,QLD Regional,Service,2025-10-01,H1 (Oct-Mar),Other 20 dealerships,0,0,0,0,0,0,1000,418190.0
+VIC09,Shepparton,VIC,VIC Regional,Parts,2026-09-01,H2 (Apr-Sep),Other 20 dealerships,0,0,0,0,0,0,0,0.0
+NSW07,Tamworth,NSW,NSW Regional,Parts,2026-01-01,H1 (Oct-Mar),Other 20 dealerships,0,0,0,0,0,0,98,18670.0
+NSW07,Tamworth,NSW,NSW Regional,Parts,2026-02-01,H1 (Oct-Mar),Other 20 dealerships,0,0,0,0,0,0,102,19740.0
+QLD02,Springwood,QLD,SEQ,Parts,2026-03-01,H1 (Oct-Mar),Other 20 dealerships,0,0,0,0,0,0,193,35790.0
+QLD06,Toowoomba,QLD,QLD Regional,Sales,2025-11-01,H1 (Oct-Mar),Other 20 dealerships,0,0,0,0,0,0,32,1537400.0
+QLD08,Townsville,QLD,QLD Regional,Sales,2026-05-01,H2 (Apr-Sep),Other 20 dealerships,0,0,0,0,0,0,36,1721500.0
+NSW07,Tamworth,NSW,NSW Regional,Parts,2025-10-01,H1 (Oct-Mar),Other 20 dealerships,0,0,0,0,0,0,120,21470.0
+QLD05,Noosa,QLD,SEQ,Sales,2026-03-01,H1 (Oct-Mar),Other 20 dealerships,0,0,0,0,0,0,28,1297500.0
+VIC08,Bendigo,VIC,VIC Regional,Parts,2026-09-01,H2 (Apr-Sep),Worsening four,0,0,0,0,0,0,118,21770.0
+VIC09,Shepparton,VIC,VIC Regional,Parts,2026-05-01,H2 (Apr-Sep),Other 20 dealerships,0,0,0,0,0,0,0,0.0
+NSW07,Tamworth,NSW,NSW Regional,Parts,2026-05-01,H2 (Apr-Sep),Other 20 dealerships,0,0,0,0,0,0,123,22060.0
+QLD02,Springwood,QLD,SEQ,Parts,2026-01-01,H1 (Oct-Mar),Other 20 dealerships,0,0,0,0,0,0,187,33520.0
+QLD07,Rockhampton,QLD,QLD Regional,Sales,2026-07-01,H2 (Apr-Sep),Other 20 dealerships,0,0,0,0,0,0,15,713100.0
+QLD08,Townsville,QLD,QLD Regional,Sales,2025-12-01,H1 (Oct-Mar),Other 20 dealerships,0,0,0,0,0,0,35,1588500.0
+QLD05,Noosa,QLD,SEQ,Parts,2026-01-01,H1 (Oct-Mar),Other 20 dealerships,0,0,0,0,0,0,101,18530.0
+QLD05,Noosa,QLD,SEQ,Parts,2026-02-01,H1 (Oct-Mar),Other 20 dealerships,0,0,0,0,0,0,103,20090.0
+QLD05,Noosa,QLD,SEQ,Parts,2026-09-01,H2 (Apr-Sep),Other 20 dealerships,0,0,0,0,0,0,107,19790.0
+NSW07,Tamworth,NSW,NSW Regional,Sales,2026-09-01,H2 (Apr-Sep),Other 20 dealerships,0,0,0,0,0,0,29,1338000.0
+QLD05,Noosa,QLD,SEQ,Sales,2025-12-01,H1 (Oct-Mar),Other 20 dealerships,0,0,0,0,0,0,29,1327800.0
+QLD05,Noosa,QLD,SEQ,Sales,2026-06-01,H2 (Apr-Sep),Other 20 dealerships,0,0,0,0,0,0,40,1840800.0
+VIC09,Shepparton,VIC,VIC Regional,Service,2026-07-01,H2 (Apr-Sep),Other 20 dealerships,0,0,0,0,0,0,0,0.0
+VIC02,Ringwood,VIC,VIC Metro,Parts,2026-01-01,H1 (Oct-Mar),Other 20 dealerships,0,0,0,0,0,0,258,45330.0
+VIC09,Shepparton,VIC,VIC Regional,Parts,2026-06-01,H2 (Apr-Sep),Other 20 dealerships,0,0,0,0,0,0,0,0.0
+NSW07,Tamworth,NSW,NSW Regional,Parts,2026-06-01,H2 (Apr-Sep),Other 20 dealerships,0,0,0,0,0,0,106,18700.0
+QLD04,Southport,QLD,SEQ,Parts,2026-09-01,H2 (Apr-Sep),Other 20 dealerships,0,0,0,0,0,0,192,35500.0
+VIC09,Shepparton,VIC,VIC Regional,Sales,2026-07-01,H2 (Apr-Sep),Other 20 dealerships,0,0,0,0,0,0,0,0.0
+QLD06,Toowoomba,QLD,QLD Regional,Service,2025-12-01,H1 (Oct-Mar),Other 20 dealerships,0,0,0,0,0,0,817,335820.0
+VIC09,Shepparton,VIC,VIC Regional,Parts,2026-08-01,H2 (Apr-Sep),Other 20 dealerships,0,0,0,0,0,0,0,0.0
+NSW07,Tamworth,NSW,NSW Regional,Parts,2026-08-01,H2 (Apr-Sep),Other 20 dealerships,0,0,0,0,0,0,113,21140.0
+QLD06,Toowoomba,QLD,QLD Regional,Parts,2025-11-01,H1 (Oct-Mar),Other 20 dealerships,0,0,0,0,0,0,283,53470.0
+NSW02,Penrith,NSW,NSW Metro,Sales,2026-06-01,H2 (Apr-Sep),Other 20 dealerships,0,0,0,0,0,0,125,5613100.0
+QLD08,Townsville,QLD,QLD Regional,Sales,2026-08-01,H2 (Apr-Sep),Other 20 dealerships,0,0,0,0,0,0,31,1475800.0
+VIC09,Shepparton,VIC,VIC Regional,Parts,2026-04-01,H2 (Apr-Sep),Other 20 dealerships,0,0,0,0,0,0,0,0.0
+QLD04,Southport,QLD,SEQ,Parts,2026-05-01,H2 (Apr-Sep),Other 20 dealerships,0,0,0,0,0,0,222,41760.0

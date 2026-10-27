@@ -1,0 +1,1261 @@
+dealer_code,department,half_year,negative_responses_with_ai,theme_id,theme_name,negative_theme_mentions,dealership_name,site_group
+NSW01,Parts,H1 (Oct-Mar),3,communication_follow_up,Communication,1,Parramatta,Worsening four
+NSW01,Parts,H1 (Oct-Mar),3,waiting_time_scheduling,Waiting/booking,2,Parramatta,Worsening four
+NSW01,Parts,H1 (Oct-Mar),3,workmanship_repair_quality,Repair quality,0,Parramatta,Worsening four
+NSW01,Parts,H1 (Oct-Mar),3,staff_service,Staff service,1,Parramatta,Worsening four
+NSW01,Parts,H1 (Oct-Mar),3,pricing_value,Price/value,0,Parramatta,Worsening four
+NSW01,Parts,H1 (Oct-Mar),3,sales_process,Sales process,1,Parramatta,Worsening four
+NSW01,Parts,H1 (Oct-Mar),3,parts_availability,Parts availability,0,Parramatta,Worsening four
+NSW01,Parts,H1 (Oct-Mar),3,vehicle_product,Vehicle/product,0,Parramatta,Worsening four
+NSW01,Parts,H1 (Oct-Mar),3,other,Other,0,Parramatta,Worsening four
+NSW01,Parts,H2 (Apr-Sep),2,communication_follow_up,Communication,1,Parramatta,Worsening four
+NSW01,Parts,H2 (Apr-Sep),2,waiting_time_scheduling,Waiting/booking,0,Parramatta,Worsening four
+NSW01,Parts,H2 (Apr-Sep),2,workmanship_repair_quality,Repair quality,0,Parramatta,Worsening four
+NSW01,Parts,H2 (Apr-Sep),2,staff_service,Staff service,0,Parramatta,Worsening four
+NSW01,Parts,H2 (Apr-Sep),2,pricing_value,Price/value,0,Parramatta,Worsening four
+NSW01,Parts,H2 (Apr-Sep),2,sales_process,Sales process,0,Parramatta,Worsening four
+NSW01,Parts,H2 (Apr-Sep),2,parts_availability,Parts availability,2,Parramatta,Worsening four
+NSW01,Parts,H2 (Apr-Sep),2,vehicle_product,Vehicle/product,0,Parramatta,Worsening four
+NSW01,Parts,H2 (Apr-Sep),2,other,Other,0,Parramatta,Worsening four
+NSW01,Sales,H1 (Oct-Mar),4,communication_follow_up,Communication,1,Parramatta,Worsening four
+NSW01,Sales,H1 (Oct-Mar),4,waiting_time_scheduling,Waiting/booking,0,Parramatta,Worsening four
+NSW01,Sales,H1 (Oct-Mar),4,workmanship_repair_quality,Repair quality,0,Parramatta,Worsening four
+NSW01,Sales,H1 (Oct-Mar),4,staff_service,Staff service,2,Parramatta,Worsening four
+NSW01,Sales,H1 (Oct-Mar),4,pricing_value,Price/value,0,Parramatta,Worsening four
+NSW01,Sales,H1 (Oct-Mar),4,sales_process,Sales process,2,Parramatta,Worsening four
+NSW01,Sales,H1 (Oct-Mar),4,parts_availability,Parts availability,0,Parramatta,Worsening four
+NSW01,Sales,H1 (Oct-Mar),4,vehicle_product,Vehicle/product,0,Parramatta,Worsening four
+NSW01,Sales,H1 (Oct-Mar),4,other,Other,1,Parramatta,Worsening four
+NSW01,Sales,H2 (Apr-Sep),9,communication_follow_up,Communication,2,Parramatta,Worsening four
+NSW01,Sales,H2 (Apr-Sep),9,waiting_time_scheduling,Waiting/booking,1,Parramatta,Worsening four
+NSW01,Sales,H2 (Apr-Sep),9,workmanship_repair_quality,Repair quality,1,Parramatta,Worsening four
+NSW01,Sales,H2 (Apr-Sep),9,staff_service,Staff service,4,Parramatta,Worsening four
+NSW01,Sales,H2 (Apr-Sep),9,pricing_value,Price/value,1,Parramatta,Worsening four
+NSW01,Sales,H2 (Apr-Sep),9,sales_process,Sales process,4,Parramatta,Worsening four
+NSW01,Sales,H2 (Apr-Sep),9,parts_availability,Parts availability,0,Parramatta,Worsening four
+NSW01,Sales,H2 (Apr-Sep),9,vehicle_product,Vehicle/product,1,Parramatta,Worsening four
+NSW01,Sales,H2 (Apr-Sep),9,other,Other,0,Parramatta,Worsening four
+NSW01,Service,H1 (Oct-Mar),31,communication_follow_up,Communication,8,Parramatta,Worsening four
+NSW01,Service,H1 (Oct-Mar),31,waiting_time_scheduling,Waiting/booking,10,Parramatta,Worsening four
+NSW01,Service,H1 (Oct-Mar),31,workmanship_repair_quality,Repair quality,8,Parramatta,Worsening four
+NSW01,Service,H1 (Oct-Mar),31,staff_service,Staff service,0,Parramatta,Worsening four
+NSW01,Service,H1 (Oct-Mar),31,pricing_value,Price/value,9,Parramatta,Worsening four
+NSW01,Service,H1 (Oct-Mar),31,sales_process,Sales process,0,Parramatta,Worsening four
+NSW01,Service,H1 (Oct-Mar),31,parts_availability,Parts availability,1,Parramatta,Worsening four
+NSW01,Service,H1 (Oct-Mar),31,vehicle_product,Vehicle/product,0,Parramatta,Worsening four
+NSW01,Service,H1 (Oct-Mar),31,other,Other,3,Parramatta,Worsening four
+NSW01,Service,H2 (Apr-Sep),74,communication_follow_up,Communication,22,Parramatta,Worsening four
+NSW01,Service,H2 (Apr-Sep),74,waiting_time_scheduling,Waiting/booking,40,Parramatta,Worsening four
+NSW01,Service,H2 (Apr-Sep),74,workmanship_repair_quality,Repair quality,10,Parramatta,Worsening four
+NSW01,Service,H2 (Apr-Sep),74,staff_service,Staff service,1,Parramatta,Worsening four
+NSW01,Service,H2 (Apr-Sep),74,pricing_value,Price/value,10,Parramatta,Worsening four
+NSW01,Service,H2 (Apr-Sep),74,sales_process,Sales process,1,Parramatta,Worsening four
+NSW01,Service,H2 (Apr-Sep),74,parts_availability,Parts availability,9,Parramatta,Worsening four
+NSW01,Service,H2 (Apr-Sep),74,vehicle_product,Vehicle/product,3,Parramatta,Worsening four
+NSW01,Service,H2 (Apr-Sep),74,other,Other,1,Parramatta,Worsening four
+NSW02,Parts,H1 (Oct-Mar),5,communication_follow_up,Communication,3,Penrith,Other 20 dealerships
+NSW02,Parts,H1 (Oct-Mar),5,waiting_time_scheduling,Waiting/booking,1,Penrith,Other 20 dealerships
+NSW02,Parts,H1 (Oct-Mar),5,workmanship_repair_quality,Repair quality,0,Penrith,Other 20 dealerships
+NSW02,Parts,H1 (Oct-Mar),5,staff_service,Staff service,0,Penrith,Other 20 dealerships
+NSW02,Parts,H1 (Oct-Mar),5,pricing_value,Price/value,1,Penrith,Other 20 dealerships
+NSW02,Parts,H1 (Oct-Mar),5,sales_process,Sales process,0,Penrith,Other 20 dealerships
+NSW02,Parts,H1 (Oct-Mar),5,parts_availability,Parts availability,3,Penrith,Other 20 dealerships
+NSW02,Parts,H1 (Oct-Mar),5,vehicle_product,Vehicle/product,0,Penrith,Other 20 dealerships
+NSW02,Parts,H1 (Oct-Mar),5,other,Other,0,Penrith,Other 20 dealerships
+NSW02,Parts,H2 (Apr-Sep),6,communication_follow_up,Communication,3,Penrith,Other 20 dealerships
+NSW02,Parts,H2 (Apr-Sep),6,waiting_time_scheduling,Waiting/booking,0,Penrith,Other 20 dealerships
+NSW02,Parts,H2 (Apr-Sep),6,workmanship_repair_quality,Repair quality,0,Penrith,Other 20 dealerships
+NSW02,Parts,H2 (Apr-Sep),6,staff_service,Staff service,1,Penrith,Other 20 dealerships
+NSW02,Parts,H2 (Apr-Sep),6,pricing_value,Price/value,1,Penrith,Other 20 dealerships
+NSW02,Parts,H2 (Apr-Sep),6,sales_process,Sales process,0,Penrith,Other 20 dealerships
+NSW02,Parts,H2 (Apr-Sep),6,parts_availability,Parts availability,3,Penrith,Other 20 dealerships
+NSW02,Parts,H2 (Apr-Sep),6,vehicle_product,Vehicle/product,0,Penrith,Other 20 dealerships
+NSW02,Parts,H2 (Apr-Sep),6,other,Other,0,Penrith,Other 20 dealerships
+NSW02,Sales,H1 (Oct-Mar),6,communication_follow_up,Communication,3,Penrith,Other 20 dealerships
+NSW02,Sales,H1 (Oct-Mar),6,waiting_time_scheduling,Waiting/booking,0,Penrith,Other 20 dealerships
+NSW02,Sales,H1 (Oct-Mar),6,workmanship_repair_quality,Repair quality,0,Penrith,Other 20 dealerships
+NSW02,Sales,H1 (Oct-Mar),6,staff_service,Staff service,2,Penrith,Other 20 dealerships
+NSW02,Sales,H1 (Oct-Mar),6,pricing_value,Price/value,0,Penrith,Other 20 dealerships
+NSW02,Sales,H1 (Oct-Mar),6,sales_process,Sales process,3,Penrith,Other 20 dealerships
+NSW02,Sales,H1 (Oct-Mar),6,parts_availability,Parts availability,0,Penrith,Other 20 dealerships
+NSW02,Sales,H1 (Oct-Mar),6,vehicle_product,Vehicle/product,0,Penrith,Other 20 dealerships
+NSW02,Sales,H1 (Oct-Mar),6,other,Other,0,Penrith,Other 20 dealerships
+NSW02,Sales,H2 (Apr-Sep),9,communication_follow_up,Communication,1,Penrith,Other 20 dealerships
+NSW02,Sales,H2 (Apr-Sep),9,waiting_time_scheduling,Waiting/booking,0,Penrith,Other 20 dealerships
+NSW02,Sales,H2 (Apr-Sep),9,workmanship_repair_quality,Repair quality,0,Penrith,Other 20 dealerships
+NSW02,Sales,H2 (Apr-Sep),9,staff_service,Staff service,2,Penrith,Other 20 dealerships
+NSW02,Sales,H2 (Apr-Sep),9,pricing_value,Price/value,3,Penrith,Other 20 dealerships
+NSW02,Sales,H2 (Apr-Sep),9,sales_process,Sales process,7,Penrith,Other 20 dealerships
+NSW02,Sales,H2 (Apr-Sep),9,parts_availability,Parts availability,0,Penrith,Other 20 dealerships
+NSW02,Sales,H2 (Apr-Sep),9,vehicle_product,Vehicle/product,1,Penrith,Other 20 dealerships
+NSW02,Sales,H2 (Apr-Sep),9,other,Other,0,Penrith,Other 20 dealerships
+NSW02,Service,H1 (Oct-Mar),32,communication_follow_up,Communication,21,Penrith,Other 20 dealerships
+NSW02,Service,H1 (Oct-Mar),32,waiting_time_scheduling,Waiting/booking,9,Penrith,Other 20 dealerships
+NSW02,Service,H1 (Oct-Mar),32,workmanship_repair_quality,Repair quality,2,Penrith,Other 20 dealerships
+NSW02,Service,H1 (Oct-Mar),32,staff_service,Staff service,3,Penrith,Other 20 dealerships
+NSW02,Service,H1 (Oct-Mar),32,pricing_value,Price/value,4,Penrith,Other 20 dealerships
+NSW02,Service,H1 (Oct-Mar),32,sales_process,Sales process,0,Penrith,Other 20 dealerships
+NSW02,Service,H1 (Oct-Mar),32,parts_availability,Parts availability,3,Penrith,Other 20 dealerships
+NSW02,Service,H1 (Oct-Mar),32,vehicle_product,Vehicle/product,0,Penrith,Other 20 dealerships
+NSW02,Service,H1 (Oct-Mar),32,other,Other,2,Penrith,Other 20 dealerships
+NSW02,Service,H2 (Apr-Sep),33,communication_follow_up,Communication,11,Penrith,Other 20 dealerships
+NSW02,Service,H2 (Apr-Sep),33,waiting_time_scheduling,Waiting/booking,17,Penrith,Other 20 dealerships
+NSW02,Service,H2 (Apr-Sep),33,workmanship_repair_quality,Repair quality,5,Penrith,Other 20 dealerships
+NSW02,Service,H2 (Apr-Sep),33,staff_service,Staff service,1,Penrith,Other 20 dealerships
+NSW02,Service,H2 (Apr-Sep),33,pricing_value,Price/value,3,Penrith,Other 20 dealerships
+NSW02,Service,H2 (Apr-Sep),33,sales_process,Sales process,0,Penrith,Other 20 dealerships
+NSW02,Service,H2 (Apr-Sep),33,parts_availability,Parts availability,3,Penrith,Other 20 dealerships
+NSW02,Service,H2 (Apr-Sep),33,vehicle_product,Vehicle/product,0,Penrith,Other 20 dealerships
+NSW02,Service,H2 (Apr-Sep),33,other,Other,2,Penrith,Other 20 dealerships
+NSW03,Parts,H1 (Oct-Mar),2,communication_follow_up,Communication,2,Chatswood,Other 20 dealerships
+NSW03,Parts,H1 (Oct-Mar),2,waiting_time_scheduling,Waiting/booking,1,Chatswood,Other 20 dealerships
+NSW03,Parts,H1 (Oct-Mar),2,workmanship_repair_quality,Repair quality,0,Chatswood,Other 20 dealerships
+NSW03,Parts,H1 (Oct-Mar),2,staff_service,Staff service,0,Chatswood,Other 20 dealerships
+NSW03,Parts,H1 (Oct-Mar),2,pricing_value,Price/value,0,Chatswood,Other 20 dealerships
+NSW03,Parts,H1 (Oct-Mar),2,sales_process,Sales process,0,Chatswood,Other 20 dealerships
+NSW03,Parts,H1 (Oct-Mar),2,parts_availability,Parts availability,0,Chatswood,Other 20 dealerships
+NSW03,Parts,H1 (Oct-Mar),2,vehicle_product,Vehicle/product,0,Chatswood,Other 20 dealerships
+NSW03,Parts,H1 (Oct-Mar),2,other,Other,0,Chatswood,Other 20 dealerships
+NSW03,Parts,H2 (Apr-Sep),1,communication_follow_up,Communication,0,Chatswood,Other 20 dealerships
+NSW03,Parts,H2 (Apr-Sep),1,waiting_time_scheduling,Waiting/booking,0,Chatswood,Other 20 dealerships
+NSW03,Parts,H2 (Apr-Sep),1,workmanship_repair_quality,Repair quality,0,Chatswood,Other 20 dealerships
+NSW03,Parts,H2 (Apr-Sep),1,staff_service,Staff service,0,Chatswood,Other 20 dealerships
+NSW03,Parts,H2 (Apr-Sep),1,pricing_value,Price/value,1,Chatswood,Other 20 dealerships
+NSW03,Parts,H2 (Apr-Sep),1,sales_process,Sales process,0,Chatswood,Other 20 dealerships
+NSW03,Parts,H2 (Apr-Sep),1,parts_availability,Parts availability,0,Chatswood,Other 20 dealerships
+NSW03,Parts,H2 (Apr-Sep),1,vehicle_product,Vehicle/product,0,Chatswood,Other 20 dealerships
+NSW03,Parts,H2 (Apr-Sep),1,other,Other,0,Chatswood,Other 20 dealerships
+NSW03,Sales,H1 (Oct-Mar),2,communication_follow_up,Communication,0,Chatswood,Other 20 dealerships
+NSW03,Sales,H1 (Oct-Mar),2,waiting_time_scheduling,Waiting/booking,0,Chatswood,Other 20 dealerships
+NSW03,Sales,H1 (Oct-Mar),2,workmanship_repair_quality,Repair quality,0,Chatswood,Other 20 dealerships
+NSW03,Sales,H1 (Oct-Mar),2,staff_service,Staff service,2,Chatswood,Other 20 dealerships
+NSW03,Sales,H1 (Oct-Mar),2,pricing_value,Price/value,0,Chatswood,Other 20 dealerships
+NSW03,Sales,H1 (Oct-Mar),2,sales_process,Sales process,1,Chatswood,Other 20 dealerships
+NSW03,Sales,H1 (Oct-Mar),2,parts_availability,Parts availability,0,Chatswood,Other 20 dealerships
+NSW03,Sales,H1 (Oct-Mar),2,vehicle_product,Vehicle/product,0,Chatswood,Other 20 dealerships
+NSW03,Sales,H1 (Oct-Mar),2,other,Other,0,Chatswood,Other 20 dealerships
+NSW03,Sales,H2 (Apr-Sep),8,communication_follow_up,Communication,2,Chatswood,Other 20 dealerships
+NSW03,Sales,H2 (Apr-Sep),8,waiting_time_scheduling,Waiting/booking,0,Chatswood,Other 20 dealerships
+NSW03,Sales,H2 (Apr-Sep),8,workmanship_repair_quality,Repair quality,0,Chatswood,Other 20 dealerships
+NSW03,Sales,H2 (Apr-Sep),8,staff_service,Staff service,4,Chatswood,Other 20 dealerships
+NSW03,Sales,H2 (Apr-Sep),8,pricing_value,Price/value,2,Chatswood,Other 20 dealerships
+NSW03,Sales,H2 (Apr-Sep),8,sales_process,Sales process,5,Chatswood,Other 20 dealerships
+NSW03,Sales,H2 (Apr-Sep),8,parts_availability,Parts availability,0,Chatswood,Other 20 dealerships
+NSW03,Sales,H2 (Apr-Sep),8,vehicle_product,Vehicle/product,1,Chatswood,Other 20 dealerships
+NSW03,Sales,H2 (Apr-Sep),8,other,Other,0,Chatswood,Other 20 dealerships
+NSW03,Service,H1 (Oct-Mar),23,communication_follow_up,Communication,12,Chatswood,Other 20 dealerships
+NSW03,Service,H1 (Oct-Mar),23,waiting_time_scheduling,Waiting/booking,6,Chatswood,Other 20 dealerships
+NSW03,Service,H1 (Oct-Mar),23,workmanship_repair_quality,Repair quality,2,Chatswood,Other 20 dealerships
+NSW03,Service,H1 (Oct-Mar),23,staff_service,Staff service,3,Chatswood,Other 20 dealerships
+NSW03,Service,H1 (Oct-Mar),23,pricing_value,Price/value,4,Chatswood,Other 20 dealerships
+NSW03,Service,H1 (Oct-Mar),23,sales_process,Sales process,0,Chatswood,Other 20 dealerships
+NSW03,Service,H1 (Oct-Mar),23,parts_availability,Parts availability,0,Chatswood,Other 20 dealerships
+NSW03,Service,H1 (Oct-Mar),23,vehicle_product,Vehicle/product,1,Chatswood,Other 20 dealerships
+NSW03,Service,H1 (Oct-Mar),23,other,Other,1,Chatswood,Other 20 dealerships
+NSW03,Service,H2 (Apr-Sep),30,communication_follow_up,Communication,16,Chatswood,Other 20 dealerships
+NSW03,Service,H2 (Apr-Sep),30,waiting_time_scheduling,Waiting/booking,15,Chatswood,Other 20 dealerships
+NSW03,Service,H2 (Apr-Sep),30,workmanship_repair_quality,Repair quality,5,Chatswood,Other 20 dealerships
+NSW03,Service,H2 (Apr-Sep),30,staff_service,Staff service,4,Chatswood,Other 20 dealerships
+NSW03,Service,H2 (Apr-Sep),30,pricing_value,Price/value,6,Chatswood,Other 20 dealerships
+NSW03,Service,H2 (Apr-Sep),30,sales_process,Sales process,1,Chatswood,Other 20 dealerships
+NSW03,Service,H2 (Apr-Sep),30,parts_availability,Parts availability,2,Chatswood,Other 20 dealerships
+NSW03,Service,H2 (Apr-Sep),30,vehicle_product,Vehicle/product,1,Chatswood,Other 20 dealerships
+NSW03,Service,H2 (Apr-Sep),30,other,Other,1,Chatswood,Other 20 dealerships
+NSW04,Parts,H1 (Oct-Mar),2,communication_follow_up,Communication,0,Liverpool,Worsening four
+NSW04,Parts,H1 (Oct-Mar),2,waiting_time_scheduling,Waiting/booking,1,Liverpool,Worsening four
+NSW04,Parts,H1 (Oct-Mar),2,workmanship_repair_quality,Repair quality,0,Liverpool,Worsening four
+NSW04,Parts,H1 (Oct-Mar),2,staff_service,Staff service,1,Liverpool,Worsening four
+NSW04,Parts,H1 (Oct-Mar),2,pricing_value,Price/value,0,Liverpool,Worsening four
+NSW04,Parts,H1 (Oct-Mar),2,sales_process,Sales process,0,Liverpool,Worsening four
+NSW04,Parts,H1 (Oct-Mar),2,parts_availability,Parts availability,1,Liverpool,Worsening four
+NSW04,Parts,H1 (Oct-Mar),2,vehicle_product,Vehicle/product,0,Liverpool,Worsening four
+NSW04,Parts,H1 (Oct-Mar),2,other,Other,0,Liverpool,Worsening four
+NSW04,Parts,H2 (Apr-Sep),1,communication_follow_up,Communication,1,Liverpool,Worsening four
+NSW04,Parts,H2 (Apr-Sep),1,waiting_time_scheduling,Waiting/booking,0,Liverpool,Worsening four
+NSW04,Parts,H2 (Apr-Sep),1,workmanship_repair_quality,Repair quality,0,Liverpool,Worsening four
+NSW04,Parts,H2 (Apr-Sep),1,staff_service,Staff service,0,Liverpool,Worsening four
+NSW04,Parts,H2 (Apr-Sep),1,pricing_value,Price/value,1,Liverpool,Worsening four
+NSW04,Parts,H2 (Apr-Sep),1,sales_process,Sales process,0,Liverpool,Worsening four
+NSW04,Parts,H2 (Apr-Sep),1,parts_availability,Parts availability,1,Liverpool,Worsening four
+NSW04,Parts,H2 (Apr-Sep),1,vehicle_product,Vehicle/product,0,Liverpool,Worsening four
+NSW04,Parts,H2 (Apr-Sep),1,other,Other,0,Liverpool,Worsening four
+NSW04,Sales,H1 (Oct-Mar),1,communication_follow_up,Communication,0,Liverpool,Worsening four
+NSW04,Sales,H1 (Oct-Mar),1,waiting_time_scheduling,Waiting/booking,0,Liverpool,Worsening four
+NSW04,Sales,H1 (Oct-Mar),1,workmanship_repair_quality,Repair quality,0,Liverpool,Worsening four
+NSW04,Sales,H1 (Oct-Mar),1,staff_service,Staff service,0,Liverpool,Worsening four
+NSW04,Sales,H1 (Oct-Mar),1,pricing_value,Price/value,0,Liverpool,Worsening four
+NSW04,Sales,H1 (Oct-Mar),1,sales_process,Sales process,1,Liverpool,Worsening four
+NSW04,Sales,H1 (Oct-Mar),1,parts_availability,Parts availability,0,Liverpool,Worsening four
+NSW04,Sales,H1 (Oct-Mar),1,vehicle_product,Vehicle/product,0,Liverpool,Worsening four
+NSW04,Sales,H1 (Oct-Mar),1,other,Other,0,Liverpool,Worsening four
+NSW04,Sales,H2 (Apr-Sep),13,communication_follow_up,Communication,4,Liverpool,Worsening four
+NSW04,Sales,H2 (Apr-Sep),13,waiting_time_scheduling,Waiting/booking,2,Liverpool,Worsening four
+NSW04,Sales,H2 (Apr-Sep),13,workmanship_repair_quality,Repair quality,0,Liverpool,Worsening four
+NSW04,Sales,H2 (Apr-Sep),13,staff_service,Staff service,1,Liverpool,Worsening four
+NSW04,Sales,H2 (Apr-Sep),13,pricing_value,Price/value,2,Liverpool,Worsening four
+NSW04,Sales,H2 (Apr-Sep),13,sales_process,Sales process,9,Liverpool,Worsening four
+NSW04,Sales,H2 (Apr-Sep),13,parts_availability,Parts availability,0,Liverpool,Worsening four
+NSW04,Sales,H2 (Apr-Sep),13,vehicle_product,Vehicle/product,0,Liverpool,Worsening four
+NSW04,Sales,H2 (Apr-Sep),13,other,Other,0,Liverpool,Worsening four
+NSW04,Service,H1 (Oct-Mar),17,communication_follow_up,Communication,12,Liverpool,Worsening four
+NSW04,Service,H1 (Oct-Mar),17,waiting_time_scheduling,Waiting/booking,4,Liverpool,Worsening four
+NSW04,Service,H1 (Oct-Mar),17,workmanship_repair_quality,Repair quality,0,Liverpool,Worsening four
+NSW04,Service,H1 (Oct-Mar),17,staff_service,Staff service,1,Liverpool,Worsening four
+NSW04,Service,H1 (Oct-Mar),17,pricing_value,Price/value,3,Liverpool,Worsening four
+NSW04,Service,H1 (Oct-Mar),17,sales_process,Sales process,0,Liverpool,Worsening four
+NSW04,Service,H1 (Oct-Mar),17,parts_availability,Parts availability,0,Liverpool,Worsening four
+NSW04,Service,H1 (Oct-Mar),17,vehicle_product,Vehicle/product,0,Liverpool,Worsening four
+NSW04,Service,H1 (Oct-Mar),17,other,Other,1,Liverpool,Worsening four
+NSW04,Service,H2 (Apr-Sep),29,communication_follow_up,Communication,10,Liverpool,Worsening four
+NSW04,Service,H2 (Apr-Sep),29,waiting_time_scheduling,Waiting/booking,12,Liverpool,Worsening four
+NSW04,Service,H2 (Apr-Sep),29,workmanship_repair_quality,Repair quality,5,Liverpool,Worsening four
+NSW04,Service,H2 (Apr-Sep),29,staff_service,Staff service,2,Liverpool,Worsening four
+NSW04,Service,H2 (Apr-Sep),29,pricing_value,Price/value,3,Liverpool,Worsening four
+NSW04,Service,H2 (Apr-Sep),29,sales_process,Sales process,0,Liverpool,Worsening four
+NSW04,Service,H2 (Apr-Sep),29,parts_availability,Parts availability,9,Liverpool,Worsening four
+NSW04,Service,H2 (Apr-Sep),29,vehicle_product,Vehicle/product,0,Liverpool,Worsening four
+NSW04,Service,H2 (Apr-Sep),29,other,Other,0,Liverpool,Worsening four
+NSW05,Parts,H1 (Oct-Mar),3,communication_follow_up,Communication,1,Newcastle,Other 20 dealerships
+NSW05,Parts,H1 (Oct-Mar),3,waiting_time_scheduling,Waiting/booking,1,Newcastle,Other 20 dealerships
+NSW05,Parts,H1 (Oct-Mar),3,workmanship_repair_quality,Repair quality,0,Newcastle,Other 20 dealerships
+NSW05,Parts,H1 (Oct-Mar),3,staff_service,Staff service,1,Newcastle,Other 20 dealerships
+NSW05,Parts,H1 (Oct-Mar),3,pricing_value,Price/value,0,Newcastle,Other 20 dealerships
+NSW05,Parts,H1 (Oct-Mar),3,sales_process,Sales process,0,Newcastle,Other 20 dealerships
+NSW05,Parts,H1 (Oct-Mar),3,parts_availability,Parts availability,1,Newcastle,Other 20 dealerships
+NSW05,Parts,H1 (Oct-Mar),3,vehicle_product,Vehicle/product,0,Newcastle,Other 20 dealerships
+NSW05,Parts,H1 (Oct-Mar),3,other,Other,0,Newcastle,Other 20 dealerships
+NSW05,Parts,H2 (Apr-Sep),3,communication_follow_up,Communication,0,Newcastle,Other 20 dealerships
+NSW05,Parts,H2 (Apr-Sep),3,waiting_time_scheduling,Waiting/booking,2,Newcastle,Other 20 dealerships
+NSW05,Parts,H2 (Apr-Sep),3,workmanship_repair_quality,Repair quality,0,Newcastle,Other 20 dealerships
+NSW05,Parts,H2 (Apr-Sep),3,staff_service,Staff service,1,Newcastle,Other 20 dealerships
+NSW05,Parts,H2 (Apr-Sep),3,pricing_value,Price/value,1,Newcastle,Other 20 dealerships
+NSW05,Parts,H2 (Apr-Sep),3,sales_process,Sales process,0,Newcastle,Other 20 dealerships
+NSW05,Parts,H2 (Apr-Sep),3,parts_availability,Parts availability,1,Newcastle,Other 20 dealerships
+NSW05,Parts,H2 (Apr-Sep),3,vehicle_product,Vehicle/product,0,Newcastle,Other 20 dealerships
+NSW05,Parts,H2 (Apr-Sep),3,other,Other,0,Newcastle,Other 20 dealerships
+NSW05,Sales,H1 (Oct-Mar),3,communication_follow_up,Communication,1,Newcastle,Other 20 dealerships
+NSW05,Sales,H1 (Oct-Mar),3,waiting_time_scheduling,Waiting/booking,1,Newcastle,Other 20 dealerships
+NSW05,Sales,H1 (Oct-Mar),3,workmanship_repair_quality,Repair quality,0,Newcastle,Other 20 dealerships
+NSW05,Sales,H1 (Oct-Mar),3,staff_service,Staff service,1,Newcastle,Other 20 dealerships
+NSW05,Sales,H1 (Oct-Mar),3,pricing_value,Price/value,0,Newcastle,Other 20 dealerships
+NSW05,Sales,H1 (Oct-Mar),3,sales_process,Sales process,2,Newcastle,Other 20 dealerships
+NSW05,Sales,H1 (Oct-Mar),3,parts_availability,Parts availability,0,Newcastle,Other 20 dealerships
+NSW05,Sales,H1 (Oct-Mar),3,vehicle_product,Vehicle/product,0,Newcastle,Other 20 dealerships
+NSW05,Sales,H1 (Oct-Mar),3,other,Other,0,Newcastle,Other 20 dealerships
+NSW05,Sales,H2 (Apr-Sep),4,communication_follow_up,Communication,0,Newcastle,Other 20 dealerships
+NSW05,Sales,H2 (Apr-Sep),4,waiting_time_scheduling,Waiting/booking,0,Newcastle,Other 20 dealerships
+NSW05,Sales,H2 (Apr-Sep),4,workmanship_repair_quality,Repair quality,0,Newcastle,Other 20 dealerships
+NSW05,Sales,H2 (Apr-Sep),4,staff_service,Staff service,2,Newcastle,Other 20 dealerships
+NSW05,Sales,H2 (Apr-Sep),4,pricing_value,Price/value,0,Newcastle,Other 20 dealerships
+NSW05,Sales,H2 (Apr-Sep),4,sales_process,Sales process,3,Newcastle,Other 20 dealerships
+NSW05,Sales,H2 (Apr-Sep),4,parts_availability,Parts availability,0,Newcastle,Other 20 dealerships
+NSW05,Sales,H2 (Apr-Sep),4,vehicle_product,Vehicle/product,2,Newcastle,Other 20 dealerships
+NSW05,Sales,H2 (Apr-Sep),4,other,Other,0,Newcastle,Other 20 dealerships
+NSW05,Service,H1 (Oct-Mar),22,communication_follow_up,Communication,13,Newcastle,Other 20 dealerships
+NSW05,Service,H1 (Oct-Mar),22,waiting_time_scheduling,Waiting/booking,8,Newcastle,Other 20 dealerships
+NSW05,Service,H1 (Oct-Mar),22,workmanship_repair_quality,Repair quality,2,Newcastle,Other 20 dealerships
+NSW05,Service,H1 (Oct-Mar),22,staff_service,Staff service,1,Newcastle,Other 20 dealerships
+NSW05,Service,H1 (Oct-Mar),22,pricing_value,Price/value,2,Newcastle,Other 20 dealerships
+NSW05,Service,H1 (Oct-Mar),22,sales_process,Sales process,0,Newcastle,Other 20 dealerships
+NSW05,Service,H1 (Oct-Mar),22,parts_availability,Parts availability,0,Newcastle,Other 20 dealerships
+NSW05,Service,H1 (Oct-Mar),22,vehicle_product,Vehicle/product,0,Newcastle,Other 20 dealerships
+NSW05,Service,H1 (Oct-Mar),22,other,Other,0,Newcastle,Other 20 dealerships
+NSW05,Service,H2 (Apr-Sep),27,communication_follow_up,Communication,12,Newcastle,Other 20 dealerships
+NSW05,Service,H2 (Apr-Sep),27,waiting_time_scheduling,Waiting/booking,6,Newcastle,Other 20 dealerships
+NSW05,Service,H2 (Apr-Sep),27,workmanship_repair_quality,Repair quality,1,Newcastle,Other 20 dealerships
+NSW05,Service,H2 (Apr-Sep),27,staff_service,Staff service,0,Newcastle,Other 20 dealerships
+NSW05,Service,H2 (Apr-Sep),27,pricing_value,Price/value,4,Newcastle,Other 20 dealerships
+NSW05,Service,H2 (Apr-Sep),27,sales_process,Sales process,0,Newcastle,Other 20 dealerships
+NSW05,Service,H2 (Apr-Sep),27,parts_availability,Parts availability,5,Newcastle,Other 20 dealerships
+NSW05,Service,H2 (Apr-Sep),27,vehicle_product,Vehicle/product,2,Newcastle,Other 20 dealerships
+NSW05,Service,H2 (Apr-Sep),27,other,Other,5,Newcastle,Other 20 dealerships
+NSW06,Parts,H1 (Oct-Mar),3,communication_follow_up,Communication,2,Wollongong,Other 20 dealerships
+NSW06,Parts,H1 (Oct-Mar),3,waiting_time_scheduling,Waiting/booking,0,Wollongong,Other 20 dealerships
+NSW06,Parts,H1 (Oct-Mar),3,workmanship_repair_quality,Repair quality,0,Wollongong,Other 20 dealerships
+NSW06,Parts,H1 (Oct-Mar),3,staff_service,Staff service,0,Wollongong,Other 20 dealerships
+NSW06,Parts,H1 (Oct-Mar),3,pricing_value,Price/value,0,Wollongong,Other 20 dealerships
+NSW06,Parts,H1 (Oct-Mar),3,sales_process,Sales process,0,Wollongong,Other 20 dealerships
+NSW06,Parts,H1 (Oct-Mar),3,parts_availability,Parts availability,2,Wollongong,Other 20 dealerships
+NSW06,Parts,H1 (Oct-Mar),3,vehicle_product,Vehicle/product,0,Wollongong,Other 20 dealerships
+NSW06,Parts,H1 (Oct-Mar),3,other,Other,0,Wollongong,Other 20 dealerships
+NSW06,Parts,H2 (Apr-Sep),2,communication_follow_up,Communication,1,Wollongong,Other 20 dealerships
+NSW06,Parts,H2 (Apr-Sep),2,waiting_time_scheduling,Waiting/booking,0,Wollongong,Other 20 dealerships
+NSW06,Parts,H2 (Apr-Sep),2,workmanship_repair_quality,Repair quality,0,Wollongong,Other 20 dealerships
+NSW06,Parts,H2 (Apr-Sep),2,staff_service,Staff service,1,Wollongong,Other 20 dealerships
+NSW06,Parts,H2 (Apr-Sep),2,pricing_value,Price/value,0,Wollongong,Other 20 dealerships
+NSW06,Parts,H2 (Apr-Sep),2,sales_process,Sales process,0,Wollongong,Other 20 dealerships
+NSW06,Parts,H2 (Apr-Sep),2,parts_availability,Parts availability,1,Wollongong,Other 20 dealerships
+NSW06,Parts,H2 (Apr-Sep),2,vehicle_product,Vehicle/product,0,Wollongong,Other 20 dealerships
+NSW06,Parts,H2 (Apr-Sep),2,other,Other,0,Wollongong,Other 20 dealerships
+NSW06,Sales,H1 (Oct-Mar),2,communication_follow_up,Communication,2,Wollongong,Other 20 dealerships
+NSW06,Sales,H1 (Oct-Mar),2,waiting_time_scheduling,Waiting/booking,0,Wollongong,Other 20 dealerships
+NSW06,Sales,H1 (Oct-Mar),2,workmanship_repair_quality,Repair quality,0,Wollongong,Other 20 dealerships
+NSW06,Sales,H1 (Oct-Mar),2,staff_service,Staff service,0,Wollongong,Other 20 dealerships
+NSW06,Sales,H1 (Oct-Mar),2,pricing_value,Price/value,0,Wollongong,Other 20 dealerships
+NSW06,Sales,H1 (Oct-Mar),2,sales_process,Sales process,1,Wollongong,Other 20 dealerships
+NSW06,Sales,H1 (Oct-Mar),2,parts_availability,Parts availability,0,Wollongong,Other 20 dealerships
+NSW06,Sales,H1 (Oct-Mar),2,vehicle_product,Vehicle/product,0,Wollongong,Other 20 dealerships
+NSW06,Sales,H1 (Oct-Mar),2,other,Other,0,Wollongong,Other 20 dealerships
+NSW06,Sales,H2 (Apr-Sep),1,communication_follow_up,Communication,1,Wollongong,Other 20 dealerships
+NSW06,Sales,H2 (Apr-Sep),1,waiting_time_scheduling,Waiting/booking,0,Wollongong,Other 20 dealerships
+NSW06,Sales,H2 (Apr-Sep),1,workmanship_repair_quality,Repair quality,0,Wollongong,Other 20 dealerships
+NSW06,Sales,H2 (Apr-Sep),1,staff_service,Staff service,0,Wollongong,Other 20 dealerships
+NSW06,Sales,H2 (Apr-Sep),1,pricing_value,Price/value,0,Wollongong,Other 20 dealerships
+NSW06,Sales,H2 (Apr-Sep),1,sales_process,Sales process,0,Wollongong,Other 20 dealerships
+NSW06,Sales,H2 (Apr-Sep),1,parts_availability,Parts availability,0,Wollongong,Other 20 dealerships
+NSW06,Sales,H2 (Apr-Sep),1,vehicle_product,Vehicle/product,0,Wollongong,Other 20 dealerships
+NSW06,Sales,H2 (Apr-Sep),1,other,Other,0,Wollongong,Other 20 dealerships
+NSW06,Service,H1 (Oct-Mar),15,communication_follow_up,Communication,4,Wollongong,Other 20 dealerships
+NSW06,Service,H1 (Oct-Mar),15,waiting_time_scheduling,Waiting/booking,7,Wollongong,Other 20 dealerships
+NSW06,Service,H1 (Oct-Mar),15,workmanship_repair_quality,Repair quality,4,Wollongong,Other 20 dealerships
+NSW06,Service,H1 (Oct-Mar),15,staff_service,Staff service,1,Wollongong,Other 20 dealerships
+NSW06,Service,H1 (Oct-Mar),15,pricing_value,Price/value,4,Wollongong,Other 20 dealerships
+NSW06,Service,H1 (Oct-Mar),15,sales_process,Sales process,0,Wollongong,Other 20 dealerships
+NSW06,Service,H1 (Oct-Mar),15,parts_availability,Parts availability,0,Wollongong,Other 20 dealerships
+NSW06,Service,H1 (Oct-Mar),15,vehicle_product,Vehicle/product,0,Wollongong,Other 20 dealerships
+NSW06,Service,H1 (Oct-Mar),15,other,Other,0,Wollongong,Other 20 dealerships
+NSW06,Service,H2 (Apr-Sep),22,communication_follow_up,Communication,9,Wollongong,Other 20 dealerships
+NSW06,Service,H2 (Apr-Sep),22,waiting_time_scheduling,Waiting/booking,9,Wollongong,Other 20 dealerships
+NSW06,Service,H2 (Apr-Sep),22,workmanship_repair_quality,Repair quality,3,Wollongong,Other 20 dealerships
+NSW06,Service,H2 (Apr-Sep),22,staff_service,Staff service,0,Wollongong,Other 20 dealerships
+NSW06,Service,H2 (Apr-Sep),22,pricing_value,Price/value,5,Wollongong,Other 20 dealerships
+NSW06,Service,H2 (Apr-Sep),22,sales_process,Sales process,0,Wollongong,Other 20 dealerships
+NSW06,Service,H2 (Apr-Sep),22,parts_availability,Parts availability,5,Wollongong,Other 20 dealerships
+NSW06,Service,H2 (Apr-Sep),22,vehicle_product,Vehicle/product,0,Wollongong,Other 20 dealerships
+NSW06,Service,H2 (Apr-Sep),22,other,Other,0,Wollongong,Other 20 dealerships
+NSW07,Parts,H1 (Oct-Mar),1,communication_follow_up,Communication,0,Tamworth,Other 20 dealerships
+NSW07,Parts,H1 (Oct-Mar),1,waiting_time_scheduling,Waiting/booking,0,Tamworth,Other 20 dealerships
+NSW07,Parts,H1 (Oct-Mar),1,workmanship_repair_quality,Repair quality,0,Tamworth,Other 20 dealerships
+NSW07,Parts,H1 (Oct-Mar),1,staff_service,Staff service,1,Tamworth,Other 20 dealerships
+NSW07,Parts,H1 (Oct-Mar),1,pricing_value,Price/value,0,Tamworth,Other 20 dealerships
+NSW07,Parts,H1 (Oct-Mar),1,sales_process,Sales process,0,Tamworth,Other 20 dealerships
+NSW07,Parts,H1 (Oct-Mar),1,parts_availability,Parts availability,0,Tamworth,Other 20 dealerships
+NSW07,Parts,H1 (Oct-Mar),1,vehicle_product,Vehicle/product,0,Tamworth,Other 20 dealerships
+NSW07,Parts,H1 (Oct-Mar),1,other,Other,0,Tamworth,Other 20 dealerships
+NSW07,Parts,H2 (Apr-Sep),0,communication_follow_up,Communication,0,Tamworth,Other 20 dealerships
+NSW07,Parts,H2 (Apr-Sep),0,waiting_time_scheduling,Waiting/booking,0,Tamworth,Other 20 dealerships
+NSW07,Parts,H2 (Apr-Sep),0,workmanship_repair_quality,Repair quality,0,Tamworth,Other 20 dealerships
+NSW07,Parts,H2 (Apr-Sep),0,staff_service,Staff service,0,Tamworth,Other 20 dealerships
+NSW07,Parts,H2 (Apr-Sep),0,pricing_value,Price/value,0,Tamworth,Other 20 dealerships
+NSW07,Parts,H2 (Apr-Sep),0,sales_process,Sales process,0,Tamworth,Other 20 dealerships
+NSW07,Parts,H2 (Apr-Sep),0,parts_availability,Parts availability,0,Tamworth,Other 20 dealerships
+NSW07,Parts,H2 (Apr-Sep),0,vehicle_product,Vehicle/product,0,Tamworth,Other 20 dealerships
+NSW07,Parts,H2 (Apr-Sep),0,other,Other,0,Tamworth,Other 20 dealerships
+NSW07,Sales,H1 (Oct-Mar),2,communication_follow_up,Communication,1,Tamworth,Other 20 dealerships
+NSW07,Sales,H1 (Oct-Mar),2,waiting_time_scheduling,Waiting/booking,1,Tamworth,Other 20 dealerships
+NSW07,Sales,H1 (Oct-Mar),2,workmanship_repair_quality,Repair quality,0,Tamworth,Other 20 dealerships
+NSW07,Sales,H1 (Oct-Mar),2,staff_service,Staff service,0,Tamworth,Other 20 dealerships
+NSW07,Sales,H1 (Oct-Mar),2,pricing_value,Price/value,0,Tamworth,Other 20 dealerships
+NSW07,Sales,H1 (Oct-Mar),2,sales_process,Sales process,2,Tamworth,Other 20 dealerships
+NSW07,Sales,H1 (Oct-Mar),2,parts_availability,Parts availability,0,Tamworth,Other 20 dealerships
+NSW07,Sales,H1 (Oct-Mar),2,vehicle_product,Vehicle/product,0,Tamworth,Other 20 dealerships
+NSW07,Sales,H1 (Oct-Mar),2,other,Other,0,Tamworth,Other 20 dealerships
+NSW07,Sales,H2 (Apr-Sep),2,communication_follow_up,Communication,1,Tamworth,Other 20 dealerships
+NSW07,Sales,H2 (Apr-Sep),2,waiting_time_scheduling,Waiting/booking,0,Tamworth,Other 20 dealerships
+NSW07,Sales,H2 (Apr-Sep),2,workmanship_repair_quality,Repair quality,0,Tamworth,Other 20 dealerships
+NSW07,Sales,H2 (Apr-Sep),2,staff_service,Staff service,0,Tamworth,Other 20 dealerships
+NSW07,Sales,H2 (Apr-Sep),2,pricing_value,Price/value,2,Tamworth,Other 20 dealerships
+NSW07,Sales,H2 (Apr-Sep),2,sales_process,Sales process,1,Tamworth,Other 20 dealerships
+NSW07,Sales,H2 (Apr-Sep),2,parts_availability,Parts availability,0,Tamworth,Other 20 dealerships
+NSW07,Sales,H2 (Apr-Sep),2,vehicle_product,Vehicle/product,0,Tamworth,Other 20 dealerships
+NSW07,Sales,H2 (Apr-Sep),2,other,Other,0,Tamworth,Other 20 dealerships
+NSW07,Service,H1 (Oct-Mar),6,communication_follow_up,Communication,3,Tamworth,Other 20 dealerships
+NSW07,Service,H1 (Oct-Mar),6,waiting_time_scheduling,Waiting/booking,1,Tamworth,Other 20 dealerships
+NSW07,Service,H1 (Oct-Mar),6,workmanship_repair_quality,Repair quality,0,Tamworth,Other 20 dealerships
+NSW07,Service,H1 (Oct-Mar),6,staff_service,Staff service,0,Tamworth,Other 20 dealerships
+NSW07,Service,H1 (Oct-Mar),6,pricing_value,Price/value,1,Tamworth,Other 20 dealerships
+NSW07,Service,H1 (Oct-Mar),6,sales_process,Sales process,0,Tamworth,Other 20 dealerships
+NSW07,Service,H1 (Oct-Mar),6,parts_availability,Parts availability,0,Tamworth,Other 20 dealerships
+NSW07,Service,H1 (Oct-Mar),6,vehicle_product,Vehicle/product,0,Tamworth,Other 20 dealerships
+NSW07,Service,H1 (Oct-Mar),6,other,Other,1,Tamworth,Other 20 dealerships
+NSW07,Service,H2 (Apr-Sep),10,communication_follow_up,Communication,4,Tamworth,Other 20 dealerships
+NSW07,Service,H2 (Apr-Sep),10,waiting_time_scheduling,Waiting/booking,5,Tamworth,Other 20 dealerships
+NSW07,Service,H2 (Apr-Sep),10,workmanship_repair_quality,Repair quality,0,Tamworth,Other 20 dealerships
+NSW07,Service,H2 (Apr-Sep),10,staff_service,Staff service,0,Tamworth,Other 20 dealerships
+NSW07,Service,H2 (Apr-Sep),10,pricing_value,Price/value,2,Tamworth,Other 20 dealerships
+NSW07,Service,H2 (Apr-Sep),10,sales_process,Sales process,0,Tamworth,Other 20 dealerships
+NSW07,Service,H2 (Apr-Sep),10,parts_availability,Parts availability,4,Tamworth,Other 20 dealerships
+NSW07,Service,H2 (Apr-Sep),10,vehicle_product,Vehicle/product,0,Tamworth,Other 20 dealerships
+NSW07,Service,H2 (Apr-Sep),10,other,Other,0,Tamworth,Other 20 dealerships
+QLD01,Parts,H1 (Oct-Mar),3,communication_follow_up,Communication,2,Chermside,Other 20 dealerships
+QLD01,Parts,H1 (Oct-Mar),3,waiting_time_scheduling,Waiting/booking,0,Chermside,Other 20 dealerships
+QLD01,Parts,H1 (Oct-Mar),3,workmanship_repair_quality,Repair quality,0,Chermside,Other 20 dealerships
+QLD01,Parts,H1 (Oct-Mar),3,staff_service,Staff service,0,Chermside,Other 20 dealerships
+QLD01,Parts,H1 (Oct-Mar),3,pricing_value,Price/value,2,Chermside,Other 20 dealerships
+QLD01,Parts,H1 (Oct-Mar),3,sales_process,Sales process,0,Chermside,Other 20 dealerships
+QLD01,Parts,H1 (Oct-Mar),3,parts_availability,Parts availability,0,Chermside,Other 20 dealerships
+QLD01,Parts,H1 (Oct-Mar),3,vehicle_product,Vehicle/product,0,Chermside,Other 20 dealerships
+QLD01,Parts,H1 (Oct-Mar),3,other,Other,0,Chermside,Other 20 dealerships
+QLD01,Parts,H2 (Apr-Sep),4,communication_follow_up,Communication,1,Chermside,Other 20 dealerships
+QLD01,Parts,H2 (Apr-Sep),4,waiting_time_scheduling,Waiting/booking,3,Chermside,Other 20 dealerships
+QLD01,Parts,H2 (Apr-Sep),4,workmanship_repair_quality,Repair quality,0,Chermside,Other 20 dealerships
+QLD01,Parts,H2 (Apr-Sep),4,staff_service,Staff service,1,Chermside,Other 20 dealerships
+QLD01,Parts,H2 (Apr-Sep),4,pricing_value,Price/value,0,Chermside,Other 20 dealerships
+QLD01,Parts,H2 (Apr-Sep),4,sales_process,Sales process,0,Chermside,Other 20 dealerships
+QLD01,Parts,H2 (Apr-Sep),4,parts_availability,Parts availability,3,Chermside,Other 20 dealerships
+QLD01,Parts,H2 (Apr-Sep),4,vehicle_product,Vehicle/product,0,Chermside,Other 20 dealerships
+QLD01,Parts,H2 (Apr-Sep),4,other,Other,0,Chermside,Other 20 dealerships
+QLD01,Sales,H1 (Oct-Mar),2,communication_follow_up,Communication,1,Chermside,Other 20 dealerships
+QLD01,Sales,H1 (Oct-Mar),2,waiting_time_scheduling,Waiting/booking,1,Chermside,Other 20 dealerships
+QLD01,Sales,H1 (Oct-Mar),2,workmanship_repair_quality,Repair quality,0,Chermside,Other 20 dealerships
+QLD01,Sales,H1 (Oct-Mar),2,staff_service,Staff service,1,Chermside,Other 20 dealerships
+QLD01,Sales,H1 (Oct-Mar),2,pricing_value,Price/value,0,Chermside,Other 20 dealerships
+QLD01,Sales,H1 (Oct-Mar),2,sales_process,Sales process,1,Chermside,Other 20 dealerships
+QLD01,Sales,H1 (Oct-Mar),2,parts_availability,Parts availability,0,Chermside,Other 20 dealerships
+QLD01,Sales,H1 (Oct-Mar),2,vehicle_product,Vehicle/product,0,Chermside,Other 20 dealerships
+QLD01,Sales,H1 (Oct-Mar),2,other,Other,0,Chermside,Other 20 dealerships
+QLD01,Sales,H2 (Apr-Sep),10,communication_follow_up,Communication,4,Chermside,Other 20 dealerships
+QLD01,Sales,H2 (Apr-Sep),10,waiting_time_scheduling,Waiting/booking,1,Chermside,Other 20 dealerships
+QLD01,Sales,H2 (Apr-Sep),10,workmanship_repair_quality,Repair quality,0,Chermside,Other 20 dealerships
+QLD01,Sales,H2 (Apr-Sep),10,staff_service,Staff service,1,Chermside,Other 20 dealerships
+QLD01,Sales,H2 (Apr-Sep),10,pricing_value,Price/value,3,Chermside,Other 20 dealerships
+QLD01,Sales,H2 (Apr-Sep),10,sales_process,Sales process,6,Chermside,Other 20 dealerships
+QLD01,Sales,H2 (Apr-Sep),10,parts_availability,Parts availability,0,Chermside,Other 20 dealerships
+QLD01,Sales,H2 (Apr-Sep),10,vehicle_product,Vehicle/product,3,Chermside,Other 20 dealerships
+QLD01,Sales,H2 (Apr-Sep),10,other,Other,0,Chermside,Other 20 dealerships
+QLD01,Service,H1 (Oct-Mar),44,communication_follow_up,Communication,20,Chermside,Other 20 dealerships
+QLD01,Service,H1 (Oct-Mar),44,waiting_time_scheduling,Waiting/booking,12,Chermside,Other 20 dealerships
+QLD01,Service,H1 (Oct-Mar),44,workmanship_repair_quality,Repair quality,9,Chermside,Other 20 dealerships
+QLD01,Service,H1 (Oct-Mar),44,staff_service,Staff service,4,Chermside,Other 20 dealerships
+QLD01,Service,H1 (Oct-Mar),44,pricing_value,Price/value,7,Chermside,Other 20 dealerships
+QLD01,Service,H1 (Oct-Mar),44,sales_process,Sales process,0,Chermside,Other 20 dealerships
+QLD01,Service,H1 (Oct-Mar),44,parts_availability,Parts availability,2,Chermside,Other 20 dealerships
+QLD01,Service,H1 (Oct-Mar),44,vehicle_product,Vehicle/product,1,Chermside,Other 20 dealerships
+QLD01,Service,H1 (Oct-Mar),44,other,Other,0,Chermside,Other 20 dealerships
+QLD01,Service,H2 (Apr-Sep),36,communication_follow_up,Communication,15,Chermside,Other 20 dealerships
+QLD01,Service,H2 (Apr-Sep),36,waiting_time_scheduling,Waiting/booking,13,Chermside,Other 20 dealerships
+QLD01,Service,H2 (Apr-Sep),36,workmanship_repair_quality,Repair quality,7,Chermside,Other 20 dealerships
+QLD01,Service,H2 (Apr-Sep),36,staff_service,Staff service,4,Chermside,Other 20 dealerships
+QLD01,Service,H2 (Apr-Sep),36,pricing_value,Price/value,3,Chermside,Other 20 dealerships
+QLD01,Service,H2 (Apr-Sep),36,sales_process,Sales process,1,Chermside,Other 20 dealerships
+QLD01,Service,H2 (Apr-Sep),36,parts_availability,Parts availability,0,Chermside,Other 20 dealerships
+QLD01,Service,H2 (Apr-Sep),36,vehicle_product,Vehicle/product,2,Chermside,Other 20 dealerships
+QLD01,Service,H2 (Apr-Sep),36,other,Other,2,Chermside,Other 20 dealerships
+QLD02,Parts,H1 (Oct-Mar),0,communication_follow_up,Communication,0,Springwood,Other 20 dealerships
+QLD02,Parts,H1 (Oct-Mar),0,waiting_time_scheduling,Waiting/booking,0,Springwood,Other 20 dealerships
+QLD02,Parts,H1 (Oct-Mar),0,workmanship_repair_quality,Repair quality,0,Springwood,Other 20 dealerships
+QLD02,Parts,H1 (Oct-Mar),0,staff_service,Staff service,0,Springwood,Other 20 dealerships
+QLD02,Parts,H1 (Oct-Mar),0,pricing_value,Price/value,0,Springwood,Other 20 dealerships
+QLD02,Parts,H1 (Oct-Mar),0,sales_process,Sales process,0,Springwood,Other 20 dealerships
+QLD02,Parts,H1 (Oct-Mar),0,parts_availability,Parts availability,0,Springwood,Other 20 dealerships
+QLD02,Parts,H1 (Oct-Mar),0,vehicle_product,Vehicle/product,0,Springwood,Other 20 dealerships
+QLD02,Parts,H1 (Oct-Mar),0,other,Other,0,Springwood,Other 20 dealerships
+QLD02,Parts,H2 (Apr-Sep),2,communication_follow_up,Communication,0,Springwood,Other 20 dealerships
+QLD02,Parts,H2 (Apr-Sep),2,waiting_time_scheduling,Waiting/booking,0,Springwood,Other 20 dealerships
+QLD02,Parts,H2 (Apr-Sep),2,workmanship_repair_quality,Repair quality,0,Springwood,Other 20 dealerships
+QLD02,Parts,H2 (Apr-Sep),2,staff_service,Staff service,1,Springwood,Other 20 dealerships
+QLD02,Parts,H2 (Apr-Sep),2,pricing_value,Price/value,0,Springwood,Other 20 dealerships
+QLD02,Parts,H2 (Apr-Sep),2,sales_process,Sales process,0,Springwood,Other 20 dealerships
+QLD02,Parts,H2 (Apr-Sep),2,parts_availability,Parts availability,1,Springwood,Other 20 dealerships
+QLD02,Parts,H2 (Apr-Sep),2,vehicle_product,Vehicle/product,0,Springwood,Other 20 dealerships
+QLD02,Parts,H2 (Apr-Sep),2,other,Other,0,Springwood,Other 20 dealerships
+QLD02,Sales,H1 (Oct-Mar),3,communication_follow_up,Communication,1,Springwood,Other 20 dealerships
+QLD02,Sales,H1 (Oct-Mar),3,waiting_time_scheduling,Waiting/booking,0,Springwood,Other 20 dealerships
+QLD02,Sales,H1 (Oct-Mar),3,workmanship_repair_quality,Repair quality,0,Springwood,Other 20 dealerships
+QLD02,Sales,H1 (Oct-Mar),3,staff_service,Staff service,0,Springwood,Other 20 dealerships
+QLD02,Sales,H1 (Oct-Mar),3,pricing_value,Price/value,1,Springwood,Other 20 dealerships
+QLD02,Sales,H1 (Oct-Mar),3,sales_process,Sales process,2,Springwood,Other 20 dealerships
+QLD02,Sales,H1 (Oct-Mar),3,parts_availability,Parts availability,0,Springwood,Other 20 dealerships
+QLD02,Sales,H1 (Oct-Mar),3,vehicle_product,Vehicle/product,1,Springwood,Other 20 dealerships
+QLD02,Sales,H1 (Oct-Mar),3,other,Other,0,Springwood,Other 20 dealerships
+QLD02,Sales,H2 (Apr-Sep),0,communication_follow_up,Communication,0,Springwood,Other 20 dealerships
+QLD02,Sales,H2 (Apr-Sep),0,waiting_time_scheduling,Waiting/booking,0,Springwood,Other 20 dealerships
+QLD02,Sales,H2 (Apr-Sep),0,workmanship_repair_quality,Repair quality,0,Springwood,Other 20 dealerships
+QLD02,Sales,H2 (Apr-Sep),0,staff_service,Staff service,0,Springwood,Other 20 dealerships
+QLD02,Sales,H2 (Apr-Sep),0,pricing_value,Price/value,0,Springwood,Other 20 dealerships
+QLD02,Sales,H2 (Apr-Sep),0,sales_process,Sales process,0,Springwood,Other 20 dealerships
+QLD02,Sales,H2 (Apr-Sep),0,parts_availability,Parts availability,0,Springwood,Other 20 dealerships
+QLD02,Sales,H2 (Apr-Sep),0,vehicle_product,Vehicle/product,0,Springwood,Other 20 dealerships
+QLD02,Sales,H2 (Apr-Sep),0,other,Other,0,Springwood,Other 20 dealerships
+QLD02,Service,H1 (Oct-Mar),22,communication_follow_up,Communication,12,Springwood,Other 20 dealerships
+QLD02,Service,H1 (Oct-Mar),22,waiting_time_scheduling,Waiting/booking,8,Springwood,Other 20 dealerships
+QLD02,Service,H1 (Oct-Mar),22,workmanship_repair_quality,Repair quality,4,Springwood,Other 20 dealerships
+QLD02,Service,H1 (Oct-Mar),22,staff_service,Staff service,1,Springwood,Other 20 dealerships
+QLD02,Service,H1 (Oct-Mar),22,pricing_value,Price/value,3,Springwood,Other 20 dealerships
+QLD02,Service,H1 (Oct-Mar),22,sales_process,Sales process,0,Springwood,Other 20 dealerships
+QLD02,Service,H1 (Oct-Mar),22,parts_availability,Parts availability,0,Springwood,Other 20 dealerships
+QLD02,Service,H1 (Oct-Mar),22,vehicle_product,Vehicle/product,0,Springwood,Other 20 dealerships
+QLD02,Service,H1 (Oct-Mar),22,other,Other,2,Springwood,Other 20 dealerships
+QLD02,Service,H2 (Apr-Sep),21,communication_follow_up,Communication,9,Springwood,Other 20 dealerships
+QLD02,Service,H2 (Apr-Sep),21,waiting_time_scheduling,Waiting/booking,4,Springwood,Other 20 dealerships
+QLD02,Service,H2 (Apr-Sep),21,workmanship_repair_quality,Repair quality,2,Springwood,Other 20 dealerships
+QLD02,Service,H2 (Apr-Sep),21,staff_service,Staff service,1,Springwood,Other 20 dealerships
+QLD02,Service,H2 (Apr-Sep),21,pricing_value,Price/value,5,Springwood,Other 20 dealerships
+QLD02,Service,H2 (Apr-Sep),21,sales_process,Sales process,0,Springwood,Other 20 dealerships
+QLD02,Service,H2 (Apr-Sep),21,parts_availability,Parts availability,3,Springwood,Other 20 dealerships
+QLD02,Service,H2 (Apr-Sep),21,vehicle_product,Vehicle/product,0,Springwood,Other 20 dealerships
+QLD02,Service,H2 (Apr-Sep),21,other,Other,1,Springwood,Other 20 dealerships
+QLD03,Parts,H1 (Oct-Mar),1,communication_follow_up,Communication,1,Ipswich,Other 20 dealerships
+QLD03,Parts,H1 (Oct-Mar),1,waiting_time_scheduling,Waiting/booking,1,Ipswich,Other 20 dealerships
+QLD03,Parts,H1 (Oct-Mar),1,workmanship_repair_quality,Repair quality,0,Ipswich,Other 20 dealerships
+QLD03,Parts,H1 (Oct-Mar),1,staff_service,Staff service,0,Ipswich,Other 20 dealerships
+QLD03,Parts,H1 (Oct-Mar),1,pricing_value,Price/value,0,Ipswich,Other 20 dealerships
+QLD03,Parts,H1 (Oct-Mar),1,sales_process,Sales process,0,Ipswich,Other 20 dealerships
+QLD03,Parts,H1 (Oct-Mar),1,parts_availability,Parts availability,1,Ipswich,Other 20 dealerships
+QLD03,Parts,H1 (Oct-Mar),1,vehicle_product,Vehicle/product,0,Ipswich,Other 20 dealerships
+QLD03,Parts,H1 (Oct-Mar),1,other,Other,0,Ipswich,Other 20 dealerships
+QLD03,Parts,H2 (Apr-Sep),1,communication_follow_up,Communication,1,Ipswich,Other 20 dealerships
+QLD03,Parts,H2 (Apr-Sep),1,waiting_time_scheduling,Waiting/booking,0,Ipswich,Other 20 dealerships
+QLD03,Parts,H2 (Apr-Sep),1,workmanship_repair_quality,Repair quality,0,Ipswich,Other 20 dealerships
+QLD03,Parts,H2 (Apr-Sep),1,staff_service,Staff service,0,Ipswich,Other 20 dealerships
+QLD03,Parts,H2 (Apr-Sep),1,pricing_value,Price/value,0,Ipswich,Other 20 dealerships
+QLD03,Parts,H2 (Apr-Sep),1,sales_process,Sales process,0,Ipswich,Other 20 dealerships
+QLD03,Parts,H2 (Apr-Sep),1,parts_availability,Parts availability,1,Ipswich,Other 20 dealerships
+QLD03,Parts,H2 (Apr-Sep),1,vehicle_product,Vehicle/product,0,Ipswich,Other 20 dealerships
+QLD03,Parts,H2 (Apr-Sep),1,other,Other,0,Ipswich,Other 20 dealerships
+QLD03,Sales,H1 (Oct-Mar),3,communication_follow_up,Communication,2,Ipswich,Other 20 dealerships
+QLD03,Sales,H1 (Oct-Mar),3,waiting_time_scheduling,Waiting/booking,0,Ipswich,Other 20 dealerships
+QLD03,Sales,H1 (Oct-Mar),3,workmanship_repair_quality,Repair quality,0,Ipswich,Other 20 dealerships
+QLD03,Sales,H1 (Oct-Mar),3,staff_service,Staff service,0,Ipswich,Other 20 dealerships
+QLD03,Sales,H1 (Oct-Mar),3,pricing_value,Price/value,0,Ipswich,Other 20 dealerships
+QLD03,Sales,H1 (Oct-Mar),3,sales_process,Sales process,3,Ipswich,Other 20 dealerships
+QLD03,Sales,H1 (Oct-Mar),3,parts_availability,Parts availability,0,Ipswich,Other 20 dealerships
+QLD03,Sales,H1 (Oct-Mar),3,vehicle_product,Vehicle/product,0,Ipswich,Other 20 dealerships
+QLD03,Sales,H1 (Oct-Mar),3,other,Other,0,Ipswich,Other 20 dealerships
+QLD03,Sales,H2 (Apr-Sep),3,communication_follow_up,Communication,2,Ipswich,Other 20 dealerships
+QLD03,Sales,H2 (Apr-Sep),3,waiting_time_scheduling,Waiting/booking,0,Ipswich,Other 20 dealerships
+QLD03,Sales,H2 (Apr-Sep),3,workmanship_repair_quality,Repair quality,0,Ipswich,Other 20 dealerships
+QLD03,Sales,H2 (Apr-Sep),3,staff_service,Staff service,0,Ipswich,Other 20 dealerships
+QLD03,Sales,H2 (Apr-Sep),3,pricing_value,Price/value,1,Ipswich,Other 20 dealerships
+QLD03,Sales,H2 (Apr-Sep),3,sales_process,Sales process,3,Ipswich,Other 20 dealerships
+QLD03,Sales,H2 (Apr-Sep),3,parts_availability,Parts availability,0,Ipswich,Other 20 dealerships
+QLD03,Sales,H2 (Apr-Sep),3,vehicle_product,Vehicle/product,0,Ipswich,Other 20 dealerships
+QLD03,Sales,H2 (Apr-Sep),3,other,Other,0,Ipswich,Other 20 dealerships
+QLD03,Service,H1 (Oct-Mar),18,communication_follow_up,Communication,3,Ipswich,Other 20 dealerships
+QLD03,Service,H1 (Oct-Mar),18,waiting_time_scheduling,Waiting/booking,8,Ipswich,Other 20 dealerships
+QLD03,Service,H1 (Oct-Mar),18,workmanship_repair_quality,Repair quality,5,Ipswich,Other 20 dealerships
+QLD03,Service,H1 (Oct-Mar),18,staff_service,Staff service,4,Ipswich,Other 20 dealerships
+QLD03,Service,H1 (Oct-Mar),18,pricing_value,Price/value,4,Ipswich,Other 20 dealerships
+QLD03,Service,H1 (Oct-Mar),18,sales_process,Sales process,0,Ipswich,Other 20 dealerships
+QLD03,Service,H1 (Oct-Mar),18,parts_availability,Parts availability,0,Ipswich,Other 20 dealerships
+QLD03,Service,H1 (Oct-Mar),18,vehicle_product,Vehicle/product,0,Ipswich,Other 20 dealerships
+QLD03,Service,H1 (Oct-Mar),18,other,Other,2,Ipswich,Other 20 dealerships
+QLD03,Service,H2 (Apr-Sep),28,communication_follow_up,Communication,9,Ipswich,Other 20 dealerships
+QLD03,Service,H2 (Apr-Sep),28,waiting_time_scheduling,Waiting/booking,10,Ipswich,Other 20 dealerships
+QLD03,Service,H2 (Apr-Sep),28,workmanship_repair_quality,Repair quality,5,Ipswich,Other 20 dealerships
+QLD03,Service,H2 (Apr-Sep),28,staff_service,Staff service,1,Ipswich,Other 20 dealerships
+QLD03,Service,H2 (Apr-Sep),28,pricing_value,Price/value,3,Ipswich,Other 20 dealerships
+QLD03,Service,H2 (Apr-Sep),28,sales_process,Sales process,0,Ipswich,Other 20 dealerships
+QLD03,Service,H2 (Apr-Sep),28,parts_availability,Parts availability,6,Ipswich,Other 20 dealerships
+QLD03,Service,H2 (Apr-Sep),28,vehicle_product,Vehicle/product,0,Ipswich,Other 20 dealerships
+QLD03,Service,H2 (Apr-Sep),28,other,Other,2,Ipswich,Other 20 dealerships
+QLD04,Parts,H1 (Oct-Mar),2,communication_follow_up,Communication,0,Southport,Other 20 dealerships
+QLD04,Parts,H1 (Oct-Mar),2,waiting_time_scheduling,Waiting/booking,1,Southport,Other 20 dealerships
+QLD04,Parts,H1 (Oct-Mar),2,workmanship_repair_quality,Repair quality,0,Southport,Other 20 dealerships
+QLD04,Parts,H1 (Oct-Mar),2,staff_service,Staff service,0,Southport,Other 20 dealerships
+QLD04,Parts,H1 (Oct-Mar),2,pricing_value,Price/value,0,Southport,Other 20 dealerships
+QLD04,Parts,H1 (Oct-Mar),2,sales_process,Sales process,0,Southport,Other 20 dealerships
+QLD04,Parts,H1 (Oct-Mar),2,parts_availability,Parts availability,2,Southport,Other 20 dealerships
+QLD04,Parts,H1 (Oct-Mar),2,vehicle_product,Vehicle/product,0,Southport,Other 20 dealerships
+QLD04,Parts,H1 (Oct-Mar),2,other,Other,0,Southport,Other 20 dealerships
+QLD04,Parts,H2 (Apr-Sep),1,communication_follow_up,Communication,0,Southport,Other 20 dealerships
+QLD04,Parts,H2 (Apr-Sep),1,waiting_time_scheduling,Waiting/booking,0,Southport,Other 20 dealerships
+QLD04,Parts,H2 (Apr-Sep),1,workmanship_repair_quality,Repair quality,0,Southport,Other 20 dealerships
+QLD04,Parts,H2 (Apr-Sep),1,staff_service,Staff service,0,Southport,Other 20 dealerships
+QLD04,Parts,H2 (Apr-Sep),1,pricing_value,Price/value,0,Southport,Other 20 dealerships
+QLD04,Parts,H2 (Apr-Sep),1,sales_process,Sales process,0,Southport,Other 20 dealerships
+QLD04,Parts,H2 (Apr-Sep),1,parts_availability,Parts availability,1,Southport,Other 20 dealerships
+QLD04,Parts,H2 (Apr-Sep),1,vehicle_product,Vehicle/product,0,Southport,Other 20 dealerships
+QLD04,Parts,H2 (Apr-Sep),1,other,Other,0,Southport,Other 20 dealerships
+QLD04,Sales,H1 (Oct-Mar),6,communication_follow_up,Communication,2,Southport,Other 20 dealerships
+QLD04,Sales,H1 (Oct-Mar),6,waiting_time_scheduling,Waiting/booking,2,Southport,Other 20 dealerships
+QLD04,Sales,H1 (Oct-Mar),6,workmanship_repair_quality,Repair quality,0,Southport,Other 20 dealerships
+QLD04,Sales,H1 (Oct-Mar),6,staff_service,Staff service,2,Southport,Other 20 dealerships
+QLD04,Sales,H1 (Oct-Mar),6,pricing_value,Price/value,1,Southport,Other 20 dealerships
+QLD04,Sales,H1 (Oct-Mar),6,sales_process,Sales process,5,Southport,Other 20 dealerships
+QLD04,Sales,H1 (Oct-Mar),6,parts_availability,Parts availability,0,Southport,Other 20 dealerships
+QLD04,Sales,H1 (Oct-Mar),6,vehicle_product,Vehicle/product,2,Southport,Other 20 dealerships
+QLD04,Sales,H1 (Oct-Mar),6,other,Other,0,Southport,Other 20 dealerships
+QLD04,Sales,H2 (Apr-Sep),7,communication_follow_up,Communication,2,Southport,Other 20 dealerships
+QLD04,Sales,H2 (Apr-Sep),7,waiting_time_scheduling,Waiting/booking,1,Southport,Other 20 dealerships
+QLD04,Sales,H2 (Apr-Sep),7,workmanship_repair_quality,Repair quality,0,Southport,Other 20 dealerships
+QLD04,Sales,H2 (Apr-Sep),7,staff_service,Staff service,2,Southport,Other 20 dealerships
+QLD04,Sales,H2 (Apr-Sep),7,pricing_value,Price/value,1,Southport,Other 20 dealerships
+QLD04,Sales,H2 (Apr-Sep),7,sales_process,Sales process,2,Southport,Other 20 dealerships
+QLD04,Sales,H2 (Apr-Sep),7,parts_availability,Parts availability,0,Southport,Other 20 dealerships
+QLD04,Sales,H2 (Apr-Sep),7,vehicle_product,Vehicle/product,2,Southport,Other 20 dealerships
+QLD04,Sales,H2 (Apr-Sep),7,other,Other,0,Southport,Other 20 dealerships
+QLD04,Service,H1 (Oct-Mar),16,communication_follow_up,Communication,8,Southport,Other 20 dealerships
+QLD04,Service,H1 (Oct-Mar),16,waiting_time_scheduling,Waiting/booking,3,Southport,Other 20 dealerships
+QLD04,Service,H1 (Oct-Mar),16,workmanship_repair_quality,Repair quality,4,Southport,Other 20 dealerships
+QLD04,Service,H1 (Oct-Mar),16,staff_service,Staff service,4,Southport,Other 20 dealerships
+QLD04,Service,H1 (Oct-Mar),16,pricing_value,Price/value,0,Southport,Other 20 dealerships
+QLD04,Service,H1 (Oct-Mar),16,sales_process,Sales process,0,Southport,Other 20 dealerships
+QLD04,Service,H1 (Oct-Mar),16,parts_availability,Parts availability,0,Southport,Other 20 dealerships
+QLD04,Service,H1 (Oct-Mar),16,vehicle_product,Vehicle/product,1,Southport,Other 20 dealerships
+QLD04,Service,H1 (Oct-Mar),16,other,Other,2,Southport,Other 20 dealerships
+QLD04,Service,H2 (Apr-Sep),27,communication_follow_up,Communication,11,Southport,Other 20 dealerships
+QLD04,Service,H2 (Apr-Sep),27,waiting_time_scheduling,Waiting/booking,7,Southport,Other 20 dealerships
+QLD04,Service,H2 (Apr-Sep),27,workmanship_repair_quality,Repair quality,5,Southport,Other 20 dealerships
+QLD04,Service,H2 (Apr-Sep),27,staff_service,Staff service,3,Southport,Other 20 dealerships
+QLD04,Service,H2 (Apr-Sep),27,pricing_value,Price/value,5,Southport,Other 20 dealerships
+QLD04,Service,H2 (Apr-Sep),27,sales_process,Sales process,0,Southport,Other 20 dealerships
+QLD04,Service,H2 (Apr-Sep),27,parts_availability,Parts availability,4,Southport,Other 20 dealerships
+QLD04,Service,H2 (Apr-Sep),27,vehicle_product,Vehicle/product,4,Southport,Other 20 dealerships
+QLD04,Service,H2 (Apr-Sep),27,other,Other,0,Southport,Other 20 dealerships
+QLD05,Parts,H1 (Oct-Mar),0,communication_follow_up,Communication,0,Noosa,Other 20 dealerships
+QLD05,Parts,H1 (Oct-Mar),0,waiting_time_scheduling,Waiting/booking,0,Noosa,Other 20 dealerships
+QLD05,Parts,H1 (Oct-Mar),0,workmanship_repair_quality,Repair quality,0,Noosa,Other 20 dealerships
+QLD05,Parts,H1 (Oct-Mar),0,staff_service,Staff service,0,Noosa,Other 20 dealerships
+QLD05,Parts,H1 (Oct-Mar),0,pricing_value,Price/value,0,Noosa,Other 20 dealerships
+QLD05,Parts,H1 (Oct-Mar),0,sales_process,Sales process,0,Noosa,Other 20 dealerships
+QLD05,Parts,H1 (Oct-Mar),0,parts_availability,Parts availability,0,Noosa,Other 20 dealerships
+QLD05,Parts,H1 (Oct-Mar),0,vehicle_product,Vehicle/product,0,Noosa,Other 20 dealerships
+QLD05,Parts,H1 (Oct-Mar),0,other,Other,0,Noosa,Other 20 dealerships
+QLD05,Parts,H2 (Apr-Sep),0,communication_follow_up,Communication,0,Noosa,Other 20 dealerships
+QLD05,Parts,H2 (Apr-Sep),0,waiting_time_scheduling,Waiting/booking,0,Noosa,Other 20 dealerships
+QLD05,Parts,H2 (Apr-Sep),0,workmanship_repair_quality,Repair quality,0,Noosa,Other 20 dealerships
+QLD05,Parts,H2 (Apr-Sep),0,staff_service,Staff service,0,Noosa,Other 20 dealerships
+QLD05,Parts,H2 (Apr-Sep),0,pricing_value,Price/value,0,Noosa,Other 20 dealerships
+QLD05,Parts,H2 (Apr-Sep),0,sales_process,Sales process,0,Noosa,Other 20 dealerships
+QLD05,Parts,H2 (Apr-Sep),0,parts_availability,Parts availability,0,Noosa,Other 20 dealerships
+QLD05,Parts,H2 (Apr-Sep),0,vehicle_product,Vehicle/product,0,Noosa,Other 20 dealerships
+QLD05,Parts,H2 (Apr-Sep),0,other,Other,0,Noosa,Other 20 dealerships
+QLD05,Sales,H1 (Oct-Mar),0,communication_follow_up,Communication,0,Noosa,Other 20 dealerships
+QLD05,Sales,H1 (Oct-Mar),0,waiting_time_scheduling,Waiting/booking,0,Noosa,Other 20 dealerships
+QLD05,Sales,H1 (Oct-Mar),0,workmanship_repair_quality,Repair quality,0,Noosa,Other 20 dealerships
+QLD05,Sales,H1 (Oct-Mar),0,staff_service,Staff service,0,Noosa,Other 20 dealerships
+QLD05,Sales,H1 (Oct-Mar),0,pricing_value,Price/value,0,Noosa,Other 20 dealerships
+QLD05,Sales,H1 (Oct-Mar),0,sales_process,Sales process,0,Noosa,Other 20 dealerships
+QLD05,Sales,H1 (Oct-Mar),0,parts_availability,Parts availability,0,Noosa,Other 20 dealerships
+QLD05,Sales,H1 (Oct-Mar),0,vehicle_product,Vehicle/product,0,Noosa,Other 20 dealerships
+QLD05,Sales,H1 (Oct-Mar),0,other,Other,0,Noosa,Other 20 dealerships
+QLD05,Sales,H2 (Apr-Sep),0,communication_follow_up,Communication,0,Noosa,Other 20 dealerships
+QLD05,Sales,H2 (Apr-Sep),0,waiting_time_scheduling,Waiting/booking,0,Noosa,Other 20 dealerships
+QLD05,Sales,H2 (Apr-Sep),0,workmanship_repair_quality,Repair quality,0,Noosa,Other 20 dealerships
+QLD05,Sales,H2 (Apr-Sep),0,staff_service,Staff service,0,Noosa,Other 20 dealerships
+QLD05,Sales,H2 (Apr-Sep),0,pricing_value,Price/value,0,Noosa,Other 20 dealerships
+QLD05,Sales,H2 (Apr-Sep),0,sales_process,Sales process,0,Noosa,Other 20 dealerships
+QLD05,Sales,H2 (Apr-Sep),0,parts_availability,Parts availability,0,Noosa,Other 20 dealerships
+QLD05,Sales,H2 (Apr-Sep),0,vehicle_product,Vehicle/product,0,Noosa,Other 20 dealerships
+QLD05,Sales,H2 (Apr-Sep),0,other,Other,0,Noosa,Other 20 dealerships
+QLD05,Service,H1 (Oct-Mar),1,communication_follow_up,Communication,0,Noosa,Other 20 dealerships
+QLD05,Service,H1 (Oct-Mar),1,waiting_time_scheduling,Waiting/booking,0,Noosa,Other 20 dealerships
+QLD05,Service,H1 (Oct-Mar),1,workmanship_repair_quality,Repair quality,1,Noosa,Other 20 dealerships
+QLD05,Service,H1 (Oct-Mar),1,staff_service,Staff service,0,Noosa,Other 20 dealerships
+QLD05,Service,H1 (Oct-Mar),1,pricing_value,Price/value,0,Noosa,Other 20 dealerships
+QLD05,Service,H1 (Oct-Mar),1,sales_process,Sales process,0,Noosa,Other 20 dealerships
+QLD05,Service,H1 (Oct-Mar),1,parts_availability,Parts availability,0,Noosa,Other 20 dealerships
+QLD05,Service,H1 (Oct-Mar),1,vehicle_product,Vehicle/product,0,Noosa,Other 20 dealerships
+QLD05,Service,H1 (Oct-Mar),1,other,Other,0,Noosa,Other 20 dealerships
+QLD05,Service,H2 (Apr-Sep),0,communication_follow_up,Communication,0,Noosa,Other 20 dealerships
+QLD05,Service,H2 (Apr-Sep),0,waiting_time_scheduling,Waiting/booking,0,Noosa,Other 20 dealerships
+QLD05,Service,H2 (Apr-Sep),0,workmanship_repair_quality,Repair quality,0,Noosa,Other 20 dealerships
+QLD05,Service,H2 (Apr-Sep),0,staff_service,Staff service,0,Noosa,Other 20 dealerships
+QLD05,Service,H2 (Apr-Sep),0,pricing_value,Price/value,0,Noosa,Other 20 dealerships
+QLD05,Service,H2 (Apr-Sep),0,sales_process,Sales process,0,Noosa,Other 20 dealerships
+QLD05,Service,H2 (Apr-Sep),0,parts_availability,Parts availability,0,Noosa,Other 20 dealerships
+QLD05,Service,H2 (Apr-Sep),0,vehicle_product,Vehicle/product,0,Noosa,Other 20 dealerships
+QLD05,Service,H2 (Apr-Sep),0,other,Other,0,Noosa,Other 20 dealerships
+QLD06,Parts,H1 (Oct-Mar),0,communication_follow_up,Communication,0,Toowoomba,Other 20 dealerships
+QLD06,Parts,H1 (Oct-Mar),0,waiting_time_scheduling,Waiting/booking,0,Toowoomba,Other 20 dealerships
+QLD06,Parts,H1 (Oct-Mar),0,workmanship_repair_quality,Repair quality,0,Toowoomba,Other 20 dealerships
+QLD06,Parts,H1 (Oct-Mar),0,staff_service,Staff service,0,Toowoomba,Other 20 dealerships
+QLD06,Parts,H1 (Oct-Mar),0,pricing_value,Price/value,0,Toowoomba,Other 20 dealerships
+QLD06,Parts,H1 (Oct-Mar),0,sales_process,Sales process,0,Toowoomba,Other 20 dealerships
+QLD06,Parts,H1 (Oct-Mar),0,parts_availability,Parts availability,0,Toowoomba,Other 20 dealerships
+QLD06,Parts,H1 (Oct-Mar),0,vehicle_product,Vehicle/product,0,Toowoomba,Other 20 dealerships
+QLD06,Parts,H1 (Oct-Mar),0,other,Other,0,Toowoomba,Other 20 dealerships
+QLD06,Parts,H2 (Apr-Sep),2,communication_follow_up,Communication,0,Toowoomba,Other 20 dealerships
+QLD06,Parts,H2 (Apr-Sep),2,waiting_time_scheduling,Waiting/booking,1,Toowoomba,Other 20 dealerships
+QLD06,Parts,H2 (Apr-Sep),2,workmanship_repair_quality,Repair quality,0,Toowoomba,Other 20 dealerships
+QLD06,Parts,H2 (Apr-Sep),2,staff_service,Staff service,1,Toowoomba,Other 20 dealerships
+QLD06,Parts,H2 (Apr-Sep),2,pricing_value,Price/value,1,Toowoomba,Other 20 dealerships
+QLD06,Parts,H2 (Apr-Sep),2,sales_process,Sales process,0,Toowoomba,Other 20 dealerships
+QLD06,Parts,H2 (Apr-Sep),2,parts_availability,Parts availability,0,Toowoomba,Other 20 dealerships
+QLD06,Parts,H2 (Apr-Sep),2,vehicle_product,Vehicle/product,0,Toowoomba,Other 20 dealerships
+QLD06,Parts,H2 (Apr-Sep),2,other,Other,0,Toowoomba,Other 20 dealerships
+QLD06,Sales,H2 (Apr-Sep),0,communication_follow_up,Communication,0,Toowoomba,Other 20 dealerships
+QLD06,Sales,H2 (Apr-Sep),0,waiting_time_scheduling,Waiting/booking,0,Toowoomba,Other 20 dealerships
+QLD06,Sales,H2 (Apr-Sep),0,workmanship_repair_quality,Repair quality,0,Toowoomba,Other 20 dealerships
+QLD06,Sales,H2 (Apr-Sep),0,staff_service,Staff service,0,Toowoomba,Other 20 dealerships
+QLD06,Sales,H2 (Apr-Sep),0,pricing_value,Price/value,0,Toowoomba,Other 20 dealerships
+QLD06,Sales,H2 (Apr-Sep),0,sales_process,Sales process,0,Toowoomba,Other 20 dealerships
+QLD06,Sales,H2 (Apr-Sep),0,parts_availability,Parts availability,0,Toowoomba,Other 20 dealerships
+QLD06,Sales,H2 (Apr-Sep),0,vehicle_product,Vehicle/product,0,Toowoomba,Other 20 dealerships
+QLD06,Sales,H2 (Apr-Sep),0,other,Other,0,Toowoomba,Other 20 dealerships
+QLD06,Service,H1 (Oct-Mar),16,communication_follow_up,Communication,8,Toowoomba,Other 20 dealerships
+QLD06,Service,H1 (Oct-Mar),16,waiting_time_scheduling,Waiting/booking,5,Toowoomba,Other 20 dealerships
+QLD06,Service,H1 (Oct-Mar),16,workmanship_repair_quality,Repair quality,4,Toowoomba,Other 20 dealerships
+QLD06,Service,H1 (Oct-Mar),16,staff_service,Staff service,1,Toowoomba,Other 20 dealerships
+QLD06,Service,H1 (Oct-Mar),16,pricing_value,Price/value,3,Toowoomba,Other 20 dealerships
+QLD06,Service,H1 (Oct-Mar),16,sales_process,Sales process,0,Toowoomba,Other 20 dealerships
+QLD06,Service,H1 (Oct-Mar),16,parts_availability,Parts availability,0,Toowoomba,Other 20 dealerships
+QLD06,Service,H1 (Oct-Mar),16,vehicle_product,Vehicle/product,0,Toowoomba,Other 20 dealerships
+QLD06,Service,H1 (Oct-Mar),16,other,Other,1,Toowoomba,Other 20 dealerships
+QLD06,Service,H2 (Apr-Sep),36,communication_follow_up,Communication,11,Toowoomba,Other 20 dealerships
+QLD06,Service,H2 (Apr-Sep),36,waiting_time_scheduling,Waiting/booking,14,Toowoomba,Other 20 dealerships
+QLD06,Service,H2 (Apr-Sep),36,workmanship_repair_quality,Repair quality,6,Toowoomba,Other 20 dealerships
+QLD06,Service,H2 (Apr-Sep),36,staff_service,Staff service,3,Toowoomba,Other 20 dealerships
+QLD06,Service,H2 (Apr-Sep),36,pricing_value,Price/value,8,Toowoomba,Other 20 dealerships
+QLD06,Service,H2 (Apr-Sep),36,sales_process,Sales process,1,Toowoomba,Other 20 dealerships
+QLD06,Service,H2 (Apr-Sep),36,parts_availability,Parts availability,6,Toowoomba,Other 20 dealerships
+QLD06,Service,H2 (Apr-Sep),36,vehicle_product,Vehicle/product,0,Toowoomba,Other 20 dealerships
+QLD06,Service,H2 (Apr-Sep),36,other,Other,2,Toowoomba,Other 20 dealerships
+QLD07,Parts,H1 (Oct-Mar),1,communication_follow_up,Communication,0,Rockhampton,Other 20 dealerships
+QLD07,Parts,H1 (Oct-Mar),1,waiting_time_scheduling,Waiting/booking,0,Rockhampton,Other 20 dealerships
+QLD07,Parts,H1 (Oct-Mar),1,workmanship_repair_quality,Repair quality,0,Rockhampton,Other 20 dealerships
+QLD07,Parts,H1 (Oct-Mar),1,staff_service,Staff service,0,Rockhampton,Other 20 dealerships
+QLD07,Parts,H1 (Oct-Mar),1,pricing_value,Price/value,0,Rockhampton,Other 20 dealerships
+QLD07,Parts,H1 (Oct-Mar),1,sales_process,Sales process,0,Rockhampton,Other 20 dealerships
+QLD07,Parts,H1 (Oct-Mar),1,parts_availability,Parts availability,1,Rockhampton,Other 20 dealerships
+QLD07,Parts,H1 (Oct-Mar),1,vehicle_product,Vehicle/product,0,Rockhampton,Other 20 dealerships
+QLD07,Parts,H1 (Oct-Mar),1,other,Other,0,Rockhampton,Other 20 dealerships
+QLD07,Parts,H2 (Apr-Sep),4,communication_follow_up,Communication,0,Rockhampton,Other 20 dealerships
+QLD07,Parts,H2 (Apr-Sep),4,waiting_time_scheduling,Waiting/booking,0,Rockhampton,Other 20 dealerships
+QLD07,Parts,H2 (Apr-Sep),4,workmanship_repair_quality,Repair quality,0,Rockhampton,Other 20 dealerships
+QLD07,Parts,H2 (Apr-Sep),4,staff_service,Staff service,2,Rockhampton,Other 20 dealerships
+QLD07,Parts,H2 (Apr-Sep),4,pricing_value,Price/value,2,Rockhampton,Other 20 dealerships
+QLD07,Parts,H2 (Apr-Sep),4,sales_process,Sales process,0,Rockhampton,Other 20 dealerships
+QLD07,Parts,H2 (Apr-Sep),4,parts_availability,Parts availability,2,Rockhampton,Other 20 dealerships
+QLD07,Parts,H2 (Apr-Sep),4,vehicle_product,Vehicle/product,0,Rockhampton,Other 20 dealerships
+QLD07,Parts,H2 (Apr-Sep),4,other,Other,0,Rockhampton,Other 20 dealerships
+QLD07,Sales,H1 (Oct-Mar),0,communication_follow_up,Communication,0,Rockhampton,Other 20 dealerships
+QLD07,Sales,H1 (Oct-Mar),0,waiting_time_scheduling,Waiting/booking,0,Rockhampton,Other 20 dealerships
+QLD07,Sales,H1 (Oct-Mar),0,workmanship_repair_quality,Repair quality,0,Rockhampton,Other 20 dealerships
+QLD07,Sales,H1 (Oct-Mar),0,staff_service,Staff service,0,Rockhampton,Other 20 dealerships
+QLD07,Sales,H1 (Oct-Mar),0,pricing_value,Price/value,0,Rockhampton,Other 20 dealerships
+QLD07,Sales,H1 (Oct-Mar),0,sales_process,Sales process,0,Rockhampton,Other 20 dealerships
+QLD07,Sales,H1 (Oct-Mar),0,parts_availability,Parts availability,0,Rockhampton,Other 20 dealerships
+QLD07,Sales,H1 (Oct-Mar),0,vehicle_product,Vehicle/product,0,Rockhampton,Other 20 dealerships
+QLD07,Sales,H1 (Oct-Mar),0,other,Other,0,Rockhampton,Other 20 dealerships
+QLD07,Sales,H2 (Apr-Sep),0,communication_follow_up,Communication,0,Rockhampton,Other 20 dealerships
+QLD07,Sales,H2 (Apr-Sep),0,waiting_time_scheduling,Waiting/booking,0,Rockhampton,Other 20 dealerships
+QLD07,Sales,H2 (Apr-Sep),0,workmanship_repair_quality,Repair quality,0,Rockhampton,Other 20 dealerships
+QLD07,Sales,H2 (Apr-Sep),0,staff_service,Staff service,0,Rockhampton,Other 20 dealerships
+QLD07,Sales,H2 (Apr-Sep),0,pricing_value,Price/value,0,Rockhampton,Other 20 dealerships
+QLD07,Sales,H2 (Apr-Sep),0,sales_process,Sales process,0,Rockhampton,Other 20 dealerships
+QLD07,Sales,H2 (Apr-Sep),0,parts_availability,Parts availability,0,Rockhampton,Other 20 dealerships
+QLD07,Sales,H2 (Apr-Sep),0,vehicle_product,Vehicle/product,0,Rockhampton,Other 20 dealerships
+QLD07,Sales,H2 (Apr-Sep),0,other,Other,0,Rockhampton,Other 20 dealerships
+QLD07,Service,H1 (Oct-Mar),24,communication_follow_up,Communication,6,Rockhampton,Other 20 dealerships
+QLD07,Service,H1 (Oct-Mar),24,waiting_time_scheduling,Waiting/booking,8,Rockhampton,Other 20 dealerships
+QLD07,Service,H1 (Oct-Mar),24,workmanship_repair_quality,Repair quality,7,Rockhampton,Other 20 dealerships
+QLD07,Service,H1 (Oct-Mar),24,staff_service,Staff service,3,Rockhampton,Other 20 dealerships
+QLD07,Service,H1 (Oct-Mar),24,pricing_value,Price/value,5,Rockhampton,Other 20 dealerships
+QLD07,Service,H1 (Oct-Mar),24,sales_process,Sales process,0,Rockhampton,Other 20 dealerships
+QLD07,Service,H1 (Oct-Mar),24,parts_availability,Parts availability,0,Rockhampton,Other 20 dealerships
+QLD07,Service,H1 (Oct-Mar),24,vehicle_product,Vehicle/product,1,Rockhampton,Other 20 dealerships
+QLD07,Service,H1 (Oct-Mar),24,other,Other,1,Rockhampton,Other 20 dealerships
+QLD07,Service,H2 (Apr-Sep),22,communication_follow_up,Communication,10,Rockhampton,Other 20 dealerships
+QLD07,Service,H2 (Apr-Sep),22,waiting_time_scheduling,Waiting/booking,9,Rockhampton,Other 20 dealerships
+QLD07,Service,H2 (Apr-Sep),22,workmanship_repair_quality,Repair quality,2,Rockhampton,Other 20 dealerships
+QLD07,Service,H2 (Apr-Sep),22,staff_service,Staff service,1,Rockhampton,Other 20 dealerships
+QLD07,Service,H2 (Apr-Sep),22,pricing_value,Price/value,4,Rockhampton,Other 20 dealerships
+QLD07,Service,H2 (Apr-Sep),22,sales_process,Sales process,0,Rockhampton,Other 20 dealerships
+QLD07,Service,H2 (Apr-Sep),22,parts_availability,Parts availability,2,Rockhampton,Other 20 dealerships
+QLD07,Service,H2 (Apr-Sep),22,vehicle_product,Vehicle/product,0,Rockhampton,Other 20 dealerships
+QLD07,Service,H2 (Apr-Sep),22,other,Other,0,Rockhampton,Other 20 dealerships
+QLD08,Parts,H1 (Oct-Mar),5,communication_follow_up,Communication,1,Townsville,Other 20 dealerships
+QLD08,Parts,H1 (Oct-Mar),5,waiting_time_scheduling,Waiting/booking,4,Townsville,Other 20 dealerships
+QLD08,Parts,H1 (Oct-Mar),5,workmanship_repair_quality,Repair quality,0,Townsville,Other 20 dealerships
+QLD08,Parts,H1 (Oct-Mar),5,staff_service,Staff service,0,Townsville,Other 20 dealerships
+QLD08,Parts,H1 (Oct-Mar),5,pricing_value,Price/value,0,Townsville,Other 20 dealerships
+QLD08,Parts,H1 (Oct-Mar),5,sales_process,Sales process,0,Townsville,Other 20 dealerships
+QLD08,Parts,H1 (Oct-Mar),5,parts_availability,Parts availability,3,Townsville,Other 20 dealerships
+QLD08,Parts,H1 (Oct-Mar),5,vehicle_product,Vehicle/product,0,Townsville,Other 20 dealerships
+QLD08,Parts,H1 (Oct-Mar),5,other,Other,0,Townsville,Other 20 dealerships
+QLD08,Parts,H2 (Apr-Sep),4,communication_follow_up,Communication,4,Townsville,Other 20 dealerships
+QLD08,Parts,H2 (Apr-Sep),4,waiting_time_scheduling,Waiting/booking,0,Townsville,Other 20 dealerships
+QLD08,Parts,H2 (Apr-Sep),4,workmanship_repair_quality,Repair quality,0,Townsville,Other 20 dealerships
+QLD08,Parts,H2 (Apr-Sep),4,staff_service,Staff service,0,Townsville,Other 20 dealerships
+QLD08,Parts,H2 (Apr-Sep),4,pricing_value,Price/value,0,Townsville,Other 20 dealerships
+QLD08,Parts,H2 (Apr-Sep),4,sales_process,Sales process,0,Townsville,Other 20 dealerships
+QLD08,Parts,H2 (Apr-Sep),4,parts_availability,Parts availability,2,Townsville,Other 20 dealerships
+QLD08,Parts,H2 (Apr-Sep),4,vehicle_product,Vehicle/product,0,Townsville,Other 20 dealerships
+QLD08,Parts,H2 (Apr-Sep),4,other,Other,0,Townsville,Other 20 dealerships
+QLD08,Sales,H1 (Oct-Mar),1,communication_follow_up,Communication,0,Townsville,Other 20 dealerships
+QLD08,Sales,H1 (Oct-Mar),1,waiting_time_scheduling,Waiting/booking,0,Townsville,Other 20 dealerships
+QLD08,Sales,H1 (Oct-Mar),1,workmanship_repair_quality,Repair quality,0,Townsville,Other 20 dealerships
+QLD08,Sales,H1 (Oct-Mar),1,staff_service,Staff service,0,Townsville,Other 20 dealerships
+QLD08,Sales,H1 (Oct-Mar),1,pricing_value,Price/value,0,Townsville,Other 20 dealerships
+QLD08,Sales,H1 (Oct-Mar),1,sales_process,Sales process,0,Townsville,Other 20 dealerships
+QLD08,Sales,H1 (Oct-Mar),1,parts_availability,Parts availability,0,Townsville,Other 20 dealerships
+QLD08,Sales,H1 (Oct-Mar),1,vehicle_product,Vehicle/product,1,Townsville,Other 20 dealerships
+QLD08,Sales,H1 (Oct-Mar),1,other,Other,0,Townsville,Other 20 dealerships
+QLD08,Sales,H2 (Apr-Sep),0,communication_follow_up,Communication,0,Townsville,Other 20 dealerships
+QLD08,Sales,H2 (Apr-Sep),0,waiting_time_scheduling,Waiting/booking,0,Townsville,Other 20 dealerships
+QLD08,Sales,H2 (Apr-Sep),0,workmanship_repair_quality,Repair quality,0,Townsville,Other 20 dealerships
+QLD08,Sales,H2 (Apr-Sep),0,staff_service,Staff service,0,Townsville,Other 20 dealerships
+QLD08,Sales,H2 (Apr-Sep),0,pricing_value,Price/value,0,Townsville,Other 20 dealerships
+QLD08,Sales,H2 (Apr-Sep),0,sales_process,Sales process,0,Townsville,Other 20 dealerships
+QLD08,Sales,H2 (Apr-Sep),0,parts_availability,Parts availability,0,Townsville,Other 20 dealerships
+QLD08,Sales,H2 (Apr-Sep),0,vehicle_product,Vehicle/product,0,Townsville,Other 20 dealerships
+QLD08,Sales,H2 (Apr-Sep),0,other,Other,0,Townsville,Other 20 dealerships
+QLD08,Service,H1 (Oct-Mar),34,communication_follow_up,Communication,12,Townsville,Other 20 dealerships
+QLD08,Service,H1 (Oct-Mar),34,waiting_time_scheduling,Waiting/booking,15,Townsville,Other 20 dealerships
+QLD08,Service,H1 (Oct-Mar),34,workmanship_repair_quality,Repair quality,6,Townsville,Other 20 dealerships
+QLD08,Service,H1 (Oct-Mar),34,staff_service,Staff service,2,Townsville,Other 20 dealerships
+QLD08,Service,H1 (Oct-Mar),34,pricing_value,Price/value,8,Townsville,Other 20 dealerships
+QLD08,Service,H1 (Oct-Mar),34,sales_process,Sales process,0,Townsville,Other 20 dealerships
+QLD08,Service,H1 (Oct-Mar),34,parts_availability,Parts availability,1,Townsville,Other 20 dealerships
+QLD08,Service,H1 (Oct-Mar),34,vehicle_product,Vehicle/product,0,Townsville,Other 20 dealerships
+QLD08,Service,H1 (Oct-Mar),34,other,Other,1,Townsville,Other 20 dealerships
+QLD08,Service,H2 (Apr-Sep),33,communication_follow_up,Communication,10,Townsville,Other 20 dealerships
+QLD08,Service,H2 (Apr-Sep),33,waiting_time_scheduling,Waiting/booking,10,Townsville,Other 20 dealerships
+QLD08,Service,H2 (Apr-Sep),33,workmanship_repair_quality,Repair quality,4,Townsville,Other 20 dealerships
+QLD08,Service,H2 (Apr-Sep),33,staff_service,Staff service,4,Townsville,Other 20 dealerships
+QLD08,Service,H2 (Apr-Sep),33,pricing_value,Price/value,8,Townsville,Other 20 dealerships
+QLD08,Service,H2 (Apr-Sep),33,sales_process,Sales process,0,Townsville,Other 20 dealerships
+QLD08,Service,H2 (Apr-Sep),33,parts_availability,Parts availability,5,Townsville,Other 20 dealerships
+QLD08,Service,H2 (Apr-Sep),33,vehicle_product,Vehicle/product,0,Townsville,Other 20 dealerships
+QLD08,Service,H2 (Apr-Sep),33,other,Other,3,Townsville,Other 20 dealerships
+VIC01,Parts,H1 (Oct-Mar),4,communication_follow_up,Communication,2,Dandenong,Worsening four
+VIC01,Parts,H1 (Oct-Mar),4,waiting_time_scheduling,Waiting/booking,1,Dandenong,Worsening four
+VIC01,Parts,H1 (Oct-Mar),4,workmanship_repair_quality,Repair quality,0,Dandenong,Worsening four
+VIC01,Parts,H1 (Oct-Mar),4,staff_service,Staff service,0,Dandenong,Worsening four
+VIC01,Parts,H1 (Oct-Mar),4,pricing_value,Price/value,1,Dandenong,Worsening four
+VIC01,Parts,H1 (Oct-Mar),4,sales_process,Sales process,0,Dandenong,Worsening four
+VIC01,Parts,H1 (Oct-Mar),4,parts_availability,Parts availability,1,Dandenong,Worsening four
+VIC01,Parts,H1 (Oct-Mar),4,vehicle_product,Vehicle/product,0,Dandenong,Worsening four
+VIC01,Parts,H1 (Oct-Mar),4,other,Other,0,Dandenong,Worsening four
+VIC01,Parts,H2 (Apr-Sep),3,communication_follow_up,Communication,2,Dandenong,Worsening four
+VIC01,Parts,H2 (Apr-Sep),3,waiting_time_scheduling,Waiting/booking,0,Dandenong,Worsening four
+VIC01,Parts,H2 (Apr-Sep),3,workmanship_repair_quality,Repair quality,0,Dandenong,Worsening four
+VIC01,Parts,H2 (Apr-Sep),3,staff_service,Staff service,0,Dandenong,Worsening four
+VIC01,Parts,H2 (Apr-Sep),3,pricing_value,Price/value,1,Dandenong,Worsening four
+VIC01,Parts,H2 (Apr-Sep),3,sales_process,Sales process,0,Dandenong,Worsening four
+VIC01,Parts,H2 (Apr-Sep),3,parts_availability,Parts availability,3,Dandenong,Worsening four
+VIC01,Parts,H2 (Apr-Sep),3,vehicle_product,Vehicle/product,0,Dandenong,Worsening four
+VIC01,Parts,H2 (Apr-Sep),3,other,Other,0,Dandenong,Worsening four
+VIC01,Sales,H1 (Oct-Mar),1,communication_follow_up,Communication,0,Dandenong,Worsening four
+VIC01,Sales,H1 (Oct-Mar),1,waiting_time_scheduling,Waiting/booking,0,Dandenong,Worsening four
+VIC01,Sales,H1 (Oct-Mar),1,workmanship_repair_quality,Repair quality,0,Dandenong,Worsening four
+VIC01,Sales,H1 (Oct-Mar),1,staff_service,Staff service,1,Dandenong,Worsening four
+VIC01,Sales,H1 (Oct-Mar),1,pricing_value,Price/value,0,Dandenong,Worsening four
+VIC01,Sales,H1 (Oct-Mar),1,sales_process,Sales process,0,Dandenong,Worsening four
+VIC01,Sales,H1 (Oct-Mar),1,parts_availability,Parts availability,0,Dandenong,Worsening four
+VIC01,Sales,H1 (Oct-Mar),1,vehicle_product,Vehicle/product,1,Dandenong,Worsening four
+VIC01,Sales,H1 (Oct-Mar),1,other,Other,0,Dandenong,Worsening four
+VIC01,Sales,H2 (Apr-Sep),5,communication_follow_up,Communication,0,Dandenong,Worsening four
+VIC01,Sales,H2 (Apr-Sep),5,waiting_time_scheduling,Waiting/booking,2,Dandenong,Worsening four
+VIC01,Sales,H2 (Apr-Sep),5,workmanship_repair_quality,Repair quality,0,Dandenong,Worsening four
+VIC01,Sales,H2 (Apr-Sep),5,staff_service,Staff service,1,Dandenong,Worsening four
+VIC01,Sales,H2 (Apr-Sep),5,pricing_value,Price/value,0,Dandenong,Worsening four
+VIC01,Sales,H2 (Apr-Sep),5,sales_process,Sales process,3,Dandenong,Worsening four
+VIC01,Sales,H2 (Apr-Sep),5,parts_availability,Parts availability,0,Dandenong,Worsening four
+VIC01,Sales,H2 (Apr-Sep),5,vehicle_product,Vehicle/product,0,Dandenong,Worsening four
+VIC01,Sales,H2 (Apr-Sep),5,other,Other,0,Dandenong,Worsening four
+VIC01,Service,H1 (Oct-Mar),27,communication_follow_up,Communication,10,Dandenong,Worsening four
+VIC01,Service,H1 (Oct-Mar),27,waiting_time_scheduling,Waiting/booking,9,Dandenong,Worsening four
+VIC01,Service,H1 (Oct-Mar),27,workmanship_repair_quality,Repair quality,8,Dandenong,Worsening four
+VIC01,Service,H1 (Oct-Mar),27,staff_service,Staff service,4,Dandenong,Worsening four
+VIC01,Service,H1 (Oct-Mar),27,pricing_value,Price/value,2,Dandenong,Worsening four
+VIC01,Service,H1 (Oct-Mar),27,sales_process,Sales process,0,Dandenong,Worsening four
+VIC01,Service,H1 (Oct-Mar),27,parts_availability,Parts availability,1,Dandenong,Worsening four
+VIC01,Service,H1 (Oct-Mar),27,vehicle_product,Vehicle/product,0,Dandenong,Worsening four
+VIC01,Service,H1 (Oct-Mar),27,other,Other,1,Dandenong,Worsening four
+VIC01,Service,H2 (Apr-Sep),79,communication_follow_up,Communication,25,Dandenong,Worsening four
+VIC01,Service,H2 (Apr-Sep),79,waiting_time_scheduling,Waiting/booking,39,Dandenong,Worsening four
+VIC01,Service,H2 (Apr-Sep),79,workmanship_repair_quality,Repair quality,15,Dandenong,Worsening four
+VIC01,Service,H2 (Apr-Sep),79,staff_service,Staff service,4,Dandenong,Worsening four
+VIC01,Service,H2 (Apr-Sep),79,pricing_value,Price/value,11,Dandenong,Worsening four
+VIC01,Service,H2 (Apr-Sep),79,sales_process,Sales process,0,Dandenong,Worsening four
+VIC01,Service,H2 (Apr-Sep),79,parts_availability,Parts availability,11,Dandenong,Worsening four
+VIC01,Service,H2 (Apr-Sep),79,vehicle_product,Vehicle/product,0,Dandenong,Worsening four
+VIC01,Service,H2 (Apr-Sep),79,other,Other,6,Dandenong,Worsening four
+VIC02,Parts,H1 (Oct-Mar),1,communication_follow_up,Communication,1,Ringwood,Other 20 dealerships
+VIC02,Parts,H1 (Oct-Mar),1,waiting_time_scheduling,Waiting/booking,0,Ringwood,Other 20 dealerships
+VIC02,Parts,H1 (Oct-Mar),1,workmanship_repair_quality,Repair quality,0,Ringwood,Other 20 dealerships
+VIC02,Parts,H1 (Oct-Mar),1,staff_service,Staff service,0,Ringwood,Other 20 dealerships
+VIC02,Parts,H1 (Oct-Mar),1,pricing_value,Price/value,1,Ringwood,Other 20 dealerships
+VIC02,Parts,H1 (Oct-Mar),1,sales_process,Sales process,0,Ringwood,Other 20 dealerships
+VIC02,Parts,H1 (Oct-Mar),1,parts_availability,Parts availability,0,Ringwood,Other 20 dealerships
+VIC02,Parts,H1 (Oct-Mar),1,vehicle_product,Vehicle/product,0,Ringwood,Other 20 dealerships
+VIC02,Parts,H1 (Oct-Mar),1,other,Other,0,Ringwood,Other 20 dealerships
+VIC02,Parts,H2 (Apr-Sep),1,communication_follow_up,Communication,0,Ringwood,Other 20 dealerships
+VIC02,Parts,H2 (Apr-Sep),1,waiting_time_scheduling,Waiting/booking,0,Ringwood,Other 20 dealerships
+VIC02,Parts,H2 (Apr-Sep),1,workmanship_repair_quality,Repair quality,0,Ringwood,Other 20 dealerships
+VIC02,Parts,H2 (Apr-Sep),1,staff_service,Staff service,1,Ringwood,Other 20 dealerships
+VIC02,Parts,H2 (Apr-Sep),1,pricing_value,Price/value,1,Ringwood,Other 20 dealerships
+VIC02,Parts,H2 (Apr-Sep),1,sales_process,Sales process,0,Ringwood,Other 20 dealerships
+VIC02,Parts,H2 (Apr-Sep),1,parts_availability,Parts availability,0,Ringwood,Other 20 dealerships
+VIC02,Parts,H2 (Apr-Sep),1,vehicle_product,Vehicle/product,0,Ringwood,Other 20 dealerships
+VIC02,Parts,H2 (Apr-Sep),1,other,Other,0,Ringwood,Other 20 dealerships
+VIC02,Sales,H1 (Oct-Mar),1,communication_follow_up,Communication,0,Ringwood,Other 20 dealerships
+VIC02,Sales,H1 (Oct-Mar),1,waiting_time_scheduling,Waiting/booking,0,Ringwood,Other 20 dealerships
+VIC02,Sales,H1 (Oct-Mar),1,workmanship_repair_quality,Repair quality,0,Ringwood,Other 20 dealerships
+VIC02,Sales,H1 (Oct-Mar),1,staff_service,Staff service,0,Ringwood,Other 20 dealerships
+VIC02,Sales,H1 (Oct-Mar),1,pricing_value,Price/value,0,Ringwood,Other 20 dealerships
+VIC02,Sales,H1 (Oct-Mar),1,sales_process,Sales process,1,Ringwood,Other 20 dealerships
+VIC02,Sales,H1 (Oct-Mar),1,parts_availability,Parts availability,0,Ringwood,Other 20 dealerships
+VIC02,Sales,H1 (Oct-Mar),1,vehicle_product,Vehicle/product,0,Ringwood,Other 20 dealerships
+VIC02,Sales,H1 (Oct-Mar),1,other,Other,0,Ringwood,Other 20 dealerships
+VIC02,Sales,H2 (Apr-Sep),1,communication_follow_up,Communication,0,Ringwood,Other 20 dealerships
+VIC02,Sales,H2 (Apr-Sep),1,waiting_time_scheduling,Waiting/booking,0,Ringwood,Other 20 dealerships
+VIC02,Sales,H2 (Apr-Sep),1,workmanship_repair_quality,Repair quality,0,Ringwood,Other 20 dealerships
+VIC02,Sales,H2 (Apr-Sep),1,staff_service,Staff service,1,Ringwood,Other 20 dealerships
+VIC02,Sales,H2 (Apr-Sep),1,pricing_value,Price/value,0,Ringwood,Other 20 dealerships
+VIC02,Sales,H2 (Apr-Sep),1,sales_process,Sales process,1,Ringwood,Other 20 dealerships
+VIC02,Sales,H2 (Apr-Sep),1,parts_availability,Parts availability,0,Ringwood,Other 20 dealerships
+VIC02,Sales,H2 (Apr-Sep),1,vehicle_product,Vehicle/product,0,Ringwood,Other 20 dealerships
+VIC02,Sales,H2 (Apr-Sep),1,other,Other,0,Ringwood,Other 20 dealerships
+VIC02,Service,H1 (Oct-Mar),28,communication_follow_up,Communication,7,Ringwood,Other 20 dealerships
+VIC02,Service,H1 (Oct-Mar),28,waiting_time_scheduling,Waiting/booking,11,Ringwood,Other 20 dealerships
+VIC02,Service,H1 (Oct-Mar),28,workmanship_repair_quality,Repair quality,6,Ringwood,Other 20 dealerships
+VIC02,Service,H1 (Oct-Mar),28,staff_service,Staff service,4,Ringwood,Other 20 dealerships
+VIC02,Service,H1 (Oct-Mar),28,pricing_value,Price/value,7,Ringwood,Other 20 dealerships
+VIC02,Service,H1 (Oct-Mar),28,sales_process,Sales process,0,Ringwood,Other 20 dealerships
+VIC02,Service,H1 (Oct-Mar),28,parts_availability,Parts availability,2,Ringwood,Other 20 dealerships
+VIC02,Service,H1 (Oct-Mar),28,vehicle_product,Vehicle/product,0,Ringwood,Other 20 dealerships
+VIC02,Service,H1 (Oct-Mar),28,other,Other,0,Ringwood,Other 20 dealerships
+VIC02,Service,H2 (Apr-Sep),39,communication_follow_up,Communication,14,Ringwood,Other 20 dealerships
+VIC02,Service,H2 (Apr-Sep),39,waiting_time_scheduling,Waiting/booking,10,Ringwood,Other 20 dealerships
+VIC02,Service,H2 (Apr-Sep),39,workmanship_repair_quality,Repair quality,6,Ringwood,Other 20 dealerships
+VIC02,Service,H2 (Apr-Sep),39,staff_service,Staff service,7,Ringwood,Other 20 dealerships
+VIC02,Service,H2 (Apr-Sep),39,pricing_value,Price/value,11,Ringwood,Other 20 dealerships
+VIC02,Service,H2 (Apr-Sep),39,sales_process,Sales process,0,Ringwood,Other 20 dealerships
+VIC02,Service,H2 (Apr-Sep),39,parts_availability,Parts availability,8,Ringwood,Other 20 dealerships
+VIC02,Service,H2 (Apr-Sep),39,vehicle_product,Vehicle/product,0,Ringwood,Other 20 dealerships
+VIC02,Service,H2 (Apr-Sep),39,other,Other,3,Ringwood,Other 20 dealerships
+VIC03,Parts,H1 (Oct-Mar),3,communication_follow_up,Communication,0,Essendon,Other 20 dealerships
+VIC03,Parts,H1 (Oct-Mar),3,waiting_time_scheduling,Waiting/booking,3,Essendon,Other 20 dealerships
+VIC03,Parts,H1 (Oct-Mar),3,workmanship_repair_quality,Repair quality,0,Essendon,Other 20 dealerships
+VIC03,Parts,H1 (Oct-Mar),3,staff_service,Staff service,1,Essendon,Other 20 dealerships
+VIC03,Parts,H1 (Oct-Mar),3,pricing_value,Price/value,1,Essendon,Other 20 dealerships
+VIC03,Parts,H1 (Oct-Mar),3,sales_process,Sales process,0,Essendon,Other 20 dealerships
+VIC03,Parts,H1 (Oct-Mar),3,parts_availability,Parts availability,1,Essendon,Other 20 dealerships
+VIC03,Parts,H1 (Oct-Mar),3,vehicle_product,Vehicle/product,0,Essendon,Other 20 dealerships
+VIC03,Parts,H1 (Oct-Mar),3,other,Other,0,Essendon,Other 20 dealerships
+VIC03,Parts,H2 (Apr-Sep),3,communication_follow_up,Communication,1,Essendon,Other 20 dealerships
+VIC03,Parts,H2 (Apr-Sep),3,waiting_time_scheduling,Waiting/booking,2,Essendon,Other 20 dealerships
+VIC03,Parts,H2 (Apr-Sep),3,workmanship_repair_quality,Repair quality,0,Essendon,Other 20 dealerships
+VIC03,Parts,H2 (Apr-Sep),3,staff_service,Staff service,0,Essendon,Other 20 dealerships
+VIC03,Parts,H2 (Apr-Sep),3,pricing_value,Price/value,0,Essendon,Other 20 dealerships
+VIC03,Parts,H2 (Apr-Sep),3,sales_process,Sales process,0,Essendon,Other 20 dealerships
+VIC03,Parts,H2 (Apr-Sep),3,parts_availability,Parts availability,2,Essendon,Other 20 dealerships
+VIC03,Parts,H2 (Apr-Sep),3,vehicle_product,Vehicle/product,0,Essendon,Other 20 dealerships
+VIC03,Parts,H2 (Apr-Sep),3,other,Other,0,Essendon,Other 20 dealerships
+VIC03,Sales,H1 (Oct-Mar),5,communication_follow_up,Communication,2,Essendon,Other 20 dealerships
+VIC03,Sales,H1 (Oct-Mar),5,waiting_time_scheduling,Waiting/booking,1,Essendon,Other 20 dealerships
+VIC03,Sales,H1 (Oct-Mar),5,workmanship_repair_quality,Repair quality,0,Essendon,Other 20 dealerships
+VIC03,Sales,H1 (Oct-Mar),5,staff_service,Staff service,0,Essendon,Other 20 dealerships
+VIC03,Sales,H1 (Oct-Mar),5,pricing_value,Price/value,0,Essendon,Other 20 dealerships
+VIC03,Sales,H1 (Oct-Mar),5,sales_process,Sales process,1,Essendon,Other 20 dealerships
+VIC03,Sales,H1 (Oct-Mar),5,parts_availability,Parts availability,0,Essendon,Other 20 dealerships
+VIC03,Sales,H1 (Oct-Mar),5,vehicle_product,Vehicle/product,0,Essendon,Other 20 dealerships
+VIC03,Sales,H1 (Oct-Mar),5,other,Other,1,Essendon,Other 20 dealerships
+VIC03,Sales,H2 (Apr-Sep),5,communication_follow_up,Communication,0,Essendon,Other 20 dealerships
+VIC03,Sales,H2 (Apr-Sep),5,waiting_time_scheduling,Waiting/booking,2,Essendon,Other 20 dealerships
+VIC03,Sales,H2 (Apr-Sep),5,workmanship_repair_quality,Repair quality,3,Essendon,Other 20 dealerships
+VIC03,Sales,H2 (Apr-Sep),5,staff_service,Staff service,0,Essendon,Other 20 dealerships
+VIC03,Sales,H2 (Apr-Sep),5,pricing_value,Price/value,0,Essendon,Other 20 dealerships
+VIC03,Sales,H2 (Apr-Sep),5,sales_process,Sales process,0,Essendon,Other 20 dealerships
+VIC03,Sales,H2 (Apr-Sep),5,parts_availability,Parts availability,2,Essendon,Other 20 dealerships
+VIC03,Sales,H2 (Apr-Sep),5,vehicle_product,Vehicle/product,1,Essendon,Other 20 dealerships
+VIC03,Sales,H2 (Apr-Sep),5,other,Other,1,Essendon,Other 20 dealerships
+VIC03,Service,H1 (Oct-Mar),26,communication_follow_up,Communication,10,Essendon,Other 20 dealerships
+VIC03,Service,H1 (Oct-Mar),26,waiting_time_scheduling,Waiting/booking,7,Essendon,Other 20 dealerships
+VIC03,Service,H1 (Oct-Mar),26,workmanship_repair_quality,Repair quality,4,Essendon,Other 20 dealerships
+VIC03,Service,H1 (Oct-Mar),26,staff_service,Staff service,5,Essendon,Other 20 dealerships
+VIC03,Service,H1 (Oct-Mar),26,pricing_value,Price/value,3,Essendon,Other 20 dealerships
+VIC03,Service,H1 (Oct-Mar),26,sales_process,Sales process,0,Essendon,Other 20 dealerships
+VIC03,Service,H1 (Oct-Mar),26,parts_availability,Parts availability,2,Essendon,Other 20 dealerships
+VIC03,Service,H1 (Oct-Mar),26,vehicle_product,Vehicle/product,2,Essendon,Other 20 dealerships
+VIC03,Service,H1 (Oct-Mar),26,other,Other,1,Essendon,Other 20 dealerships
+VIC03,Service,H2 (Apr-Sep),39,communication_follow_up,Communication,15,Essendon,Other 20 dealerships
+VIC03,Service,H2 (Apr-Sep),39,waiting_time_scheduling,Waiting/booking,14,Essendon,Other 20 dealerships
+VIC03,Service,H2 (Apr-Sep),39,workmanship_repair_quality,Repair quality,8,Essendon,Other 20 dealerships
+VIC03,Service,H2 (Apr-Sep),39,staff_service,Staff service,2,Essendon,Other 20 dealerships
+VIC03,Service,H2 (Apr-Sep),39,pricing_value,Price/value,7,Essendon,Other 20 dealerships
+VIC03,Service,H2 (Apr-Sep),39,sales_process,Sales process,0,Essendon,Other 20 dealerships
+VIC03,Service,H2 (Apr-Sep),39,parts_availability,Parts availability,7,Essendon,Other 20 dealerships
+VIC03,Service,H2 (Apr-Sep),39,vehicle_product,Vehicle/product,1,Essendon,Other 20 dealerships
+VIC03,Service,H2 (Apr-Sep),39,other,Other,3,Essendon,Other 20 dealerships
+VIC04,Parts,H1 (Oct-Mar),3,communication_follow_up,Communication,1,Frankston,Other 20 dealerships
+VIC04,Parts,H1 (Oct-Mar),3,waiting_time_scheduling,Waiting/booking,1,Frankston,Other 20 dealerships
+VIC04,Parts,H1 (Oct-Mar),3,workmanship_repair_quality,Repair quality,0,Frankston,Other 20 dealerships
+VIC04,Parts,H1 (Oct-Mar),3,staff_service,Staff service,1,Frankston,Other 20 dealerships
+VIC04,Parts,H1 (Oct-Mar),3,pricing_value,Price/value,0,Frankston,Other 20 dealerships
+VIC04,Parts,H1 (Oct-Mar),3,sales_process,Sales process,0,Frankston,Other 20 dealerships
+VIC04,Parts,H1 (Oct-Mar),3,parts_availability,Parts availability,2,Frankston,Other 20 dealerships
+VIC04,Parts,H1 (Oct-Mar),3,vehicle_product,Vehicle/product,0,Frankston,Other 20 dealerships
+VIC04,Parts,H1 (Oct-Mar),3,other,Other,0,Frankston,Other 20 dealerships
+VIC04,Parts,H2 (Apr-Sep),4,communication_follow_up,Communication,2,Frankston,Other 20 dealerships
+VIC04,Parts,H2 (Apr-Sep),4,waiting_time_scheduling,Waiting/booking,1,Frankston,Other 20 dealerships
+VIC04,Parts,H2 (Apr-Sep),4,workmanship_repair_quality,Repair quality,0,Frankston,Other 20 dealerships
+VIC04,Parts,H2 (Apr-Sep),4,staff_service,Staff service,0,Frankston,Other 20 dealerships
+VIC04,Parts,H2 (Apr-Sep),4,pricing_value,Price/value,0,Frankston,Other 20 dealerships
+VIC04,Parts,H2 (Apr-Sep),4,sales_process,Sales process,0,Frankston,Other 20 dealerships
+VIC04,Parts,H2 (Apr-Sep),4,parts_availability,Parts availability,4,Frankston,Other 20 dealerships
+VIC04,Parts,H2 (Apr-Sep),4,vehicle_product,Vehicle/product,1,Frankston,Other 20 dealerships
+VIC04,Parts,H2 (Apr-Sep),4,other,Other,0,Frankston,Other 20 dealerships
+VIC04,Sales,H1 (Oct-Mar),3,communication_follow_up,Communication,1,Frankston,Other 20 dealerships
+VIC04,Sales,H1 (Oct-Mar),3,waiting_time_scheduling,Waiting/booking,0,Frankston,Other 20 dealerships
+VIC04,Sales,H1 (Oct-Mar),3,workmanship_repair_quality,Repair quality,0,Frankston,Other 20 dealerships
+VIC04,Sales,H1 (Oct-Mar),3,staff_service,Staff service,2,Frankston,Other 20 dealerships
+VIC04,Sales,H1 (Oct-Mar),3,pricing_value,Price/value,2,Frankston,Other 20 dealerships
+VIC04,Sales,H1 (Oct-Mar),3,sales_process,Sales process,1,Frankston,Other 20 dealerships
+VIC04,Sales,H1 (Oct-Mar),3,parts_availability,Parts availability,0,Frankston,Other 20 dealerships
+VIC04,Sales,H1 (Oct-Mar),3,vehicle_product,Vehicle/product,0,Frankston,Other 20 dealerships
+VIC04,Sales,H1 (Oct-Mar),3,other,Other,0,Frankston,Other 20 dealerships
+VIC04,Sales,H2 (Apr-Sep),5,communication_follow_up,Communication,0,Frankston,Other 20 dealerships
+VIC04,Sales,H2 (Apr-Sep),5,waiting_time_scheduling,Waiting/booking,2,Frankston,Other 20 dealerships
+VIC04,Sales,H2 (Apr-Sep),5,workmanship_repair_quality,Repair quality,0,Frankston,Other 20 dealerships
+VIC04,Sales,H2 (Apr-Sep),5,staff_service,Staff service,0,Frankston,Other 20 dealerships
+VIC04,Sales,H2 (Apr-Sep),5,pricing_value,Price/value,2,Frankston,Other 20 dealerships
+VIC04,Sales,H2 (Apr-Sep),5,sales_process,Sales process,2,Frankston,Other 20 dealerships
+VIC04,Sales,H2 (Apr-Sep),5,parts_availability,Parts availability,0,Frankston,Other 20 dealerships
+VIC04,Sales,H2 (Apr-Sep),5,vehicle_product,Vehicle/product,1,Frankston,Other 20 dealerships
+VIC04,Sales,H2 (Apr-Sep),5,other,Other,0,Frankston,Other 20 dealerships
+VIC04,Service,H1 (Oct-Mar),28,communication_follow_up,Communication,10,Frankston,Other 20 dealerships
+VIC04,Service,H1 (Oct-Mar),28,waiting_time_scheduling,Waiting/booking,10,Frankston,Other 20 dealerships
+VIC04,Service,H1 (Oct-Mar),28,workmanship_repair_quality,Repair quality,3,Frankston,Other 20 dealerships
+VIC04,Service,H1 (Oct-Mar),28,staff_service,Staff service,2,Frankston,Other 20 dealerships
+VIC04,Service,H1 (Oct-Mar),28,pricing_value,Price/value,7,Frankston,Other 20 dealerships
+VIC04,Service,H1 (Oct-Mar),28,sales_process,Sales process,0,Frankston,Other 20 dealerships
+VIC04,Service,H1 (Oct-Mar),28,parts_availability,Parts availability,4,Frankston,Other 20 dealerships
+VIC04,Service,H1 (Oct-Mar),28,vehicle_product,Vehicle/product,0,Frankston,Other 20 dealerships
+VIC04,Service,H1 (Oct-Mar),28,other,Other,1,Frankston,Other 20 dealerships
+VIC04,Service,H2 (Apr-Sep),24,communication_follow_up,Communication,11,Frankston,Other 20 dealerships
+VIC04,Service,H2 (Apr-Sep),24,waiting_time_scheduling,Waiting/booking,9,Frankston,Other 20 dealerships
+VIC04,Service,H2 (Apr-Sep),24,workmanship_repair_quality,Repair quality,4,Frankston,Other 20 dealerships
+VIC04,Service,H2 (Apr-Sep),24,staff_service,Staff service,6,Frankston,Other 20 dealerships
+VIC04,Service,H2 (Apr-Sep),24,pricing_value,Price/value,1,Frankston,Other 20 dealerships
+VIC04,Service,H2 (Apr-Sep),24,sales_process,Sales process,0,Frankston,Other 20 dealerships
+VIC04,Service,H2 (Apr-Sep),24,parts_availability,Parts availability,3,Frankston,Other 20 dealerships
+VIC04,Service,H2 (Apr-Sep),24,vehicle_product,Vehicle/product,0,Frankston,Other 20 dealerships
+VIC04,Service,H2 (Apr-Sep),24,other,Other,0,Frankston,Other 20 dealerships
+VIC05,Parts,H1 (Oct-Mar),2,communication_follow_up,Communication,1,Box Hill,Other 20 dealerships
+VIC05,Parts,H1 (Oct-Mar),2,waiting_time_scheduling,Waiting/booking,0,Box Hill,Other 20 dealerships
+VIC05,Parts,H1 (Oct-Mar),2,workmanship_repair_quality,Repair quality,0,Box Hill,Other 20 dealerships
+VIC05,Parts,H1 (Oct-Mar),2,staff_service,Staff service,0,Box Hill,Other 20 dealerships
+VIC05,Parts,H1 (Oct-Mar),2,pricing_value,Price/value,1,Box Hill,Other 20 dealerships
+VIC05,Parts,H1 (Oct-Mar),2,sales_process,Sales process,0,Box Hill,Other 20 dealerships
+VIC05,Parts,H1 (Oct-Mar),2,parts_availability,Parts availability,2,Box Hill,Other 20 dealerships
+VIC05,Parts,H1 (Oct-Mar),2,vehicle_product,Vehicle/product,0,Box Hill,Other 20 dealerships
+VIC05,Parts,H1 (Oct-Mar),2,other,Other,0,Box Hill,Other 20 dealerships
+VIC05,Parts,H2 (Apr-Sep),2,communication_follow_up,Communication,1,Box Hill,Other 20 dealerships
+VIC05,Parts,H2 (Apr-Sep),2,waiting_time_scheduling,Waiting/booking,1,Box Hill,Other 20 dealerships
+VIC05,Parts,H2 (Apr-Sep),2,workmanship_repair_quality,Repair quality,0,Box Hill,Other 20 dealerships
+VIC05,Parts,H2 (Apr-Sep),2,staff_service,Staff service,0,Box Hill,Other 20 dealerships
+VIC05,Parts,H2 (Apr-Sep),2,pricing_value,Price/value,0,Box Hill,Other 20 dealerships
+VIC05,Parts,H2 (Apr-Sep),2,sales_process,Sales process,0,Box Hill,Other 20 dealerships
+VIC05,Parts,H2 (Apr-Sep),2,parts_availability,Parts availability,0,Box Hill,Other 20 dealerships
+VIC05,Parts,H2 (Apr-Sep),2,vehicle_product,Vehicle/product,0,Box Hill,Other 20 dealerships
+VIC05,Parts,H2 (Apr-Sep),2,other,Other,0,Box Hill,Other 20 dealerships
+VIC05,Sales,H1 (Oct-Mar),4,communication_follow_up,Communication,1,Box Hill,Other 20 dealerships
+VIC05,Sales,H1 (Oct-Mar),4,waiting_time_scheduling,Waiting/booking,1,Box Hill,Other 20 dealerships
+VIC05,Sales,H1 (Oct-Mar),4,workmanship_repair_quality,Repair quality,0,Box Hill,Other 20 dealerships
+VIC05,Sales,H1 (Oct-Mar),4,staff_service,Staff service,0,Box Hill,Other 20 dealerships
+VIC05,Sales,H1 (Oct-Mar),4,pricing_value,Price/value,0,Box Hill,Other 20 dealerships
+VIC05,Sales,H1 (Oct-Mar),4,sales_process,Sales process,2,Box Hill,Other 20 dealerships
+VIC05,Sales,H1 (Oct-Mar),4,parts_availability,Parts availability,0,Box Hill,Other 20 dealerships
+VIC05,Sales,H1 (Oct-Mar),4,vehicle_product,Vehicle/product,2,Box Hill,Other 20 dealerships
+VIC05,Sales,H1 (Oct-Mar),4,other,Other,0,Box Hill,Other 20 dealerships
+VIC05,Sales,H2 (Apr-Sep),10,communication_follow_up,Communication,3,Box Hill,Other 20 dealerships
+VIC05,Sales,H2 (Apr-Sep),10,waiting_time_scheduling,Waiting/booking,3,Box Hill,Other 20 dealerships
+VIC05,Sales,H2 (Apr-Sep),10,workmanship_repair_quality,Repair quality,0,Box Hill,Other 20 dealerships
+VIC05,Sales,H2 (Apr-Sep),10,staff_service,Staff service,0,Box Hill,Other 20 dealerships
+VIC05,Sales,H2 (Apr-Sep),10,pricing_value,Price/value,4,Box Hill,Other 20 dealerships
+VIC05,Sales,H2 (Apr-Sep),10,sales_process,Sales process,3,Box Hill,Other 20 dealerships
+VIC05,Sales,H2 (Apr-Sep),10,parts_availability,Parts availability,1,Box Hill,Other 20 dealerships
+VIC05,Sales,H2 (Apr-Sep),10,vehicle_product,Vehicle/product,2,Box Hill,Other 20 dealerships
+VIC05,Sales,H2 (Apr-Sep),10,other,Other,0,Box Hill,Other 20 dealerships
+VIC05,Service,H1 (Oct-Mar),26,communication_follow_up,Communication,7,Box Hill,Other 20 dealerships
+VIC05,Service,H1 (Oct-Mar),26,waiting_time_scheduling,Waiting/booking,4,Box Hill,Other 20 dealerships
+VIC05,Service,H1 (Oct-Mar),26,workmanship_repair_quality,Repair quality,9,Box Hill,Other 20 dealerships
+VIC05,Service,H1 (Oct-Mar),26,staff_service,Staff service,5,Box Hill,Other 20 dealerships
+VIC05,Service,H1 (Oct-Mar),26,pricing_value,Price/value,4,Box Hill,Other 20 dealerships
+VIC05,Service,H1 (Oct-Mar),26,sales_process,Sales process,0,Box Hill,Other 20 dealerships
+VIC05,Service,H1 (Oct-Mar),26,parts_availability,Parts availability,0,Box Hill,Other 20 dealerships
+VIC05,Service,H1 (Oct-Mar),26,vehicle_product,Vehicle/product,2,Box Hill,Other 20 dealerships
+VIC05,Service,H1 (Oct-Mar),26,other,Other,0,Box Hill,Other 20 dealerships
+VIC05,Service,H2 (Apr-Sep),23,communication_follow_up,Communication,6,Box Hill,Other 20 dealerships
+VIC05,Service,H2 (Apr-Sep),23,waiting_time_scheduling,Waiting/booking,5,Box Hill,Other 20 dealerships
+VIC05,Service,H2 (Apr-Sep),23,workmanship_repair_quality,Repair quality,7,Box Hill,Other 20 dealerships
+VIC05,Service,H2 (Apr-Sep),23,staff_service,Staff service,4,Box Hill,Other 20 dealerships
+VIC05,Service,H2 (Apr-Sep),23,pricing_value,Price/value,2,Box Hill,Other 20 dealerships
+VIC05,Service,H2 (Apr-Sep),23,sales_process,Sales process,2,Box Hill,Other 20 dealerships
+VIC05,Service,H2 (Apr-Sep),23,parts_availability,Parts availability,1,Box Hill,Other 20 dealerships
+VIC05,Service,H2 (Apr-Sep),23,vehicle_product,Vehicle/product,2,Box Hill,Other 20 dealerships
+VIC05,Service,H2 (Apr-Sep),23,other,Other,1,Box Hill,Other 20 dealerships
+VIC06,Parts,H1 (Oct-Mar),3,communication_follow_up,Communication,1,Geelong,Other 20 dealerships
+VIC06,Parts,H1 (Oct-Mar),3,waiting_time_scheduling,Waiting/booking,2,Geelong,Other 20 dealerships
+VIC06,Parts,H1 (Oct-Mar),3,workmanship_repair_quality,Repair quality,0,Geelong,Other 20 dealerships
+VIC06,Parts,H1 (Oct-Mar),3,staff_service,Staff service,1,Geelong,Other 20 dealerships
+VIC06,Parts,H1 (Oct-Mar),3,pricing_value,Price/value,0,Geelong,Other 20 dealerships
+VIC06,Parts,H1 (Oct-Mar),3,sales_process,Sales process,0,Geelong,Other 20 dealerships
+VIC06,Parts,H1 (Oct-Mar),3,parts_availability,Parts availability,0,Geelong,Other 20 dealerships
+VIC06,Parts,H1 (Oct-Mar),3,vehicle_product,Vehicle/product,0,Geelong,Other 20 dealerships
+VIC06,Parts,H1 (Oct-Mar),3,other,Other,0,Geelong,Other 20 dealerships
+VIC06,Parts,H2 (Apr-Sep),2,communication_follow_up,Communication,0,Geelong,Other 20 dealerships
+VIC06,Parts,H2 (Apr-Sep),2,waiting_time_scheduling,Waiting/booking,0,Geelong,Other 20 dealerships
+VIC06,Parts,H2 (Apr-Sep),2,workmanship_repair_quality,Repair quality,0,Geelong,Other 20 dealerships
+VIC06,Parts,H2 (Apr-Sep),2,staff_service,Staff service,0,Geelong,Other 20 dealerships
+VIC06,Parts,H2 (Apr-Sep),2,pricing_value,Price/value,0,Geelong,Other 20 dealerships
+VIC06,Parts,H2 (Apr-Sep),2,sales_process,Sales process,0,Geelong,Other 20 dealerships
+VIC06,Parts,H2 (Apr-Sep),2,parts_availability,Parts availability,2,Geelong,Other 20 dealerships
+VIC06,Parts,H2 (Apr-Sep),2,vehicle_product,Vehicle/product,0,Geelong,Other 20 dealerships
+VIC06,Parts,H2 (Apr-Sep),2,other,Other,0,Geelong,Other 20 dealerships
+VIC06,Sales,H1 (Oct-Mar),3,communication_follow_up,Communication,2,Geelong,Other 20 dealerships
+VIC06,Sales,H1 (Oct-Mar),3,waiting_time_scheduling,Waiting/booking,1,Geelong,Other 20 dealerships
+VIC06,Sales,H1 (Oct-Mar),3,workmanship_repair_quality,Repair quality,0,Geelong,Other 20 dealerships
+VIC06,Sales,H1 (Oct-Mar),3,staff_service,Staff service,0,Geelong,Other 20 dealerships
+VIC06,Sales,H1 (Oct-Mar),3,pricing_value,Price/value,1,Geelong,Other 20 dealerships
+VIC06,Sales,H1 (Oct-Mar),3,sales_process,Sales process,1,Geelong,Other 20 dealerships
+VIC06,Sales,H1 (Oct-Mar),3,parts_availability,Parts availability,0,Geelong,Other 20 dealerships
+VIC06,Sales,H1 (Oct-Mar),3,vehicle_product,Vehicle/product,0,Geelong,Other 20 dealerships
+VIC06,Sales,H1 (Oct-Mar),3,other,Other,0,Geelong,Other 20 dealerships
+VIC06,Sales,H2 (Apr-Sep),2,communication_follow_up,Communication,0,Geelong,Other 20 dealerships
+VIC06,Sales,H2 (Apr-Sep),2,waiting_time_scheduling,Waiting/booking,0,Geelong,Other 20 dealerships
+VIC06,Sales,H2 (Apr-Sep),2,workmanship_repair_quality,Repair quality,0,Geelong,Other 20 dealerships
+VIC06,Sales,H2 (Apr-Sep),2,staff_service,Staff service,0,Geelong,Other 20 dealerships
+VIC06,Sales,H2 (Apr-Sep),2,pricing_value,Price/value,1,Geelong,Other 20 dealerships
+VIC06,Sales,H2 (Apr-Sep),2,sales_process,Sales process,2,Geelong,Other 20 dealerships
+VIC06,Sales,H2 (Apr-Sep),2,parts_availability,Parts availability,1,Geelong,Other 20 dealerships
+VIC06,Sales,H2 (Apr-Sep),2,vehicle_product,Vehicle/product,1,Geelong,Other 20 dealerships
+VIC06,Sales,H2 (Apr-Sep),2,other,Other,0,Geelong,Other 20 dealerships
+VIC06,Service,H1 (Oct-Mar),31,communication_follow_up,Communication,15,Geelong,Other 20 dealerships
+VIC06,Service,H1 (Oct-Mar),31,waiting_time_scheduling,Waiting/booking,5,Geelong,Other 20 dealerships
+VIC06,Service,H1 (Oct-Mar),31,workmanship_repair_quality,Repair quality,7,Geelong,Other 20 dealerships
+VIC06,Service,H1 (Oct-Mar),31,staff_service,Staff service,3,Geelong,Other 20 dealerships
+VIC06,Service,H1 (Oct-Mar),31,pricing_value,Price/value,6,Geelong,Other 20 dealerships
+VIC06,Service,H1 (Oct-Mar),31,sales_process,Sales process,1,Geelong,Other 20 dealerships
+VIC06,Service,H1 (Oct-Mar),31,parts_availability,Parts availability,1,Geelong,Other 20 dealerships
+VIC06,Service,H1 (Oct-Mar),31,vehicle_product,Vehicle/product,1,Geelong,Other 20 dealerships
+VIC06,Service,H1 (Oct-Mar),31,other,Other,3,Geelong,Other 20 dealerships
+VIC06,Service,H2 (Apr-Sep),27,communication_follow_up,Communication,6,Geelong,Other 20 dealerships
+VIC06,Service,H2 (Apr-Sep),27,waiting_time_scheduling,Waiting/booking,11,Geelong,Other 20 dealerships
+VIC06,Service,H2 (Apr-Sep),27,workmanship_repair_quality,Repair quality,6,Geelong,Other 20 dealerships
+VIC06,Service,H2 (Apr-Sep),27,staff_service,Staff service,1,Geelong,Other 20 dealerships
+VIC06,Service,H2 (Apr-Sep),27,pricing_value,Price/value,5,Geelong,Other 20 dealerships
+VIC06,Service,H2 (Apr-Sep),27,sales_process,Sales process,0,Geelong,Other 20 dealerships
+VIC06,Service,H2 (Apr-Sep),27,parts_availability,Parts availability,8,Geelong,Other 20 dealerships
+VIC06,Service,H2 (Apr-Sep),27,vehicle_product,Vehicle/product,0,Geelong,Other 20 dealerships
+VIC06,Service,H2 (Apr-Sep),27,other,Other,4,Geelong,Other 20 dealerships
+VIC07,Parts,H1 (Oct-Mar),3,communication_follow_up,Communication,2,Ballarat,Other 20 dealerships
+VIC07,Parts,H1 (Oct-Mar),3,waiting_time_scheduling,Waiting/booking,0,Ballarat,Other 20 dealerships
+VIC07,Parts,H1 (Oct-Mar),3,workmanship_repair_quality,Repair quality,0,Ballarat,Other 20 dealerships
+VIC07,Parts,H1 (Oct-Mar),3,staff_service,Staff service,0,Ballarat,Other 20 dealerships
+VIC07,Parts,H1 (Oct-Mar),3,pricing_value,Price/value,0,Ballarat,Other 20 dealerships
+VIC07,Parts,H1 (Oct-Mar),3,sales_process,Sales process,0,Ballarat,Other 20 dealerships
+VIC07,Parts,H1 (Oct-Mar),3,parts_availability,Parts availability,3,Ballarat,Other 20 dealerships
+VIC07,Parts,H1 (Oct-Mar),3,vehicle_product,Vehicle/product,0,Ballarat,Other 20 dealerships
+VIC07,Parts,H1 (Oct-Mar),3,other,Other,0,Ballarat,Other 20 dealerships
+VIC07,Parts,H2 (Apr-Sep),4,communication_follow_up,Communication,0,Ballarat,Other 20 dealerships
+VIC07,Parts,H2 (Apr-Sep),4,waiting_time_scheduling,Waiting/booking,3,Ballarat,Other 20 dealerships
+VIC07,Parts,H2 (Apr-Sep),4,workmanship_repair_quality,Repair quality,0,Ballarat,Other 20 dealerships
+VIC07,Parts,H2 (Apr-Sep),4,staff_service,Staff service,0,Ballarat,Other 20 dealerships
+VIC07,Parts,H2 (Apr-Sep),4,pricing_value,Price/value,0,Ballarat,Other 20 dealerships
+VIC07,Parts,H2 (Apr-Sep),4,sales_process,Sales process,0,Ballarat,Other 20 dealerships
+VIC07,Parts,H2 (Apr-Sep),4,parts_availability,Parts availability,4,Ballarat,Other 20 dealerships
+VIC07,Parts,H2 (Apr-Sep),4,vehicle_product,Vehicle/product,0,Ballarat,Other 20 dealerships
+VIC07,Parts,H2 (Apr-Sep),4,other,Other,0,Ballarat,Other 20 dealerships
+VIC07,Sales,H1 (Oct-Mar),2,communication_follow_up,Communication,1,Ballarat,Other 20 dealerships
+VIC07,Sales,H1 (Oct-Mar),2,waiting_time_scheduling,Waiting/booking,0,Ballarat,Other 20 dealerships
+VIC07,Sales,H1 (Oct-Mar),2,workmanship_repair_quality,Repair quality,0,Ballarat,Other 20 dealerships
+VIC07,Sales,H1 (Oct-Mar),2,staff_service,Staff service,0,Ballarat,Other 20 dealerships
+VIC07,Sales,H1 (Oct-Mar),2,pricing_value,Price/value,0,Ballarat,Other 20 dealerships
+VIC07,Sales,H1 (Oct-Mar),2,sales_process,Sales process,1,Ballarat,Other 20 dealerships
+VIC07,Sales,H1 (Oct-Mar),2,parts_availability,Parts availability,0,Ballarat,Other 20 dealerships
+VIC07,Sales,H1 (Oct-Mar),2,vehicle_product,Vehicle/product,0,Ballarat,Other 20 dealerships
+VIC07,Sales,H1 (Oct-Mar),2,other,Other,0,Ballarat,Other 20 dealerships
+VIC07,Sales,H2 (Apr-Sep),3,communication_follow_up,Communication,2,Ballarat,Other 20 dealerships
+VIC07,Sales,H2 (Apr-Sep),3,waiting_time_scheduling,Waiting/booking,0,Ballarat,Other 20 dealerships
+VIC07,Sales,H2 (Apr-Sep),3,workmanship_repair_quality,Repair quality,0,Ballarat,Other 20 dealerships
+VIC07,Sales,H2 (Apr-Sep),3,staff_service,Staff service,0,Ballarat,Other 20 dealerships
+VIC07,Sales,H2 (Apr-Sep),3,pricing_value,Price/value,0,Ballarat,Other 20 dealerships
+VIC07,Sales,H2 (Apr-Sep),3,sales_process,Sales process,1,Ballarat,Other 20 dealerships
+VIC07,Sales,H2 (Apr-Sep),3,parts_availability,Parts availability,0,Ballarat,Other 20 dealerships
+VIC07,Sales,H2 (Apr-Sep),3,vehicle_product,Vehicle/product,1,Ballarat,Other 20 dealerships
+VIC07,Sales,H2 (Apr-Sep),3,other,Other,0,Ballarat,Other 20 dealerships
+VIC07,Service,H1 (Oct-Mar),27,communication_follow_up,Communication,14,Ballarat,Other 20 dealerships
+VIC07,Service,H1 (Oct-Mar),27,waiting_time_scheduling,Waiting/booking,10,Ballarat,Other 20 dealerships
+VIC07,Service,H1 (Oct-Mar),27,workmanship_repair_quality,Repair quality,3,Ballarat,Other 20 dealerships
+VIC07,Service,H1 (Oct-Mar),27,staff_service,Staff service,2,Ballarat,Other 20 dealerships
+VIC07,Service,H1 (Oct-Mar),27,pricing_value,Price/value,5,Ballarat,Other 20 dealerships
+VIC07,Service,H1 (Oct-Mar),27,sales_process,Sales process,0,Ballarat,Other 20 dealerships
+VIC07,Service,H1 (Oct-Mar),27,parts_availability,Parts availability,0,Ballarat,Other 20 dealerships
+VIC07,Service,H1 (Oct-Mar),27,vehicle_product,Vehicle/product,1,Ballarat,Other 20 dealerships
+VIC07,Service,H1 (Oct-Mar),27,other,Other,0,Ballarat,Other 20 dealerships
+VIC07,Service,H2 (Apr-Sep),25,communication_follow_up,Communication,9,Ballarat,Other 20 dealerships
+VIC07,Service,H2 (Apr-Sep),25,waiting_time_scheduling,Waiting/booking,4,Ballarat,Other 20 dealerships
+VIC07,Service,H2 (Apr-Sep),25,workmanship_repair_quality,Repair quality,6,Ballarat,Other 20 dealerships
+VIC07,Service,H2 (Apr-Sep),25,staff_service,Staff service,6,Ballarat,Other 20 dealerships
+VIC07,Service,H2 (Apr-Sep),25,pricing_value,Price/value,7,Ballarat,Other 20 dealerships
+VIC07,Service,H2 (Apr-Sep),25,sales_process,Sales process,0,Ballarat,Other 20 dealerships
+VIC07,Service,H2 (Apr-Sep),25,parts_availability,Parts availability,1,Ballarat,Other 20 dealerships
+VIC07,Service,H2 (Apr-Sep),25,vehicle_product,Vehicle/product,0,Ballarat,Other 20 dealerships
+VIC07,Service,H2 (Apr-Sep),25,other,Other,3,Ballarat,Other 20 dealerships
+VIC08,Parts,H1 (Oct-Mar),0,communication_follow_up,Communication,0,Bendigo,Worsening four
+VIC08,Parts,H1 (Oct-Mar),0,waiting_time_scheduling,Waiting/booking,0,Bendigo,Worsening four
+VIC08,Parts,H1 (Oct-Mar),0,workmanship_repair_quality,Repair quality,0,Bendigo,Worsening four
+VIC08,Parts,H1 (Oct-Mar),0,staff_service,Staff service,0,Bendigo,Worsening four
+VIC08,Parts,H1 (Oct-Mar),0,pricing_value,Price/value,0,Bendigo,Worsening four
+VIC08,Parts,H1 (Oct-Mar),0,sales_process,Sales process,0,Bendigo,Worsening four
+VIC08,Parts,H1 (Oct-Mar),0,parts_availability,Parts availability,0,Bendigo,Worsening four
+VIC08,Parts,H1 (Oct-Mar),0,vehicle_product,Vehicle/product,0,Bendigo,Worsening four
+VIC08,Parts,H1 (Oct-Mar),0,other,Other,0,Bendigo,Worsening four
+VIC08,Parts,H2 (Apr-Sep),2,communication_follow_up,Communication,1,Bendigo,Worsening four
+VIC08,Parts,H2 (Apr-Sep),2,waiting_time_scheduling,Waiting/booking,1,Bendigo,Worsening four
+VIC08,Parts,H2 (Apr-Sep),2,workmanship_repair_quality,Repair quality,0,Bendigo,Worsening four
+VIC08,Parts,H2 (Apr-Sep),2,staff_service,Staff service,0,Bendigo,Worsening four
+VIC08,Parts,H2 (Apr-Sep),2,pricing_value,Price/value,0,Bendigo,Worsening four
+VIC08,Parts,H2 (Apr-Sep),2,sales_process,Sales process,0,Bendigo,Worsening four
+VIC08,Parts,H2 (Apr-Sep),2,parts_availability,Parts availability,1,Bendigo,Worsening four
+VIC08,Parts,H2 (Apr-Sep),2,vehicle_product,Vehicle/product,0,Bendigo,Worsening four
+VIC08,Parts,H2 (Apr-Sep),2,other,Other,0,Bendigo,Worsening four
+VIC08,Sales,H1 (Oct-Mar),0,communication_follow_up,Communication,0,Bendigo,Worsening four
+VIC08,Sales,H1 (Oct-Mar),0,waiting_time_scheduling,Waiting/booking,0,Bendigo,Worsening four
+VIC08,Sales,H1 (Oct-Mar),0,workmanship_repair_quality,Repair quality,0,Bendigo,Worsening four
+VIC08,Sales,H1 (Oct-Mar),0,staff_service,Staff service,0,Bendigo,Worsening four
+VIC08,Sales,H1 (Oct-Mar),0,pricing_value,Price/value,0,Bendigo,Worsening four
+VIC08,Sales,H1 (Oct-Mar),0,sales_process,Sales process,0,Bendigo,Worsening four
+VIC08,Sales,H1 (Oct-Mar),0,parts_availability,Parts availability,0,Bendigo,Worsening four
+VIC08,Sales,H1 (Oct-Mar),0,vehicle_product,Vehicle/product,0,Bendigo,Worsening four
+VIC08,Sales,H1 (Oct-Mar),0,other,Other,0,Bendigo,Worsening four
+VIC08,Sales,H2 (Apr-Sep),1,communication_follow_up,Communication,0,Bendigo,Worsening four
+VIC08,Sales,H2 (Apr-Sep),1,waiting_time_scheduling,Waiting/booking,0,Bendigo,Worsening four
+VIC08,Sales,H2 (Apr-Sep),1,workmanship_repair_quality,Repair quality,0,Bendigo,Worsening four
+VIC08,Sales,H2 (Apr-Sep),1,staff_service,Staff service,0,Bendigo,Worsening four
+VIC08,Sales,H2 (Apr-Sep),1,pricing_value,Price/value,0,Bendigo,Worsening four
+VIC08,Sales,H2 (Apr-Sep),1,sales_process,Sales process,1,Bendigo,Worsening four
+VIC08,Sales,H2 (Apr-Sep),1,parts_availability,Parts availability,0,Bendigo,Worsening four
+VIC08,Sales,H2 (Apr-Sep),1,vehicle_product,Vehicle/product,0,Bendigo,Worsening four
+VIC08,Sales,H2 (Apr-Sep),1,other,Other,0,Bendigo,Worsening four
+VIC08,Service,H1 (Oct-Mar),6,communication_follow_up,Communication,2,Bendigo,Worsening four
+VIC08,Service,H1 (Oct-Mar),6,waiting_time_scheduling,Waiting/booking,4,Bendigo,Worsening four
+VIC08,Service,H1 (Oct-Mar),6,workmanship_repair_quality,Repair quality,0,Bendigo,Worsening four
+VIC08,Service,H1 (Oct-Mar),6,staff_service,Staff service,1,Bendigo,Worsening four
+VIC08,Service,H1 (Oct-Mar),6,pricing_value,Price/value,0,Bendigo,Worsening four
+VIC08,Service,H1 (Oct-Mar),6,sales_process,Sales process,0,Bendigo,Worsening four
+VIC08,Service,H1 (Oct-Mar),6,parts_availability,Parts availability,0,Bendigo,Worsening four
+VIC08,Service,H1 (Oct-Mar),6,vehicle_product,Vehicle/product,1,Bendigo,Worsening four
+VIC08,Service,H1 (Oct-Mar),6,other,Other,0,Bendigo,Worsening four
+VIC08,Service,H2 (Apr-Sep),19,communication_follow_up,Communication,8,Bendigo,Worsening four
+VIC08,Service,H2 (Apr-Sep),19,waiting_time_scheduling,Waiting/booking,3,Bendigo,Worsening four
+VIC08,Service,H2 (Apr-Sep),19,workmanship_repair_quality,Repair quality,6,Bendigo,Worsening four
+VIC08,Service,H2 (Apr-Sep),19,staff_service,Staff service,1,Bendigo,Worsening four
+VIC08,Service,H2 (Apr-Sep),19,pricing_value,Price/value,4,Bendigo,Worsening four
+VIC08,Service,H2 (Apr-Sep),19,sales_process,Sales process,0,Bendigo,Worsening four
+VIC08,Service,H2 (Apr-Sep),19,parts_availability,Parts availability,2,Bendigo,Worsening four
+VIC08,Service,H2 (Apr-Sep),19,vehicle_product,Vehicle/product,0,Bendigo,Worsening four
+VIC08,Service,H2 (Apr-Sep),19,other,Other,1,Bendigo,Worsening four
+VIC09,Parts,H1 (Oct-Mar),0,communication_follow_up,Communication,0,Shepparton,Other 20 dealerships
+VIC09,Parts,H1 (Oct-Mar),0,waiting_time_scheduling,Waiting/booking,0,Shepparton,Other 20 dealerships
+VIC09,Parts,H1 (Oct-Mar),0,workmanship_repair_quality,Repair quality,0,Shepparton,Other 20 dealerships
+VIC09,Parts,H1 (Oct-Mar),0,staff_service,Staff service,0,Shepparton,Other 20 dealerships
+VIC09,Parts,H1 (Oct-Mar),0,pricing_value,Price/value,0,Shepparton,Other 20 dealerships
+VIC09,Parts,H1 (Oct-Mar),0,sales_process,Sales process,0,Shepparton,Other 20 dealerships
+VIC09,Parts,H1 (Oct-Mar),0,parts_availability,Parts availability,0,Shepparton,Other 20 dealerships
+VIC09,Parts,H1 (Oct-Mar),0,vehicle_product,Vehicle/product,0,Shepparton,Other 20 dealerships
+VIC09,Parts,H1 (Oct-Mar),0,other,Other,0,Shepparton,Other 20 dealerships
+VIC09,Sales,H1 (Oct-Mar),0,communication_follow_up,Communication,0,Shepparton,Other 20 dealerships
+VIC09,Sales,H1 (Oct-Mar),0,waiting_time_scheduling,Waiting/booking,0,Shepparton,Other 20 dealerships
+VIC09,Sales,H1 (Oct-Mar),0,workmanship_repair_quality,Repair quality,0,Shepparton,Other 20 dealerships
+VIC09,Sales,H1 (Oct-Mar),0,staff_service,Staff service,0,Shepparton,Other 20 dealerships
+VIC09,Sales,H1 (Oct-Mar),0,pricing_value,Price/value,0,Shepparton,Other 20 dealerships
+VIC09,Sales,H1 (Oct-Mar),0,sales_process,Sales process,0,Shepparton,Other 20 dealerships
+VIC09,Sales,H1 (Oct-Mar),0,parts_availability,Parts availability,0,Shepparton,Other 20 dealerships
+VIC09,Sales,H1 (Oct-Mar),0,vehicle_product,Vehicle/product,0,Shepparton,Other 20 dealerships
+VIC09,Sales,H1 (Oct-Mar),0,other,Other,0,Shepparton,Other 20 dealerships
+VIC09,Service,H1 (Oct-Mar),8,communication_follow_up,Communication,2,Shepparton,Other 20 dealerships
+VIC09,Service,H1 (Oct-Mar),8,waiting_time_scheduling,Waiting/booking,4,Shepparton,Other 20 dealerships
+VIC09,Service,H1 (Oct-Mar),8,workmanship_repair_quality,Repair quality,2,Shepparton,Other 20 dealerships
+VIC09,Service,H1 (Oct-Mar),8,staff_service,Staff service,1,Shepparton,Other 20 dealerships
+VIC09,Service,H1 (Oct-Mar),8,pricing_value,Price/value,2,Shepparton,Other 20 dealerships
+VIC09,Service,H1 (Oct-Mar),8,sales_process,Sales process,1,Shepparton,Other 20 dealerships
+VIC09,Service,H1 (Oct-Mar),8,parts_availability,Parts availability,1,Shepparton,Other 20 dealerships
+VIC09,Service,H1 (Oct-Mar),8,vehicle_product,Vehicle/product,0,Shepparton,Other 20 dealerships
+VIC09,Service,H1 (Oct-Mar),8,other,Other,0,Shepparton,Other 20 dealerships

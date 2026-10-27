@@ -47,10 +47,14 @@ I requested Prefect orchestration against my implementation guide. Codex replace
 
 ## What I chose not to build
 
-My guide also covers a file watcher, incremental run-state/retry lifecycle and Tableau. These are not implemented in the current checkpoint; I prioritised the data pipeline and business answers. Dashboard refresh and the automated end-to-end demonstration remain outstanding.
+My guide also covers a file watcher and incremental run-state/retry lifecycle. These are not implemented in the current checkpoint. The Tableau story is now published; automatic refresh of the public copy and the full file-arrival demonstration remain outstanding.
 
 Raw source data, review labels, databases and the API key are excluded from Git. Detailed implementation evidence remains in the checkpoint documents and verification outputs.
 
 ## Dealer history
 
 My guide proposed SCD2 dealer history and I requested its implementation. Codex implemented the dbt snapshot, reporting history dimension and isolated lifecycle/integrity tests. The isolated lifecycle test, five publication tests, all eight business queries and 49 dbt data tests passed. Initial validity records observation time; no earlier dealer history or historical event-time attribution is invented.
+
+## Published reporting
+
+I supplied the published Tableau Public story. Codex opened the overview and priority pages, inspected local aggregate extract headers and the packaged workbook file list, and updated submission links/status. The monthly extract reconciles to 7,079 dated responses, 7,069 rated and 1,576 negative; full Gold totals include ten undated responses. This is a limited review, not certification of every published mark, interaction or embedded data value. No authorship of the Tableau build is inferred from this documentation update.

@@ -62,7 +62,7 @@ The largest negative-rating counts with at least 30 valid ratings are Parramatta
 
 Attach data/gold_reporting.duckdb once with the chuckjonas DuckDB extension. The Attach input takes the file path, not SQL. Open scripts/review_gold.sql and execute its queries from the SQL editor. The catalog is gold_reporting and the schema is gold (for example SELECT * FROM gold_reporting.gold.mart_dealer_dept_summary;).
 
-Check the response/rating denominators, three identical revenue totals, the top driver counts/polarities, missing-date handling and provisional AI coverage. Confirm the proposed minimum sample/scenario assumptions before using them in a final dashboard. Gold code and aggregate outputs are saved locally for review and are not committed or pushed yet.
+Check the response/rating denominators, three identical revenue totals, the top driver counts/polarities, missing-date handling and provisional AI coverage. Confirm the proposed minimum sample/scenario assumptions before using them in a final dashboard. The Gold checkpoint and subsequent Prefect/SCD2 changes are committed and pushed; the Tableau publication/status update is a later milestone.
 
 Applicant contributions: the implementation guide and overall architecture, the idea/design of reporting marts, original business-answer SQL, source investigation, initial Silver implementation, mapping/KPI decisions, manual AI labels and discovery of the redaction defect. Codex contributions here: implementation and expansion of Gold SQL against that design, schema adaptations and corrections, grain/revenue/privacy/publication tests, reporting export and verification. The marts concept and original business queries must not be attributed to Codex.
 
@@ -72,3 +72,7 @@ Optional-AI baseline: if no Gemini result table exists, the Gold runner creates 
 ## Dealer-history extension
 
 Gold now includes dim_dealer_history and a check-strategy dbt snapshot in the private dealer_history schema. The current dim_dealer view preserves existing join grain. History starts with observed reference state; it is not retroactively effective-dated. See README for tracked attributes, deletion/reappearance behavior and reproduction tests. Earlier 12-model/43-test figures above describe the pre-history checkpoint; the current build result is recorded in outputs/gold_verification.json.
+
+## Published Tableau story
+
+The reporting layer is now presented at [Tableau Public](https://public.tableau.com/app/profile/abdul.basith.mohammed7821/viz/KestrelMotorGroup-CustomerFeedback/KestrelMotorGroupwhatsdrivingnegativefeedback). A packaged workbook and screenshots are present locally. See README for extract denominators and manual refresh/republication steps. Publication does not establish that all marks or packaged data have been independently verified.

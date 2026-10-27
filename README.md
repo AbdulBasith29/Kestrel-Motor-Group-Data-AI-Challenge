@@ -8,9 +8,9 @@
 - **At those four sites, booking and wait complaints grew most.** They rose from 32% to 42% of negative comments. This lines up with Dandenong's online booking going live on 5 May and with Bendigo absorbing Shepparton's customers after it closed on 31 Mar.
 - **Focus on Dandenong and Parramatta Service first.** They hold more than half of the estimated revenue exposure: about **$660k of $1.17M** across the top 8 sites (range $0.47M–$1.87M depending on churn).
 
-**Tableau dashboard: planned, not built in this checkpoint.**
+![Four sites drove the rise in negative feedback](outputs/charts/monthly_trend.png)
 
-The current deliverable is the tested Gold reporting layer and CSV exports; no Tableau workbook or published link is included yet.
+**Interactive Tableau dashboard:** [Kestrel Motor Group - Customer Feedback on Tableau Public](https://public.tableau.com/app/profile/abdul.basith.mohammed7821/viz/KestrelMotorGroup-CustomerFeedback/KestrelMotorGroupwhatsdrivingnegativefeedback). The packaged workbook is [`tableau/kestrel_cx.twbx`](tableau/kestrel_cx.twbx), and screenshots are in the [Dashboard](#dashboard) section.
 
 ## Approach
 
@@ -67,7 +67,9 @@ Other rules:
 
 **2. Change over the year.**
 
+![Negative share, first half vs second half](outputs/charts/h1_vs_h2_by_dealer.png)
 
+![At the four worsening sites, booking and wait complaints grew most](outputs/charts/worsening_site_themes.png)
 
 Four sites stand out, and Geelong improved (27% → 19%). At the four worsening sites, waiting and booking complaints grew from 32% to 42% of negatives. Parts availability also grew (4% → 16%), but Gemini over-tags this theme, so I treat it as a lead to check rather than a finding.
 
@@ -89,7 +91,9 @@ This is potential exposure, not proven loss. It assumes the feedback sample is r
 
 ## Dashboard
 
-The **Gold reporting export** is ready for Tableau. It contains reporting fields without names or comment text. CSVs are generated under `data/reporting_exports/`; the following dashboard views are planned.
+[Open the published Tableau story](https://public.tableau.com/app/profile/abdul.basith.mohammed7821/viz/KestrelMotorGroup-CustomerFeedback/KestrelMotorGroupwhatsdrivingnegativefeedback). The overview and priority pages were opened successfully in browser review; the third page and all interactive marks have not yet been independently checked.
+
+The published Tableau story has three sections: **What's driving it**, **Where to focus** and **Can we trust it**, built on the **Gold reporting export**, which holds reporting fields only, with no names and no comment text. `scripts/prepare_tableau.py` turns the export into four small CSVs in `tableau/extracts/`, and the workbook is [`tableau/kestrel_cx.twbx`](tableau/kestrel_cx.twbx).
 
 | View | What it shows | Gold source |
 |---|---|---|
@@ -97,8 +101,14 @@ The **Gold reporting export** is ready for Tableau. It contains reporting fields
 | **Dealer investigation** | Dealer × department heatmap, H1 vs H2 change, Service themes at the four worsening sites, $ exposure scenarios (labelled as assumptions) | dealer/department summary, theme bridge, financial sensitivity |
 | **Data quality** | Missing ratings and dates, provisional mappings (Hunter → Newcastle), AI enrichment coverage and errors, DQ rule results | quality mart, dq_results |
 
-- **Reconciliation target:** dashboard totals must match Gold: 7,089 responses, 7,079 rated and 1,579 negative. Dashboard reconciliation has not yet been performed.
-- **Planned refresh:** rebuild Gold using `python src/gold.py`, then refresh the CSV connections/extracts in Tableau. Published refresh is not configured.
+- **Reconciliation:** the published headline shows the full Gold baseline: 1,579 negative out of 7,079 rated responses (22.3%). The monthly extract excludes 10 undated responses and therefore contains 7,079 responses, 7,069 valid ratings and 1,576 negative ratings; its percentages use those dated counts. The preparation script checks response-count reconciliation. Full per-view published-value reconciliation is still a review step.
+- **Refresh:** rebuild Gold, rerun `python scripts/run_business_answers.py`, copy the refreshed Q3 result to `outputs/business_answers/q3_value_at_risk.csv`, then run `python scripts/prepare_tableau.py`. Refresh/reconnect the workbook data sources in Tableau and republish. A packaged workbook carries its own copy of the data: regenerating local CSVs or running Prefect does not update the public story automatically.
+
+![CX overview](outputs/tableau/cx_overview.png)
+
+![Dealer investigation](outputs/tableau/dealer_investigation.png)
+
+![Data quality](outputs/tableau/data_quality.png)
 
 
 
@@ -154,6 +164,10 @@ python src/silver.py --database data/bronze_review.duckdb
 # python src/gemini_enrichment.py --all --budget-usd 5
 python src/gold.py                # builds/tests/publishes Gold and exports reporting CSVs
 python scripts/run_business_answers.py  # writes data/business_answers/Q*.csv
+# Optional: install matplotlib to regenerate the already-included charts
+# python -m pip install matplotlib
+python analysis/make_charts.py          # README charts from outputs/business_answers/
+python scripts/prepare_tableau.py       # Tableau CSVs in tableau/extracts/
 python -m unittest discover -s tests -p test_gold_publication.py
 # Open scripts/investigation.ipynb with Jupyter for the source investigation.
 ```

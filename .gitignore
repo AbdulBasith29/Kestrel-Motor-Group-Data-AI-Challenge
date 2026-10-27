@@ -41,3 +41,6 @@ dbt/logs/
 outputs/*.json
 !outputs/gemini_evaluation.json
 outputs/validation_report.csv
+
+# Tableau extracts (rebuilt from tableau/extracts/*.csv)
+*.hyper
