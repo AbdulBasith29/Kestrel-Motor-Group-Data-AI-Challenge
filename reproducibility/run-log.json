@@ -1,6 +1,6 @@
 {
   "status": "passed",
-  "started_utc": "2026-10-27T00:34:00.511856+00:00",
+  "started_utc": "2026-10-27T09:03:37.667439+00:00",
   "python": "3.14.0",
   "platform": "Windows",
   "dependencies": {
@@ -67,9 +67,13 @@
     "reference/dealerships.csv": "58dbe7f53d1414f1c64f90642131dc278e06b6ccd62d533c787d2e699821dce3",
     "reference/monthly_revenue.csv": "48588dd340444b030dcfdd32adb439962623c51cae6710b2ebf389dd78762101"
   },
+  "privacy_helper_sha256": "20e4850ffb5ebab7c4b91c6a0e57edf409294c031db4701f898433529a250818",
+  "privacy_tests_sha256": "94eb4941cfb871cc227038aa6116d20c455fae43a28181c5ee7ff8a5084623e5",
+  "notebook_sha256": "b7f278c8591028b15f531bd28f2e46147b2ffe13527e5f02f859bf87d7a0eaa2",
+  "notebook_code_sha256": "cc65ed649033a69addea0153e289d61d01ac6832fa9cd52ceab2279db2131bd9",
   "test": "Run every cell in a relocated copy with an isolated kernel, then verify source hashes.",
-  "total_cells": 32,
-  "code_cells_executed": 15,
+  "total_cells": 27,
+  "code_cells_executed": 13,
   "error_outputs": 0,
   "source_files_unchanged": true,
   "relocated_execution": true,
@@ -80,9 +84,5 @@
     "sheet_inventory.csv",
     "structure_profile.json"
   ],
-  "finished_utc": "2026-10-27T00:34:07.860052+00:00",
-  "execution_input_notebook_sha256": "814dd89dcc8673324a5de5a8fb7e853eb07b9989c542e4065283fd16162d682d",
-  "output_cleared_notebook_sha256": "6d80b22815568058ccecb26e1b7996b2f0c9559b2695cb3be5b1e05cc05d5d5b",
-  "notebook_code_sha256": "caccf64f8efb30d51352f892c79073cb3aed175fae45fb9ca4f807957f884a70",
-  "publication_note": "Notebook outputs and execution counts cleared for commit; code cells match the successfully executed artifact."
+  "finished_utc": "2026-10-27T09:03:45.230617+00:00"
 }

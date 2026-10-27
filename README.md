@@ -1,10 +1,12 @@
 # Kestrel Motor Group — source investigation
 
-Current milestone: a reproducible exploratory notebook for the supplied feedback pack. The ingestion/validation pipeline, AI enrichment and business recommendations are not implemented yet.
+This checkpoint covers the reproducible source investigation and documented assumptions. Pipeline implementation is being prepared in separate review milestones; AI enrichment and business recommendations remain outstanding.
 
 - Start with [notebook setup](NOTEBOOK_SETUP.md).
 - Explore [the investigation notebook](scripts/investigation.ipynb).
-- See [verification evidence](reproducibility/VERIFIED.md): 15 code cells passed in an isolated, relocated environment; input files were unchanged.
+- Review [mapping assumptions](ASSUMPTIONS.md), including provisional department aliases awaiting business confirmation.
+- Read the [AI usage and verification log](AI_USAGE_LOG.md), including a verified failure of the generated preview-masking helper.
+- See [verification evidence](reproducibility/VERIFIED.md): 13 code cells passed in an isolated, relocated environment; input files were unchanged.
 - Notebook outputs are cleared in Git. Obtain the original assignment data separately and retain the `feedback` and `reference` folders locally; these are deliberately excluded from version control.
 
 ## Supplied assignment brief

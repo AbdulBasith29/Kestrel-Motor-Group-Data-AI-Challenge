@@ -16,3 +16,15 @@ scripts/investigation.before-restructure-*.ipynb
 scripts/investigation_outputs/
 inspection_report.json
 *.zip
+# Original brief
+PS_Data_AI_Assignment.pdf
+
+# Clean response table still holds free-text comments, keep local
+data/
+
+# Pipeline build artefacts (rebuilt by the pipeline)
+kestrel.duckdb
+kestrel.duckdb.wal
+dbt/target/
+dbt/logs/
+.prefect/

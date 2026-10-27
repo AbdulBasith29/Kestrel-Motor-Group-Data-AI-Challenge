@@ -33,6 +33,8 @@ def main():
               "dependencies": {name: importlib.metadata.version(name) for name in
                                ("pandas", "openpyxl", "nbformat", "nbclient", "ipykernel")},
               "source_file_count": len(source_hashes), "source_hashes": source_hashes,
+              "privacy_helper_sha256": hashlib.sha256((ROOT / "scripts" / "privacy_preview.py").read_bytes()).hexdigest(),
+              "privacy_tests_sha256": hashlib.sha256((ROOT / "tests" / "test_privacy_preview.py").read_bytes()).hexdigest(),
               "notebook_sha256": hashlib.sha256((ROOT / "scripts" / "investigation.ipynb").read_bytes()).hexdigest(),
               "notebook_code_sha256": hashlib.sha256(json.dumps(["".join(c["source"]) for c in json.loads((ROOT / "scripts" / "investigation.ipynb").read_text(encoding="utf-8"))["cells"] if c["cell_type"] == "code"], ensure_ascii=False).encode("utf-8")).hexdigest(),
               "test": "Run every cell in a relocated copy with an isolated kernel, then verify source hashes."}
@@ -43,6 +45,9 @@ def main():
             for folder in ("feedback", "reference"):
                 shutil.copytree(ROOT / folder, relocated / folder)
             (relocated / "scripts").mkdir()
+            shutil.copy2(ROOT / "scripts" / "privacy_preview.py", relocated / "scripts" / "privacy_preview.py")
+            shutil.copy2(ROOT / "scripts" / "investigation_support.py", relocated / "scripts" / "investigation_support.py")
+            shutil.copytree(ROOT / "tests", relocated / "tests", ignore=shutil.ignore_patterns("__pycache__"))
             kernel_root = base / "jupyter"
             kernel_dir = kernel_root / "kernels" / "kestrel-repro"
             kernel_dir.mkdir(parents=True)

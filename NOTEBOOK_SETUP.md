@@ -32,3 +32,17 @@ Launch the notebook from the assignment root or `scripts`, so its relative folde
 The verifier returns a nonzero exit status on a cell error. It checks both original and relocated feedback/reference file hashes after execution. A successful run establishes reproducibility for the supplied pack and tested environment; it does not validate the future ingestion pipeline or business conclusions.
 
 Raw source files are never written by the notebook. Notebook previews mask common identifiers heuristically; personal names can remain in prose. Keep executed notebooks restricted until a fuller privacy review. Structural summary files omit raw response values.
+
+## Privacy preview checks
+
+The notebook now imports `scripts/privacy_preview.py` and runs the synthetic regression tests in `tests/test_privacy_preview.py`. Keep those files alongside the notebook when reproducing it. To run the checks separately from PowerShell at the assignment root:
+
+```powershell
+.\.venv\Scripts\python.exe -m unittest discover -s tests -v
+```
+
+Default previews withhold free-text comments/actions, person/identifier fields, vehicle/model values, unknown columns and unrecognised values. This deliberately hides information rather than relying on regex to discover every possible personal detail. A separate heuristic text-redaction function is provided for restricted local review only; unknown names, addresses and unsupported formats may remain. It is not approved as the sole AI/export privacy gate.
+
+`reproducibility/privacy-preview-check.json` records a local check of the display policy against the currently identified source header segments, without including raw identifiers. It does not prove universal anonymisation or complete header detection. The original source files are unchanged. The notebook committed to Git should continue to have outputs cleared; the verifier creates a separate local executed artifact.
+
+The findings-first notebook also requires `scripts/investigation_support.py`. The automated verifier copies this support module into the relocated test folder. The main notebook has populated local results for presentation; clear outputs before committing if following the existing repository policy.
