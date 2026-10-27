@@ -1,8 +1,9 @@
 # Kestrel Motor Group — source investigation
 
-This checkpoint covers the reproducible source investigation and documented assumptions. Pipeline implementation is being prepared in separate review milestones; AI enrichment and business recommendations remain outstanding.
+This checkpoint covers the reproducible source investigation and a CSV consolidation/validation baseline. DuckDB ingestion is being prepared as a separate review milestone; AI enrichment and business recommendations remain outstanding.
 
 - Start with [notebook setup](NOTEBOOK_SETUP.md).
+- Run and review the [CSV baseline checkpoint](docs/baseline_checkpoint.md), including applicant-approved decisions and aggregate validation results.
 - Explore [the investigation notebook](scripts/investigation.ipynb).
 - Review [mapping assumptions](ASSUMPTIONS.md), including provisional department aliases awaiting business confirmation.
 - Read the [AI usage and verification log](AI_USAGE_LOG.md), including a verified failure of the generated preview-masking helper.

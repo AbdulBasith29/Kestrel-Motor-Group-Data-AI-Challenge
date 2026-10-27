@@ -1,0 +1,13 @@
+rule,rows_failing,action
+test_or_junk_row,3,"excluded: staff testing the form, not customers"
+year_typo_corrected,6,kept: year moved back by one (reviewed Shepparton sequence)
+quarantined_future_date,0,excluded: unverified future date quarantined
+date_outside_reporting_year,0,excluded
+dated_after_site_closure,0,excluded
+date_missing_or_vague,10,kept for themes and totals; left out of monthly trends
+invalid_source_rating,0,kept for comments; invalid rating set to null and excluded from rating KPIs
+rating_missing,10,kept; left out of rating KPIs (no imputing scores from comments)
+comment_blank,1728,kept for rating KPIs; nothing to theme
+exact_duplicate,9,"excluded: same dealer, date, department, rating and comment as an earlier row"
+duplicate_reference_id,0,excluded: same response ID seen in another file
+TOTAL in analysis,7089,of 7101 responses consolidated
