@@ -189,3 +189,12 @@ Date: 27 October 2026. Status: **Provider decision recorded; enrichment not exec
 - **Applicant decision:** chose Ollama with local inference instead of Gemini to avoid API charges.
 - **AI agent contribution:** explained that local runtime, memory and classification quality still require a benchmark, and that local inference does not remove the need for privacy and output checks.
 - **Next verification:** evaluate a selected local model against human-labelled comments, retain model/prompt versions and document errors. No local-model result or completed enrichment run is claimed.
+
+
+## Silver checkpoint — ownership correction and subsequent AI assistance
+
+The applicant clarified that they wrote the initial Silver implementation; Claude was not involved in generating it. Codex incorrectly attributed that implementation to Claude in the draft checkpoint, based on an earlier running note. The checkpoint and running note have been corrected.
+
+Applicant work: initial Silver implementation, manual source investigation, mapping/business-rule decisions and review of milestone outputs.
+
+Codex work after that implementation: code review and refactoring; exact six-row Shepparton correction configuration; sales subtype and stable source-row IDs; transactional Silver writes and per-row decisions; seven synthetic transformation tests; baseline and repeat-load verification; viewer snapshot and review queries. The tests caught a vague-date plus missing-rating comment being classified as a note, which Codex corrected. The retained 7,089 analysis responses agree with the CSV baseline; one additional excluded Southport test entry is retained for audit. The applicant authorised committing and pushing this Silver checkpoint after correcting the ownership attribution.

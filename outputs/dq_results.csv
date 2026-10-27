@@ -1,0 +1,16 @@
+rule,rows_failing,excluded,action
+not_a_response,14,True,"excluded: notes, template banners and monthly total rows"
+test_or_junk_row,4,True,excluded: staff testing the form
+year_typo_corrected,6,False,kept: year moved back by one (reviewed Shepparton sequence)
+quarantined_future_date,0,True,excluded: unverified future date quarantined
+date_outside_reporting_year,0,True,excluded
+dated_after_site_closure,0,True,excluded
+unknown_dealer,0,True,excluded: cannot attribute
+unknown_department,0,False,kept; shown as Unknown department
+date_missing_or_vague,10,False,kept; left out of monthly trends
+invalid_source_rating,0,False,kept in analysis for comments; rating set to null (source score out of range)
+rating_missing,10,False,kept; left out of rating KPIs (no imputing from comments)
+comment_blank,1728,False,kept for rating KPIs; nothing to theme
+exact_duplicate,9,True,"excluded: same dealer, date, department, rating and comment as an earlier row"
+duplicate_reference_id,0,True,excluded: response ID already seen
+TOTAL in analysis,7089,False,of 7116 bronze rows
