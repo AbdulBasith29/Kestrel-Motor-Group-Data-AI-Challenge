@@ -4,13 +4,13 @@
 
 - **Service is the problem.** Service accounts for 1,306 of the 1,579 negative responses (83%) and is negative 27% of the time. Parts is at 16% and Sales at 11%.
 - **Across Service, the drivers are poor communication and waiting.** Among AI-labelled negative Service comments, 38% complain about updates and follow-up, and 35% about waiting, booking or scheduling. Repair quality (18%) and price (17%) come well behind.
-- **Four sites got much worse in the second half of the year, while the rest stayed flat.** Parramatta (18% → 37% negative), Dandenong (15% → 34%), Bendigo (10% → 29%) and Liverpool (14% → 29%). Together they went from 13% in Feb to 42% in Aug, while the other 20 dealerships stayed at 20–23%.
-- **At those four sites, booking and wait complaints grew most.** They rose from 32% to 42% of negative comments. This lines up with Dandenong's online booking going live on 5 May and with Bendigo absorbing Shepparton's customers after it closed on 31 Mar.
+- **Four sites got much worse in the second half of the year, while the rest stayed flat.** Parramatta (18% → 37% negative), Dandenong (15% → 34%), Bendigo (10% → 29%) and Liverpool (14% → 29%). Together their negative share roughly doubled, from 15.5% in Oct–Mar (105 of 679) to 33.4% in Apr–Sep (247 of 739). It peaked at 42% in August and eased to 30% in September. The other 20 dealerships moved from 20.8% to 22.4%. Monthly samples at the four are about 100–155, so a single month moves by roughly ±8 points. I picked these four because they rose, so read this as a description, not a test.
+- **At those four sites, booking and wait complaints grew most.** They rose from 32% to 42% of negative comments. This lines up with Dandenong's new online booking system going live on 5 May (noted in its May feedback sheet) and with Bendigo absorbing Shepparton's customers after it closed on 31 Mar.
 - **Focus on Dandenong and Parramatta Service first.** They hold more than half of the estimated revenue exposure: about **$660k of $1.17M** across the top 8 sites (range $0.47M–$1.87M depending on churn).
 
 ![Four sites drove the rise in negative feedback](outputs/charts/monthly_trend.png)
 
-**Interactive Tableau dashboard:** [Kestrel Motor Group - Customer Feedback on Tableau Public](https://public.tableau.com/app/profile/abdul.basith.mohammed7821/viz/KestrelMotorGroup-CustomerFeedback/KestrelMotorGroupwhatsdrivingnegativefeedback). The three dashboards are also in [`tableau/kestrel_cx.twbx`](tableau/kestrel_cx.twbx), and screenshots are in the [Dashboard](#dashboard) section.
+**Interactive dashboard:** [Kestrel Motor Group - Customer Feedback on Tableau Public](https://public.tableau.com/app/profile/abdul.basith.mohammed7821/viz/KestrelMotorGroup-CustomerFeedback/KestrelMotorGroupwhatsdrivingnegativefeedback). The story's three dashboards are also in [`tableau/kestrel_cx.twbx`](tableau/kestrel_cx.twbx), with screenshots in the [Dashboard](#dashboard) section.
 
 ## Approach
 
@@ -25,13 +25,33 @@
 
 - **DuckDB** gives me one local file with SQL and no server for an assessor to set up.
 - **YAML source config** (`config/sources.yml`) holds every per-dealer rule in one readable place: sheets, header rows, date formats, rating scales and aliases.
-- **dbt** builds Gold with tests (49 passing, including dealer-history checks), and publishes only if they pass. Revenue joins at its own monthly grain, never through the multi-theme bridge.
-- **Prefect** runs the existing CLI steps in order with local run history and logging: `python flows/pipeline.py`. Only the opt-in Gemini step retries; other failures stop the flow.
-- **Gemini** handled sentiment and themes. I tried a local Ollama model first, but the pilot was too slow for the full run. Comments were preprocessed before transmission, but some residual names reached Gemini. Accounted API cost was approximately US$1.94.
+- **dbt** builds Gold and publishes only if its 49 tests pass. Revenue joins at its own monthly grain, never through the multi-theme bridge.
+- **Why not just pandas?** My first draft was plain pandas (`src/first_draft/`) and gave the same 7,089 rows. For a one-off answer that would have been enough. I moved to DuckDB, YAML and dbt so the per-dealer rules live in config rather than code, and a new file or a changed rule reruns with tests instead of a notebook edit.
+- **Gemini** labels sentiment and themes. I tried a local Ollama model first, but it was too slow for the full run. The API cost was about US$1.94.
+
+### Target schema
+
+One row per customer response (`silver.feedback`, carried into `gold.fct_feedback`). The question is about responses by dealer, department and month, so that's the grain. Every clean value sits next to the raw value it came from, and nothing is deleted: rows are excluded by flag, so every decision can be traced back to a file, sheet and row.
+
+| Column | What it holds | Why |
+|---|---|---|
+| `response_id` | Hash of source file, sheet and row | No natural key exists; this one is stable across reruns |
+| `dealer_code` | Code from `dealerships.csv` | Files name sites inconsistently; the code is the join key to revenue |
+| `date` / `date_raw` | ISO date, null if unknowable / original text | Dates arrive in several formats; raw kept to audit parsing |
+| `department` / `department_raw` | Sales, Service or Parts / original label | Labels like "workshop" and "P&A" map to three owners |
+| `rating_1to5` / `rating_raw`, `rating_scale` | One comparable scale, 5 = best / original value and scale | Geelong reverses, Ringwood is out of 10, Tamworth is Bad/OK/Good |
+| `negative` | Rating ≤ 2; null if unrated | The KPI; missing ratings are never imputed from text |
+| `comment` | Masked text, Silver only | Needed for AI themes; never reaches Gold or Tableau |
+| `source_file`, `source_sheet`, `source_row`, `flags`, `in_analysis` | Lineage and quality flags | Excluded rows stay visible with a reason |
+
+AI output lives in its own table (sentiment, themes, model and prompt version) keyed by `response_id`, so it can never overwrite a customer's rating.
 
 ## Data quality: what I found and what I did
 
-All 7,432 physical rows across the files reconcile: **7,116 land in Bronze and 7,089 responses go into the analysis**, after removing headers, summary and total rows, non-responses, test entries and probable duplicates. Of those, 7,079 have a valid rating. This matches my first pandas baseline row for row. Every rule's pass/fail counts are in [`outputs/dq_results.csv`](outputs/dq_results.csv).
+All 7,432 physical rows across the files reconcile: **7,116 land in Bronze and 7,089 responses go into the analysis**, after removing headers, summary and total rows, non-responses, test entries and probable duplicates. Of those, 7,079 have a valid rating. This matches my first pandas draft (`src/first_draft/`) row for row. Every rule's pass/fail counts are in [`outputs/dq_results.csv`](outputs/dq_results.csv).
+
+- **Removed (27 rows):** 14 notes, banners and monthly total rows; 9 exact duplicates; 4 staff test entries.
+- **Flagged but kept:** 6 Shepparton dates with a year typo (corrected), 10 undated responses (left out of monthly trends), 10 unrated responses (left out of rating KPIs) and 1,728 with no comment (rating only, nothing to theme).
 
 | Source | Problem | What I did |
 |---|---|---|
@@ -41,19 +61,18 @@ All 7,432 physical rows across the files reconcile: **7,116 land in Bronze and 7
 | Penrith | June tab is a copy of July | Counted once as July; June treated as missing |
 | Chermside | Two "FINAL" Q1 files, v2 has 6 extra rows | Used v2 only |
 | Toowoomba | Q4 summary counts, not responses | Excluded from response-level analysis |
-| Southport | Google reviews with relative dates ("3 months ago") | Kept in totals, excluded from trends |
+| Southport | A tab of 8 Google reviews copied in by staff, dated only "a month ago" | Excluded: public reviews rather than feedback-log responses, and they can't be dated. Southport's 253 logged responses are all in |
 | Hunter Motors | Not in the dealer list | Mapped to Newcastle (NSW05) and **flagged as an assumption** |
 | Shepparton | Closed 31 Mar 2026; 6 rows misdated to 2026 | Kept up to closure, corrected and flagged the dates, left out of "where to focus" |
 | Liverpool / North QLD / Wollongong | US month-first dates, Excel serials, `dd-Mon-yy` | Per-source date formats |
 | Chatswood / Wollongong | Semicolon delimiter, cp1252 encoding | Per-source read settings |
 | Frankston | Repeated header blocks and "Total" rows | Header detection plus a total-row rule |
 
-Other rules:
 - **Negative** means a normalised rating of 2 or below.
 - **Missing ratings stay null.** I never imputed them from comment text, and AI sentiment is a separate field.
-- **Duplicates** are a heuristic, because there's no natural key. They're defined as same dealer, date, department, rating and comment. This can exclude genuinely separate identical responses, so duplicate decisions retain lineage for review.
+- **Duplicates** are a heuristic, because there's no natural key: same dealer, date, department, rating and comment. This can drop genuinely separate identical responses, so each duplicate decision keeps its lineage.
 
-**Privacy:** I treated all personal data as real. Source-known customer and staff names are masked as [CUSTOMER] and [STAFF] before database storage. Identifier columns are read in memory for masking and omitted from persisted records. Masking counts: 190 staff names, 58 emails, 156 phones and 486 regos. Raw data, the database and labels stay out of Git. Gemini later flagged 663 comments with possible leftover names, so the masking isn't perfect. I replaced the faulty offset-based proposals with exact-string proposals; wider human review is still pending. I record the limitation in the [AI log](AI_USAGE_LOG.md).
+**Privacy:** I treated all personal data as real. Name and phone columns are read in memory only to build masks and are never stored. Known customer and staff names in comments are masked as [CUSTOMER] and [STAFF] before anything is written (190 staff names, 58 emails, 156 phones and 486 regos). Raw data, databases and labels stay out of Git, and Gold and Tableau carry no comment text. Masking missed some staff first names, so a few reached Gemini, which flagged 663 comments as possibly still containing a name. That's a gap I own. With more time I'd run NER masking (for example Presidio or spaCy) before any external call, or use a local model.
 
 ## Business answers
 
@@ -71,9 +90,13 @@ Other rules:
 
 ![At the four worsening sites, booking and wait complaints grew most](outputs/charts/worsening_site_themes.png)
 
-Four sites stand out, and Geelong improved (27% → 19%). At the four worsening sites, waiting and booking complaints grew from 32% to 42% of negatives. Parts availability also grew (4% → 16%), but Gemini over-tags this theme, so I treat it as a lead to check rather than a finding.
+Four sites stand out, and Geelong improved (27% → 19%). At the four worsening sites, waiting and booking complaints grew from 32% to 42% of negatives. Parts availability also grew (4% → 16%), but Gemini over-tags this theme, so I treat it as a lead to check rather than a finding. More responses don't explain the rise: at the four sites, Service responses went from 2.4% to 2.7% of service jobs (2.4% both halves elsewhere), so the change is in what customers said, not how many replied.
 
-**3. What it's worth.** I estimate the revenue exposure from the extra negative Service experiences in Apr–Sep, above each site's own Oct–Mar rate. It's priced at 12 months of that customer's service revenue, using `monthly_revenue.csv`.
+**3. What it's worth.** I estimate the revenue exposure from the extra negative Service experiences in Apr–Sep, above each site's own Oct–Mar rate:
+
+> exposure = (H2 negative rate − H1 negative rate) × H2 service jobs × churn × 2 jobs a year × revenue per job
+>
+> Dandenong at 25% churn: (46.6% − 20.0%) × 6,096 jobs ≈ 1,619 extra negative jobs → × 25% ≈ 405 lost customers → × 2 × $411 ≈ **$333k**
 
 | Site | Service negative H1 → H2 | Exposure at 10% / 25% / 40% churn |
 |---|---|---|
@@ -87,23 +110,21 @@ Four sites stand out, and Geelong improved (27% → 19%). At the four worsening 
 | Ringwood | 20% → 25% | $28k / $71k / $114k |
 | **Top 8 total** | | **$0.47M / $1.17M / $1.87M** |
 
-This is potential exposure, not proven loss. It assumes the feedback sample is representative of all service jobs and that churn falls in the stated range. Full table: [`outputs/business_answers/q3_value_at_risk.csv`](outputs/business_answers/q3_value_at_risk.csv).
+This is potential exposure, not proven loss. It assumes the feedback sample represents all service jobs, that each negative job is one customer, and that a lost customer would have brought two jobs in the next 12 months. Revenue per job and job counts come from `monthly_revenue.csv`. Full table: [`outputs/business_answers/q3_value_at_risk.csv`](outputs/business_answers/q3_value_at_risk.csv).
 
 ## Dashboard
 
-[Open the published Tableau story](https://public.tableau.com/app/profile/abdul.basith.mohammed7821/viz/KestrelMotorGroup-CustomerFeedback/KestrelMotorGroupwhatsdrivingnegativefeedback).
+The [published Tableau story](https://public.tableau.com/app/profile/abdul.basith.mohammed7821/viz/KestrelMotorGroup-CustomerFeedback/KestrelMotorGroupwhatsdrivingnegativefeedback) has three sections: **What's driving it**, **Where to focus** and **Can we trust it**. It reads the Gold reporting export only, with no names and no comment text.
 
-The published Tableau story has three sections: **What's driving it**, **Where to focus** and **Can we trust it**, built on the **Gold reporting export**, which holds reporting fields only, with no names and no comment text. `scripts/prepare_tableau.py` turns the export into four small CSVs in `tableau/extracts/`, and the workbook is [`tableau/kestrel_cx.twbx`](tableau/kestrel_cx.twbx).
+| View | What it shows |
+|---|---|
+| **CX overview** | KPI strip, monthly trend (worsening four vs the rest), themes at the worsening four, revenue at risk by site, negative share by department |
+| **Dealer investigation** | Dealer × department heatmap that drills into a monthly trend and themes for the clicked cell, plus H1 vs H2 change for all 24 sites |
+| **Data quality** | Missing ratings and dates, the Hunter → Newcastle assumption, AI coverage and errors, DQ rule results |
 
-| View | What it shows | Gold source |
-|---|---|---|
-| **CX overview** | KPI strip (negative share, Service share of negatives, worsening-four change, revenue at risk), monthly trend (worsening four vs the rest), themes at the worsening four, revenue at risk by site, negative share by department | fct_feedback, monthly summary, theme bridge, financial sensitivity |
-| **Dealer investigation** | Dealer × department heatmap that drills into a monthly trend and theme breakdown for the clicked site and department, plus H1 vs H2 change for all 24 sites | dealer/department summary, theme bridge |
-| **Data quality** | Missing ratings and dates, provisional mappings (Hunter → Newcastle), AI enrichment coverage and errors, DQ rule results | quality mart, dq_results |
-
-- **Interactive:** State and department filters drive the overview; clicking a department bar filters the trend and themes; clicking a heatmap cell drills the dealer page into that site and department; the churn slider (10% to 40%) recalculates revenue at risk, which is linear in churn. Tooltips show the response counts behind every percentage.
-- **Reconciliation:** the full Gold baseline is 1,579 negative out of 7,079 rated responses (22.3%). The KPI strip and charts read the monthly extract, which excludes 10 undated responses and therefore contains 7,079 responses, 7,069 valid ratings and 1,576 negative ratings (also 22.3%); its percentages use those dated counts. The preparation script checks response-count reconciliation. Full per-view published-value reconciliation is still a review step.
-- **Refresh:** rebuild Gold, rerun `python scripts/run_business_answers.py`, copy the refreshed Q3 result to `outputs/business_answers/q3_value_at_risk.csv`, then run `python scripts/prepare_tableau.py` and `python scripts/build_tableau_workbook.py <extracts dir> --extracts <extract-backed .twb>` (see `tableau/BUILD_GUIDE.md`). Refresh/reconnect the workbook data sources in Tableau and republish. A packaged workbook carries its own copy of the data: regenerating local CSVs or running Prefect does not update the public story automatically.
+- **Interactive:** state and department filters, click-to-filter on the department bars, heatmap drill-down, and a churn slider (10–40%) that recalculates revenue at risk. Tooltips show the counts behind every percentage.
+- **Reconciliation:** the KPIs match the Gold baseline (1,579 negative of 7,079 rated, 22.3%). The monthly views leave out 10 undated responses, which doesn't change the rate.
+- **Refresh:** see [`docs/ENGINEERING.md`](docs/ENGINEERING.md#tableau-refresh). The public story doesn't update when the local pipeline reruns.
 
 ![CX overview](outputs/tableau/cx_overview.png)
 
@@ -111,11 +132,9 @@ The published Tableau story has three sections: **What's driving it**, **Where t
 
 ![Data quality](outputs/tableau/data_quality.png)
 
-
-
 ## Recommendations
 
-1. **Fix booking at Dandenong and Parramatta now.** Review the online booking flow and the May booking-reference change, and look at confirmations, double-bookings and lead times. These two sites hold more than half the exposure.
+1. **Fix booking at Dandenong and Parramatta now.** Dandenong's new online booking system went live on 5 May, and its later complaints describe lost bookings, double-booked slots and appointments missing from the workshop system. Parramatta's sheet gained a booking-reference column in May and its comments mention a new system, but there's no note confirming a change there, so check that first. These two sites hold more than half the exposure.
 2. **Proactive service updates group-wide.** Communication is the top Service complaint at every site. An SMS at drop-off, a mid-job update and a callback rule when a job runs late are cheap to try.
 3. **Check Bendigo capacity.** Its rise starts when Shepparton's customers were redirected there. Compare booking lead times and staffing against volume.
 4. **Track it monthly.** Alert when a site's Service negative share runs 10 pts above the group for two months running. On the monthly trend, the four sites together crossed that line in June (37% vs 23%).
@@ -123,101 +142,65 @@ The published Tableau story has three sections: **What's driving it**, **Where t
 
 ## Can the AI be trusted?
 
-- **Human check.** I labelled 49 of a 50-comment sample (all dealerships, departments and rating bands) before seeing any predictions.
-  - Sentiment: 46/49 agree (94%).
-  - Leftover names: 48/49 agree.
-  - Themes: at least one theme matches on 42/46 (91%).
-- **Rating alignment (not independent accuracy).** Gemini sentiment broadly aligns with customer scores. 91% of 1–2 ratings come back negative and 92% of 4–5 ratings come back positive, and only 10 of 3,145 high ratings were called negative.
-- **Known weaknesses.**
-  - Gemini sometimes tags `parts_availability` when only the parts team is mentioned.
-  - It struggles with very short comments.
-  - It once misread "slow and clear" (a positive explanation) as mixed.
-  - The sample is deliberately mixed, so these are diagnostic numbers, not population accuracy.
+**The headline numbers don't depend on it.** Negative share, the site trends and the revenue exposure all come from customer ratings. Gemini only answers *why*, through the theme shares, so an AI error changes the explanation, not the size of the problem.
 
-Details: [`outputs/gemini_evaluation.json`](outputs/gemini_evaluation.json) and [AI usage log](AI_USAGE_LOG.md).
+- **Human check.** I labelled a 50-comment sample (all dealerships, departments and rating bands) before seeing any predictions.
+  - Sentiment: 47/50 agree (94%).
+  - Themes: at least one theme matches on 43/47 (91%). Across all themes, 81% of Gemini's tags were right and it found 90% of mine.
+  - The two themes the answer rests on hold up best: Gemini found 15 of my 17 communication labels and 8 of my 9 waiting labels, with 1 and 2 extra tags.
+  - Leftover names: 49/50 agree.
+- **Rating alignment (not independent accuracy).** 91% of 1–2 ratings come back negative and 92% of 4–5 ratings come back positive. Only 10 of 3,145 high ratings were called negative.
+- **Where I don't trust it.** `parts_availability` was tagged 3 times in the sample and wrong every time (it fires when the parts team is just mentioned), so the Parts finding is a lead, not a conclusion. Staff and vehicle themes were also over-tagged (3 extra each). It struggles with very short comments.
+- **Guardrails.** Gemini returns JSON with fixed theme IDs, its output is stored apart from the rating and can never overwrite it, and every result is cached with its model and prompt version. Each label is tied to a hash of the comment, so if a comment changes its old label drops out. Coverage: 5,358 comments labelled, 2 provider errors and 1 held back.
+- **What that means.** The sample is small and deliberately mixed, so treat the theme shares (38% communication, 35% waiting) as directional. The ranking is solid; the exact percentages are not.
+
+Details: [`outputs/gemini_evaluation.json`](outputs/gemini_evaluation.json).
+
+## How I used AI to build it
+
+- **Who did what.** I wrote the implementation guide and architecture, the initial Silver step and the original business-answer SQL, and made every data and business decision (schema, cleaning rules, negative = 2 or below, the theme list, the sizing method). Codex built most of the ingestion, masking, enrichment, Gold models and tests from that guide. Claude reviewed the work against the brief and challenged design choices. Gemini labelled the comments.
+- **How I prompted.** I asked for checks, not answers: "inspect every file and every sheet, not just the first, and list anything that would break a simple concat", then checked its findings against all 52 files myself. For the evaluation: "leave the human label columns blank; I label first, then compare."
+- **Where it was wrong, and how I caught it.**
+  - *Masking leaked.* I asked it to show me what the masking missed. It had missed names in prose, landlines and unlabelled registrations, so I had it rebuilt with tests.
+  - *Name repair damaged text.* I checked ten Ballarat examples and found eight where the proposed fix hit the wrong words and left the name visible. All 663 proposals were thrown out and redone with exact-string matching.
+  - *The test-row filter removed real customers.* Matching "test" anywhere caught 17 genuine comments ("test drive", "battery test"). I read the flagged rows and narrowed it to 3.
+  - *The sizing formula double-counted.* I challenged an extra ×2 in the exposure calculation; removing it halved the estimate.
+- **How I checked it.** All 7,432 physical rows are accounted for, and the 7,089 analysis rows match my separate pandas first draft row for row. Gold publishes only if its 49 dbt tests pass. I worked the exposure for Dandenong by hand (above) to confirm the SQL.
+- **What I kept for myself.** What counts as negative, which rows to exclude, the Hunter → Newcastle assumption and the final recommendations. These are judgement calls the data can't settle, so I didn't hand them to a model.
+
+Full log: [AI_USAGE_LOG.md](AI_USAGE_LOG.md).
+
+## Beyond the brief
+
+The brief doesn't assess code polish, so these are optional. I built them to show how this would run day to day. Detail is in [`docs/ENGINEERING.md`](docs/ENGINEERING.md).
+
+| Extra | Why | Limit |
+|---|---|---|
+| dbt Gold with 49 tests | Bad data can't reach the dashboard | Runs locally only |
+| Prefect flow (`python flows/pipeline.py`) | One command runs every step in order, with run history | No scheduling or alerts |
+| File watcher (`python flows/watch.py`) | Reruns when a dealer drops in a new file | Reprocesses the batch, not just new rows |
+| Dealer history (SCD2) | Tracks changes to the dealer list, such as closures | History starts at the first run |
 
 ## Production next steps
 
-I built this as a batch run on a laptop. To run it in production I would add:
-
-- **File arrival:** Watchdog now triggers stable batch changes with hashing and local archive/quarantine; production retention and isolated publication for concurrently edited inputs remain to add.
-- **Run control:** the watcher now has a durable batch-run ledger and failed-attempt retries. Per-row run IDs and incremental ingestion remain to add; ingestion still rebuilds tables.
-- **Orchestration:** the local Prefect batch flow is implemented; production scheduling and failure alerts remain to add. Only the AI step retries.
-- **History:** dealer-reference SCD2 snapshots are implemented; stable edit identity for running feedback workbooks remains to add.
-- **Privacy:** named-entity detection on top of the current masking, and a keyed HMAC customer key if repeat-customer analysis is needed. Secrets go in a vault.
+- **Privacy:** NER masking before any external AI call, and a keyed customer hash if repeat-customer analysis is needed. Secrets in a vault.
+- **Ingestion:** row-level incremental loads and run IDs instead of full rebuilds.
+- **Orchestration:** scheduled runs with failure alerts.
 - **AI operations:** pinned model and prompt versions, a fresh labelled sample each quarter, and a drift check on sentiment-vs-rating agreement.
-- **Reporting:** a live Tableau connection, or a scheduled Hyper extract refresh, instead of manual CSV exports.
+- **Reporting:** a live Tableau connection or scheduled extract refresh instead of manual CSV exports.
 
 ## How to run
 
-Tested with Python 3.14 on Windows. Obtain the assignment source data separately. Rebuilding Bronze/Silver replaces their tables; use a new database for an independent reproduction. AI labels require the optional provider run; without them, Gold still builds rating/revenue reports with zero AI coverage.
+Tested with Python 3.14 on Windows. Obtain the assignment source data separately and put the `feedback/` and `reference/` folders in the project root (both are gitignored). Without the optional Gemini run, Gold still builds the rating and revenue reports with zero AI coverage.
 
 ```bash
 pip install -r requirements.txt
-# put the supplied feedback/ and reference/ folders in the project root (gitignored)
-# One-command batch run (Gemini off):
-python flows/pipeline.py
-# Paid enrichment opt-in: python flows/pipeline.py --enrich --budget-usd 5
-# Or run individual steps:
-python src/bronze.py --database data/bronze_review.duckdb
-python src/silver.py --database data/bronze_review.duckdb
-# Optional cloud inference: needs GEMINI_API_KEY in local .env and incurs API costs.
-# python src/gemini_enrichment.py --all --budget-usd 5
-python src/gold.py                # builds/tests/publishes Gold and exports reporting CSVs
-python scripts/run_business_answers.py  # writes data/business_answers/Q*.csv
-# Optional: install matplotlib to regenerate the already-included charts
-# python -m pip install matplotlib
-python analysis/make_charts.py          # README charts from outputs/business_answers/
-python scripts/prepare_tableau.py       # Tableau CSVs in tableau/extracts/
-python -m unittest discover -s tests -p test_gold_publication.py
-# Open scripts/investigation.ipynb with Jupyter for the source investigation.
+python flows/pipeline.py                 # full batch run, Gemini off
+# python flows/pipeline.py --enrich --budget-usd 5   # paid Gemini run; needs GEMINI_API_KEY in .env
+python scripts/run_business_answers.py   # business-answer CSVs
+python analysis/make_charts.py           # README charts (needs matplotlib)
+python scripts/prepare_tableau.py        # Tableau CSVs in tableau/extracts/
+python -m unittest discover -s tests     # tests
 ```
 
-Assumptions and their impact: [ASSUMPTIONS.md](ASSUMPTIONS.md). How I used AI: [AI_USAGE_LOG.md](AI_USAGE_LOG.md). Source investigation: [`scripts/investigation.ipynb`](scripts/investigation.ipynb).
-
-### Local orchestration limits
-
-Run history is kept locally under ignored `data/prefect/` unless an existing Prefect server configuration overrides it. No cloud setup is required. Each step invokes the same CLI listed above. The Gold CLI owns the dbt test/publication gate. A Silver failure prevents Gold and answers; an exhausted AI retry also stops publication. Gemini has at most three attempts and its dollar ceiling is **per attempt**, so a USD 5 setting can allow up to USD 15 across retries; cached successes are reused. The flow does not log comment text or subprocess output. This is batch orchestration, not the guide's incremental file watcher, hash-skip/archive lifecycle or row-level run registry.
-
-To view local run history in the Prefect UI, start the server from the project root in one terminal:
-
-```powershell
-$env:PREFECT_HOME = Join-Path (Get-Location) 'data/prefect'
-prefect server start --host 127.0.0.1
-```
-
-Open `http://127.0.0.1:4200`. In a second terminal using the same Python environment, run:
-
-```powershell
-$env:PREFECT_API_URL = 'http://127.0.0.1:4200/api'
-python flows/pipeline.py
-```
-
-The temporary server used by a plain CLI run stops when that process exits; the local history remains. Do not launch concurrent flows against the same DuckDB files. Tests: `python -m unittest discover -s tests -p test_prefect_pipeline.py`.
-
-### Dealer reference history (SCD2)
-
-Each Gold build snapshots `reference/dealerships.csv` before building dependent models. Changes to dealership name, suburb, state, region, brands, status or closure date close the previous version and create a new version. Unchanged rows retain their version IDs. A removed dealer has its current version closed; reappearance creates a new version.
-
-`gold.dim_dealer_history` exports the version ID, dealer attributes, `valid_from`, `valid_to` and `is_current`. Intervals are `[valid_from, valid_to)`; null `valid_to` means current. `gold.dim_dealer` stays one current row per dealer so existing report joins do not multiply feedback or revenue.
-
-Dates record **when the pipeline observed a reference change**, not when it took effect in the business. The source has no attribute-change timestamp or earlier reference versions: the first run initialises history and does not reconstruct 2025/26 dealer attributes. Closure date remains a source attribute, distinct from snapshot validity. Historical feedback/revenue reports still use the current dealer view; an event-time SCD join would need trustworthy effective-dated reference history. Tests cover unchanged reloads, changes, deletions, reappearance, non-overlapping intervals and current/reference reconciliation. Run `python -m unittest discover -s tests -p test_dealer_history.py` for the isolated fixture test.
-
-### Watch source arrivals
-
-```powershell
-python flows/watch.py          # stay running; Ctrl+C stops it; Gemini off
-python flows/watch.py --once   # settle and process the current inputs once, or skip unchanged success
-```
-
-Watchdog observes `feedback/`, `reference/` and `config/`. A startup scan catches offline changes, temporary Excel lock files are ignored, and a three-second quiet window plus readable, repeated hashes avoids starting on a changing input. A periodic scan also catches missed events. This is a stability heuristic: a writer paused longer than the quiet window can still resume later.
-
-Changed inputs run the existing Prefect batch sequentially. The watcher and manual Prefect runs share an OS-held writer lock; use these entry points rather than running standalone writers concurrently. Only the latest successful manifest is skipped. Failures are retried after 30 seconds (including unchanged failed inputs); interrupted attempts are marked failed on restart. Inputs changing during a run are marked superseded and rerun after settling, rather than marked successfully loaded. The current pipeline can already have published an intermediate report before that final change check: it is not an isolated immutable-input transaction.
-
-Local `data/watcher/runs.sqlite` records batch run ID, manifest hash, state, times and safe failure category. Received source copies go to `data/watcher/archive/` after success or `data/watcher/quarantine/` after failure/supersession. Active input files are never moved. These archives contain raw source data and remain restricted and outside Git; retention cleanup is not implemented. Received copies are retained under `received/` as well, avoiding folder-renaming locks in synced directories; archive receipt failures remain retryable. The SQLite ledger is separate from DuckDB row lineage; this is **batch hash-skip**, not row-level incremental ingestion.
-
-Gemini remains off unless `--enrich` is passed. Its existing task-level retries and per-attempt budget apply; a later whole-batch retry after exhausted AI failures repeats ingestion. No scheduled/public Tableau refresh is triggered. Existing mapping configuration must cover an arriving source; unknown layouts stop the pipeline and remain retryable after configuration is corrected.
-
-Watcher state is bound to database destinations and enrichment mode. For a separate demo use `--state-dir data/watcher_demo --database data/demo.duckdb --reporting-database data/demo_reporting.duckdb`. A fresh state directory triggers one initial baseline run even if the sources were loaded manually before. Tests: `python -m unittest discover -s tests -p test_watcher.py`.
-
-If Gold reports that Windows blocked reporting database replacement, close the DuckDB/viewer connection to `data/gold_reporting.duckdb` and check OneDrive file locks. The existing reporting file stays in place. The watcher records a failed attempt and retries; it does not mark that input successfully loaded.
+Individual steps (`src/bronze.py`, `src/silver.py`, `src/gold.py`) can also be run on their own. Assumptions and their impact: [ASSUMPTIONS.md](ASSUMPTIONS.md). Source investigation: [`scripts/investigation.ipynb`](scripts/investigation.ipynb).

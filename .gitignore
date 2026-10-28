@@ -44,3 +44,6 @@ outputs/validation_report.csv
 
 # Tableau extracts (rebuilt from tableau/extracts/*.csv)
 *.hyper
+
+# Tableau autosave/lock files
+~*.twbr
