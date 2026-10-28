@@ -1,8 +1,8 @@
 # Business-answer SQL correction
 
-The applicant authored the original business-answer queries. As pasted, their title lacks a SQL comment marker and therefore does not parse. Commenting the title makes its eight SELECTs run against the private data/bronze_review.duckdb from the project directory, but it cannot run against the reporting-only data/gold_reporting.duckdb: that file intentionally has no Silver tables. Its relative reference CSV paths also depend on the current working directory. The shown input-redirection command is Unix-style and is not supported as written by PowerShell.
+I wrote the original business-answer queries. As pasted, their title lacks a SQL comment marker and therefore does not parse. Commenting the title makes its eight SELECTs run against the private data/bronze_review.duckdb from the project directory, but it cannot run against the reporting-only data/gold_reporting.duckdb: that file intentionally has no Silver tables. Its relative reference CSV paths also depend on the current working directory. The shown input-redirection command is Unix-style and is not supported as written by PowerShell.
 
-Codex adapted the applicant's business queries to the current Gold schema in analysis/business_answers.sql; this is an adaptation of the applicant's analysis, not an AI-originated set of business questions. It reads only Gold models, no raw reference CSVs or Silver comments. Attach the reporting file once in the viewer, then run the SQL in the editor. Alternatively, from the project directory:
+Codex adapted my business queries to the current Gold schema in analysis/business_answers.sql; this is an adaptation of my analysis, not an AI-originated set of business questions. It reads only Gold models, no raw reference CSVs or Silver comments. Attach the reporting file once in the viewer, then run the SQL in the editor. Alternatively, from the project directory:
 
 ```powershell
 .\.venv-gold\Scripts\python.exe scripts/run_business_answers.py

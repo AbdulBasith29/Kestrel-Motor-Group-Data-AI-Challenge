@@ -92,7 +92,7 @@ default_date_format: "%d/%m/%Y"
 reporting_window: {start: "2025-10-01", end: "2026-09-30"}
 negative_max_score: 2   # decision: negative = 1-2 on the 1-5 scale
 
-# Only the six source rows manually reviewed by the applicant may receive the year correction.
+# Only the six source rows I manually reviewed may receive the year correction.
 date_corrections:
   - file: "Shepparton feedback FINAL - site closed.xlsx"
     sheet: Log

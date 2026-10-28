@@ -1,4 +1,4 @@
-"""Score applicant labels by component without filling missing labels or inventing gold."""
+"""Score my human labels by component without filling missing labels or inventing gold."""
 import argparse
 from collections import Counter
 import hashlib

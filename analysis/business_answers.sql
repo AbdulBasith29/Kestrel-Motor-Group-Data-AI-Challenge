@@ -1,4 +1,4 @@
--- Original business questions and first SQL authored by the applicant.
+-- Original business questions and first SQL written by me.
 -- Codex adapted them to the reporting-only Gold schema and added validation corrections.
 -- Business answers from the reporting-only Gold database.
 -- In the viewer, attach data/gold_reporting.duckdb once, then execute this in a SQL editor.
