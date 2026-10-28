@@ -78,7 +78,7 @@ All 7,432 physical rows across the files reconcile: **7,116 land in Bronze and 7
 
 **1. Drivers by dealership and department.** Service negative share is highest at Parramatta (36%), Dandenong (35%), Chatswood (31%) and Essendon (30%). Sales and Parts are low almost everywhere. The main theme in each department:
 
-| Department | Negative | Top negative themes (share of AI-labelled negative responses) |
+| Department | Negative | Top negative themes (share of AI-labelled negative responses; a comment can carry several, so shares add to more than 100%) |
 |---|---|---|
 | Service | 27% | Communication/follow-up 38%, waiting/scheduling 35%, repair quality 18%, price 17% |
 | Parts | 16% | Parts availability 55%, communication 39%, waiting 32% |
@@ -102,13 +102,15 @@ Four sites stand out, and Geelong improved (27% → 19%). At the four worsening 
 |---|---|---|
 | Dandenong | 20% → 47% | $133k / **$333k** / $533k |
 | Parramatta | 23% → 49% | $131k / **$328k** / $526k |
-| Toowoomba | 21% → 29% | $40k / $99k / $158k |
+| Toowoomba* | 21% → 29% | $40k / $99k / $158k |
 | Ipswich | 22% → 33% | $37k / $93k / $149k |
 | Liverpool | 19% → 30% | $35k / $88k / $141k |
 | Bendigo | 15% → 33% | $32k / $80k / $129k |
 | Newcastle | 21% → 31% | $31k / $78k / $124k |
 | Ringwood | 20% → 25% | $28k / $71k / $114k |
 | **Top 8 total** | | **$0.47M / $1.17M / $1.87M** |
+
+\*Toowoomba's Oct–Dec responses exist only as a summary sheet, so its H1 baseline is Jan–Mar only (76 Service responses).
 
 This is potential exposure, not proven loss. It assumes the feedback sample represents all service jobs, that each negative job is one customer, and that a lost customer would have brought two jobs in the next 12 months. Revenue per job and job counts come from `monthly_revenue.csv`. Full table: [`outputs/business_answers/q3_value_at_risk.csv`](outputs/business_answers/q3_value_at_risk.csv).
 
@@ -137,22 +139,22 @@ The [published Tableau story](https://public.tableau.com/app/profile/abdul.basit
 1. **Fix booking at Dandenong and Parramatta now.** Dandenong's new online booking system went live on 5 May, and its later complaints describe lost bookings, double-booked slots and appointments missing from the workshop system. Parramatta's sheet gained a booking-reference column in May and its comments mention a new system, but there's no note confirming a change there, so check that first. These two sites hold more than half the exposure.
 2. **Proactive service updates group-wide.** Communication is the top Service complaint at every site. An SMS at drop-off, a mid-job update and a callback rule when a job runs late are cheap to try.
 3. **Check Bendigo capacity.** Its rise starts when Shepparton's customers were redirected there. Compare booking lead times and staffing against volume.
-4. **Track it monthly.** Alert when a site's Service negative share runs 10 pts above the group for two months running. On the monthly trend, the four sites together crossed that line in June (37% vs 23%).
+4. **Track it monthly.** Alert when a site's negative share runs 10 pts above the group for two months running. On the monthly trend, the four sites together crossed that line in June (37% vs 23%).
 5. **Standardise the feedback template.** One sheet layout, a 1–5 scale, ISO dates and the dealer code would remove most of the cleaning effort shown above.
 
 ## Can the AI be trusted?
 
 **The headline numbers don't depend on it.** Negative share, the site trends and the revenue exposure all come from customer ratings. Gemini only answers *why*, through the theme shares, so an AI error changes the explanation, not the size of the problem.
 
-- **Human check.** I labelled a 50-comment sample (all dealerships, departments and rating bands) before seeing any predictions.
-  - Sentiment: 47/50 agree (94%).
-  - Themes: at least one theme matches on 43/47 (91%). Across all themes, 81% of Gemini's tags were right and it found 90% of mine.
+- **Human check.** I labelled 49 of a 50-comment sample (all dealerships, departments and rating bands) before seeing any predictions.
+  - Sentiment: 46/49 agree (94%).
+  - Themes: at least one theme matches on 42/46 (91%). To score themes, my free-text labels were mapped onto Gemini's theme list with AI help, and I left out 3 rows where the mapping was ambiguous. Across all themes, 81% of Gemini's tags were right and it found 90% of mine.
   - The two themes the answer rests on hold up best: Gemini found 15 of my 17 communication labels and 8 of my 9 waiting labels, with 1 and 2 extra tags.
-  - Leftover names: 49/50 agree.
+  - Leftover names: 48/49 agree.
 - **Rating alignment (not independent accuracy).** 91% of 1–2 ratings come back negative and 92% of 4–5 ratings come back positive. Only 10 of 3,145 high ratings were called negative.
 - **Where I don't trust it.** `parts_availability` was tagged 3 times in the sample and wrong every time (it fires when the parts team is just mentioned), so the Parts finding is a lead, not a conclusion. Staff and vehicle themes were also over-tagged (3 extra each). It struggles with very short comments.
 - **Guardrails.** Gemini returns JSON with fixed theme IDs, its output is stored apart from the rating and can never overwrite it, and every result is cached with its model and prompt version. Each label is tied to a hash of the comment, so if a comment changes its old label drops out. Coverage: 5,358 comments labelled, 2 provider errors and 1 held back.
-- **What that means.** The sample is small and deliberately mixed, so treat the theme shares (38% communication, 35% waiting) as directional. The ranking is solid; the exact percentages are not.
+- **What that means.** For stable per-theme numbers I'd want closer to 100 labelled comments; I was short on time, so I stopped at 49. With a small, deliberately mixed sample, treat the theme shares (38% communication, 35% waiting) as directional. The ranking is solid; the exact percentages are not.
 
 Details: [`outputs/gemini_evaluation.json`](outputs/gemini_evaluation.json).
 
@@ -197,10 +199,10 @@ Tested with Python 3.14 on Windows. Obtain the assignment source data separately
 pip install -r requirements.txt
 python flows/pipeline.py                 # full batch run, Gemini off
 # python flows/pipeline.py --enrich --budget-usd 5   # paid Gemini run; needs GEMINI_API_KEY in .env
-python scripts/run_business_answers.py   # business-answer CSVs
+python scripts/run_business_answers.py   # writes data/business_answers/; copy to outputs/business_answers/ to refresh the charts
 python analysis/make_charts.py           # README charts (needs matplotlib)
 python scripts/prepare_tableau.py        # Tableau CSVs in tableau/extracts/
 python -m unittest discover -s tests     # tests
 ```
 
-Individual steps (`src/bronze.py`, `src/silver.py`, `src/gold.py`) can also be run on their own. Assumptions and their impact: [ASSUMPTIONS.md](ASSUMPTIONS.md). Source investigation: [`scripts/investigation.ipynb`](scripts/investigation.ipynb).
+Individual steps (`src/bronze.py`, `src/silver.py`, `src/gold.py`) can also be run on their own. Assumptions and their impact: [ASSUMPTIONS.md](ASSUMPTIONS.md). Source investigation: [`scripts/investigation.ipynb`](scripts/investigation.ipynb) (outputs are stripped because they print source rows with personal data; the findings are in the Data quality table above).

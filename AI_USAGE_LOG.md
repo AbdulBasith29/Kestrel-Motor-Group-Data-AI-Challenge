@@ -6,6 +6,8 @@ I designed the solution and used AI to build it faster. I wrote the implementati
 - **Claude:** helped review the repo against the brief and challenge design choices. The business questions, the original business-answer SQL and the marts design were mine; Codex later adapted the SQL to Gold.
 - **Gemini:** processed 5,360 comments, producing 5,358 successful structured results and two errors. Only preprocessed comments were sent, but residual names remained. Accounted API cost, including name-repair work, was approximately US$1.94.
 
+A note on wording: I briefed Codex on both my own work and what another coding agent had built, and it started calling me "the applicant". That wording ended up in the AI log, ASSUMPTIONS.md and some commit messages. I've rewritten the documents in my own voice but left the commit history as it is rather than rewrite it.
+
 **My decisions:** the canonical schema; negative = a normalized rating of 2 or below; missing ratings stay null; source-specific handling (Ringwood's ten-point conversion, Hunter = Newcastle as a flagged assumption, Penrith's copied tab counted once, Chermside's overlapping versions counted once, Toowoomba's summary excluded from response facts, and Shepparton's closure/year corrections); role-specific name masking before storage; switching from Ollama to Gemini after the local pilot; evaluation approach; and review of sizing assumptions. Some implementation parameters and proposed mappings still require my confirmation.
 
 ## Key prompts (paraphrased)
@@ -39,11 +41,11 @@ I supplied 49 labels from a 50-comment review set before comparing model predict
 - **Remaining-name flag:** 48/49 agree; one provider error was unassessed. This measures the flag, not correctness of name replacement.
 - **Themes:** at least one theme matches on 42/46 scored rows (91.3%). My original theme descriptions were preserved; an AI-assisted crosswalk translated them into the model taxonomy. Three ambiguous mappings were excluded from theme scoring and the crosswalk remains subject to my confirmation.
 
-The model sometimes interprets mention of the parts team as parts availability without a stock issue. I treat those themes with caution. This is a diagnostic sample, not a population accuracy estimate. Gold now passes 49 dbt data tests and excludes customer identifiers, staff identifiers and comment text.
+The model sometimes interprets mention of the parts team as parts availability without a stock issue. I treat those themes with caution. This is a diagnostic sample, not a population accuracy estimate. I would want closer to 100 labelled comments; I was short on time. Gold now passes 49 dbt data tests and excludes customer identifiers, staff identifiers and comment text.
 
 ## Local orchestration
 
-I requested Prefect orchestration against my implementation guide. Codex replaced the earlier draft with a thin flow over the existing CLI commands, kept Gemini opt-in, and added stop-on-failure and AI-only retry tests. Six orchestration tests passed, including real Prefect failure/retry tests with stubbed commands. A full real-data run with Gemini disabled passed all 43 dbt tests and eight business queries; source files and the original working database stayed unchanged. The first run exposed a missing Excel-reader dependency in the isolated environment, which was installed before the successful rerun. This does not implement incremental arrival/archive handling or row-level run recovery.
+I requested Prefect orchestration against my implementation guide. Codex replaced the earlier draft with a thin flow over the existing CLI commands, kept Gemini opt-in, and added stop-on-failure and AI-only retry tests. Six orchestration tests passed, including real Prefect failure/retry tests with stubbed commands. A full real-data run with Gemini disabled passed all dbt tests (43 at the time; 49 now) and eight business queries; source files and the original working database stayed unchanged. The first run exposed a missing Excel-reader dependency in the isolated environment, which was installed before the successful rerun. This does not implement incremental arrival/archive handling or row-level run recovery.
 
 ## What I chose not to build
 
@@ -65,4 +67,4 @@ I requested Watchdog from my guide. Codex implemented the stable-input batch tri
 
 Watchdog verification: ten watcher tests and six Prefect regression tests passed. A real-data batch completed with 49 dbt tests, 7,089 feedback rows and no Gemini calls; an unchanged second invocation skipped without adding a ledger run. Original source files stayed unchanged.
 
-The applicant's watcher run passed all dbt checks but Windows denied replacement of the reporting database. Codex reproduced the export PermissionError, added an actionable safe message to the CLI/flow, and added a regression check that the previous reporting file survives a blocked replacement. An open viewer or OneDrive lock must be cleared before the same destination can refresh.
+My watcher run passed all dbt checks but Windows denied replacement of the reporting database. Codex reproduced the export PermissionError, added an actionable safe message to the CLI/flow, and added a regression check that the previous reporting file survives a blocked replacement. An open viewer or OneDrive lock must be cleared before the same destination can refresh.
