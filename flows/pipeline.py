@@ -13,6 +13,8 @@ ROOT = Path(__file__).resolve().parents[1]
 # Keep local run history in the ignored data directory, with no cloud/telemetry.
 os.environ.setdefault("PREFECT_HOME", str(ROOT / "data" / "prefect"))
 os.environ.setdefault("PREFECT_SERVER_ANALYTICS_ENABLED", "false")
+sys.path.insert(0, str(ROOT / "src"))
+from run_lock import exclusive_lock
 from prefect import flow, task, get_run_logger
 from prefect.cache_policies import NO_CACHE
 
@@ -22,6 +24,8 @@ def run_command(arguments):
     result = subprocess.run([sys.executable, *map(str, arguments)], cwd=ROOT,
                             capture_output=True, text=True, encoding="utf-8", errors="replace")
     if result.returncode:
+        if arguments[0] == "src/gold.py" and "REPORTING_EXPORT_LOCKED:" in result.stderr:
+            raise RuntimeError("Reporting export blocked by Windows: close the gold_reporting DuckDB/viewer connection and check OneDrive locks, then retry. Existing reporting export was not replaced.")
         # Underlying steps can echo data in errors; keep their output out of Prefect logs.
         raise RuntimeError(f"{arguments[0]} failed (exit {result.returncode}); rerun that CLI locally for details")
     get_run_logger().info("Completed %s", arguments[0])
@@ -62,15 +66,16 @@ def pipeline(database=str(ROOT / "data/bronze_review.duckdb"),
              enable_enrichment=False, budget_usd=5.0):
     if budget_usd <= 0:
         raise ValueError("budget_usd must be positive")
-    bronze(database)
-    silver(database)
-    if enable_enrichment:
-        get_run_logger().info("Gemini enabled: per-attempt budget ceiling USD %s; up to three attempts", budget_usd)
-        enrich(database, budget_usd)
-    else:
-        get_run_logger().info("Gemini disabled; matching existing results may be reused by Gold")
-    gold(database, reporting_database)
-    business_answers(reporting_database)
+    with exclusive_lock(ROOT / "data/pipeline.lock"):
+        bronze(database)
+        silver(database)
+        if enable_enrichment:
+            get_run_logger().info("Gemini enabled: per-attempt budget ceiling USD %s; up to three attempts", budget_usd)
+            enrich(database, budget_usd)
+        else:
+            get_run_logger().info("Gemini disabled; matching existing results may be reused by Gold")
+        gold(database, reporting_database)
+        business_answers(reporting_database)
 
 
 def main():

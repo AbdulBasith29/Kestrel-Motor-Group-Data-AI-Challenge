@@ -7,6 +7,7 @@ PyYAML==6.0.3
 dbt-core==1.12.6
 dbt-duckdb==1.11.1
 prefect==3.9.0
+watchdog==6.0.0
 # Only needed to open the investigation notebook
 nbformat==5.10.4
 nbclient==0.10.2

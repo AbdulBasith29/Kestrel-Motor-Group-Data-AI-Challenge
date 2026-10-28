@@ -69,6 +69,13 @@ class PipelineTests(unittest.TestCase):
         self.assertEqual(attempts, 2)
         self.assertEqual(calls[-2:], ["src/gold.py", "scripts/run_business_answers.py"])
 
+    def test_reporting_export_lock_has_safe_actionable_message(self):
+        result=Mock(returncode=1,stdout="private",stderr="REPORTING_EXPORT_LOCKED: private")
+        with patch.object(p.subprocess,"run",return_value=result):
+            with self.assertRaisesRegex(RuntimeError,"close the gold_reporting") as err:
+                p.run_command(["src/gold.py"])
+        self.assertNotIn("private",str(err.exception))
+
     def test_subprocess_failure_does_not_log_source_output(self):
         with patch.object(p.subprocess, "run", return_value=Mock(returncode=1, stdout="private", stderr="private")) as run:
             with self.assertRaises(RuntimeError) as err:

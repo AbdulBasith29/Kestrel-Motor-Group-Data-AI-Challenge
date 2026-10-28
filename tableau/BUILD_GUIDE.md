@@ -7,7 +7,8 @@ The published story link is in the project README. The packaged workbook is `tab
 1. Run `python flows/pipeline.py` with the usual working database; this rebuilds Gold and writes fresh business answers to `data/business_answers/`.
 2. Copy `data/business_answers/Q3.csv` to `outputs/business_answers/q3_value_at_risk.csv` before preparing extracts. This is the labelled H2-cohort sensitivity, not observed loss.
 3. Run `python scripts/prepare_tableau.py`.
-4. Open the workbook in Tableau, refresh or reconnect its data sources, review the results, save a new package and republish. Local CSV updates do not refresh the public story or an older packaged workbook automatically.
+4. Rebuild the workbook: `python scripts/build_tableau_workbook.py "<project>/tableau/extracts" --extracts <copy of an extract-backed kestrel_cx.twb>`. `--extracts` copies the `<extract>` blocks (the `.hyper` files under My Tableau Repository/Datasources) so Tableau Public can publish without redoing Data > Extract. Without it the sources are live CSVs; extract each one once in Tableau and save before publishing.
+5. Open the workbook in Tableau, refresh the extracts, review the results, export a new package and republish to the same title so the link stays the same. Local CSV updates do not refresh the public story or an older packaged workbook automatically.
 
 ## Current data sources
 
@@ -15,6 +16,12 @@ The published story link is in the project README. The packaged workbook is `tab
 - `theme_drivers.csv`: dealer/department/half-year/theme counts; for a selected theme use SUM(negative_theme_mentions)/SUM(negative_responses_with_ai). The denominator is repeated for each theme: do not sum across theme IDs to produce an overall coverage denominator. Multiple themes can apply to one response.
 - `data_quality.csv`: accepted/excluded counts, missing dates/ratings, mapping assumptions and AI coverage. Missing dates and ratings can overlap; do not sum them as unique affected responses.
 - `value_scenarios.csv`: hypothetical exposure at assumed 10%, 25% and 40% churn. Keep assumptions visible.
+
+## Interactions
+
+- Overview: State and Department filters apply to the KPI strip, trend and department chart; clicking a department bar filters the trend and themes; the churn slider (10% to 40%) drives the revenue-at-risk KPI and chart.
+- Dealer page: clicking a heatmap cell filters the monthly trend and themes to that dealership and department (both data sources share the field names). Click again to clear.
+- Tooltips carry the rated and negative counts behind each percentage.
 
 ## Checks before republication
 

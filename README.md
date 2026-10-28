@@ -97,12 +97,13 @@ The published Tableau story has three sections: **What's driving it**, **Where t
 
 | View | What it shows | Gold source |
 |---|---|---|
-| **CX overview** | Negative share by department, monthly trend (worsening four vs the rest), rating coverage | fct_feedback, monthly summary |
-| **Dealer investigation** | Dealer × department heatmap, H1 vs H2 change, Service themes at the four worsening sites, $ exposure scenarios (labelled as assumptions) | dealer/department summary, theme bridge, financial sensitivity |
+| **CX overview** | KPI strip (negative share, Service share of negatives, worsening-four change, revenue at risk), monthly trend (worsening four vs the rest), themes at the worsening four, revenue at risk by site, negative share by department | fct_feedback, monthly summary, theme bridge, financial sensitivity |
+| **Dealer investigation** | Dealer × department heatmap that drills into a monthly trend and theme breakdown for the clicked site and department, plus H1 vs H2 change for all 24 sites | dealer/department summary, theme bridge |
 | **Data quality** | Missing ratings and dates, provisional mappings (Hunter → Newcastle), AI enrichment coverage and errors, DQ rule results | quality mart, dq_results |
 
-- **Reconciliation:** the published headline shows the full Gold baseline: 1,579 negative out of 7,079 rated responses (22.3%). The monthly extract excludes 10 undated responses and therefore contains 7,079 responses, 7,069 valid ratings and 1,576 negative ratings; its percentages use those dated counts. The preparation script checks response-count reconciliation. Full per-view published-value reconciliation is still a review step.
-- **Refresh:** rebuild Gold, rerun `python scripts/run_business_answers.py`, copy the refreshed Q3 result to `outputs/business_answers/q3_value_at_risk.csv`, then run `python scripts/prepare_tableau.py`. Refresh/reconnect the workbook data sources in Tableau and republish. A packaged workbook carries its own copy of the data: regenerating local CSVs or running Prefect does not update the public story automatically.
+- **Interactive:** State and department filters drive the overview; clicking a department bar filters the trend and themes; clicking a heatmap cell drills the dealer page into that site and department; the churn slider (10% to 40%) recalculates revenue at risk, which is linear in churn. Tooltips show the response counts behind every percentage.
+- **Reconciliation:** the full Gold baseline is 1,579 negative out of 7,079 rated responses (22.3%). The KPI strip and charts read the monthly extract, which excludes 10 undated responses and therefore contains 7,079 responses, 7,069 valid ratings and 1,576 negative ratings (also 22.3%); its percentages use those dated counts. The preparation script checks response-count reconciliation. Full per-view published-value reconciliation is still a review step.
+- **Refresh:** rebuild Gold, rerun `python scripts/run_business_answers.py`, copy the refreshed Q3 result to `outputs/business_answers/q3_value_at_risk.csv`, then run `python scripts/prepare_tableau.py` and `python scripts/build_tableau_workbook.py <extracts dir> --extracts <extract-backed .twb>` (see `tableau/BUILD_GUIDE.md`). Refresh/reconnect the workbook data sources in Tableau and republish. A packaged workbook carries its own copy of the data: regenerating local CSVs or running Prefect does not update the public story automatically.
 
 ![CX overview](outputs/tableau/cx_overview.png)
 
@@ -139,8 +140,8 @@ Details: [`outputs/gemini_evaluation.json`](outputs/gemini_evaluation.json) and 
 
 I built this as a batch run on a laptop. To run it in production I would add:
 
-- **File arrival:** a landing-folder watcher with file hashing, skip-if-loaded, and archive/quarantine with a reason.
-- **Run control:** a run registry with states, retries and a run_id on every row, so loads are incremental instead of full rebuilds.
+- **File arrival:** Watchdog now triggers stable batch changes with hashing and local archive/quarantine; production retention and isolated publication for concurrently edited inputs remain to add.
+- **Run control:** the watcher now has a durable batch-run ledger and failed-attempt retries. Per-row run IDs and incremental ingestion remain to add; ingestion still rebuilds tables.
 - **Orchestration:** the local Prefect batch flow is implemented; production scheduling and failure alerts remain to add. Only the AI step retries.
 - **History:** dealer-reference SCD2 snapshots are implemented; stable edit identity for running feedback workbooks remains to add.
 - **Privacy:** named-entity detection on top of the current masking, and a keyed HMAC customer key if repeat-customer analysis is needed. Secrets go in a vault.
@@ -201,3 +202,22 @@ Each Gold build snapshots `reference/dealerships.csv` before building dependent 
 `gold.dim_dealer_history` exports the version ID, dealer attributes, `valid_from`, `valid_to` and `is_current`. Intervals are `[valid_from, valid_to)`; null `valid_to` means current. `gold.dim_dealer` stays one current row per dealer so existing report joins do not multiply feedback or revenue.
 
 Dates record **when the pipeline observed a reference change**, not when it took effect in the business. The source has no attribute-change timestamp or earlier reference versions: the first run initialises history and does not reconstruct 2025/26 dealer attributes. Closure date remains a source attribute, distinct from snapshot validity. Historical feedback/revenue reports still use the current dealer view; an event-time SCD join would need trustworthy effective-dated reference history. Tests cover unchanged reloads, changes, deletions, reappearance, non-overlapping intervals and current/reference reconciliation. Run `python -m unittest discover -s tests -p test_dealer_history.py` for the isolated fixture test.
+
+### Watch source arrivals
+
+```powershell
+python flows/watch.py          # stay running; Ctrl+C stops it; Gemini off
+python flows/watch.py --once   # settle and process the current inputs once, or skip unchanged success
+```
+
+Watchdog observes `feedback/`, `reference/` and `config/`. A startup scan catches offline changes, temporary Excel lock files are ignored, and a three-second quiet window plus readable, repeated hashes avoids starting on a changing input. A periodic scan also catches missed events. This is a stability heuristic: a writer paused longer than the quiet window can still resume later.
+
+Changed inputs run the existing Prefect batch sequentially. The watcher and manual Prefect runs share an OS-held writer lock; use these entry points rather than running standalone writers concurrently. Only the latest successful manifest is skipped. Failures are retried after 30 seconds (including unchanged failed inputs); interrupted attempts are marked failed on restart. Inputs changing during a run are marked superseded and rerun after settling, rather than marked successfully loaded. The current pipeline can already have published an intermediate report before that final change check: it is not an isolated immutable-input transaction.
+
+Local `data/watcher/runs.sqlite` records batch run ID, manifest hash, state, times and safe failure category. Received source copies go to `data/watcher/archive/` after success or `data/watcher/quarantine/` after failure/supersession. Active input files are never moved. These archives contain raw source data and remain restricted and outside Git; retention cleanup is not implemented. Received copies are retained under `received/` as well, avoiding folder-renaming locks in synced directories; archive receipt failures remain retryable. The SQLite ledger is separate from DuckDB row lineage; this is **batch hash-skip**, not row-level incremental ingestion.
+
+Gemini remains off unless `--enrich` is passed. Its existing task-level retries and per-attempt budget apply; a later whole-batch retry after exhausted AI failures repeats ingestion. No scheduled/public Tableau refresh is triggered. Existing mapping configuration must cover an arriving source; unknown layouts stop the pipeline and remain retryable after configuration is corrected.
+
+Watcher state is bound to database destinations and enrichment mode. For a separate demo use `--state-dir data/watcher_demo --database data/demo.duckdb --reporting-database data/demo_reporting.duckdb`. A fresh state directory triggers one initial baseline run even if the sources were loaded manually before. Tests: `python -m unittest discover -s tests -p test_watcher.py`.
+
+If Gold reports that Windows blocked reporting database replacement, close the DuckDB/viewer connection to `data/gold_reporting.duckdb` and check OneDrive file locks. The existing reporting file stays in place. The watcher records a failed attempt and retries; it does not mark that input successfully loaded.

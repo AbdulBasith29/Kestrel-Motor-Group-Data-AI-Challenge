@@ -73,7 +73,14 @@ def export_reporting(database,output):
         assert {r[0] for r in con.execute('select distinct table_schema from information_schema.tables').fetchall()}=={'gold'}
         assert not any(r[0].lower() in FORBIDDEN for r in con.execute('select column_name from information_schema.columns').fetchall())
     # Atomic file replacement: the new file never contains Bronze, Silver, caches or raw text pages.
-    os.replace(temporary,output)
+    try:
+        os.replace(temporary,output)
+    except PermissionError as error:
+        try:
+            temporary.unlink(missing_ok=True)
+        except OSError:
+            pass
+        raise RuntimeError("REPORTING_EXPORT_LOCKED: Windows blocked reporting database replacement. Close its DuckDB/viewer connection and check OneDrive locks; then retry. The existing reporting file was not replaced.") from error
     return output
 
 

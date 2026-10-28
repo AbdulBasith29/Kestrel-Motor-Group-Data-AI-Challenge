@@ -47,7 +47,7 @@ I requested Prefect orchestration against my implementation guide. Codex replace
 
 ## What I chose not to build
 
-My guide also covers a file watcher and incremental run-state/retry lifecycle. These are not implemented in the current checkpoint. The Tableau story is now published; automatic refresh of the public copy and the full file-arrival demonstration remain outstanding.
+Watchdog now provides stable batch-arrival triggering and a local batch-run ledger. Row-level incremental ingestion and complete file-arrival transaction recovery remain outside this checkpoint. The Tableau story is now published; automatic refresh of the public copy and the full file-arrival demonstration remain outstanding.
 
 Raw source data, review labels, databases and the API key are excluded from Git. Detailed implementation evidence remains in the checkpoint documents and verification outputs.
 
@@ -57,4 +57,12 @@ My guide proposed SCD2 dealer history and I requested its implementation. Codex 
 
 ## Published reporting
 
-I supplied the published Tableau Public story. Codex opened the overview and priority pages, inspected local aggregate extract headers and the packaged workbook file list, and updated submission links/status. The monthly extract reconciles to 7,079 dated responses, 7,069 rated and 1,576 negative; full Gold totals include ten undated responses. This is a limited review, not certification of every published mark, interaction or embedded data value. No authorship of the Tableau build is inferred from this documentation update.
+I designed and built the Tableau dashboards and story, authored the Tableau calculations and workbook updates, and handled its presentation and publication. This Tableau work is mine. Codex's involvement was limited to opening the published pages, checking local aggregate headers/file lists and editing repository documentation. The monthly extract reconciles to 7,079 dated responses, 7,069 rated and 1,576 negative; full Gold totals include ten undated responses. This is a limited review, not certification of every published mark, interaction or embedded data value. Codex did not design or implement my Tableau work; committing its files does not transfer authorship.
+
+## File-arrival automation
+
+I requested Watchdog from my guide. Codex implemented the stable-input batch trigger, latest-success manifest skip, serialized Prefect execution, local input archive/quarantine copies, failed/interrupted retry state and tests. Active sources stay in place. The real-data check exposed a Windows/OneDrive archive-folder rename failure; Codex replaced renaming with copy-based finalisation and added a test ensuring receipt failures stay retryable. This is not incremental row ingestion or guaranteed immutable-input publication; Gemini stays opt-in and published Tableau refresh remains manual.
+
+Watchdog verification: ten watcher tests and six Prefect regression tests passed. A real-data batch completed with 49 dbt tests, 7,089 feedback rows and no Gemini calls; an unchanged second invocation skipped without adding a ledger run. Original source files stayed unchanged.
+
+The applicant's watcher run passed all dbt checks but Windows denied replacement of the reporting database. Codex reproduced the export PermissionError, added an actionable safe message to the CLI/flow, and added a regression check that the previous reporting file survives a blocked replacement. An open viewer or OneDrive lock must be cleared before the same destination can refresh.

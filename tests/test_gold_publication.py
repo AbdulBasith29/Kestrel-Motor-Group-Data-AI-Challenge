@@ -34,6 +34,20 @@ class GoldPublicationTests(unittest.TestCase):
             with duckdb.connect(str(dest),read_only=True) as c:
                 self.assertEqual(c.execute('select distinct table_schema from information_schema.tables').fetchall(),[('gold',)])
                 self.assertEqual(c.execute('select count(*) from information_schema.tables').fetchone()[0],len(g.MODELS))
+    def test_locked_export_preserves_previous_file_and_explains_recovery(self):
+        with tempfile.TemporaryDirectory(dir=ROOT/'data') as folder:
+            root=Path(folder);(root/'data').mkdir();source=root/'data/private.duckdb';dest=root/'data/reporting.duckdb'
+            with duckdb.connect(str(source)) as c:
+                self.stage(c);g.publish_verified(c,self.result())
+            with duckdb.connect(str(dest)) as c:
+                c.execute('create table previous_export as select 7 as value')
+            with patch.object(g,'ROOT',root),patch.object(g.os,'replace',side_effect=PermissionError('synthetic Windows lock')):
+                with self.assertRaisesRegex(RuntimeError,'REPORTING_EXPORT_LOCKED'):
+                    g.export_reporting(source,dest)
+            with duckdb.connect(str(dest),read_only=True) as c:
+                self.assertEqual(c.execute('select value from previous_export').fetchone()[0],7)
+            self.assertEqual(list((root/'data').glob('*.tmp.duckdb')),[])
+
     def test_missing_optional_ai_creates_empty_contract_without_inference(self):
         with duckdb.connect() as c,patch('gemini_enrichment.call',side_effect=AssertionError('No external calls allowed')):
             self.assertTrue(g.ensure_ai_contract(c))
